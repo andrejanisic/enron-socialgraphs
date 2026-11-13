@@ -1,10 +1,10 @@
 """Build data/enron_external.sqlite: the external data (custodian titles, roles,
 US Congress documents and mentions, network results), linked to the people in
-Christos's data/enron_main_characters.sqlite.
+the main database, data/enron_main_characters.sqlite.
 
-Christos's database is only read, never changed. The new tables live in their
+The main database is only read, never changed. The new tables live in their
 own file, and data/schema_external.sql documents them (like data/schema.sql
-does for his tables).
+does for the main tables).
 
 Usage (from the project root):
     uv add pandas
@@ -193,7 +193,7 @@ def bools_to_int(df: pd.DataFrame) -> pd.DataFrame:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--db", type=Path, default=DEFAULT_DB, help="Christos's database (read only)")
+    ap.add_argument("--db", type=Path, default=DEFAULT_DB, help="main database (read only)")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT, help="new database to write")
     ap.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA, help="schema file to write")
     ap.add_argument("--tables", type=Path, default=DEFAULT_TABLES,
