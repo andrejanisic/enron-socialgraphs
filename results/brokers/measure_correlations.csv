@@ -1,0 +1,7 @@
+index,P_main,z_main,betweenness,constraint,effective_size,strength
+P_main,1.0,-0.25,0.07,-0.65,0.44,-0.11
+z_main,-0.25,1.0,0.55,0.03,0.47,0.76
+betweenness,0.07,0.55,1.0,-0.22,0.56,0.65
+constraint,-0.65,0.03,-0.22,1.0,-0.62,0.03
+effective_size,0.44,0.47,0.56,-0.62,1.0,0.61
+strength,-0.11,0.76,0.65,0.03,0.61,1.0

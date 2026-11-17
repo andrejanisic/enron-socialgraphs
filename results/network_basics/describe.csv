@@ -1,0 +1,17 @@
+statistic,value
+People,148.0
+People with no links (emailed only themselves),1.0
+Emails between people,23808.0
+Emails to oneself (left out),1314.0
+Directed links (who emails whom),2083.0
+Undirected links,1444.0
+Density (directed),0.09574370288656003
+Reciprocity (share of links answered),0.6135381661065771
+Mean contacts emailed (out-degree),14.074324324324325
+Max out-degree,68.0
+Max in-degree,67.0
+Largest connected part (undirected),147.0
+Largest strongly connected part,145.0
+Average clustering,0.5242298442748392
+Average path length (steps),2.1195601528282544
+Diameter (steps),4.0
