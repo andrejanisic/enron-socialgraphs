@@ -9,3 +9,26 @@ SET body_clean = REPLACE(
     ''
 )
 WHERE body_clean LIKE '%Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)%';
+
+-- Remove debra's long signatures
+UPDATE emails
+SET body_clean = REPLACE(
+    body_clean,
+    'Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490',
+    ''
+)
+WHERE body_clean LIKE '%Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490%';
