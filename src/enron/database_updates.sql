@@ -70,3 +70,22 @@ Houston, Texas  77002
 713-853-5620 (phone)
 713-646-3490 (fax)
 sara.shackleton@enron.com%';
+
+-- Remove Sara's other signatures
+UPDATE emails 
+SET body_clean = REPLACE(
+body_clean,
+'Sara Shackleton
+Enron Wholesale Services
+1400 Smith Street, EB3801a
+Houston, TX  77002
+Ph:  (713) 853-5620
+Fax: (713) 646-3490',
+''
+)
+WHERE body_clean LIKE '%Sara Shackleton
+Enron Wholesale Services
+1400 Smith Street, EB3801a
+Houston, TX  77002
+Ph:  (713) 853-5620
+Fax: (713) 646-3490%';
