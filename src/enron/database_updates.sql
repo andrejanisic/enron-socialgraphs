@@ -32,3 +32,20 @@ Houston, Texas 77002
 dperlin@enron.com
 Phone 713-853-7658
 Fax  713-646-3490%';
+
+-- Remove Carol's signatures
+UPDATE emails 
+SET body_clean = REPLACE(
+body_clean,
+'Carol St. Clair
+EB 3889
+713-853-3989 (Phone)
+713-646-3393 (Fax)
+carol.st.clair@enron.com',
+''
+)
+WHERE body_clean LIKE '%Carol St. Clair
+EB 3889
+713-853-3989 (Phone)
+713-646-3393 (Fax)
+carol.st.clair@enron.com%';
