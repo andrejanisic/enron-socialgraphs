@@ -49,3 +49,24 @@ EB 3889
 713-853-3989 (Phone)
 713-646-3393 (Fax)
 carol.st.clair@enron.com%';
+
+-- Remove Sara's signatures
+UPDATE emails 
+SET body_clean = REPLACE(
+body_clean,
+'Sara Shackleton
+Enron North America Corp.
+1400 Smith Street, EB 3801a
+Houston, Texas  77002
+713-853-5620 (phone)
+713-646-3490 (fax)
+sara.shackleton@enron.com',
+''
+)
+WHERE body_clean LIKE '%Sara Shackleton
+Enron North America Corp.
+1400 Smith Street, EB 3801a
+Houston, Texas  77002
+713-853-5620 (phone)
+713-646-3490 (fax)
+sara.shackleton@enron.com%';
