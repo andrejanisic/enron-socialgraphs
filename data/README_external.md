@@ -12,9 +12,10 @@ emails. The two are linked by **`person_id`**. That is the same number as
 | File | What it is |
 |---|---|
 | `data/enron_main_characters.sqlite` | Main database: `people`, `emails`, `recipients` (see `data/README.md`) |
-| `data/enron_external.sqlite` | This database: 5 tables, described below |
+| `data/enron_external.sqlite` | This database: 6 tables, described below |
 | `data/schema_external.sql` | The `CREATE TABLE` statements of this database, with a comment on each column |
 | `src/enron/add_external_data.py` | The script that built this database (kept to show how it was made) |
+| `src/enron/download_congress.py`, `src/enron/add_congress_texts.py` | Download the full Congress texts and add them as `congress_paragraphs` |
 
 The source CSV files are **not** in the repository. To use the data you only need
 `enron_external.sqlite`. Rebuilding it (below) needs the CSV files in `data/external/`;
@@ -190,6 +191,28 @@ people). Counting rows per person gives their public visibility.
 | `context_snippet` | The text around the mention, for checking |
 | `hand_correct` | 1 = a hand check confirmed it is the right person; empty = not checked. Wrong matches were already removed. |
 | `hand_note` | The note from the hand check |
+
+### `congress_paragraphs`: the full Congress texts
+
+One row per paragraph of the 10 documents (about 12,200 rows). Added separately from
+the other tables, from the pages on govinfo.gov:
+
+```powershell
+uv run python -m enron.download_congress     # saves the pages to data/external/congress/
+uv run python -m enron.add_congress_texts    # splits them and writes this table
+```
+
+The second script replaces only this table and checks that every snippet in
+`congress_mentions` is found in the text. The downloaded pages are not in the
+repository; the first script fetches them again.
+
+| Field | Meaning |
+|---|---|
+| `doc_id` | Which document (links to `congress_documents`) |
+| `para_id` | Position in the document, from 0 |
+| `speaker` | Hearings only: who is speaking, e.g. `Mr. Skilling`, `Ms. Watkins`. Paragraphs after a speaker's name keep that speaker until the next name or a heading. Empty in the committee prints. |
+| `explicit` | 1 if the paragraph opens with the speaker's name |
+| `text` | The paragraph, with line breaks and repeated spaces collapsed |
 
 ### `full_network_metrics`: results of the network analysis (RQ1/RQ2)
 

@@ -1,12 +1,15 @@
 """Figures for the paper. Each function takes analysis results and writes a PNG."""
 
+import textwrap
 from collections import Counter
 from pathlib import Path
 
 import matplotlib
 
 matplotlib.use("Agg")
+import matplotlib.colors
 import matplotlib.patches
+import matplotlib.ticker
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
@@ -660,4 +663,149 @@ def plot_send_receive(table: pd.DataFrame, path_stem: Path, n_labels: int = 8) -
     ax.text(lim[1] / 1.4, 1.4, "receives more\nthan sends", ha="right", va="bottom",
             fontsize=REPORT_FONT - 1, color=GREY_DARK)
     _plain(ax)
+    save(fig, path_stem)
+
+
+# ------------------------------------- Congress texts: words and topics ---
+TEXT_BLUE = PALETTE[0]
+# Sequential scale for shares: near-white to dark blue (one hue, light = small)
+SHARE_CMAP = matplotlib.colors.LinearSegmentedColormap.from_list(
+    "share_blue", ["#f4f8fd", "#8fb8ea", TEXT_BLUE, "#123f78"])
+
+def plot_zipf(counts: pd.Series, slope: float, path_stem: Path, anchor: int = 10) -> None:
+    """Rank-frequency plot of all words on log-log axes, with a line of slope -1
+    through the word at rank `anchor` (where the slope fit starts) for reference."""
+    ranks = np.arange(1, len(counts) + 1)
+    fig, ax = plt.subplots(figsize=(3.0, 2.4))
+    ax.loglog(ranks, counts.to_numpy(), color=TEXT_BLUE, lw=1.2)
+    ax.loglog(ranks, counts.iloc[anchor - 1] * anchor / ranks, color=GREY_MID, lw=0.8, ls="--")
+    ax.set_xlabel("Rank of word", fontsize=REPORT_FONT)
+    ax.set_ylabel("Count", fontsize=REPORT_FONT)
+    ax.text(0.97, 0.95, f"slope {slope:.2f} (ranks 10–1,000)\ndashed: slope −1", transform=ax.transAxes,
+            ha="right", va="top", fontsize=REPORT_FONT - 1, color=GREY_DARK)
+    _plain(ax)
+    save(fig, path_stem)
+
+
+def plot_topics_by_document(shares: pd.DataFrame, doc_labels: list, topic_labels: list,
+                            path_stem: Path) -> None:
+    """Share of each document's text on each topic (rows sum to 100%); darker blue = larger.
+
+    shares: rows = documents (in display order), columns = topics, values 0-1.
+    """
+    d, k = shares.shape
+    fig, ax = plt.subplots(figsize=(2.4 + 0.4 * k, 0.9 + 0.22 * d))
+    top = float(shares.to_numpy().max())
+    for i in range(d):
+        for j in range(k):
+            v = shares.iat[i, j]
+            ax.add_patch(plt.Rectangle((j - 0.5, i - 0.5), 1, 1, lw=0.6, ec="white",
+                                       color=SHARE_CMAP(v / top)))
+            ax.text(j, i, f"{100 * v:.0f}", ha="center", va="center", fontsize=REPORT_FONT - 1.5,
+                    color="white" if v / top > 0.55 else INK)
+    ax.set_xlim(-0.5, k - 0.5)
+    ax.set_ylim(d - 0.5, -0.5)
+    ax.set_xticks(range(k))
+    ax.set_xticklabels(topic_labels, rotation=40, ha="left", fontsize=REPORT_FONT - 1.5)
+    ax.xaxis.set_ticks_position("top")
+    ax.set_yticks(range(d))
+    ax.set_yticklabels(doc_labels, fontsize=REPORT_FONT - 1.5)
+    ax.tick_params(length=0, pad=2)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_xlabel("Share of each document's text on each topic (%)", fontsize=REPORT_FONT - 1)
+    save(fig, path_stem)
+
+
+# ------------------------------------------- emails against the Congress themes ---
+CONGRESS_COLOUR, EMAIL_COLOUR = PALETTE[0], PALETTE[1]
+
+
+def plot_theme_coverage(coverage: pd.DataFrame, path_stem: Path) -> None:
+    """Theme terms per 10,000 words in the Congress texts and in the emails, one row
+    per theme (log scale, so small rates stay visible).
+
+    coverage: index = theme names (display order), columns congress, emails.
+    """
+    k = len(coverage)
+    y = np.arange(k)
+    fig, ax = plt.subplots(figsize=(4.6, 0.55 + 0.3 * k))
+    low = coverage.to_numpy()[coverage.to_numpy() > 0].min() / 2
+    for i, (_, row) in enumerate(coverage.iterrows()):
+        ax.plot([max(row.emails, low), max(row.congress, low)], [i, i], color=LINK_GREY, lw=1, zorder=1)
+    ax.scatter(coverage["congress"].clip(lower=low), y, s=26, color=CONGRESS_COLOUR, zorder=3, label="Congress")
+    ax.scatter(coverage["emails"].clip(lower=low), y, s=26, color=EMAIL_COLOUR, zorder=3, label="Emails")
+    ax.set_xscale("log")
+    ax.set_yticks(y)
+    ax.set_yticklabels(coverage.index, fontsize=REPORT_FONT - 0.5)
+    ax.invert_yaxis()
+    ax.set_xlabel("Theme terms per 10,000 words (log scale)", fontsize=REPORT_FONT)
+    ax.legend(frameon=False, fontsize=REPORT_FONT - 1, loc="lower left", bbox_to_anchor=(0, 1.0),
+              ncol=2, handletextpad=0.2, borderaxespad=0.2)
+    _plain(ax)
+    ax.tick_params(axis="y", length=0)
+    save(fig, path_stem)
+
+
+def _bbox(artist, fig):
+    """An artist's extent in figure coordinates (0-1), labels included."""
+    renderer = fig.canvas.get_renderer()
+    return artist.get_tightbbox(renderer).transformed(fig.transFigure.inverted())
+
+
+def plot_typical_words(words: pd.DataFrame, n: int, min_count: int, forms: dict, glossary: dict,
+                       path_stem: Path) -> None:
+    """The `n` words most typical of each text: how many times more often (per 10,000
+    words) one text uses them than the other. Words need `min_count` uses in the text
+    they are typical of. words: from enron.text.compare_rates with A = Congress;
+    forms: lowercased word -> how it is written; glossary: lowercased word -> meaning,
+    listed under each panel for the words shown there.
+
+    The glossary is placed from the measured size of the drawn chart and wrapped to
+    the width available, so the two columns never overlap each other or the axes.
+    """
+    congress = words[words["count_a"] >= min_count].head(n)
+    emails = words[words["count_b"] >= min_count].tail(n).iloc[::-1]
+    fig, axes = plt.subplots(1, 2, figsize=(7.0, 0.6 + 0.17 * n), gridspec_kw={"wspace": 0.55})
+    sides = [(congress, CONGRESS_COLOUR, "Typical of Congress", 1),
+             (emails, EMAIL_COLOUR, "Typical of the emails", -1)]
+    for ax, (side, colour, title, sign) in zip(axes, sides):
+        ratio = 2 ** (sign * side["log2_ratio"])
+        y = np.arange(len(side))
+        ax.barh(y, ratio, height=0.65, color=colour, left=0)
+        ax.set_xscale("log")
+        ax.set_xlim(1, 10 ** np.ceil(np.log10(ratio.max())))
+        ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:g}×"))
+        ax.xaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
+        ax.set_yticks(y)
+        ax.set_yticklabels([forms.get(w, w) for w in side["word"]], fontsize=REPORT_FONT - 1)
+        ax.invert_yaxis()
+        ax.set_title(title, fontsize=REPORT_FONT, loc="left", color=colour)
+        ax.set_xlabel("Times more often (per 10,000 words)", fontsize=REPORT_FONT - 1)
+        _plain(ax)
+        ax.tick_params(axis="y", length=0)
+
+    # glossary: one column under each chart, starting where its tick labels start
+    fig.canvas.draw()
+    boxes = [_bbox(ax, fig) for ax in axes]
+    top = min(b.y0 for b in boxes) - 0.04
+    gap = 0.02
+    columns = [(boxes[0].x0, boxes[1].x0 - gap), (boxes[1].x0, 1.0)]
+    size = REPORT_FONT - 1.5
+    char_width = 0.55 * size / 72 / fig.get_figwidth()       # average character, in figure units
+    entries = [[f"{forms.get(w, w)}: {glossary[w]}" for w in side["word"] if w in glossary]
+               for side, *_ in sides]
+    texts = []
+    for (left, right), lines in zip(columns, entries):
+        width = max(20, int((right - left) / char_width))
+        while True:
+            body = "\n".join(textwrap.fill(line, width=width, subsequent_indent="   ") for line in lines)
+            text = fig.text(left, top, body, va="top", ha="left", fontsize=size,
+                            color=INK_SECONDARY, linespacing=1.35)
+            fig.canvas.draw()
+            if _bbox(text, fig).x1 <= right or width <= 20:
+                break
+            text.remove()                       # too wide: wrap narrower and try again
+            width -= 4
+        texts.append(text)
     save(fig, path_stem)

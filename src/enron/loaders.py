@@ -112,3 +112,47 @@ def load_full_corpus_metrics() -> pd.DataFrame:
             WHERE person_id IS NOT NULL
         """, conn)
     return metrics.set_index("person_id")
+
+
+def load_congress_paragraphs() -> pd.DataFrame:
+    """Full Congress texts, one row per paragraph (from `add_congress_texts`).
+
+    Columns: doc_id, para_id, speaker (hearings only), explicit (1 if the paragraph
+    opens with the speaker's name), text, title, doc_type.
+    """
+    with closing(connect()) as conn:
+        return pd.read_sql("""
+            SELECT p.doc_id, p.para_id, p.speaker, p.explicit, p.text, d.title, d.doc_type
+            FROM ext.congress_paragraphs p
+            JOIN ext.congress_documents d USING (doc_id)
+            ORDER BY p.doc_id, p.para_id
+        """, conn)
+
+
+def load_mentioned_names() -> list[str]:
+    """Names of everyone matched in the Congress documents, inside or outside the 148
+    (e.g. Kenneth Lay, Andrew Fastow), without matches hand-checked as wrong."""
+    with closing(connect()) as conn:
+        names = pd.read_sql("""
+            SELECT DISTINCT person_name FROM ext.congress_mentions
+            WHERE COALESCE(hand_correct, 1) = 1
+        """, conn)
+    return names["person_name"].dropna().tolist()
+
+
+def load_emails() -> pd.DataFrame:
+    """Every email between the 148 people with its recipients (a list of person_ids).
+
+    Columns: email_id, date (datetime, UTC), sender_id, subject, body_clean,
+    message_type, human_probability, recipients.
+    """
+    with closing(connect(attach_external=False)) as conn:
+        emails = pd.read_sql("""
+            SELECT email_id, date, sender_id, subject, body_clean, message_type, human_probability
+            FROM emails
+        """, conn)
+        recipients = pd.read_sql("SELECT email_id, recipient_id FROM recipients", conn)
+    emails["date"] = pd.to_datetime(emails["date"], utc=True, errors="coerce")
+    lists = recipients.groupby("email_id")["recipient_id"].agg(list)
+    emails["recipients"] = emails["email_id"].map(lists).apply(lambda r: r if isinstance(r, list) else [])
+    return emails
