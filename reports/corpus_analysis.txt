@@ -1,0 +1,271 @@
+
+============================================================
+CORPUS OVERVIEW
+============================================================
+Emails:             13,545
+Total words:        1,386,584
+Unique vocabulary:  30,180
+Average email:      102.4 words
+Median email:       41.0 words
+Shortest email:     0 words
+Longest email:      6,323 words
+
+============================================================
+MOST FREQUENT WORDS (STOPWORDS REMOVED)
+============================================================
+subject                        5,787
+pm                             5,672
+cc                             5,367
+please                         5,105
+mail                           4,572
+corp                           4,307
+thanks                         3,798
+forwarded                      3,760
+ees                            3,683
+power                          3,431
+na                             3,205
+know                           3,141
+energy                         3,076
+gas                            3,028
+california                     2,965
+need                           2,562
+said                           2,448
+sara                           2,412
+let                            2,406
+state                          2,341
+jeff                           2,339
+agreement                      2,339
+new                            2,303
+time                           2,266
+enronxgate                     2,250
+re                             2,214
+attached                       2,186
+call                           2,170
+jones                          2,151
+mark                           2,053
+us                             1,956
+market                         1,914
+day                            1,909
+tana                           1,863
+price                          1,752
+john                           1,745
+see                            1,708
+bill                           1,677
+lon                            1,677
+fax                            1,660
+credit                         1,650
+deal                           1,647
+meeting                        1,645
+et                             1,637
+shackleton                     1,557
+group                          1,501
+davis                          1,472
+think                          1,470
+week                           1,450
+company                        1,449
+houston                        1,435
+phone                          1,433
+make                           1,410
+questions                      1,404
+today                          1,404
+master                         1,401
+trading                        1,398
+contracts                      1,369
+information                    1,359
+want                           1,353
+
+============================================================
+MOST FREQUENT 2-GRAMS (STOPWORDS REMOVED)
+============================================================
+cc subject                               3,497
+let know                                 1,715
+ees ees                                  1,626
+tana jones                               1,586
+sara shackleton                          1,555
+subject re                               1,261
+north america                            1,193
+jeff dasovich                            1,055
+america corp                             1,019
+phone fax                                  957
+smith street                               773
+houston texas                              763
+please let                                 721
+st clair                                   705
+carol st                                   700
+mark taylor                                648
+texas phone                                623
+eb houston                                 618
+best jeff                                  616
+street eb                                  616
+forwarded tana                             596
+dasovich na                                566
+master agreement                           563
+jones pm                                   493
+tom moran                                  492
+communications communications              465
+europe global                              457
+debra perlingiere                          455
+el paso                                    454
+na cc                                      448
+forwarded sara                             438
+see attached                               431
+natural gas                                430
+pm cc                                      416
+corp smith                                 410
+forwarded jeff                             403
+karen lambert                              386
+next week                                  383
+brant reves                                382
+isda master                                377
+na pm                                      366
+please call                                366
+debbie brackett                            365
+samuel schott                              364
+shackleton cc                              339
+stephanie panus                            332
+subject eol                                329
+make sure                                  319
+perlingiere north                          317
+lambert tana                               316
+susan bailey                               313
+long term                                  312
+william bradford                           307
+david hardy                                307
+hardy lon                                  307
+fax forwarded                              305
+new york                                   303
+last week                                  303
+stephanie sever                            302
+please see                                 301
+
+============================================================
+MOST FREQUENT 3-GRAMS (STOPWORDS REMOVED)
+============================================================
+north america corp                       1,012
+cc subject re                              740
+carol st clair                             700
+please let know                            632
+texas phone fax                            623
+houston texas phone                        619
+smith street eb                            616
+street eb houston                          616
+eb houston texas                           614
+forwarded tana jones                       596
+jeff dasovich na                           565
+tana jones pm                              491
+forwarded sara shackleton                  438
+america corp smith                         409
+corp smith street                          408
+forwarded jeff dasovich                    397
+sara shackleton cc                         339
+pm cc subject                              320
+debra perlingiere north                    317
+perlingiere north america                  317
+karen lambert tana                         316
+lambert tana jones                         316
+david hardy lon                            307
+na cc subject                              300
+sara shackleton pm                         300
+tana jones samuel                          298
+jones samuel schott                        298
+isda master agreement                      292
+sara shackleton north                      290
+shackleton north america                   290
+tana jones cc                              289
+phone fax forwarded                        281
+dasovich na pm                             257
+hardy lon lesli                            252
+lon lesli campbell                         252
+brant reves debbie                         251
+reves debbie brackett                      251
+europe global counterparty                 238
+debbie brackett david                      232
+brackett david hardy                       231
+richard shapiro na                         229
+shackleton cc subject                      227
+cc subject eol                             225
+see attached file                          219
+europe global contracts                    219
+global contracts facilities                219
+legal department smith                     218
+department smith street                    218
+let know questions                         217
+america corp legal                         216
+corp legal department                      214
+subject eol credit                         208
+cc subject fw                              207
+capacity mmbtu deliveries                  204
+contracts facilities europe                202
+facilities europe global                   202
+st clair eb                                201
+clair eb phone                             201
+eb phone fax                               201
+pm sara shackleton                         195
+
+============================================================
+MOST ACTIVE SENDERS
+============================================================
+Person ID           Emails        Words    Avg words/email
+59                   1,160      334,116              288.0
+139                    993      111,639              112.4
+125                    891      103,580              116.3
+12                     368       25,025               68.0
+66                     363       28,904               79.6
+80                     361        9,805               27.2
+19                     358       37,232              104.0
+88                     350       33,185               94.8
+16                     332       40,983              123.4
+29                     324       16,131               49.8
+23                     298       12,499               41.9
+121                    287        9,382               32.7
+46                     249       12,868               51.7
+108                    243       14,954               61.5
+37                     228       20,787               91.2
+89                     225       12,908               57.4
+132                    222       13,688               61.7
+33                     183       40,844              223.2
+144                    181        5,158               28.5
+104                    179       16,742               93.5
+
+============================================================
+EMAILS PER MONTH
+============================================================
+1980-01                  7
+1999-05                 25
+1999-06                 21
+1999-07                 38
+1999-08                 46
+1999-09                 74
+1999-10                 66
+1999-11                 33
+1999-12                113
+2000-01                114
+2000-02                113
+2000-03                145
+2000-04                175
+2000-05                201
+2000-06                256
+2000-07                218
+2000-08                311
+2000-09                325
+2000-10                363
+2000-11                459
+2000-12                379
+2001-01                383
+2001-02                518
+2001-03                636
+2001-04                665
+2001-05                688
+2001-06                409
+2001-07                588
+2001-08                648
+2001-09                811
+2001-10              1,541
+2001-11              1,312
+2001-12                454
+2002-01                738
+2002-02                370
+2002-03                222
+2002-04                 47
+2002-05                 22
+2002-06                 11

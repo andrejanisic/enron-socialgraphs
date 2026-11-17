@@ -1,0 +1,2 @@
+inspect_network.py loads the graph and outputs some sample metrics, as well as an example of communication between two characters.
+example_db_query.py connects to the db and runs a sample query. Its structure can be used to run actual queries, if needed.

@@ -1,0 +1,305 @@
+ENRON NMF TOPIC MODEL
+============================================================
+Topics: 15
+Reconstruction error: 109.0479
+Iterations: 43
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: agreement, master, master agreement, execute, entity, isda master, isda, entity north, receive, copy, receive execute, copy distribute, transaction, effective, corp
+Representative emails:
+  Email 7720 | panus-s, phanis-s | score=0.173
+  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   May 15, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Sequa Corporation  Transactions Covered:  Approved for all products with the exc
+
+  Email 7742 | panus-s, phanis-s | score=0.172
+  We have received an executed financial master agreement:  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   May 17, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   FirstEnergy Services C
+
+  Email 8334 | panus-s, phanis-s | score=0.172
+  We have received an executed Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   June 9, 2000  Enron Entity:   Enron North America Corp.  Counterparty:   Voest-Alpine Intertrading U.S.A., Inc.  Transactions Covered:  Approved for all products w
+
+  Email 7566 | panus-s, phanis-s | score=0.171
+  We have received an executed Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   February 22, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Grupo IMSA, S.A. de C.V.  Transactions Covered:  Approved for all products with the e
+
+  Email 7713 | panus-s, phanis-s | score=0.169
+  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   March 26, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Engage Energy America LLC  Transactions Covered:  Approved for all products wi
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: fyi, fyi kim, fyi lynn, lynn, jim, ds, fyi send, fyi think, fyi forward, shelley fyi, guy, shelley, elizabeth, steve fyi, loop
+Representative emails:
+  Email 9786 | taylor-m | score=0.295
+  FYI
+
+  Email 9788 | lay-k | score=0.295
+  fyi
+
+  Email 9697 | hayslett-r | score=0.295
+  FYI
+
+  Email 9699 | lokay-m | score=0.295
+  FYI.
+
+  Email 9700 | hayslett-r | score=0.295
+  FYI
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: tana, tana jones, jones, eol, response, credit, molly, tom moran, lon, moran, tom, molly harris, taylor bernice, eol credit, frank davis
+Representative emails:
+  Email 7882 | jones-t | score=0.274
+  ----- Forwarded by Tana Jones/HOU/ECT on 06/01/2000 05:28 PM -----  	Tom Moran 	06/01/2000 05:25 PM  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodri
+
+  Email 7889 | jones-t | score=0.274
+  ----- Forwarded by Tana Jones/HOU/ECT on 06/05/2000 05:47 PM -----  	Tom Moran 	06/05/2000 05:43 PM  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodri
+
+  Email 7928 | jones-t | score=0.274
+  ----- Forwarded by Tana Jones/HOU/ECT on 06/15/2000 05:44 PM -----  	Tom Moran 	06/15/2000 05:40 PM  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodri
+
+  Email 7893 | jones-t | score=0.274
+  ----- Forwarded by Tana Jones/HOU/ECT on 06/06/2000 05:08 PM -----  	Tom Moran 	06/06/2000 04:53 PM  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodri
+
+  Email 7936 | jones-t | score=0.274
+  ----- Forwarded by Tana Jones/HOU/ECT on 06/19/2000 05:10 PM -----  	Tom Moran 	06/19/2000 05:06 PM  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodri
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: time, work, need, think, deal, good, like, day, go, look, power, gas, new, want, market
+Representative emails:
+  Email 13477 | corman-s | score=0.131
+  Here is the other article  How Enron Blew It Less than a year ago, the Houston-based energy behemoth had everything: money, power, glitz, smarts, new ideas, and a CEO who wanted to make it the most important company in the world. Now its stock is down, wall street is bearish, and the CEO is gone. Wh
+
+  Email 14656 | arnold-j | score=0.124
+  ---------------------- Forwarded by John Arnold/HOU/ECT on 03/06/2001 07:48 AM --------------------------- From: Ann M Schmidt@ENRON on 03/05/2001 08:23 AM To: Ann M Schmidt/Corp/Enron@ENRON cc:  (bcc: John Arnold/HOU/ECT) Subject: Enron Mentions - 03-04-01  Utility Deregulation: Square Peg, Round H
+
+  Email 7280 | dasovich-j | score=0.124
+  FOR IMMEDIATE RELEASE 04/11/2001  GOVERNOR GRAY DAVIS SIGNS LANDMARK ENERGY CONSERVATION PACKAGE APRIL 11, 2001 (Construction noise in background) Well, maybe they're building a power plant. Think of it that way. My friends, for the last 10 years California failed to build a single major power plant
+
+  Email 12542 | dasovich-j | score=0.119
+  State's Outlays for Electricity May Be Hard to Recover Without a Rate Hike By REBECCA SMITH, MITCHEL BENSON and JOHN R. EMSHWILLER Staff Reporters of THE WALL STREET JOURNAL SACRAMENTO, Calif. -- Earlier this year, Gov. Gray Davis made what may be the biggest bet in the history of the nation's bigge
+
+  Email 13512 | corman-s | score=0.115
+  Here are some samples of the articles I mentioned during our phone call  Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved.  Enron's Bonds Tell the Tale: Stay Away By Herb Greenberg <<mailto:hgreenberg@thestreet.com>> Senior Columnist RealMoney.com 10/24/2001 03:40 PM EDT URL: <<http://
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: blackberry, handheld, send blackberry, blackberry wireless, wireless handheld, wireless, send, fyi send, ok, ok send, yes, rod, need, dan send, agree
+Representative emails:
+  Email 9608 | hayslett-r | score=0.308
+  Here is the message -------------------------- Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)
+
+  Email 6836 | kitchen-l | score=0.308
+  -------------------------- Sent from my BlackBerry Wireless Handheld
+
+  Email 9538 | hayslett-r | score=0.308
+  I'm here -------------------------- Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)
+
+  Email 9555 | hayslett-r | score=0.308
+  Will get back to you. -------------------------- Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)
+
+  Email 9891 | ermis-f | score=0.308
+  -------------------------- Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: synchronize, offline, offline synchronize, add offline, add, update offline, update, delete, delete offline, offline update, offline delete, hierarchy, synchronize hierarchy, synchronize mailbox, mailbox
+Representative emails:
+  Email 4609 | perlingiere-d | score=0.302
+  17:58:42 Synchronizing Mailbox 'Perlingiere, Debra' 17:58:42 Synchronizing Hierarchy 17:58:42 Synchronizing Favorites 17:58:43 Synchronizing Folder 'Inbox' 17:58:48 	   1 item(s) added to offline folder 17:58:48 	   1 item(s) updated in offline folder 17:58:48 	   1 item(s) deleted in offline folder
+
+  Email 4625 | perlingiere-d | score=0.302
+  18:20:25 Synchronizing Mailbox 'Perlingiere, Debra' 18:20:25 Synchronizing Hierarchy 18:20:25 Synchronizing Favorites 18:20:25 Synchronizing Folder 'Inbox' 18:20:25 	   1 item(s) added to offline folder 18:20:25 	   1 item(s) updated in offline folder 18:20:25 Synchronizing Folder 'Outbox' 18:20:25 
+
+  Email 4644 | perlingiere-d | score=0.301
+  18:02:03 Synchronizing Mailbox 'Perlingiere, Debra' 18:02:03 Synchronizing Hierarchy 18:02:04 Synchronizing Favorites 18:02:04 Synchronizing Folder 'Inbox' 18:02:04 	   1 item(s) added to offline folder 18:02:04 	   3 item(s) deleted in offline folder 18:02:04 	   1 view(s)/form(s) updated in offlin
+
+  Email 3744 | sanders-r | score=0.301
+  14:01:37 Synchronizing Mailbox 'Sanders, Richard B.' 14:01:38 Synchronizing Hierarchy 14:01:38 Synchronizing Favorites 14:01:38 Synchronizing Folder 'Inbox' 14:01:48 	   5 item(s) added to offline folder 14:01:48 	   25 item(s) deleted in offline folder 14:01:48 Synchronizing Folder 'Outbox' 14:01:4
+
+  Email 9294 | hodge-j | score=0.301
+  17:45:48 Synchronizing Mailbox 'Hodge, Jeffrey T.' 17:45:48 Synchronizing Hierarchy 17:45:48 Synchronizing Favorites 17:45:49 Synchronizing Folder 'Inbox' 17:45:52 	   3 item(s) added to offline folder 17:45:52 	   23 item(s) deleted in offline folder 17:45:52 Synchronizing Folder 'Outbox' 17:45:52 
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: kim, fyi kim, steve, steve fyi, lindy, audrey, kim ward, ward, paul, ward pm, bullet, jay, michelle, meeting, attend
+Representative emails:
+  Email 1034 | watson-k | score=0.272
+  FYI, KIm.
+
+  Email 6294 | watson-k | score=0.272
+  FYI, Kim.
+
+  Email 6266 | watson-k | score=0.272
+  FYI, Kim.
+
+  Email 11454 | watson-k | score=0.272
+  FYI, Kim.
+
+  Email 9680 | watson-k | score=0.272
+  FYI, Kim.
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: debra perlingiere, perlingiere, street eb, eb houston, houston texas, debra, perlingiere north, smith street, texas, eb, street, north america, smith, america, north
+Representative emails:
+  Email 4487 | perlingiere-d | score=0.162
+  4105SF  Debra Perlingiere Enron North America Corp. Legal Department 1400 Smith Street, EB 3885 Houston, Texas 77002 dperlin@enron.com Phone 713-853-7658 Fax  713-646-3490
+
+  Email 4525 | perlingiere-d | score=0.162
+  Debra Perlingiere Enron North America Corp. Legal Department 1400 Smith Street, EB 3885 Houston, Texas 77002 dperlin@enron.com Phone 713-853-7658 Fax  713-646-3490  http://edms.livelink.enron.com/ena/livelink.exe/7560144/96032029_Base_Contract _12_30_99.pdf?func=doc.Fetch&nodeid=7560144
+
+  Email 4484 | perlingiere-d | score=0.162
+  Debra Perlingiere Enron North America Corp. Legal Department 1400 Smith Street, EB 3885 Houston, Texas 77002 dperlin@enron.com Phone 713-853-7658 Fax  713-646-3490  http://edms.livelink.enron.com/ena/livelink.exe/5005219/96038539_01-Jan-2000.p df?func=doc.Fetch&nodeid=5005219
+
+  Email 4568 | perlingiere-d | score=0.162
+  will do  Debra Perlingiere Enron North America Corp. Legal Department 1400 Smith Street, EB 3885 Houston, Texas 77002 dperlin@enron.com Phone 713-853-7658 Fax  713-646-3490
+
+  Email 4535 | perlingiere-d | score=0.162
+  Debra Perlingiere Enron North America Corp. Legal Department 1400 Smith Street, EB 3885 Houston, Texas 77002 dperlin@enron.com Phone 713-853-7658 Fax  713-646-3490
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: view website, publish available, report name, available view, website, publish, name, report, available, view, ng propt, propt, propt publish, name ng, ng
+Representative emails:
+  Email 5835 | mclaughlin-e | score=0.317
+  The report named: NG - PROPT P/L <http://trv.dev.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=06/07/2001>, published as of 06/07/2001 is now available for viewing on the website.
+
+  Email 5836 | mclaughlin-e | score=0.317
+  The report named: NG - PROPT P/L <http://trv.dev.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=06/08/2001>, published as of 06/08/2001 is now available for viewing on the website.
+
+  Email 5624 | mclaughlin-e | score=0.317
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/02/2001>, published as of 11/02/2001 is now available for viewing on the website.
+
+  Email 5623 | mclaughlin-e | score=0.317
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/01/2001>, published as of 11/01/2001 is now available for viewing on the website.
+
+  Email 5663 | mclaughlin-e | score=0.317
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=09/28/2001>, published as of 09/28/2001 is now available for viewing on the website.
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: mmbtu, delivery, capacity mmbtu, mmbtu delivery, delivery mmbtu, average, capacity, san juan, juan, large pkg, california mmbtu, pkg, delivery california, average delivery, tw
+Representative emails:
+  Email 6256 | lokay-m | score=0.310
+  Transwestern's average deliveries to California were 1075 MMBtu/d (99%), with San Juan lateral throughput at 716 MMBtu/d and Rio Puerco at 7 MMBtu/d.  Total East deliveries averaged 261 MMBtu/d.  El Paso's average deliveries to California were 2396 MMBtu/d (82%) : - PG&ETop, capacity of 1140 MMBtu/d
+
+  Email 6253 | lokay-m | score=0.309
+  Transwestern's average deliveries to California were 1112 MMBtu/d (102%), with San Juan lateral throughput at 825 MMBtu/d and Rio Puerco at 0 MMBtu/d.  Total East deliveries averaged 310 MMBtu/d.  El Paso's average deliveries to California were 2274 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/
+
+  Email 6239 | lokay-m | score=0.309
+  Transwestern's average deliveries to California were 949 MMBtu/d (87%), with San Juan lateral throughput at 853 MMBtu/d and Rio Puerco at 30 MMBtu/d.  Total East deliveries averaged 483 MMBtu/d.  El Paso's average deliveries to California were 2310 MMBtu/d (79%) : - PG&ETop, capacity of 1140 MMBtu/d
+
+  Email 6247 | lokay-m | score=0.309
+  Transwestern's average deliveries to California were 856 MMBtu/d (78%), with San Juan lateral throughput at 783 MMBtu/d and Rio Puerco at 17 MMBtu/d.  Total East deliveries averaged 564 MMBtu/d.  El Paso's average deliveries to California were 2299 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/d
+
+  Email 6329 | lokay-m | score=0.308
+  Transwestern's average deliveries to California were 998 MMBtu/d (92%), with San Juan lateral throughput at 790 MMBtu/d.  Total East deliveries averaged 392 MMBtu/d.  El Paso's average deliveries to California were 2204 MMBtu/d (75%): - PG&ETop, capacity of 1140 MMBtu/d, deliveries of 691 MMBtu/d (6
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: sara, shackleton, sara shackleton, forward sara, shackleton north, corp smith, pm, shackleton pm, forward, smith street, isda, fax, street, houston, smith
+Representative emails:
+  Email 2955 | shackleton-s | score=0.196
+  ---------------------- Forwarded by Sara Shackleton/HOU/ECT on 09/15/99 08:42 AM ---------------------------  "Sara Shackleton" <sshackl@email.msn.com> on 09/14/99 10:06:57 PM To: Sara Shackleton/HOU/ECT@ECT cc: Subject: attached   - Lasara.doc
+
+  Email 8428 | shackleton-s | score=0.156
+  here's the political decision helper - ----- Forwarded by Sara Shackleton/HOU/ECT on 11/03/2000 01:43 PM -----  	"CAVALIER,D. MD" <LAB-DSC@womans.com> 	11/03/2000 09:08 AM  		 To: "'Sara Shackleton'" <sara.shackleton@enron.com> 		 cc: 		 Subject: FW: Check out this page at SpeakOut.com!  >
+
+  Email 2393 | shackleton-s | score=0.151
+  Attached are the email addresses.  Sara Shackleton Enron North America Corp. 1400 Smith Street, EB 3801a Houston, Texas  77002 713-853-5620 (phone) 713-646-3490 (fax) sara.shackleton@enron.com ----- Forwarded by Sara Shackleton/HOU/ECT on 03/22/2001 09:18 AM -----  	"Torkelson, Dean" <dtorkelson@snw
+
+  Email 3144 | shackleton-s | score=0.150
+  Sara Shackleton Enron North America Corp. 1400 Smith Street, EB 3801a Houston, Texas  77002 713-853-5620 (phone) 713-646-3490 (fax) sara.shackleton@enron.com ----- Forwarded by Sara Shackleton/HOU/ECT on 02/28/2001 04:41 PM -----  	Joel Ephross/ENRON@enronXgate 	02/28/2001 11:09 AM  		 To: Roxanne M
+
+  Email 3146 | shackleton-s | score=0.150
+  Sara Shackleton Enron North America Corp. 1400 Smith Street, EB 3801a Houston, Texas  77002 713-853-5620 (phone) 713-646-3490 (fax) sara.shackleton@enron.com ----- Forwarded by Sara Shackleton/HOU/ECT on 02/28/2001 04:43 PM -----  	Joel Ephross/ENRON@enronXgate 	02/28/2001 11:36 AM  		 To: Ron Baker
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: know, let, let know, know question, need, question, want, know need, attach, like, discuss, review, change, think, game
+Representative emails:
+  Email 4763 | nemec-g | score=0.250
+  Let me know if you have any questions.
+
+  Email 532 | williams-w3 | score=0.250
+  Let me know if you have any questions.
+
+  Email 9490 | heard-m | score=0.238
+  Let me know if you need anything else.
+
+  Email 10138 | love-p | score=0.216
+  Let O'Neal know if you will be in or out so that we can get some fillers. PL
+
+  Email 353 | williams-w3 | score=0.208
+  I don't know...
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: lon, clark, europe global, europe, global, corp, karen, tana jones, tana, jones, claudia clark, claudia, clark william, bradford lisa, juana fayett
+Representative emails:
+  Email 8727 | jones-t | score=0.322
+  ----- Forwarded by Tana Jones/HOU/ECT on 01/31/2001 09:49 AM -----  	Walter Guidroz@ENRON 	01/31/2001 09:42 AM  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@EC
+
+  Email 8767 | jones-t | score=0.321
+  ----- Forwarded by Tana Jones/HOU/ECT on 02/20/2001 05:29 PM -----  	Walter Guidroz@ENRON 	02/20/2001 05:24 PM  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@EC
+
+  Email 8725 | jones-t | score=0.321
+  ----- Forwarded by Tana Jones/HOU/ECT on 01/30/2001 04:17 PM -----  	Walter Guidroz@ENRON 	01/30/2001 02:40 PM  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@EC
+
+  Email 8789 | jones-t | score=0.319
+  ----- Forwarded by Tana Jones/HOU/ECT on 02/28/2001 05:18 PM -----  	Walter Guidroz/ENRON@enronXgate 	02/28/2001 05:14 PM  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David 
+
+  Email 8787 | jones-t | score=0.319
+  ----- Forwarded by Tana Jones/HOU/ECT on 02/27/2001 05:32 PM -----  	Walter Guidroz/ENRON@enronXgate 	02/27/2001 05:20 PM  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David 
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: jeff, well, well jeff, dasovich, jeff dasovich, na, dasovich na, pm, forward jeff, forward, richard, na pm, california, shapiro, richard shapiro
+Representative emails:
+  Email 12394 | dasovich-j | score=0.198
+  ----- Forwarded by Jeff Dasovich/NA/Enron on 01/23/2001 11:30 AM -----  > >
+
+  Email 12162 | dasovich-j | score=0.198
+  ----- Forwarded by Jeff Dasovich/NA/Enron on 07/30/2001 10:03 AM -----   - 7-26-01 Ltr to T Hannigan.doc
+
+  Email 7152 | dasovich-j | score=0.198
+  ----- Forwarded by Jeff Dasovich/NA/Enron on 07/30/2001 10:03 AM -----   - 7-26-01 Ltr to T Hannigan.doc
+
+  Email 11759 | dasovich-j | score=0.198
+  ----- Forwarded by Jeff Dasovich/NA/Enron on 03/22/2001 10:32 AM -----  >  > >  <<NewsRelease.Cohen.doc>>   - NewsRelease.Cohen.doc
+
+  Email 7289 | dasovich-j | score=0.177
+  ----- Forwarded by Jeff Dasovich/NA/Enron on 04/06/2001 02:05 PM -----  >   - SB 1X letter.doc
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: carol, st, clair, st clair, carol st, eb phone, clair eb, phone, phone fax, fax, eb, forward carol, mark, clair pm, pm
+Representative emails:
+  Email 3940 | stclair-c | score=0.325
+  Carol St. Clair EB 3889 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com
+
+  Email 1482 | stclair-c | score=0.296
+  Mark: Here is my list of group goals.  Carol St. Clair EB 3889 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com
+
+  Email 2070 | stclair-c | score=0.278
+  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) ----- Forwarded by Carol St Clair/HOU/ECT on 05/15/2000 11:03 AM -----  	Jason Peters@ENRON 	05/15/2000 10:56 AM  		 To: Carol St Clair/HOU/ECT@ECT 		 cc: 		 Subject: Samantha Boyd  My friend at Brobeck in Dallas ( who used to work for 
+
+  Email 8778 | stclair-c | score=0.277
+  I am looking for this file.  Does anyone have it?  Carol St. Clair EB 3889 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com
+
+  Email 7641 | stclair-c | score=0.271
+  Does anyone have this file?  If so, can I borrow it for 5 minutes?  Thanks.  Carol St. Clair EB 3889 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com
