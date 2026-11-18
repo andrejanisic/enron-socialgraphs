@@ -144,15 +144,30 @@ def load_emails() -> pd.DataFrame:
     """Every email between the 148 people with its recipients (a list of person_ids).
 
     Columns: email_id, date (datetime, UTC), sender_id, subject, body_clean,
-    message_type, human_probability, recipients.
+    body_raw, message_type, human_probability, recipients, and three for analyses of
+    who received what:
+      date_known    False for the placeholder date 1 January 1980 (date unknown)
+      others        the recipients without the sender (people often cc themselves)
+      n_recipients  the number of `others`
+
+    body_clean has signatures and the headers of forwarded messages removed (see
+    remove_forwarded_by and database_updates.sql); body_raw is the text before that,
+    with the "Forwarded by" lines that show where forwarded text starts. Older copies
+    of the database have no body_raw; it is then a copy of body_clean.
     """
     with closing(connect(attach_external=False)) as conn:
-        emails = pd.read_sql("""
-            SELECT email_id, date, sender_id, subject, body_clean, message_type, human_probability
+        columns = {row[1] for row in conn.execute("PRAGMA table_info(emails)")}
+        raw = "body_raw" if "body_raw" in columns else "body_clean"
+        emails = pd.read_sql(f"""
+            SELECT email_id, date, sender_id, subject, body_clean, {raw} AS body_raw,
+                   message_type, human_probability
             FROM emails
         """, conn)
         recipients = pd.read_sql("SELECT email_id, recipient_id FROM recipients", conn)
     emails["date"] = pd.to_datetime(emails["date"], utc=True, errors="coerce")
+    emails["date_known"] = emails["date"].dt.year > 1980
     lists = recipients.groupby("email_id")["recipient_id"].agg(list)
     emails["recipients"] = emails["email_id"].map(lists).apply(lambda r: r if isinstance(r, list) else [])
+    emails["others"] = [[r for r in rs if r != s] for rs, s in zip(emails["recipients"], emails["sender_id"])]
+    emails["n_recipients"] = emails["others"].str.len()
     return emails

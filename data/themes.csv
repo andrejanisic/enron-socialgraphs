@@ -1,0 +1,211 @@
+theme_id,theme,topics,kind,term
+1,The partnerships: who knew,2,name,LJM
+1,The partnerships: who knew,2,name,LJM1
+1,The partnerships: who knew,2,name,LJM2
+1,The partnerships: who knew,2,name,Fastow
+1,The partnerships: who knew,2,name,Kopper
+1,The partnerships: who knew,2,name,Glisan
+1,The partnerships: who knew,2,name,Southampton
+1,The partnerships: who knew,2,general,partnership*
+1,The partnerships: who knew,2,general,re:\brelated part(?:y|ies)\b
+1,The partnerships: who knew,2,general,re:\bconflicts? of interest\b
+1,The partnerships: who knew,2,exclude,California
+1,The partnerships: who knew,2,exclude,PG&E
+1,The partnerships: who knew,2,exclude,Edison
+1,The partnerships: who knew,2,exclude,PUC
+1,The partnerships: who knew,2,exclude,FERC
+1,The partnerships: who knew,2,exclude,CAISO
+1,The partnerships: who knew,2,exclude,ISO
+1,The partnerships: who knew,2,exclude,PX
+1,The partnerships: who knew,2,exclude,DWR
+1,The partnerships: who knew,2,exclude,energy crisis
+1,The partnerships: who knew,2,exclude,power crisis
+1,The partnerships: who knew,2,exclude,electricity crisis
+1,The partnerships: who knew,2,exclude,Governor Davis
+1,The partnerships: who knew,2,exclude,Gov. Davis
+1,The partnerships: who knew,2,exclude,ISDA
+2,The special purpose entities and their accounting,5;8,name,"re:\bRaptors?(?:\s+(?:I{1,3}|IV|[1-4]))?\b(?!\s+(?:Energy|Pipeline))"
+2,The special purpose entities and their accounting,5;8,name,Chewco
+2,The special purpose entities and their accounting,5;8,name,JEDI
+2,The special purpose entities and their accounting,5;8,name,Whitewing
+2,The special purpose entities and their accounting,5;8,name,Talon
+2,The special purpose entities and their accounting,5;8,name,Osprey
+2,The special purpose entities and their accounting,5;8,name,Marlin
+2,The special purpose entities and their accounting,5;8,name,special purpose entit*
+2,The special purpose entities and their accounting,5;8,name,special purpose vehicle*
+2,The special purpose entities and their accounting,5;8,name,SPE
+2,The special purpose entities and their accounting,5;8,name,SPEs
+2,The special purpose entities and their accounting,5;8,name,off balance sheet
+2,The special purpose entities and their accounting,5;8,general,structured financ*
+2,The special purpose entities and their accounting,5;8,general,write-down*
+2,The special purpose entities and their accounting,5;8,general,write-off*
+2,The special purpose entities and their accounting,5;8,general,restat*
+2,The special purpose entities and their accounting,5;8,exclude,California
+2,The special purpose entities and their accounting,5;8,exclude,PG&E
+2,The special purpose entities and their accounting,5;8,exclude,Edison
+2,The special purpose entities and their accounting,5;8,exclude,PUC
+2,The special purpose entities and their accounting,5;8,exclude,FERC
+2,The special purpose entities and their accounting,5;8,exclude,CAISO
+2,The special purpose entities and their accounting,5;8,exclude,ISO
+2,The special purpose entities and their accounting,5;8,exclude,PX
+2,The special purpose entities and their accounting,5;8,exclude,DWR
+2,The special purpose entities and their accounting,5;8,exclude,energy crisis
+2,The special purpose entities and their accounting,5;8,exclude,power crisis
+2,The special purpose entities and their accounting,5;8,exclude,electricity crisis
+2,The special purpose entities and their accounting,5;8,exclude,Governor Davis
+2,The special purpose entities and their accounting,5;8,exclude,Gov. Davis
+2,The special purpose entities and their accounting,5;8,exclude,ISDA
+3,Andersen and the auditing,1;10,name,Andersen
+3,Andersen and the auditing,1;10,name,Powers report
+3,Andersen and the auditing,1;10,name,FASB
+3,Andersen and the auditing,1;10,general,audit*
+3,Andersen and the auditing,1;10,general,accountant*
+3,Andersen and the auditing,1;10,general,accounting rule*
+3,Andersen and the auditing,1;10,general,accounting standard*
+3,Andersen and the auditing,1;10,general,re:\bSEC\b|Securities and Exchange Commission
+3,Andersen and the auditing,1;10,general,re:\bVinson (?:&|and) Elkins\b
+3,Andersen and the auditing,1;10,general,shred*
+3,Andersen and the auditing,1;10,general,GAAP
+3,Andersen and the auditing,1;10,exclude,California
+3,Andersen and the auditing,1;10,exclude,PG&E
+3,Andersen and the auditing,1;10,exclude,Edison
+3,Andersen and the auditing,1;10,exclude,PUC
+3,Andersen and the auditing,1;10,exclude,FERC
+3,Andersen and the auditing,1;10,exclude,CAISO
+3,Andersen and the auditing,1;10,exclude,ISO
+3,Andersen and the auditing,1;10,exclude,PX
+3,Andersen and the auditing,1;10,exclude,DWR
+3,Andersen and the auditing,1;10,exclude,energy crisis
+3,Andersen and the auditing,1;10,exclude,power crisis
+3,Andersen and the auditing,1;10,exclude,electricity crisis
+3,Andersen and the auditing,1;10,exclude,Governor Davis
+3,Andersen and the auditing,1;10,exclude,Gov. Davis
+3,Andersen and the auditing,1;10,exclude,ISDA
+4,The board's duties and executive pay,6,name,executive compensation
+4,The board's duties and executive pay,6,name,re:\benron'?s? board\b
+4,The board's duties and executive pay,6,name,re:\bboard of (?:directors of )?enron\b
+4,The board's duties and executive pay,6,general,board of directors
+4,The board's duties and executive pay,6,general,compensation committee
+4,The board's duties and executive pay,6,general,audit committee
+4,The board's duties and executive pay,6,general,finance committee
+4,The board's duties and executive pay,6,general,bonus*
+4,The board's duties and executive pay,6,general,compensation
+4,The board's duties and executive pay,6,exclude,California
+4,The board's duties and executive pay,6,exclude,PG&E
+4,The board's duties and executive pay,6,exclude,Edison
+4,The board's duties and executive pay,6,exclude,PUC
+4,The board's duties and executive pay,6,exclude,FERC
+4,The board's duties and executive pay,6,exclude,CAISO
+4,The board's duties and executive pay,6,exclude,ISO
+4,The board's duties and executive pay,6,exclude,PX
+4,The board's duties and executive pay,6,exclude,DWR
+4,The board's duties and executive pay,6,exclude,energy crisis
+4,The board's duties and executive pay,6,exclude,power crisis
+4,The board's duties and executive pay,6,exclude,electricity crisis
+4,The board's duties and executive pay,6,exclude,Governor Davis
+4,The board's duties and executive pay,6,exclude,Gov. Davis
+4,The board's duties and executive pay,6,exclude,ISDA
+4,The board's duties and executive pay,6,exclude,GISB
+5,Employees' stock and retirement losses,7,name,re:\b401\s?\(?k\)?
+5,Employees' stock and retirement losses,7,name,savings plan
+5,Employees' stock and retirement losses,7,name,ESOP
+5,Employees' stock and retirement losses,7,general,retirement*
+5,Employees' stock and retirement losses,7,general,pension*
+5,Employees' stock and retirement losses,7,general,stock option*
+5,Employees' stock and retirement losses,7,general,Enron stock
+5,Employees' stock and retirement losses,7,general,re:\block\s?-?down\b
+5,Employees' stock and retirement losses,7,exclude,California
+5,Employees' stock and retirement losses,7,exclude,PG&E
+5,Employees' stock and retirement losses,7,exclude,Edison
+5,Employees' stock and retirement losses,7,exclude,PUC
+5,Employees' stock and retirement losses,7,exclude,FERC
+5,Employees' stock and retirement losses,7,exclude,CAISO
+5,Employees' stock and retirement losses,7,exclude,ISO
+5,Employees' stock and retirement losses,7,exclude,PX
+5,Employees' stock and retirement losses,7,exclude,DWR
+5,Employees' stock and retirement losses,7,exclude,energy crisis
+5,Employees' stock and retirement losses,7,exclude,power crisis
+5,Employees' stock and retirement losses,7,exclude,electricity crisis
+5,Employees' stock and retirement losses,7,exclude,Governor Davis
+5,Employees' stock and retirement losses,7,exclude,Gov. Davis
+5,Employees' stock and retirement losses,7,exclude,ISDA
+6,Analysts and rating agencies,9,name,re:\benron'?s? (?:credit |debt )?ratings?\b
+6,Analysts and rating agencies,9,name,re:\bdowngrad\w* (?:of )?enron\b
+6,Analysts and rating agencies,9,name,"re:\benron\b[^.]{0,40}\bdowngrad"
+6,Analysts and rating agencies,9,general,Moody*
+6,Analysts and rating agencies,9,general,re:\bS ?& ?P\b|Standard (?:&|and) Poor
+6,Analysts and rating agencies,9,general,Fitch
+6,Analysts and rating agencies,9,general,credit rating*
+6,Analysts and rating agencies,9,general,downgrad*
+6,Analysts and rating agencies,9,general,investment grade
+6,Analysts and rating agencies,9,general,rating agenc*
+6,Analysts and rating agencies,9,general,analyst*
+6,Analysts and rating agencies,9,general,wall street
+6,Analysts and rating agencies,9,exclude,California
+6,Analysts and rating agencies,9,exclude,PG&E
+6,Analysts and rating agencies,9,exclude,Edison
+6,Analysts and rating agencies,9,exclude,PUC
+6,Analysts and rating agencies,9,exclude,FERC
+6,Analysts and rating agencies,9,exclude,CAISO
+6,Analysts and rating agencies,9,exclude,ISO
+6,Analysts and rating agencies,9,exclude,PX
+6,Analysts and rating agencies,9,exclude,DWR
+6,Analysts and rating agencies,9,exclude,energy crisis
+6,Analysts and rating agencies,9,exclude,power crisis
+6,Analysts and rating agencies,9,exclude,electricity crisis
+6,Analysts and rating agencies,9,exclude,Governor Davis
+6,Analysts and rating agencies,9,exclude,Gov. Davis
+6,Analysts and rating agencies,9,exclude,ISDA
+6,Analysts and rating agencies,9,exclude,re:analyst\s*/\s*associate
+6,Analysts and rating agencies,9,exclude,associate program
+6,Analysts and rating agencies,9,exclude,analyst program
+7,The collapse and what it meant for people,3,name,layoff*
+7,The collapse and what it meant for people,3,name,laid off
+7,The collapse and what it meant for people,3,name,severance
+7,The collapse and what it meant for people,3,name,Dynegy merger
+7,The collapse and what it meant for people,3,name,merger with Dynegy
+7,The collapse and what it meant for people,3,name,SEC investigation
+7,The collapse and what it meant for people,3,name,re:\benron'?s? (?:bankrupt\w*|collapse\w*|chapter 11)
+7,The collapse and what it meant for people,3,general,class action
+7,The collapse and what it meant for people,3,general,bankrupt*
+7,The collapse and what it meant for people,3,general,chapter 11
+7,The collapse and what it meant for people,3,general,collapse*
+7,The collapse and what it meant for people,3,general,stock price
+7,The collapse and what it meant for people,3,general,share price
+7,The collapse and what it meant for people,3,general,what happened
+7,The collapse and what it meant for people,3,general,employees
+7,The collapse and what it meant for people,3,exclude,California
+7,The collapse and what it meant for people,3,exclude,PG&E
+7,The collapse and what it meant for people,3,exclude,Edison
+7,The collapse and what it meant for people,3,exclude,PUC
+7,The collapse and what it meant for people,3,exclude,FERC
+7,The collapse and what it meant for people,3,exclude,CAISO
+7,The collapse and what it meant for people,3,exclude,ISO
+7,The collapse and what it meant for people,3,exclude,PX
+7,The collapse and what it meant for people,3,exclude,DWR
+7,The collapse and what it meant for people,3,exclude,energy crisis
+7,The collapse and what it meant for people,3,exclude,power crisis
+7,The collapse and what it meant for people,3,exclude,electricity crisis
+7,The collapse and what it meant for people,3,exclude,Governor Davis
+7,The collapse and what it meant for people,3,exclude,Gov. Davis
+7,The collapse and what it meant for people,3,exclude,ISDA
+8,Energy markets and trading,4,name,California
+8,Energy markets and trading,4,name,FERC
+8,Energy markets and trading,4,name,CAISO
+8,Energy markets and trading,4,name,ISO
+8,Energy markets and trading,4,name,PX
+8,Energy markets and trading,4,name,price cap*
+8,Energy markets and trading,4,name,PG&E
+8,Energy markets and trading,4,name,Edison
+8,Energy markets and trading,4,name,megawatt*
+8,Energy markets and trading,4,name,MW
+8,Energy markets and trading,4,name,MWh
+8,Energy markets and trading,4,general,power
+8,Energy markets and trading,4,general,gas
+8,Energy markets and trading,4,general,electric*
+8,Energy markets and trading,4,general,utilit*
+8,Energy markets and trading,4,general,deregulat*
+8,Energy markets and trading,4,general,trading
+8,Energy markets and trading,4,general,market*
+8,Energy markets and trading,4,general,transmission
+8,Energy markets and trading,4,general,pipeline*
