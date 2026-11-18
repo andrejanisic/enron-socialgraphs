@@ -1,9 +1,5 @@
 -- SQLite
 -- Every query updating the database will be here, so we are able to recreate it
--- Order: run `uv run python -m enron.remove_forwarded_by` first (it keeps the original
--- text in emails.body_raw), then these queries.
--- Note: message_type 'generated' (Outlook synchronisation logs) was set separately;
--- add that query here so the database can be recreated.
 
 -- Remove blackberry
 UPDATE emails
