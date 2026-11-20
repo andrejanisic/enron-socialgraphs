@@ -89,3 +89,55 @@ Enron Wholesale Services
 Houston, TX  77002
 Ph:  (713) 853-5620
 Fax: (713) 646-3490%';
+
+-- Some mails end with just a first name. Remove it
+WITH names(name) AS (
+    VALUES
+        ('Kim'),
+        ('Sara'),
+        ('Lynn'),
+        ('Debra'),
+        ('Karen'),
+        ('Lisa'),
+        ('Susan'),
+        ('Mark'),
+        ('Marie'),
+        ('Clair')
+),
+normalized AS (
+    SELECT
+        e.email_id,
+        LOWER(
+            TRIM(RTRIM(e.body_clean, '.,!?;:"''()[]{}<>- '))
+        ) AS cleaned_body
+    FROM emails e
+    WHERE e.body_clean IS NOT NULL
+),
+matches AS (
+    SELECT DISTINCT
+        normalized.email_id,
+        names.name
+    FROM normalized
+    JOIN names
+        ON normalized.cleaned_body LIKE '%' || LOWER(names.name)
+)
+UPDATE emails
+SET body_clean = RTRIM(
+    SUBSTR(
+        body_clean,
+        1,
+        LENGTH(body_clean) - (
+            SELECT LENGTH(name)
+            FROM matches
+            WHERE matches.email_id = emails.email_id
+            LIMIT 1
+        )
+    ),
+    '.,!?;:"''()[]{}<>- '
+)
+WHERE email_id IN (SELECT email_id FROM matches);
+
+-- Inspect the affected rows before committing:
+SELECT email_id, body_clean
+FROM emails
+WHERE email_id IN (SELECT email_id FROM matches);
