@@ -1,0 +1,7 @@
+step,emails
+all emails,14982
+human-written (threshold 0.8),13475
+not an Outlook synchronisation log,13475
+with own text of at least 5 words,9922
+one copy per sender and text,9620
+own words (pasted news articles set aside),9501
