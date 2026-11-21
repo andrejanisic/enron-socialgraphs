@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 8
+============================================================
+Topics: 15
+Reconstruction error: 21.9530
+Iterations: 77
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: john, john arnold, arnold, pm john, pm, kim, ward, kim ward, ward pm, john john, phil, drink, liz, bet, guess
+Representative emails:
+  Email 14611 | arnold-j | score=0.230
+  is that with or without two snoozes?  From: Kim Ward/ENRON@enronXgate on 05/08/2001 01:24 PM To: John Arnold/HOU/ECT@ECT cc: Subject: RE:  and get up at 5:07 a.m.?
+  Email 14452 | arnold-j | score=0.230
+  is that with or without two snoozes?  From:	Kim Ward/ENRON@enronXgate on 05/08/2001 01:24 PM To:	John Arnold/HOU/ECT@ECT cc: Subject:	RE:  and get up at 5:07 a.m.?
+  Email 14694 | arnold-j | score=0.216
+  To: John Arnold/HOU/ECT@ECT cc: Subject: KCS VPP
+  Email 14711 | arnold-j | score=0.216
+  To: John Arnold/HOU/ECT@ECT cc: Subject:
+  Email 5630 | zipper-a | score=0.216
+  u sld 50 ngz01 @ 2.935 to John Arnold.
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: chart, carr future, carr, contain, future, express, offer, web, hot, option candlestick, candlestick, matrix, solicitation, material respect, employee affiliate
+Representative emails:
+  Email 14617 | arnold-j | score=0.481
+  cc: Subject: option candlesticks as a hot link  The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy any fi
+  Email 14630 | arnold-j | score=0.481
+  cc: Subject: option candlesticks as a hot link 4/10  The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy a
+  Email 14633 | arnold-j | score=0.481
+  cc: Subject: option candlesticks as a hot link  The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy any fi
+  Email 14634 | arnold-j | score=0.481
+  cc: Subject: option candlesticks as a hot link  The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy any fi
+  Email 14490 | arnold-j | score=0.481
+  Subject:	option candlesticks as a hot link  The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy any financ
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: option, trade, trading, day, eol, new, time, gas, energy, andy, desk, problem, system, broker, price
+Representative emails:
+  Email 14651 | arnold-j | score=0.225
+  Subject: Enron Mentions  Family Holding Forbes, 03/19/01  The New Forecast For Meteorologists: It's Raining Job Offers --- Energy Trading Firms Snap Up Grads of an Inexact Science; No Blow-Dryer? No Problem The Wall Street Journal, 03/08/01  ENRON PROVIDES TRADING SERVICES TO MANX ELECTRICITY UNDER 
+  Email 14656 | arnold-j | score=0.213
+  Subject: Enron Mentions - 03-04-01  Utility Deregulation: Square Peg, Round Hole? The New York Times, 03/04/01  3 Executives Considered to Head Military Los Angeles Times, 03/04/01  Bush leaning toward execs for military The Seattle Times, 03/04/01  Enron's Chief Denies Role as Energy Villain / Crit
+  Email 5324 | quigley-d | score=0.181
+  To: Dutch Quigley/HOU/ECT@ECT cc: Subject: (01-154) Implementation of New NYMEX Rule 9.11A (Give-Up Trades) IMPORTANT MEMO  cc: Subject: (01-154) Implementation of New NYMEX Rule 9.11A (Give-Up Trades) IMPORTANT MEMO  Notice # 01-154 May 7, 2001  TO: All NYMEX Division Members and Member Firms  FROM
+  Email 4228 | quigley-d | score=0.180
+  cc: Subject:	(01-154) Implementation of New NYMEX Rule 9.11A (Give-Up Trades) IMPORTANT MEMO  Subject:	(01-154) Implementation of New NYMEX Rule 9.11A (Give-Up Trades) IMPORTANT MEMO  Notice # 01-154 May 7, 2001  TO: All NYMEX Division Members and Member Firms  FROM: Neal L. Wolkoff, Executive Vice 
+  Email 14404 | arnold-j | score=0.180
+  Subject:	(01-154) Implementation of New NYMEX Rule 9.11A (Give-Up Trades) IMPORTANT MEMO  Notice # 01-154 May 7, 2001  TO: All NYMEX Division Members and Member Firms  FROM: Neal L. Wolkoff, Executive Vice President  RE: Implementation of New NYMEX Rule 9.11A ("Give-Up Trades")  DATE: May 7, 2001 ==
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: errol, errol mclaughlin, mclaughlin, mclaughlin corp, sherry, corp, joey, orig, kam, taylor, sure, great, nov, office, swap
+Representative emails:
+  Email 4242 | quigley-d | score=0.475
+  Errol,  what is the username and password ?
+  Email 5387 | mclaughlin-e | score=0.475
+  Thanks,  Errol
+  Email 5391 | mclaughlin-e | score=0.475
+  Done.  Errol
+  Email 10095 | mclaughlin-e | score=0.475
+  Thanks,  Errol, X5-8274
+  Email 10097 | mclaughlin-e | score=0.475
+  Thanks - Errol
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: delta, delta john, morning delta, john, morning, final, real, one, close, know question, question, give, change, attend, couple
+Representative emails:
+  Email 4271 | griffith-j | score=0.372
+  here are the morning deltas, thanks.  john
+  Email 4272 | griffith-j | score=0.364
+  Here are the deltas.  Thanks.  John
+  Email 4268 | griffith-j | score=0.364
+  here are the deltas, thanks  John
+  Email 4264 | griffith-j | score=0.353
+  todays deltas
+  Email 4276 | griffith-j | score=0.353
+  deltas
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: work, monday, thing, fun, night, yes, time, ready, sorry, talk, morning, company, wednesday, good, employee
+Representative emails:
+  Email 14612 | arnold-j | score=0.521
+  wanna get sauced after work?
+  Email 14513 | arnold-j | score=0.521
+  wed after work  what's in it for us?
+  Email 14453 | arnold-j | score=0.521
+  wanna get sauced after work?
+  Email 14416 | arnold-j | score=0.367
+  you working out today?
+  Email 14511 | arnold-j | score=0.367
+  i'm working out w/ perky at tline around 530 today if you're interested.
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: deal, change, nymex, gas daily, daily, gas, change deal, swap, kill, confirm, kill deal, unwind, san, price, unwind deal
+Representative emails:
+  Email 4227 | quigley-d | score=0.327
+  west- san juan please change deal V96295 from gas daily to just a nymex swap, this is an internal deal no confirms to change
+  Email 5352 | quigley-d | score=0.327
+  west- san juan please change deal V96295 from gas daily to just a nymex swap, this is an internal deal no confirms to change
+  Email 4241 | quigley-d | score=0.313
+  please change deals from gas daily to nymex  VB2484 VB2486
+  Email 14678 | arnold-j | score=0.277
+  can you change deal 27 (paribas) today to NYMEX from gas daily
+  Email 14677 | arnold-j | score=0.206
+  can you change #23 and #375 to Nymex
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: get, fyi, late, right, time, tomorrow, rob, late night, night, hear, sorry, andy, look, zipper, talk
+Representative emails:
+  Email 14329 | arnold-j | score=0.590
+  that's what it gets for being a cat
+  Email 14431 | arnold-j | score=0.590
+  got your running shoes on?
+  Email 5829 | maggi-m | score=0.590
+  nothig gets by me
+  Email 14328 | arnold-j | score=0.590
+  when are you getting out?
+  Email 14378 | arnold-j | score=0.472
+  someone's got too much time
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: book, bot, apr, oct, apr oct, jv, ng, sell, trade, position, hedge, roll, az, sure, set
+Representative emails:
+  Email 54 | zipper-a | score=0.360
+  I sold 2,000/d of apr/oct @ 3.19, and 2,000/d @ 3.18. Please put these in the ng-opt book, not the jv book.  Thanks
+  Email 59 | zipper-a | score=0.351
+  I bot 1,000/d apr/oct @ 2.91. please put in my book not justin's. thanks.
+  Email 62 | zipper-a | score=0.325
+  I bot 2500/d apr/oct online @2.835 put those in my book not justin's.  AZ
+  Email 5360 | zipper-a | score=0.297
+  i sold 1,000/d of apr/oct @ 3.02 for GD-Y-Gas Daily book. please put in that book. Thanks.
+  Email 57 | zipper-a | score=0.285
+  I sld 500/d of cy03 2 3.56. pls book this in the JV book. thx.
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: ng, view website, report name, ng propt, name ng, propt, publish available, propt publish, available view, report, website, view, name, revision, website revision
+Representative emails:
+  Email 5385 | mclaughlin-e | score=0.480
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/08/2001>, published as of 11/08/2001 is now available for viewing on the website.  (Revision: 2)
+  Email 5386 | mclaughlin-e | score=0.480
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/08/2001>, published as of 11/08/2001 is now available for viewing on the website.  (Revision: 3)
+  Email 14274 | mclaughlin-e | score=0.480
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=10/10/2001>, published as of 10/10/2001 is now available for viewing on the website.  (Revision: 2)
+  Email 5821 | mclaughlin-e | score=0.480
+  The report named: NG - PROPT P/L <http://trv.dev.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=05/22/2001>, published as of 05/22/2001 is now available for viewing on the website.  (Revision
+  Email 5642 | mclaughlin-e | score=0.480
+  The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/29/2001>, published as of 11/29/2001 is now available for viewing on the website.  (Revision: 2)
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: go, game, eol, run, try, guess, rate, way, dinner, feeling, country, friday, tell, monday, fine
+Representative emails:
+  Email 3353 | quigley-d | score=0.490
+  stupid yahoo msg  went down
+  Email 14479 | arnold-j | score=0.490
+  I went already lazy
+  Email 14417 | arnold-j | score=0.394
+  are you going to the game 2 nite?
+  Email 14481 | arnold-j | score=0.362
+  i'm gonna try
+  Email 14359 | arnold-j | score=0.308
+  how is subscription rate going for EOL versus our expectations?
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: know, let, let know, know need, need, john, maggi, var, dutch, file, total, cal, vladi, question, pl
+Representative emails:
+  Email 4038 | griffith-j | score=0.455
+  Here is your file.  Let me know if you need anything else.  Thanks.  John
+  Email 8064 | quigley-d | score=0.404
+  Tana,  Let me know if you need any more info  Dutch
+  Email 4209 | quigley-d | score=0.386
+  PL John        - 5,385 Maggi     + 3,502 May        -    625  VAR John        28,167,2956 Maggi         1,937,614 May            1,948,078 Total          26,767,309  Let me know if you need anything
+  Email 64 | zipper-a | score=0.364
+  I don't know, but I will go.
+  Email 4402 | pimenov-v | score=0.355
+  Jane,  Here are the GD prices you were asking for. Let me know if you need anything else  Vladi
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: not, tonight, minute, take, liz, game, want, tix, purpose, time, plan, know, dinner, night, feel
+Representative emails:
+  Email 14510 | arnold-j | score=0.438
+  isnt that pasta yummy and nutricious?
+  Email 14605 | arnold-j | score=0.377
+  i couldnt do it.  it took 13 minutes for my alarm to wake me up.
+  Email 14430 | arnold-j | score=0.377
+  i couldnt do it.  it took 13 minutes for my alarm to wake me up.
+  Email 14327 | arnold-j | score=0.340
+  i felt fine.  i ate a breakfast bar before i went.  normally dont do that.  wont be doing that again.  wanna do something tonight?  what time do you get out of here?
+  Email 5831 | maggi-m | score=0.321
+  you did that on purpose didnt you
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: today, position, fine, vol, start, want, open, yesterday, ok, delta john, long, anybody, williams, chance, issue
+Representative emails:
+  Email 14399 | arnold-j | score=0.646
+  i'm blaming my p&l on you today
+  Email 14347 | arnold-j | score=0.646
+  not after today
+  Email 14511 | arnold-j | score=0.448
+  i'm working out w/ perky at tline around 530 today if you're interested.
+  Email 14416 | arnold-j | score=0.448
+  you working out today?
+  Email 14718 | arnold-j | score=0.374
+  if only i didn't have a position today I'd be ok
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: think, good, thing, little, want, join, forget, like, louise, probably, look, guy, country, right, sound
+Representative emails:
+  Email 5367 | mclaughlin-e | score=0.618
+  I think he can handle it.
+  Email 14427 | arnold-j | score=0.618
+  me thinks so
+  Email 3354 | quigley-d | score=0.459
+  can not say that i am , i just have so things up i hate to think of another
+  Email 14336 | arnold-j | score=0.449
+  me thinks you both are a little imbalanced
+  Email 14352 | arnold-j | score=0.366
+  i thought i was joining you

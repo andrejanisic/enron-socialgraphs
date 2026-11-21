@@ -1,0 +1,76 @@
+topic_id,rank,score,email_id,date,sender_id,sender_name,subject_body_preview
+0,1,0.27398640329068985,774,2001-09-24T15:56:35+00:00,86,donoho-l,FYI.
+0,2,0.27398640329068985,765,2002-01-10T15:17:17+00:00,133,harris-s,fyi
+0,3,0.27398640329068985,13687,2001-09-27T19:40:09+00:00,129,corman-s,FYI
+0,4,0.27398640329068985,10804,2001-09-28T20:40:27+00:00,121,hayslett-r,FYI
+0,5,0.27398640329068985,10805,2001-10-01T22:15:22+00:00,121,hayslett-r,FYI
+1,1,0.33237091343350245,6256,2001-03-12T15:07:01+00:00,106,lokay-m,"Transwestern's average deliveries to California were 1075 MMBtu/d (99%), with San Juan lateral throughput at 716 MMBtu/d and Rio Puerco at 7 MMBtu/d.  Total East deliveries averaged 261 MMBtu/d.  El Paso's average deliveries to California were 2396 MMBtu/d (82%) : - PG&ETop, capacity of 1140 MMBtu/d"
+1,2,0.33225238650695454,6253,2001-03-16T16:23:10+00:00,106,lokay-m,"Transwestern's average deliveries to California were 1112 MMBtu/d (102%), with San Juan lateral throughput at 825 MMBtu/d and Rio Puerco at 0 MMBtu/d.  Total East deliveries averaged 310 MMBtu/d.  El Paso's average deliveries to California were 2274 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/"
+1,3,0.331745598819444,6247,2001-04-06T14:42:36+00:00,106,lokay-m,"Transwestern's average deliveries to California were 856 MMBtu/d (78%), with San Juan lateral throughput at 783 MMBtu/d and Rio Puerco at 17 MMBtu/d.  Total East deliveries averaged 564 MMBtu/d.  El Paso's average deliveries to California were 2299 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/d"
+1,4,0.331745598819444,6239,2001-04-20T17:28:44+00:00,106,lokay-m,"Transwestern's average deliveries to California were 949 MMBtu/d (87%), with San Juan lateral throughput at 853 MMBtu/d and Rio Puerco at 30 MMBtu/d.  Total East deliveries averaged 483 MMBtu/d.  El Paso's average deliveries to California were 2310 MMBtu/d (79%) : - PG&ETop, capacity of 1140 MMBtu/d"
+1,5,0.33109055200412146,6329,2001-09-07T13:57:20+00:00,106,lokay-m,"Transwestern's average deliveries to California were 998 MMBtu/d (92%), with San Juan lateral throughput at 790 MMBtu/d.  Total East deliveries averaged 392 MMBtu/d.  El Paso's average deliveries to California were 2204 MMBtu/d (75%): - PG&ETop, capacity of 1140 MMBtu/d, deliveries of 691 MMBtu/d (6"
+2,1,0.25524384784850884,9687,2001-12-26T15:48:37+00:00,80,watson-k,FYI. Kim.
+2,2,0.25524384784850884,1047,2001-11-05T13:54:59+00:00,80,watson-k,"FYI, Kim."
+2,3,0.25524384784850884,10766,2001-10-21T20:32:48+00:00,80,watson-k,"FYI, Kim."
+2,4,0.25524384784850884,6312,2001-11-05T13:34:01+00:00,80,watson-k,"FYI, Kim."
+2,5,0.25524384784850884,955,2002-01-07T16:14:46+00:00,80,watson-k,"FYI, Kim."
+3,1,0.15481037162832623,11161,2001-02-15T08:55:00+00:00,33,fossum-d,"I'm on a call until about 10.  I'll come down and try to grab you and susan and lets call MKM and get a plan.  df  Steven Harris 02/15/2001 08:49 AM To: Drew Fossum/ET&S/Enron@ENRON cc: Susan Scott/ET&S/Enron@ENRON, sstojic@gbmdc.com, Mary Kay Miller/ET&S/Enron@ENRON, Keith Petersen/Enron@EnronXGate"
+3,2,0.15238146660337332,9134,2001-02-15T20:49:00+00:00,133,harris-s,"Drew, I think your last question is the one most critical to us at this point. The marketers can go out and start selling the project but are having a hard time defining how the capacity will be allocated. I left a message yesterday for Mary K. regarding these same issues. Thanks.  Drew Fossum 02/14"
+3,3,0.1452448179538379,11097,2000-06-19T12:04:00+00:00,33,fossum-d,Ha!  I appreciate the complement but I like my current job just fine--all I have to do is crap on a contract now and then and argue with Mary Kay all day long.  Piece of cake!  DF  Steven Harris 06/19/2000 10:53 AM To: Drew Fossum/ET&S/Enron@ENRON cc:  Subject: Re: Pueblo  Excellent questions! Are y
+3,4,0.143440617603212,13477,2001-10-24T21:59:23+00:00,129,corman-s,"Here is the other article  How Enron Blew It Less than a year ago, the Houston-based energy behemoth had everything: money, power, glitz, smarts, new ideas, and a CEO who wanted to make it the most important company in the world. Now its stock is down, wall street is bearish, and the CEO is gone. Wh"
+3,5,0.14143193033150572,6317,2001-10-11T15:13:14+00:00,97,mcconnell-m,"FERC EXTENDS INVESTIGATION OF NEGOTIATED RATE AGREEMENTS BETWEEN PG&E GAS TRANSMISSION NORTHWEST AND SHIPPERS, LOOKING FOR EVIDENCE OF MARKET MANIPULATION  09/27/2001 Foster Natural Gas Report Page 7 (c) Copyright 2001, Foster Associates, Inc. FERC issued an order in mid-month September that set for"
+4,1,0.3920174393881441,13575,2001-10-12T15:01:16+00:00,89,blair-l,FYI.  Thanks. Lynn
+4,2,0.3920174393881441,13272,2002-02-22T23:30:06+00:00,89,blair-l,FYI.  Thanks. Lynn
+4,3,0.3920174393881441,13588,2001-09-12T22:52:28+00:00,89,blair-l,FYI.  Thanks. Lynn
+4,4,0.3920174393881441,13605,2001-07-10T11:26:38+00:00,89,blair-l,FYI. Thanks. Lynn
+4,5,0.3920174393881441,13531,2001-07-10T15:30:51+00:00,89,blair-l,FYI.  Thanks. LYnn
+5,1,0.4667214457441618,828,2002-01-09T22:31:18+00:00,133,harris-s,OK
+5,2,0.4667214457441618,10959,2001-11-28T13:33:12+00:00,144,geaccone-t,9:30 ok? -------------------------- 
+5,3,0.4667214457441618,10852,2001-08-24T11:58:18+00:00,121,hayslett-r,?  OK?
+5,4,0.4667214457441618,10962,2001-11-28T13:34:36+00:00,144,geaccone-t,Ok -------------------------- 
+5,5,0.4667214457441618,768,2002-01-14T22:56:01+00:00,133,harris-s,ok
+6,1,0.45453820097532427,5520,2001-10-24T21:41:00+00:00,97,mcconnell-m,Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+6,2,0.45453820097532427,6194,2001-12-10T19:51:46+00:00,97,mcconnell-m,http://tfc-charts.w2d.com/marketquotes/index.php3?market=1NG  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+6,3,0.45453820097532427,5522,2001-11-13T21:03:23+00:00,97,mcconnell-m,https://clickathome.enron.com/us/signup.asp  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+6,4,0.45453820097532427,789,2002-02-11T23:36:47+00:00,97,mcconnell-m,Are you there yet?  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+6,5,0.4365729064776388,799,2002-03-11T19:08:18+00:00,97,mcconnell-m,test  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+7,1,0.46572324383604424,10900,2001-11-04T02:20:21+00:00,144,geaccone-t,Let me know if ICan do anything -------------------------- 
+7,2,0.46572324383604424,9511,2000-11-28T18:05:00+00:00,144,geaccone-t,Let me know if I forgot something.
+7,3,0.37585893633542006,9214,2001-11-14T13:37:12+00:00,131,horton-s,Supposedly but I am trying to get out of it.  I will let you know.
+7,4,0.3120130029419368,10821,2001-08-17T11:53:38+00:00,121,hayslett-r,"If you have information to complement or complete what is here, please let me know."
+7,5,0.30571858516939593,10756,2001-09-18T20:47:15+00:00,144,geaccone-t,Do I need to let them know who will be there for the items listed below.
+8,1,0.19981689681967588,10869,2001-10-16T17:20:25+00:00,144,geaccone-t,"Some of you had a meeting with Stan on your calendars for Monday, October 22 from 3-5 to go over the plan presentations.  This meeting has been canceled.  Thanks  Tracy Geaccone"
+8,2,0.1820763335229483,947,2002-01-03T22:56:56+00:00,80,watson-k,"Please plan to attend a meeting on Monday, January, 7 from 3:30pm to 4:00pm in EB49C1 to discuss the Trans Pecos Project.  Thanks, Kim."
+8,3,0.17375006796631418,11004,2001-02-23T00:52:00+00:00,144,geaccone-t,"Please plan to attend a meeting to discuss TW maintenance scheduled for this year.  We would like to discuss when the maintenance will be, the duration, and what will be done.  Please be prepared to discuss any savings we will have from the plan for maintenance that will not have to be done because "
+8,4,0.17347157940863417,1022,2002-03-19T23:14:47+00:00,80,watson-k,"Steve,  I will plan to attend this meeting.  Kim."
+8,5,0.16536954822241648,951,2002-01-07T15:23:58+00:00,80,watson-k,"Due to the 1:30 floor meeting with Stan, our prep meeting for the Trans Pecos project is changed to today, Monday, January 7 at 11:00am in EB1336.  Thanks, Kim."
+9,1,0.41782110188482513,6134,2002-01-21T16:31:30+00:00,140,lokey-t,Looks good.
+9,2,0.41782110188482513,9226,2000-12-08T07:41:00+00:00,131,horton-s,This looks good!  Thank you.
+9,3,0.38756611736669955,3542,2001-06-28T17:15:17+00:00,28,schoolcraft-d,looks good to me.  Thanks DS
+9,4,0.3874736848109639,834,2002-01-17T23:09:47+00:00,11,rapp-b,"Kim,  	Looks good to me."
+9,5,0.38514800879553646,13684,2001-11-19T23:02:07+00:00,89,blair-l,Looks good to me.  Thanks. Lynn
+10,1,0.4219957511128219,5536,2001-10-02T20:59:30+00:00,97,mcconnell-m,"When: Wednesday, October 10, 2001 10:00 AM-1:00 PM (GMT-06:00) Central Time (US & Canada).  *~*~*~*~*~*~*~*~*~*"
+10,2,0.4201955126354305,9155,2002-01-14T19:44:26+00:00,78,hyatt-k,"When: Tuesday, January 15, 2002 1:00 PM-2:00 PM (GMT-06:00) Central Time (US & Canada). Where: EB15c1  *~*~*~*~*~*~*~*~*~*"
+10,3,0.4180476286248168,6031,2002-01-29T23:12:49+00:00,97,mcconnell-m,"When: Wednesday, January 30, 2002 3:30 PM-4:30 PM (GMT-06:00) Central Time (US & Canada). Where: 1336  *~*~*~*~*~*~*~*~*~*"
+10,4,0.4121793437924298,9137,2002-02-15T22:39:21+00:00,78,hyatt-k,"When: Thursday, February 21, 2002 11:30 AM-12:30 PM (GMT-06:00) Central Time (US & Canada).  *~*~*~*~*~*~*~*~*~*"
+10,5,0.41215084141378516,5524,2001-11-14T16:27:09+00:00,97,mcconnell-m,"When: Wednesday, November 14, 2001 1:30 PM-2:00 PM (GMT-06:00) Central Time (US & Canada). Where: 1336  *~*~*~*~*~*~*~*~*~*"
+11,1,0.382754968813678,844,2001-08-09T22:10:16+00:00,80,watson-k,"Here they are.  Thanks, Kim."
+11,2,0.382754968813678,1000,2002-02-07T19:27:49+00:00,80,watson-k,"Thanks, Kim."
+11,3,0.382754968813678,919,2001-10-16T17:57:41+00:00,80,watson-k,"Many, many thanks!  Kim."
+11,4,0.382754968813678,981,2002-01-18T17:49:42+00:00,80,watson-k,"Here they are,  Thanks, Kim."
+11,5,0.34185269458418643,916,2001-10-12T18:38:26+00:00,80,watson-k,"Steve,  Here it is.  Kim."
+12,1,0.4245516546560525,9616,2001-10-30T13:06:51+00:00,121,hayslett-r,test2  Rod Hayslett EB4054 713-853-6178
+12,2,0.4245516546560525,9561,2001-11-09T13:50:15+00:00,121,hayslett-r,Rod Hayslett EB4054 713-853-6178
+12,3,0.4245516546560525,10746,2001-11-27T14:18:03+00:00,121,hayslett-r,Rod Hayslett EB4054 713-853-6178
+12,4,0.37063424145469265,10795,2001-09-24T12:33:39+00:00,121,hayslett-r,Please review and get back to me asap.  Rod Hayslett EB4054 713-853-6178
+12,5,0.3626800952684566,9627,2001-10-30T16:04:29+00:00,121,hayslett-r,FYI  Rod Hayslett EB4054 713-853-6178
+13,1,0.40807343804062496,10851,2001-11-27T19:16:45+00:00,133,harris-s,How did it go at the doctor? What did they say? Love You.
+13,2,0.40807343804062496,10712,2001-10-22T13:05:13+00:00,133,harris-s,I love you more.
+13,3,0.40807343804062496,10870,2001-10-16T21:36:51+00:00,144,geaccone-t,I love you.
+13,4,0.3563240924030694,10832,2001-11-15T18:55:13+00:00,133,harris-s,Thanks. I love you and miss you.
+13,5,0.35122036467595735,10986,2001-10-30T21:02:22+00:00,144,geaccone-t,"You always say the most wonderful things!  I love being with you.  I think we were made for each other.  Everything seems to work really well between us. I have found everything I have ever wanted with you.  I can't wait for us to be together always.  I miss you already.  Love you,  Tracy"
+14,1,0.46450032181960543,6115,2002-02-28T19:44:49+00:00,80,watson-k,"Bullets, please!"
+14,2,0.46450032181960543,994,2002-02-01T16:15:52+00:00,80,watson-k,"Bullets, please."
+14,3,0.46450032181960543,6130,2002-01-18T15:38:39+00:00,80,watson-k,"Bullets, please!!!"
+14,4,0.46450032181960543,1042,2001-08-03T03:01:03+00:00,80,watson-k,"Bullets, please.  Thanks, K."
+14,5,0.46450032181960543,6117,2002-01-10T19:20:49+00:00,80,watson-k,"Bullets, please!"

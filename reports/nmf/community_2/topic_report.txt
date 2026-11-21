@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 2
+============================================================
+Topics: 15
+Reconstruction error: 30.6810
+Iterations: 64
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: index, socal, product, gas, mike, position, basis, market, eol, daily, volume, price, sj, physical, topock
+Representative emails:
+  Email 10075 | grigsby-m | score=0.163
+  We have created the new southern border index products for Socal and PG&E topock.  Please create your new basis and gas daily products for these indices as soon as possible.   Mattt will need to create the gd index products as well.  Let the brokers know about the new indices  I have the back office
+  Email 10042 | grigsby-m | score=0.161
+  After continuing to play musical chairs with the west eol products, I think we have decided on a plan.  Keith and Frank will handle the prompt and term basis.  This includes the monthly basis, daily basis, and gd index for SJ, ROX, Scal, CG, and Malin.   They will make certain that the gd index prod
+  Email 10088 | grigsby-m | score=0.157
+  We should change all settlements at Socal to NGI Southern Border, Socal from Southern California Border average.  This new index excludes KRS fixed priced trades.  Please let the brokers know about the changes to Socal basis going forward.  Please change basis and gd swing swaps (fp and index) in EO
+  Email 10057 | grigsby-m | score=0.149
+  Can we create a San Juan phys for Oct bidweek?  What did we decide with this product - swing only?  If we do, I would like to link it to the basis plus nymex, or to the fixed price gas daily (fixed price gas daily will be rolled out during bidweek this month because of our risk in gd basis going for
+  Email 10085 | grigsby-m | score=0.138
+  Let's set up the new indices on Tues.  PG&E topock and Socal border.  Matt and Frank will set up new products for gd swaps and basis.  I am working on the phys index.  Keith will change the socal index from Southern CA border average to Southern  border, Socal.  This new index excludes KRS.  Grigs
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: know, let, let know, know try, game, want, know question, question, anybody, know need, happy, happy hour, need, change, hour
+Representative emails:
+  Email 4696 | scott-s | score=0.425
+  could you just let me know if you got the last email
+  Email 14060 | bass-e | score=0.423
+  Let me know whether or not you will come.
+  Email 10138 | love-p | score=0.416
+  Let O'Neal know if you will be in or out so that we can get some fillers. PL
+  Email 9980 | grigsby-m | score=0.363
+  Let me know when you would like to discuss.
+  Email 7071 | holst-k | score=0.339
+  Please let me know if I can help in any way.
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: pl, look, vote, list, go, absolutely, agree, east, man, come, guy, look like, get, handle, sure
+Representative emails:
+  Email 10161 | love-p | score=0.514
+  This is done. PL
+  Email 7209 | love-p | score=0.514
+  Here it is. PL
+  Email 5978 | love-p | score=0.514
+  here it is. PL
+  Email 7187 | love-p | score=0.514
+  Done. PL
+  Email 7189 | love-p | score=0.514
+  done. PL
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: bass, eric, eric bass, lenhart, matt, hull, bryan, bryan hull, matthew, matthew lenhart, baumbach, blanchard, timothy blanchard, corp, timothy
+Representative emails:
+  Email 14118 | bass-e | score=0.311
+  alright, no more memos about bw3 sucking w/o suggesting an alternative. matt, you won't be there, so your input is worthless bryan, two rows isn't conducive to big groups, so pick some place else.  From:  Bryan Hull 08/07/2000 03:20 PM  To: Phillip M Love/HOU/ECT@ECT cc: Matthew Lenhart/HOU/ECT@ECT,
+  Email 14117 | bass-e | score=0.291
+  Matt told me he is going to draft an lsu player with the first pick - Eddie Kennison  To: Phillip M Love/HOU/ECT@ECT cc: Eric Bass/HOU/ECT@ECT, Jason.Bass2@COMPAQ.com, Bryan Hull/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, lqcolombo@aol.com, Michael Walters/HOU/ECT@ECT, Harry Bucalo/HOU/ECT@ECT, Gary W
+  Email 14131 | bass-e | score=0.289
+  Here it is.  1. Dave Baumbach 2. Matt Lenhart 3. Bryan Hull 4. Mick Walters 5. O'neal Winfree 6. Hector/Lenny/Brian 7. Eric Bass 8. Harry Bucalo 9. Jason Bass 10. Phillip Love 11. Ramiro 12. Gary Lamphier
+  Email 14130 | bass-e | score=0.282
+  1st, and 10th  To: Eric Bass/HOU/ECT@ECT cc: Jason.Bass2@COMPAQ.com, Phillip M Love/HOU/ECT@ECT, Bryan Hull/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, lqcolombo@aol.com, Michael Walters/HOU/ECT@ECT, Harry Bucalo/HOU/ECT@ECT, Gary W Lamphier/HOU/ECT@ECT, O'Neal D Winfree/HOU/ECT@ECT, Hector Campos/HOU/
+  Email 14126 | bass-e | score=0.282
+  The El Tiempo on Richmond. 	From:  Eric Bass                           07/21/2000 12:39 PM  To: Shanna Husser/Corp/Enron@Enron, Timothy Blanchard/HOU/EES@EES, Matthew Lenhart/HOU/ECT@ECT, Chad Landry/HOU/ECT@ECT, Brian Hoskins/HOU/ECT@ECT, Hector Campos/HOU/ECT@ECT, Lenine Jeganathan/HOU/ECT@ECT, Ch
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: site, transaction, request, web site, web, league, transaction request, select, approve, league site, site reply, site select, request follow, send web, request office
+Representative emails:
+  Email 13090 | cuilla-m | score=0.553
+  This is an automated e-mail sent out from the Commissioner.COM web site.  Do not reply to this e-mail, but instead please visit your league's site.  Go to http://fantasy.sportsline.com and sign in!  -------------------------------------------------------------  Martin Cuilla requests the following t
+  Email 13094 | cuilla-m | score=0.551
+  This is an automated e-mail sent out from the Commissioner.COM web site.  Do not reply to this e-mail, but instead please visit your league's site.  Go to http://fantasy.sportsline.com and sign in!  -------------------------------------------------------------  Martin Cuilla requests the following t
+  Email 13097 | cuilla-m | score=0.550
+  This is an automated e-mail sent out from the Commissioner.COM web site.  Do not reply to this e-mail, but instead please visit your league's site.  Go to http://fantasy.sportsline.com and sign in!  -------------------------------------------------------------  Martin Cuilla requests the following t
+  Email 13093 | cuilla-m | score=0.550
+  This is an automated e-mail sent out from the Commissioner.COM web site.  Do not reply to this e-mail, but instead please visit your league's site.  Go to http://fantasy.sportsline.com and sign in!  -------------------------------------------------------------  Martin Cuilla requests the following t
+  Email 13096 | grigsby-m | score=0.545
+  This is an automated e-mail sent out from the Commissioner.COM web site.  Do not reply to this e-mail, but instead please visit your league's site.  Go to http://fantasy.sportsline.com and sign in!  -------------------------------------------------------------  Mike Grigsby requests the following tr
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: file, curve, curve file, save, daily, netco, region, new, set, kk, change, gas daily, directory, create, keith
+Representative emails:
+  Email 10167 | keiser-k | score=0.170
+  There is a new directory for the curve files.  I am trying to request access to this for the traders so they can't see the rest of our files.  This should be done soon.  Can you move your files to this drive today?
+  Email 7232 | keiser-k | score=0.161
+  I tried to breakout the curves for Keith and Frank in the file you are working on but we should run that by them for approval.  Mike will be setting all gas daily and physical curves.  I think we can combine basis, index and GDI curves into one file per trader leaving only three curve files to load.
+  Email 5939 | keiser-k | score=0.160
+  Jeff was able to create a Netco file under O:\erms\erms_adm without an erequest.  There is a file for each region out there now.  I will save the new p&l to each region but could each of you please pick an p&l from your region as a back-up just in case.  these are the files I know of  Exotica P&L He
+  Email 7214 | love-p | score=0.159
+  We need to take the central off before the NY, NY Market, southeast curve files.  We need to add the GDI East curve file.  Also add the two east phy/gas daily curve files - o:tds/tds curve/east/intramonth & gas daily files/eastprodnewstyle and eastmktnewstyle.  Sandra's curve file is o:tds/tds curve
+  Email 5949 | love-p | score=0.155
+  thanks for the file.  I am attaching the basis curves we have set up and the GDY curve file as well.  I am finishing the physical as we speak.  Please look at these three files and let me know if you would like any changes.  We are only putting the published curves in the files, at least to begin wi
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: dg, product, send, care, east, take, bankruptcy, move, list, book, hunter, well, final, watch, trade
+Representative emails:
+  Email 10215 | giron-d | score=0.500
+  thanks  DG
+  Email 10225 | giron-d | score=0.500
+  Done  DG
+  Email 10229 | giron-d | score=0.500
+  I'll be there.  DG
+  Email 10206 | giron-d | score=0.500
+  No Gulf Coast?  DG
+  Email 10219 | giron-d | score=0.500
+  Done  DG
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: mike, grigsby, mike grigsby, phillip, west, desk, list, allen, phillip allen, discuss, fundie, plant, meeting, send, keith
+Representative emails:
+  Email 10063 | grigsby-m | score=0.357
+  To: Mike Grigsby/HOU/ECT@ECT cc: Subject: NOGAPS  http://www.nlmoc.navy.mil/home1.shtml
+  Email 10059 | grigsby-m | score=0.272
+  I would like to get access to the new westpower website.  Phillip Allen asked me to contact you for access.  I work with Phillip on the west gas desk.  I can be reached at 713-853-7031.  Thank you.  Mike Grigsby
+  Email 10041 | grigsby-m | score=0.237
+  	From:  Kenneth Shulklapper                           10/16/2000 11:04 AM  To: Mike Grigsby/HOU/ECT@ECT, Keith Holst/HOU/ECT@ect cc: Subject: (no subject)  To: kenneth.shulklapper@enron.com cc: Subject: (no subject)  enjoy   - Olivia Newton John - Physical.mp3
+  Email 10018 | grigsby-m | score=0.230
+  To: Phillip K Allen/HOU/ECT@ECT, prices@intelligencepress.com, lkuch@mh.com, SSPEAKER@ENERGYINTEL.COM, Phillip K Allen/HOU/ECT@ECT, Mike Grigsby/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Carey M Metz/HOU/ECT@ECT cc: Subject: Enron's February Baseload Physical Fixed Price Transactions as of 1/29/01
+  Email 10090 | grigsby-m | score=0.228
+  	From:  Michael M Driscoll                           03/01/2001 04:26 PM  To: Mike Grigsby/HOU/ECT@ECT cc: Subject: implied heat rates
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: work, today, nice, happy, happy hour, hour, sure, fine, great, ruggle, field, leave, pretty, anybody, ask
+Representative emails:
+  Email 6536 | lenhart-m | score=0.473
+  it works.  thanks again.
+  Email 9914 | grigsby-m | score=0.473
+  these attachments do not work.
+  Email 6367 | lenhart-m | score=0.434
+  did you call for me at work today?
+  Email 6513 | lenhart-m | score=0.434
+  did you call for me at work today?
+  Email 14029 | bass-e | score=0.434
+  Anyone up for Keneally's after work today?
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: tonight, try, game, go, game tonight, tonight try, tonight let, eric, thing, play, row, meet, cancel, field, yes
+Representative emails:
+  Email 13915 | lenhart-m | score=0.405
+  anyone up for woodys tonight
+  Email 13918 | lenhart-m | score=0.405
+  anyone up for woody's tonight around 9:30?
+  Email 6531 | lenhart-m | score=0.389
+  anyone going out for halloween tonight?
+  Email 14075 | bass-e | score=0.388
+  We have a game tonight at 7:00.  Please try to make it to the field by 6:30.  -Eric
+  Email 14158 | bass-e | score=0.376
+  Please try to make it tonight by 7:45 to go over some things.
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: website, report, available view, view website, publish available, report name, view, publish, available, name, position, website revision, east, revision, total
+Representative emails:
+  Email 5997 | love-p | score=0.583
+  The report named: East Position Totals <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=2&report_name=East+Position+Totals&category_cd=1&category_name=EAST&toc_hide=1&sTV1=1&TV1Exp=Y&current_efct_date=11/14/2001>, published as of 11/14/2001 is now available for viewing on the website.
+  Email 5995 | love-p | score=0.583
+  The report named: East Position Totals <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=2&report_name=East+Position+Totals&category_cd=1&category_name=EAST&toc_hide=1&sTV1=1&TV1Exp=Y&current_efct_date=11/13/2001>, published as of 11/13/2001 is now available for viewing on the website.
+  Email 5976 | love-p | score=0.583
+  The report named: East Position Totals <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=2&report_name=East+Position+Totals&category_cd=1&category_name=EAST&toc_hide=1&sTV1=1&TV1Exp=Y&current_efct_date=12/07/2001>, published as of 12/07/2001 is now available for viewing on the website.
+  Email 5956 | love-p | score=0.578
+  The report named: EMW Positions <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=33&report_name=EMW+Positions&category_cd=9&category_name=EMW&toc_hide=1&sTV1=9&TV1Exp=Y&current_efct_date=10/29/2001>, published as of 10/29/2001 is now available for viewing on the website.  (Revision: 2)
+  Email 9904 | keiser-k | score=0.558
+  The report named: West NG Basis Positions_All <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=37&report_name=West+NG+Basis+Positions_All&category_cd=2&category_name=WEST&toc_hide=1&sTV1=2&TV1Exp=Y&current_efct_date=11/21/2001>, published as of 11/21/2001 is now available for viewing on the we
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: deal, book, kk, physical, change, financial, set, price, deal book, new, move, desk, sitara, system, check
+Representative emails:
+  Email 7238 | keiser-k | score=0.309
+  The following will be the deal entry procedures for UBSWEnergy:  Financial 1.  All non-electronic financial deals to be entered directly by Risk Management from a written and signed deal ticket (required) from front office  Physical 1.  All current month physical deals to be booked directly into Sit
+  Email 7235 | keiser-k | score=0.305
+  I have done all of these except the PGL&C deals.  Scott, should these be terminated?  KK
+  Email 3405 | scott-s | score=0.304
+  thanks...do you remember what the deal is with WR Gathering?  Are the deals with England and EJW over at the end of May?
+  Email 7219 | keiser-k | score=0.304
+  The following will be the deal entry procedures for UBSWEnergy:  Financial 1.  All non-electronic financial deals to be entered directly by Risk Management from a written and signed deal ticket (required) from front office  Physical 1.  All current month physical deals to be booked directly into Sit
+  Email 7226 | keiser-k | score=0.304
+  The following will be the deal entry procedures for UBSWEnergy:  Financial 1.  All non-electronic financial deals to be entered directly by Risk Management from a written and signed deal ticket (required) from front office  Physical 1.  All current month physical deals to be booked directly into Sit
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: kam, need, access, susan, problem, update, login, morning, phillip, tomorrow, elizabeth, add, group, stephanie, start
+Representative emails:
+  Email 11025 | gay-r | score=0.608
+  kam:  do i need to do anything?
+  Email 2203 | smith-m | score=0.513
+  Thanks Kam.
+  Email 7215 | allen-p | score=0.502
+  Kam,  Does this give you what you need?  Phillip
+  Email 4693 | pereira-s | score=0.381
+  Thanks, Kam  Susan
+  Email 6394 | lenhart-m | score=0.330
+  there is no need to redraw
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: send, ryan, lee, lee ryan, ryan send, friday, friday april, send friday, april, patton, chris, beggs, shaw, andy patton, brian beggs
+Representative emails:
+  Email 6495 | lenhart-m | score=0.629
+  <lusciouswoods@yahoo.com>, <matthew.lenhart@enron.com>, "John McWhite" <JMcwhite@BreeceHill.com>, "Jayson Gill" <dodebag@hotmail.com>, "JAKE Istnick" <jakeistnick@hotmail.com>, <gobrien@lucent.com>, "David Shaw" <davidishaw@yahoo.com>, "Claude.Aldridge" <Claude.Aldridge@yellowglobal.com>, "Chris Tut
+  Email 6494 | lenhart-m | score=0.629
+  <lusciouswoods@yahoo.com>, <matthew.lenhart@enron.com>, "John McWhite" <JMcwhite@BreeceHill.com>, "Jayson Gill" <dodebag@hotmail.com>, "JAKE Istnick" <jakeistnick@hotmail.com>, <gobrien@lucent.com>, "David Shaw" <davidishaw@yahoo.com>, "Claude.Aldridge" <Claude.Aldridge@yellowglobal.com>, "Chris Tut
+  Email 6470 | lenhart-m | score=0.568
+  <pederleifkjeseth@hotmail.com>, <merlinm@uswest.net>, <matthew.lenhart@enron.com>, "JAKE Istnick" <jakeistnick@hotmail.com>, "David Shaw" <davidishaw@yahoo.com>, <danielkbrock@hotmail.com>, "Claude.Aldridge" <Claude.Aldridge@yellowglobal.com>, "Chris Tuttle" <cbtuttle@hotmail.com>, "Brian Beggs" <br
+  Email 6471 | lenhart-m | score=0.568
+  <pederleifkjeseth@hotmail.com>, <merlinm@uswest.net>, <matthew.lenhart@enron.com>, "JAKE Istnick" <jakeistnick@hotmail.com>, "David Shaw" <davidishaw@yahoo.com>, <danielkbrock@hotmail.com>, "Claude.Aldridge" <Claude.Aldridge@yellowglobal.com>, "Chris Tuttle" <cbtuttle@hotmail.com>, "Brian Beggs" <br
+  Email 6473 | lenhart-m | score=0.537
+  this is funny.  i just wanted to send it off to you guys before i leave to cayman.  i hope the weather is good in houston for you guys this weekend.  it is supposed to be a low of 77 and high of like 87 in cayman.  rough life. <pederleifkjeseth@hotmail.com>, <merlinm@uswest.net>, <matthew.lenhart@en
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: think, good, time, like, want, get, year, week, look, day, start, go, come, leave, great
+Representative emails:
+  Email 13986 | bass-e | score=0.270
+  cc: jasnbass@swbell.net, Eric Bass/HOU/ECT@ECT Subject: Fw: Winning the cultural war  ----- Original Message ----- From: Frank Marsters To: Adams, George Sent: Friday, January 28, 2000 12:15 PM Subject: Fw: Winning the cultural war  ----- Original Message ----- From: Ted & Carla To: Mike Ferguson Se
+  Email 6387 | lenhart-m | score=0.245
+  To: aschott1976@cs.com @ ENRON, BGuilba@aol.com, Timothy Blanchard/HOU/EES@EES, BT1329@aol.com, bcambr@lsumc.edu (Cambre, Brandon C)@ENRON, Patrick Cannizzaro <patrick.cannizzaro@chrobinson.com> @ ENRON, Christopher Coffman/Corp/Enron@ENRON, DWillou925@aol.com, Dave Estorge <dave_estorge@yahoo.com> 
+  Email 6382 | lenhart-m | score=0.238
+  To: Alex Schott <ASCHOTT76@aol.com>, Allison Istre <a_istre@msn.com>, Amy Allums <aallums@law.tulane.edu>, Ashly Morgan <ashly@eatel.net>, Ben Berthelot <bberthelot@ccbcu.com>, Bernard Guste <bguste@gateway.net>, "'Bert and Bret Turner'" <BJBJTURNER1@aol.com>, Bert Turner <Bertjturner@aol.com>, Bob 
+  Email 6747 | kuykendall-t | score=0.234
+  hope everyone is okay with this -- i talked to the people that were here and we all agreed. To: Ina Rangel/HOU/ECT@ECT cc: Subject: Re: Phillip  not to be inconsiderate, but we did get him a gift last year and it seemed like nobody was really that interested in doing it.  we think it's dangerous to 
+  Email 14134 | bass-e | score=0.220
+  Check out this link, and then read the story below. http://www.telegraph.co.uk/et?ac=000625542412043&rtmo=aq4CTWTJ&atmo=99999999&p g=/et/00/4/20/nmar20.html   WAKE UP AMER  A, THIS IS WHY OUR  FOUNDING FATHERS PUT THE SECOND  AMENDMENT IN OUR CONSTITUTION  Where We're Headed     By Robert A. Waters 

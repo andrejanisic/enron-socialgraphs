@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 3
+============================================================
+Topics: 15
+Reconstruction error: 25.5974
+Iterations: 93
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: group, bill, meeting, thursday, bid, caiso, market, provide, desk, question, pizza, new, service, question bill, congestion
+Representative emails:
+  Email 11658 | williams-w3 | score=0.123
+  Group,  We are starting to see some market changes as we transition into the winter months.  First: With EPE we will start seeing a severe morning ramp. We will have to carefully manage the units to prevent "swinging" them and increasing the chance of a unit outage. As the EPE loads plummet off-peak
+  Email 334 | williams-w3 | score=0.123
+  Group,  We are starting to see some market changes as we transition into the winter months.  First: With EPE we will start seeing a severe morning ramp. We will have to carefully manage the units to prevent "swinging" them and increasing the chance of a unit outage. As the EPE loads plummet off-peak
+  Email 342 | williams-w3 | score=0.121
+  Group, We will have a meeting on Thursday of next week at 4 PM (Pizza will be provided--finally) on JAN 24th. I hope our transition to UBS from Enron will be complete by next Wednesday. If so, we will be discussing what we hope to achieve this year and the look of the floor going forward. If not, th
+  Email 5313 | williams-w3 | score=0.121
+  Group, We will have a meeting on Thursday of next week at 4 PM (Pizza will be provided--finally) on JAN 24th. I hope our transition to UBS from Enron will be complete by next Wednesday. If so, we will be discussing what we hope to achieve this year and the look of the floor going forward. If not, th
+  Email 170 | williams-w3 | score=0.113
+  Group,  We will have a real-time meeting on Tuesday August 7th at 4:30PM.  The meeting will run till 5:30. We will go over Hourly EOL implementation, Cuts (yet again), new group members, and market changes.  Our baseball trip to the suite is Thursday August 16th.  Food and beverages will be provided
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: fyi, return, server, password, caiso, figure, dave, fee, counterpartie, appear, lotus note, lotus, impact, database access, attention matter
+Representative emails:
+  Email 3823 | scholtes-d | score=0.480
+  FYI
+  Email 3641 | scholtes-d | score=0.480
+  FYI
+  Email 3708 | scholtes-d | score=0.480
+  FYI
+  Email 3716 | scholtes-d | score=0.480
+  FYI
+  Email 226 | symes-k | score=0.480
+  FYI -
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: mws, st, wbom, st wbom, short, st cali, cali, peak, short mws, mws st, mws mws, apx, cap, long mws, bill
+Representative emails:
+  Email 124 | williams-w3 | score=0.371
+  Group,  We are short 25 mws for on-peak on Thursday in SP-15.  We are short at a price of $205.  Please be sure to put this under the ST-WBOM book.  We are also short 24 mws for ST-CALI on peak tomorrow in SP-15.  The 24 mws go under the ST-CALI book.  As always, please give me a call if you have an
+  Email 483 | williams-w3 | score=0.357
+  Group,  We are short 50 mws in SP-15 for HE 7-22 on Wednesday at $61.44.  Please purchase this 50 mws under ST-WBOM.  St-Cali is short 50 mws in SP-15 for HE 7-22.  All deals should be under St-Cali in Enpower and CAPS.  St-SW is short 20 mws in SP-15 for HE 7-22.  All deals should be under St-SW in
+  Email 212 | williams-w3 | score=0.357
+  Group,  We are short 50 mws in SP-15 for HE 7-22 on Wednesday at $61.44.  Please purchase this 50 mws under ST-WBOM.  St-Cali is short 50 mws in SP-15 for HE 7-22.  All deals should be under St-Cali in Enpower and CAPS.  St-SW is short 20 mws in SP-15 for HE 7-22.  All deals should be under St-SW in
+  Email 207 | williams-w3 | score=0.349
+  Group,  We are short 50 mws in ST-WBOM at $42.88 for HE 7-22 Friday and Saturday in SP-15.  I have picked up some shaped mws from the APX for the afternoon peak on Friday.  These pieces will need to be scheduled with the APX as the counterparty for HE 12-20.  HE 12: 26 mws HE 13: 23 mws HE 14: 20 mw
+  Email 478 | williams-w3 | score=0.349
+  Group,  We are short 50 mws in ST-WBOM at $42.88 for HE 7-22 Friday and Saturday in SP-15.  I have picked up some shaped mws from the APX for the afternoon peak on Friday.  These pieces will need to be scheduled with the APX as the counterparty for HE 12-20.  HE 12: 26 mws HE 13: 23 mws HE 14: 20 mw
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: cell, cell phone, phone, reach, reach cell, office, need bill, monday, wednesday, phone bill, friday, home, need, visit, bill
+Representative emails:
+  Email 228 | williams-w3 | score=0.356
+  I will be out of the office for 06/29/01.  I can be reached on my cell phone at 503-887-3449 if you need anything. Thanks, Bill
+  Email 505 | williams-w3 | score=0.356
+  I will be out of the office for 06/29/01.  I can be reached on my cell phone at 503-887-3449 if you need anything. Thanks, Bill
+  Email 469 | williams-w3 | score=0.322
+  Group,  I will be out of the office visiting CDWR, SMUD and NCPA on Monday through Wednesday.  I should be back Wednesday afternoon.  You can reach me on my cell phone if you need.  Thanks, Bill
+  Email 200 | williams-w3 | score=0.322
+  Group,  I will be out of the office visiting CDWR, SMUD and NCPA on Monday through Wednesday.  I should be back Wednesday afternoon.  You can reach me on my cell phone if you need.  Thanks, Bill
+  Email 13125 | scholtes-d | score=0.309
+  On Monday September 17.  I can be reached on my cell phone or at home.  ds
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: kate, deal, look, pdx, kate symes, symes, symes pdx, report, cara, change, like, cara semperger, semperger, confirm, forward
+Representative emails:
+  Email 1656 | symes-k | score=0.139
+  Following are the deals I changed to the correct time zones, per Will Smith's list:  520330 - forward 373613 - forward 359846 - EOL 353314 - EOL 352613 - EOL 349391 - EOL 349389 - EOL 349242 - EOL 330282 - EOL 300686 - forward 272524.2 - forward 220845 - forward  Most of these were just April deals,
+  Email 1629 | semperger-c | score=0.138
+  sounds great !  Thanks     Kate Symes                03/26/2001 11:13 AM  To: Cara Semperger/PDX/ECT@ECT cc: Subject: Re: More deals found by Will Smith  I think that sounds like a great idea. It doesn't really serve a purpose to have all the time zones as a choice in Deal Blotter if EnPower is goin
+  Email 1662 | symes-k | score=0.136
+  No - they pay you just for being you!  Cara Semperger 03/22/2001 01:09 PM To: Kate Symes/PDX/ECT@ECT cc:  Subject: Re: Forward Obligation report v3.0.0.36 looks great  That's why they pay  me.     :)     Kate Symes                03/22/2001 01:04 PM  To: Cara Semperger/PDX/ECT@ECT cc: Subject: Re: F
+  Email 436 | williams-w3 | score=0.136
+  Thank you Kate.
+  Email 1657 | symes-k | score=0.136
+  I think that sounds like a great idea. It doesn't really serve a purpose to have all the time zones as a choice in Deal Blotter if EnPower is going to sort them out anyway. We're just doubling up on the work that the application already knows how to do. In the meantime, I'll sort through these deal 
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: good, nice, cara, look, day, good morning, look good, morning, weekend, update, way, cara semperger, semperger, diane, job
+Representative emails:
+  Email 429 | williams-w3 | score=0.453
+  Very GOOD!
+  Email 3309 | semperger-c | score=0.392
+  Y'all have a good day.  C
+  Email 3315 | semperger-c | score=0.315
+  NICE!  HAVE A GOOD TIME
+  Email 487 | williams-w3 | score=0.298
+  Nice Job! Looks good!
+  Email 3322 | semperger-c | score=0.284
+  Have a good day  Cara Semperger 503/464-3814
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: know, let, let know, know question, question, know bill, update, go, question kate, hear, chris, question let, problem, plan, kate
+Representative emails:
+  Email 173 | williams-w3 | score=0.498
+  Did you let Leslie know?
+  Email 532 | williams-w3 | score=0.482
+  Let me know if you have any questions.
+  Email 353 | williams-w3 | score=0.411
+  I don't know...
+  Email 538 | williams-w3 | score=0.400
+  Bam. Let me know what you hear
+  Email 1653 | symes-k | score=0.341
+  Here you go, Chris. Please ignore the last four days, as they are still under construction. And let me know if you have any questions.  Thanks, Kate
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: bill, williams, bill williams, iii, williams iii, address, mean, difference, steve, send, williams bill, want, note, believe, technical
+Representative emails:
+  Email 529 | williams-w3 | score=0.458
+  Steve, Just want to make sure you have me as Bill Williams III. Thanks, BIll
+  Email 496 | williams-w3 | score=0.453
+  Troy, The difference is subtle, but I believe you wanted this to go to Bill Williams not Bill Williams III.  Please make the appropriate change to your address book. Thanks,  Bill Williams III Manager Short Term West Hourly Trading 503-464-3730
+  Email 523 | williams-w3 | score=0.450
+  Steve, My address is Bill Williams III, Please make the correction. Thanks, Bill
+  Email 503 | williams-w3 | score=0.427
+  D'Ann, This needs to go to Bill Williams, not Bill Williams III.  The difference is subtle but is rather important if you want the correct person to receive your message. Please make the appropriate change in your contact lists and address book.  Thanks,  Bill Williams III  Manager Short Term West H
+  Email 294 | williams-w3 | score=0.411
+  This should go to Bill Williams. Not Bill Williams IIII.
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: mw, deal, pge, buy, number, deal number, peak, sell, transmission, system, hlh, cob, load, purchase, mid
+Representative emails:
+  Email 13121 | semperger-c | score=0.234
+  We are in a lending agreement with PGE for 19 MW on light load, and 75 MW on the heavy load. You will see us short this amount in the RT position manager for 10/11  Please Buy to fill this short at the MidC, for the STNW book.  Deal # 812532.1 is our sale to PGE on LLH,  Deal # 812531.1 is our sale 
+  Email 11683 | semperger-c | score=0.234
+  We are in a lending agreement with PGE for 19 MW on light load, and 75 MW on the heavy load. You will see us short this amount in the RT position manager for 10/11  Please Buy to fill this short at the MidC, for the STNW book.  Deal # 812532.1 is our sale to PGE on LLH,  Deal # 812531.1 is our sale 
+  Email 427 | williams-w3 | score=0.224
+  When Colstrip goes down we will be short at Montana system and long at PGE System.  We need to buy a transmission wheel from BPA (Account#736780) from PGE System to the Montana System Border.  If need be we can also do a Buy-Resale with WWP to move the energy from PGE Sys/Mid-C/LOLO to the Montana S
+  Email 166 | williams-w3 | score=0.224
+  When Colstrip goes down we will be short at Montana system and long at PGE System.  We need to buy a transmission wheel from BPA (Account#736780) from PGE System to the Montana System Border.  If need be we can also do a Buy-Resale with WWP to move the energy from PGE Sys/Mid-C/LOLO to the Montana S
+  Email 2165 | williams-w3 | score=0.224
+  When Colstrip goes down we will be short at Montana system and long at PGE System.  We need to buy a transmission wheel from BPA (Account#736780) from PGE System to the Montana System Border.  If need be we can also do a Buy-Resale with WWP to move the energy from PGE Sys/Mid-C/LOLO to the Montana S
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: think, help, guy, stuff, kind, like, get, testing, want, able, account, participate, consider, come, actually
+Representative emails:
+  Email 13138 | scholtes-d | score=0.525
+  this i think is yours????
+  Email 13134 | scholtes-d | score=0.525
+  What do you think?
+  Email 3719 | scholtes-d | score=0.525
+  What do you think?
+  Email 438 | williams-w3 | score=0.419
+  I think you know.
+  Email 371 | williams-w3 | score=0.363
+  What do you guys think?
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: schedule, tag, sure, change, send, cut, bert, epe, sink, wrong, sheet, problem, ciso, write, tag number
+Representative emails:
+  Email 5304 | meyers-a | score=0.317
+  TO WHOM IT MAY CONCERN:  Tag number 38616 was cut for he 06 on sunday.  The schedule was 25mw to the ciso @ mead sinking with MWD.  Calpine couldn't supply the energy so the schedule was cut to zero.  I made every attempt to resupply the power from NEVP, which was willing to sell me the power for $1
+  Email 5305 | meyers-a | score=0.317
+  TO WHOM IT MAY CONCERN:  Tag number 38616 was cut for he 05 on sunday.  The schedule was 25mw to the ciso @ mead sinking with MWD.  Calpine couldn't supply the energy so the schedule was cut to zero.  I made every attempt to resupply the power from NEVP, which was willing to sell me the power for $1
+  Email 5311 | williams-w3 | score=0.302
+  Please be sure to send me an email regarding changes, and write them on the schedule. B
+  Email 306 | williams-w3 | score=0.302
+  Please be sure to send me an email regarding changes, and write them on the schedule. B
+  Email 273 | meyers-a | score=0.299
+  Bill:  For yet another day we seem to be having problems including all the schedules in our EPE schedule sheet.  Tag 52159 was not included (25mw schedule to LADWP).  I think part of the problem is some counterparties are not including EPMIWE as a PSE.  Fortunately, the dispatchers had the schedule 
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: time, real, real time, diana, cut, go, day, check, path, transmission, tell, bpa, parking, dave, day ahead
+Representative emails:
+  Email 3638 | scholtes-d | score=0.419
+  Either Sean or I will be forwarding the e-mails to real-time for now on.  Diana
+  Email 360 | williams-w3 | score=0.379
+  NO!!!! You must live with gross tooth decay and bleeding gums. Yellow teeth and excessive plaque build-up are expected in Real-Time...
+  Email 3697 | scholtes-d | score=0.377
+  Kate,  Can you tell me if there was a real-time cut with PGE  on this day on peak?  thanks  diana
+  Email 125 | scholtes-d | score=0.336
+  Bill,  Can you please look into these real-time discrepancies that are mentioned below!!!  Thanks,  Diana
+  Email 13136 | scholtes-d | score=0.287
+  Just a round robin regarding the day ahead transfers to real-time for parking and lending and the fees associated with it.  Please let me know if you can't attend.  Diana
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: dow, jones, dow jones, cara, access, index, database, index price, jones index, price database, cara semperger, semperger, database access, price, datum
+Representative emails:
+  Email 1618 | semperger-c | score=0.578
+  Thanks Kate, I will get cracking on that data.  c     Kate Symes                02/22/2001 04:34 PM  To: Cara Semperger/PDX/ECT@ECT cc: Subject: Re: Dow Jones Index Prices - Database Access  I've started to transfer my Dow Jones e-mails into five separate folders which can be found at:  P:\Schedulin
+  Email 1620 | semperger-c | score=0.577
+  I have made a new file where we can just plug in the numbers every day without all the hassle of moving files, etc.  It is in the DJ folder and March is queued up and ready to go.  Take a look.  c     Kate Symes                02/22/2001 04:34 PM  To: Cara Semperger/PDX/ECT@ECT cc: Subject: Re: Dow 
+  Email 1683 | symes-k | score=0.577
+  I've started to transfer my Dow Jones e-mails into five separate folders which can be found at:  P:\Scheduling\Dow Jones - Cob\Mead\Mid-C\NP-SP\Palo  You can already access February's files for each of these delivery points, and prior months will be coming in soon as I have free moments in the day. 
+  Email 1678 | symes-k | score=0.573
+  Thanks for setting that up, Cara. I'll begin plugging the numbers directly in there.  Kate  Cara Semperger 03/01/2001 03:22 PM To: Kate Symes/PDX/ECT@ECT cc:  Subject: Re: Dow Jones Index Prices - Database Access  I have made a new file where we can just plug in the numbers every day without all the
+  Email 1615 | semperger-c | score=0.569
+  Yeah, people are already asking me where the chart is already  c     Kate Symes                02/22/2001 08:14 AM  To: Cara Semperger/PDX/ECT@ECT cc: Subject: Re: Dow Jones Index Prices - Database Access  Here's what I heard back from Tim. Do you want me to go ahead and save the Dow Jones data to a
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: work, night, grab, appreciate, work work, work bill, hey, go, wanna, bill, return, outside, beer, feb, dean
+Representative emails:
+  Email 497 | williams-w3 | score=0.597
+  Ticker on bottom works, nothing else really does.   http://oasisp.caiso.com/
+  Email 398 | williams-w3 | score=0.508
+  Thanks for the email, I already worked this out with Kal.  Bill
+  Email 434 | williams-w3 | score=0.401
+  Sweet.  Just grab me after lunch sometime I spose...if that works for you.
+  Email 5323 | merriss-s | score=0.351
+  There are a few days/nights which I can hopefully not work. I don't want to work the night of 5/1, the night of 5/3, the day and night of 5/4, and the night of 5/17. Thanks, Steven
+  Email 5316 | williams-w3 | score=0.346
+  Group, I can now be reached with email outside of work at wwilliamsiii@palm.net This should work even if my cell does not.   [mailto:wwilliamsiii@palm.net]  BW
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: el, el paso, paso, epe, model, information, login, tonight, new, ryan, print, sheet, preschedule, day, paso model
+Representative emails:
+  Email 3836 | williams-w3 | score=0.347
+  Group,  There are two new paths for EPE information.  The first is for EPE schedules: This path is P:/Trading/Real Time/El Paso Schedules/Admin/El Paso Schedules/2002/Feb02/EPE_FEB_02  The second is for the EPE models: M:/Electric/EPE/EPE 2002/Models/February02/...  The estate will be settling CAPS 
+  Email 278 | williams-w3 | score=0.347
+  Group,  There are two new paths for EPE information.  The first is for EPE schedules: This path is P:/Trading/Real Time/El Paso Schedules/Admin/El Paso Schedules/2002/Feb02/EPE_FEB_02  The second is for the EPE models: M:/Electric/EPE/EPE 2002/Models/February02/...  The estate will be settling CAPS 
+  Email 5318 | williams-w3 | score=0.347
+  Group,  There are two new paths for EPE information.  The first is for EPE schedules: This path is P:/Trading/Real Time/El Paso Schedules/Admin/El Paso Schedules/2002/Feb02/EPE_FEB_02  The second is for the EPE models: M:/Electric/EPE/EPE 2002/Models/February02/...  The estate will be settling CAPS 
+  Email 2160 | slinger-r | score=0.321
+  I designed a slightly different el paso model and it is in the Jan 02 el paso folder under Test El Paso Model.  The differences are just getting rid of the PX junk and adding in places to copy in the dispatch info(notes and proposed buy/sale decisions).  It should make it easier for the person on th
+  Email 2225 | slinger-r | score=0.321
+  I designed a slightly different el paso model and it is in the Jan 02 el paso folder under Test El Paso Model.  The differences are just getting rid of the PX junk and adding in places to copy in the dispatch info(notes and proposed buy/sale decisions).  It should make it easier for the person on th
