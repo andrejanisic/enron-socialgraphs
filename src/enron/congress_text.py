@@ -25,6 +25,7 @@ minute time today yes okay sir ask tell think know believe want like look come l
 good right way thing lot sure mean say go get make try point really little bit
 chair recognize opening expire cong hrg clerk aye nay swear hon interview
 senate governmental affairs permanent investigations
+fyi
 """.split())
 
 SPEAKER_LABEL = re.compile(r"^(?:(?:Mr|Ms|Mrs|Dr|Senator|Chairman|Representative)\.? [A-Z][A-Za-z'\-]+"
