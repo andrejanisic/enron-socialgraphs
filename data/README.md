@@ -37,3 +37,7 @@ The clean-up of `body_clean` can be repeated on the original database, in this o
    then removes each "Forwarded by" line and the header that follows it (sender, date,
    To, cc, Subject), up to the first line of real text.
 2. `src/enron/database_updates.sql` – removes the BlackBerry footer and long signatures.
+3. `uv run python -m enron.import_new_people` – adds people without a mailbox (Fastow,
+   Causey, Glisan, Kopper, McMahon, Watkins, Mintz) and their emails with the 148, from
+   `temp_names.csv` and `temp_mails.csv`.
+4. Steps 1 and 2 again, so the imported emails get `body_raw` and are cleaned the same way.

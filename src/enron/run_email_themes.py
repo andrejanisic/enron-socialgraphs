@@ -45,6 +45,8 @@ EMAIL_WORDS = frozenset("""
 enron ena ect hou com corp cc fw fwd fyi re subject email mail message attach attached please
 thanks info regards hi hello pm am week day tomorrow call need let know get like want go think look
 """.split())
+# Email abbreviations that are stopwords for the emails only, not for the Congress texts
+EMAIL_ONLY = frozenset({"fyi"})
 # Two-word names counted as one word
 PHRASES = [("el", "paso"), ("san", "juan"), ("wall", "street")]
 GLOSSARY = DATA_DIR / "glossary.csv"        # term, written (optional), meaning: explains figure terms
@@ -173,13 +175,14 @@ def main():
     themes = th.load_themes(THEMES)
     names = th.theme_names(themes)
 
-    # lemmas for both texts, with the same stopwords
+    # lemmas for both texts, with the same stopwords (email-only abbreviations
+    # such as FYI are not stopwords for the Congress texts)
     passages = pd.read_csv(PASSAGES)
     stop = PROCEDURE_WORDS | EMAIL_WORDS | people_names(load_people())
     nlp = load_nlp()
     print(f"Lemmatising {len(emails):,} emails and {len(passages):,} Congress passages ...")
     email_tokens = join_phrases(lemmatise(emails["text"].tolist(), nlp, stop), PHRASES)
-    passage_tokens = join_phrases(lemmatise(passages["text"].tolist(), nlp, stop), PHRASES)
+    passage_tokens = join_phrases(lemmatise(passages["text"].tolist(), nlp, stop - EMAIL_ONLY), PHRASES)
 
     # C. Congress against email language
     words = compare_rates(passage_tokens, email_tokens)

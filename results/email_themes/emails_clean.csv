@@ -100,15 +100,12 @@ buys 11 Sep02
 buys 17 Oct02
 buys 11 lot Apr/Oct03 strip
 Counterpart is NG-X-OPT-JV"
-70,7,2001-10-01 20:45:11+00:00,12,"How did you end up with Robert Jones on this ?
-Andy"
-71,7,2002-01-22 18:44:08+00:00,85,"Dave,
-Mike mentioned that he was going to speaking to you in regards to the estate. Just wanted to let you know that I have a very high opinion of him. He is extremely sharp and is one of the more capable traders I've dealt with in non-trading commercial situations. When he worked for me at EnronOnline I always viewed him one of my best folks. Do what you will with this unsolicited opinion, but I thought it best if I let you know.
-Andy"
+70,7,2001-10-01 20:45:11+00:00,11,How did you end up with Robert Jones on this ?
+71,7,2002-01-22 18:44:08+00:00,84,"Dave,
+Mike mentioned that he was going to speaking to you in regards to the estate. Just wanted to let you know that I have a very high opinion of him. He is extremely sharp and is one of the more capable traders I've dealt with in non-trading commercial situations. When he worked for me at EnronOnline I always viewed him one of my best folks. Do what you will with this unsolicited opinion, but I thought it best if I let you know."
 72,7,2001-10-01 15:24:30+00:00,41,I think it relates to Paul not getting the top job in their soon to be spun off unregulated unit. That job went to some guy named Shockley who Eric Vanderwald will report to. Their press release makes for fun reading.
 73,7,2001-09-28 13:50:27+00:00,20,"Don't know if you saw it, but your friend and mine Paul Addis is leaving AEP to ""pursue other interests""."
-74,7,2001-09-26 21:21:42+00:00,63,"Greg was interested in where to make contributions in the wake of Johnathan's death. He worked with eSpeed. Below is the information he requested.
-Andy
+74,7,2001-09-26 21:21:42+00:00,62,"Greg was interested in where to make contributions in the wake of Johnathan's death. He worked with eSpeed. Below is the information he requested.
 Johnathan Uman
 Celebration of Jonathan J. Uman's Life
 Thursday, Sept. 20 11:00am
@@ -1424,13 +1421,12 @@ Detailed monthly P&L covering all trading activity for the last three years."
 723,146,2001-11-08 17:20:48+00:00,29,"Greg, as per your request -
  *2001 bonus numbers - assumes no ""fours or fives"" get a bonus and is completely composed of cash no LTIP - $30M.
 Delainey"
-724,7,2001-11-12 18:08:46+00:00,132,"Greg,
+724,7,2001-11-12 18:08:46+00:00,131,"Greg,
 I know this has been a tough couple of weeks for you but I thought I would drop you a line and share my impressions:
 1). This deal is an ideal opportunity to merge back and mid office support platforms. We have discussed this many times and EnronNetworks was practically set up for this (CommodityLogic et al...)
 2). I don't know what you folks have in mind but I could see leaving ENE's market making and trading structure intact and having DYN's asset-based trading be just another business unit like EES was. but the key is the tremendous cost savings of the common support platform.
 I don't mean to be presumptuous but I hadn't talked to you in a while and wanted to get it off my chest.
-Good luck,
-Andy"
+Good luck,"
 725,88,2001-11-15 00:15:53+00:00,56,"Payments are seen by Treasury, Bowen and Me (as Cash person at the moment). Payments of the specific nature we are talking about would not be seen by anyone outside that group. Hickerson only sees aggregate cash and new bank accounts (whihc is how he saw Swapco).
 It would not be visible apart from to Ray."
 728,59,2001-07-26 16:21:13+00:00,109,"Just got a call from Hertzberg.
@@ -2818,8 +2814,7 @@ Conditions. Phase 1 will be to sign the confirmation with the attached Annex
 A, and then, as Phase 2, we will endeavor to negotiate and sign an ISDA
 Master Agreement. I am attaching a draft Schedule to the ISDA Master
 Agreement for your review."
-1432,7,2000-06-16 10:49:00+00:00,12,"Please take a look at these prior to us getting together.
-Andy"
+1432,7,2000-06-16 10:49:00+00:00,11,Please take a look at these prior to us getting together.
 1433,7,2000-06-21 11:21:00+00:00,10,The going gets pretty slow with all the different definitions...
 1434,88,2000-06-27 09:35:00+00:00,99,"The spectrononline problem.
 From initial IT investigation, it appears the domain name is owned by a
@@ -2839,9 +2834,8 @@ Details from web research:
  Admin Contact, Technical Contact, Zone Contact:
  Steve Procter (COCO-21639) sales@easily.co.uk
  +441727874464 (FAX) +441727874464"""
-1436,7,2000-07-05 13:50:00+00:00,24,"This is what I got back from espeed, which is completely useless. No need for
-you do anything until I speak with them.
-Andy"
+1436,7,2000-07-05 13:50:00+00:00,23,"This is what I got back from espeed, which is completely useless. No need for
+you do anything until I speak with them."
 1440,88,2000-07-13 17:08:00+00:00,75,"We need to ensure that any Brokers (TrueQuote's own included) have no access
 to transactions entered into by Enron with other counterparties. Also no
 access to the information behind the prices that isn't available to others
@@ -2902,7 +2896,7 @@ Justin
 8. Additional London based resource - Mark Evans
 In line with the Slide for US - Justin's name was associated with all items
 for Europe etc."
-1455,7,2000-11-02 14:02:00+00:00,229,"Let me try and be clear on this, as I'm not sure if you are waiting for me to
+1455,7,2000-11-02 14:02:00+00:00,228,"Let me try and be clear on this, as I'm not sure if you are waiting for me to
 make a decision on this, or vice versa:
 1). Energy operations believes, as per yesterday's conversation, that the
 vast majority of errors on broker trades are caught in the check out with the
@@ -2920,8 +2914,7 @@ Enron and Counterparty. We can ask to have margin cover all outstanding
 trades that were generated by broker, but I can't for the life of me
 understand why anyone would sign that, as we are Enron already takes that
 risk and we are not even going to be paying them brokerage.
-If this presents problems for you let's discuss.
-Andy"
+If this presents problems for you let's discuss."
 1456,88,1999-07-05 18:23:00+00:00,2100,"Let's be clear about all of the confusion which took place last week on how
 to register, this is what we are doing. Any comments or problems please
 reply. I have tried to address everyone's points (see end of email).
@@ -14430,10 +14423,9 @@ Where: ECS 06112
 Please accept this invitation, as it will automatically populate onto your calendars.
 Irena Hogan
 x36143"
-6365,48,2001-11-13 22:07:30+00:00,67,"Greg,
+6365,48,2001-11-13 22:07:30+00:00,66,"Greg,
 One of my concerns regarding the merger is future compensation. It is well known throughout the industry that Dynegy pays the lowest bonuses. What incentive do we have to make money next year knowing bonuses in 2002 will be abysmal? For that matter, what guarantees will be made in order to prevent a massive exodus next year for this reason?
-Thank you for your attention,
-Andy"
+Thank you for your attention,"
 6367,104,2001-05-14 13:41:00+00:00,8,did you call for me at work today?
 6368,104,2000-12-20 08:14:00+00:00,19,"i will be in town fri afternoon. tell max and i will see you guys either
 fri or sat."
@@ -19253,12 +19245,11 @@ websites, and (2) respond to Craig about this agreement. When you both get
 back in town can we set a time to discuss this. Thanks..."
 8328,132,2000-10-12 12:27:00+00:00,19,"I have an appointment at 1:00 today and should be back to the office sometime
 between 2 - 2:30."
-8329,7,2000-10-12 17:44:00+00:00,51,"Tana,
+8329,7,2000-10-12 17:44:00+00:00,50,"Tana,
 Can you please have ENA, EPMI, and Enron Canada Corp. each sign a copy of the
 participant agreement attached below for the Intercontinental Exchange. When
 signed please return them the fax number listed and let me know when they
-have gone out. I got Mark Taylor's okay on this.
-Andy"
+have gone out. I got Mark Taylor's okay on this."
 8330,139,1999-10-25 15:06:00+00:00,48,"Below is a confirm issue for handling.
 Chris, in the future, please direct your confirmation requests to Susan
 Bailey, who is the current paralegal on the confirm rotation, or if the
@@ -39623,3 +39614,927 @@ I still disagree with the $1 Million fine for such a minor violation of our VAR 
 I realize you have given the west desk significant leeway in the last few months regarding VAR. We have been making excellent progress towards VAR reduction in an environment in which the VAR calculation and tolerance are constantly changing. My suggestion for implementing a VAR control system that provides for penalties but gives traders room to probe for maximum VAR utilization is a warning for minor breaches (<$500,000) and penalties for violation of two or more consecutive days or initial violations greater than $500,000. The amount of the penalties should be documented in advance and should increase with the amount of the violation.
 Please consider these suggestions. We want to play by the rules, but the rules need to be fair and known in advance. Also, we are willing to accept these policy revisions retroactively and forget about the $1 million from this morning.
 Phillip"
+14798,7,2001-10-24 20:36:15+00:00,8,"Congratulations on the new job !
+Good luck,"
+14799,153,2001-05-14 08:42:00+00:00,7,"Well, we are at least making news."
+14800,151,2001-05-14 07:10:00+00:00,28,"Congratulations to the entire team.
+This sale was critically important to the credit management of the company
+and I am grateful to each team member for their efforts."
+14801,151,2000-11-22 06:59:00+00:00,12,"Greg,
+Attached are the daily position reports for the various Raptor vehicles."
+14802,47,2001-02-27 10:17:00+00:00,54,"I have actually talked with these guys before. More than a year ago I
+think. I may have an old copy of their business plan. The guy I talked to
+was Frank Levy, their CEO. Just out of curiosity I would like to talk to
+them again to see if they have anything going."
+14803,153,2001-06-21 16:03:00+00:00,12,Thought you might be interested in this feedback from a recent conference.
+14804,153,2001-11-14 17:46:36+00:00,62,"It seems everyone has received some level of interest in some sort of combination of the Paper, Steel and Metals businesses. I have discussed with Greg that we ask Bruce Garner to organize the expressions of interest and see if there is anything real here. So he will be talking with Gold and others with respect to the Metals side of this."
+14805,52,2001-11-15 19:41:44+00:00,82,"Today's message points are attached.
+Attached is a copy of the Form 12B-25 Filing (Notification of Late Filing)
+PLEASE NOTE - the call will take place daily at 10:30 am in EB 4701. If you are unable to attend, please send someone from your group in your place.
+DAILY CALL:
+TIME: 10:30 am (Central)
+PLACE: EB 4701 (for those in Houston)
+DOMESTIC
+CALL IN # 877-214-0402
+INTERNATIONAL
+CALL IN # 601-352-8646
+HOST CODE 564778 (for Steve Kean's use only)
+PARTICIPANT CODE 285987"
+14806,153,2001-11-17 23:32:22+00:00,19,Mark M should help with the resources. Why would you go exclusive with anyone on Metals at this point?
+14807,47,2001-08-29 04:49:26+00:00,25,are you putting together an analysis and recommendation on the new goodwill rules? i would like to get together to talk about this next week.
+14808,155,2000-07-18 14:07:00+00:00,88,"I think it would be helpful if we met sometime soon to ""take inventory"" as to
+our legal entity structures (thus far) for the Enron Net Works ""family"".
+There has been a fair amount of entity formation (and, perhaps, commercial
+activity) and I want to make sure the all entities and assets are where they
+are suppose to be.
+To that end, please contact my assistant, Darlene Forsyth (x3754) as to your
+availability over the next week so we may take an hour or so to compare notes."
+14809,155,2000-10-27 11:44:00+00:00,69,"Mark (T.) and I have recently discussed our forwarding to ENA Legal our
+updated dealflow summaries so we can ensure that (1) legal coverage is being
+provided for the relevant transactions and (2) there is agreement that the
+""right"" lawyers (both inside and outside) are being engaged.
+Please feel free to distribute, as needed. I previously provided Travis with
+a copy.
+Let me know if you have any questions/comments."
+14810,155,2001-01-03 12:21:00+00:00,200,"Rob, as you may know, and Mark, as you are already aware, Nora has been
+supporting the effort's of Harry Arora's DealBench team with respect to
+various activities. (DealBench owns and operates a proprietary electronic
+commerce or Internet site through which various business services may be
+offered, including an online dataroom for due diligence). One of the
+DealBench members, Tobias Munk, has been speaking with the Freshfields law
+firm regarding the establishing of a business relationship for 2001 whereby
+Freshfields would provide consulting services relating to DealBench's
+activities, as well as business referral services for the utilization of
+DealBench and its myriad of sites/services; Freshfields, in turn, would
+receive a percentage (10%?) of site license fees paid by customers referred
+to DealBench by Freshfields.
+Nora has worked very hard on DealBench matters and, when needed, has called
+on the expertise of Bob Baird and others at V&E regarding securities,
+regulatory, and IP-type matters The Commercial Team finds the Freshfields
+proposal very attractive and would like to pursue. To that end, in Nora's
+absence, I would like to discuss with you our moving this forward, if
+viable. Please let me know your availability to discuss during the next
+couple of days."
+14811,155,2001-01-16 18:30:00+00:00,19,"Any thoughts/comments to Nora Dobin's January 9th email? Please advise.
+(Also, let me know if you need another copy)."
+14812,155,2001-04-06 15:21:00+00:00,34,"Mark: Have you had a chance to visit with Mary and/or Sara regarding our
+working lunch presentation in the Swaps arena for my Group (and, perhaps,
+others)?
+Please let me know at your convenience."
+14813,16,2001-05-31 14:44:00+00:00,17,"Kristina, Jordan and Vicki:
+Thought your groups may be interested in these materials on revised Article 9."
+14814,153,2000-12-13 08:17:00+00:00,19,"Congratulations on the additional role! Clearly well deserved. We hope to
+help Enron keep hitting on all those cylinders."
+14815,153,2001-07-23 05:45:54+00:00,287,"Guys
+I am currently on vacation and unable to deliver this in person. However, as PRC approaches I thought it would be useful to forward to you a few of my accomplishments thus far in 2001 besides being able to take vacation:
+1. EIM has overachieved its income targets for the first half of the year and is on track to overachieve the entire year.
+2.. We have built a recurring commodity based wholesale business in forest products and steel that has many years to run with significant growth opportunities.
+3. Learning from other start up business units, we are building EIM at a reasoned pace and ensuring that costs appropriately reflect profit opportunites.
+4. EIM enters its second year of existence and its second year of profitability.
+5. We have made a significant impact on the two industries and remain the topic of conversation in most industry circles.
+6. EIM has successfully built a coordinated team effort and has successfully redeployed many key Enron personnel into value creation positions.
+7. Having made an impact in N America, the European team is under construction and is expected to be profitable by the end of the year, its first year of existence.
+8. I am the executive lead on the Vanderbilt recruiting effort and since my involvement, Vanderbilt is the most successful school we recruit from (cost per student and percentage of acceptances).
+9. I remain extremely involved in the mentor program and meet with my mentee of 3 years regularly. In spite of my advice, he still seems to be progressing within the company!
+10. I believe I communicate the necessary information to senior management without burdening you with trivial details to utilize your time effectively.
+Aloha!"
+14816,150,2001-07-17 14:53:24+00:00,63,I have forwarded a copy of a daily report on cash that we now distribute to certain corporate people as well as the business unit information to each operating company accounting officer. Please let me know if you would like to see this daily. It does at least give you a feel where the money is going on a real time basis. Thanks.
+14817,149,2001-06-26 22:37:11+00:00,80,"Jeff:
+I have a major problem with Ben Glisan being deleted, especially without a chance to comment. I believe he is as critical to the organization as all of the ""tier two"" members (and has had a larger p/l contribution). If you disagree, I need to know so I can appropriately set his expectations. I look at this list and I cannot discern the standard for inclusion. This standard must be clear and will be closely watched by all employees."
+14818,149,2001-06-11 01:01:24+00:00,14,Nothing to do except things like this when you're trapped inside by a flood.
+14819,149,2001-04-16 19:25:00+00:00,101,"Jeff:
+I'm sure this is just a ""misunderstanding"", but I know that UBS Capital has spent innumerable hours with management. While Mark says that he doesn't want LJM to have an advantage, it looks like LJM is being put at a disadvantage. You would think that Cliff and Mark would welcome a new bidder with open arms after failing to sell this business for 2+ years. Until this is resolved, I'll assume that LJM is out of the bidding and will not do any further work. Enron is back to one bidder (the lower one) -- better for our company ???"
+14820,125,2000-10-19 10:35:00+00:00,99,"Jordan: Congratulations on your promotion!
+I am forwarding to ;you one of the Raptor 2 hedges which was to be finalized
+earlier this month. My most recent draft was dated October 5 and I never
+received comments until this morning (from Ryan Siurek) which prompted the
+revisions attached. Ryan is also expecting comments from Rodney Faldon.
+I don't know if you have been updated on the various Raptor swaps which have
+been created over the past few months. The attached is to hedge ESA assets.
+I'd be glad to give you a brief overview, as would Ryan. Thanks. Sara"
+14821,125,2000-10-23 13:25:00+00:00,25,"All: Attached are clean and redlined versions of the swap reflecting changes
+from tax. Please forward docs to other persons who need to review. Thanks."
+14822,125,2000-12-06 16:20:00+00:00,8,Here is the latest margin rate change -
+14824,36,2001-02-09 18:44:00+00:00,6,thanks for the words of encouragement
+14825,155,2001-12-05 23:10:06+00:00,45,"With the risk of looking silly, would you mind providing me with a description of an ispso facto clause, its relevance, and is it just unique to forward contracts?
+If there is something I can read instead of taking your time, please let me know."
+14826,151,2001-05-14 17:10:00+00:00,28,"Congratulations to the entire team.
+This sale was critically important to the credit management of the company and I am grateful to each team member for their efforts."
+14827,46,1999-06-02 16:46:00+00:00,115,"Jordan, Attached is the latest structure. This is still subject to change
+as AA has not yet approved. The deal basically involves creating a new
+entity to take ownership of 2 existing Electric Compressor Motor Drivers and
+associated contracts which ECT currently owns. The compressor motor drivers
+are supplied with electricity from the Navajo Tribal Utiltity Authority
+(NTUA). ECT sells horsepower created by the motor drivers to Transwestern in
+exchange for $$ and MMBtus.
+Lance Schuler will be working the finance portion of this project. This is a
+2nd Quarter deal. Would you expect anything less? Please let me know who
+will be working on this from your group or call to discuss any questions."
+14828,46,1999-06-02 17:10:00+00:00,63,"Attached is a short outline of the proposed steps to transfer the Compressor
+Motors, NTUA Contract, and TW Contracts to ECS LLC. I know we still don't
+have structure approval, but I can begin working on the documentation for
+those items that will not likely change (the transfer of assets and
+contracts).
+Please review and let me know of any issues or problems."
+14829,150,2001-05-03 00:40:00+00:00,189,"Thank you for agreeing to speak at the All Accounting Offsite on May 23 at the Adams Mark Hotel. We expect to have approximately 500 participants in the large ballroom. We will provide a laptop and projector, so you can either send your presentation to Sharron Westbrook in advance or you can bring the file with you to load. We plan to post the presentations on the Enron intranet after the offsite so we won't need to make hard copies available.
+The proposed agenda follows:
+8:30 Opening Remarks Rick Causey
+9:15 Panel: Cash Reporting and Forecasting Bob Butts, Wes Colwell, Tim Despain, Mary Perkins
+10:15 Break
+10:30 Panel: New Enron Businesses Mike McConnell and Ray Bowen
+11:30 I Buy it and GSS Update George Wasaff
+12:00 Lunch
+1:00 Project Sunrise Update Jan Johnson and Mark Frank
+1:30 Interaction between Tax and Accounting Greek Rice and Jim Ginty
+2:00 Enron Center South Update Bill Donovan
+2:30 Investor Relations Update Paula Rieker
+3:15 Break
+3:30 Trading Simulation Scott Neal
+4:30 Reception
+If this time will not work for you or if you have questions, please let Sharron know.
+Thanks Again, Rick"
+14830,75,2000-11-03 15:38:00+00:00,110,"Hi Jordan,
+I support ENA's Chicago group in their activities with Peoples. Peoples and
+Enron have a jointly (50/50) owned company called enovate, which will be
+involed in managing some of Peoples assets and some trading activities. Each
+of the parents will be establishing a line of credit to cover cash flow. It
+is expected that Corp will be lending the money for Enron's part, and Sarah
+Wesner has been involved in the process. Therefore, I thought it would be a
+good idea to run this transaction through your group for
+blessing/comment/sign off/whatever is appropriate. I can give additional
+information to whoever you decide should take a look at this."
+14833,151,2001-10-16 20:26:42+00:00,207,"As we have discussed at the Board level as well as in Management Commitee, the default swap market is extremely illiquid. While it is true that ENE is one of the most liquid names in the market, the entire market would move based on an order of $40 to $50 MM. We have heard that there have been standing sell orders in the market totalling approximately $150 MM which have yet to be absorbed, it could be that the prices moved significantly in order for those sellers to find a buyer.
+While this market is an important datapoint in evaluating the credit markets view of our name, it is not the sole determinant. It is important to note that secondary trading levels of our bonds (a far more liquid market and accurate indicator of our ability to raise incremental capital) have only widened 5 - 10 basis points over the course of the day.
+While I would very much like to tighten the spreads in the default swap market, I think that we need to keep those price markers in perspective. Having said that, anything we can do to support the credit and tighten those prices ultimately helps in our ability to raise debt in all markets."
+14834,153,2001-12-07 19:48:58+00:00,8,Fine with me. Let's get this out ASAP!!!!!!!
+14835,85,2001-05-23 18:47:55+00:00,11,"I'm definately not going to support you on this.
+Just Kidding"
+14836,88,2001-11-27 19:31:43+00:00,25,Not included in the schedule is the $300mm of LCs expiring on 11/30. Just so you know - but I think the decision is obvious.
+14837,88,2001-12-10 21:29:30+00:00,175,"Firstly, I never pick up voicemail so I just got your message from the week-end. Sorry.
+Anyway EnronOnline: There are two versions today - we keep one in NewCo and the Estate keeps one. Two teams can be allocated for each.
+It works - we have enough people to do it.
+In terms of the Estate:
+The Estate will keep a copy of the source code and the Estate will also maintain a staff on both the development side and the support side in order to ensure the service can be maintained. The source code and build process are sufficient to allow for running almost immediately. We actually have two EnronOnline environments today - the 'staging environment' and the real 'production environment'. Essentially we would leave the staging environment for Enron - it is simply a question of staffing which I believe is totally possible now we have allocated the staff to NewCo and the Enron estate.
+In terms of NewCo:
+EnronOnline will be maintained for NewCo using the production environment. With its own staff."
+14838,88,2002-01-15 16:15:16+00:00,12,As far as all the media says I have no other knowledge
+14839,88,2002-01-14 21:23:27+00:00,11,Could one of you please authorize release of code from Research.
+14840,150,2001-12-04 21:34:26+00:00,498,"Re: CHAPTER 11 REORGANIZATION
+ FINANCIAL REPORTING REQUIREMENTS
+Many people have questions regarding how Enron will be operating under Chapter 11 bankruptcy proceedings. This memo addresses the financial reporting requirements Enron will have to its various constituents.
+During the reorganization, the Company will continue its GAAP reporting, with a breakout of pre and post petition liabilities, as well as historical management/operational reporting, consistent with past practices.
+In addition, the Company will have an added responsibility to report cash flows to the bankruptcy court and its various constituents. Specifically, Enron will be required to report projected cash receipts and cash disbursements by business unit on a weekly basis. The court and our new debtor-in-possession (""DIP"") lenders require a rolling 13 week projection of cash flows plus monthly projections thereafter to obtain a full year of projected cash flows. The budgeted weekly projections will then be compared to actual results to determine how well each business unit is operating compared to the projections. The weekly and monthly forecasts will be adjusted each week pursuant to revised or improved information on forecasted cash flows. Thus this process will be an ongoing one, with constant updating of information to ensure we generate the most accurate reports possible.
+The initial weekly and monthly projections will be critical to the determination of the amount that the DIP lenders will be willing to make available to the Company. In addition, the cash flows for the entities that are included in the bankruptcy proceedings will be utilized by the bankruptcy court and DIP lenders to constantly review and react to the cash flow situation at Enron. However, all Enron business units (not just ones in bankruptcy) will need to conform to these new requirements, because additional entities are likely to be included in the bankruptcy filing and because it is extremely important for Enron management to be able to see the totality of cash flow requirements for the entire Company.
+The weekly cash flow projection project will be overseen by Mike Deville (x 57852) and Greg Adams (x 33887). In addition, Enron has retained Batchelder & Partners, Inc., a financial advisory firm, to assist us in this and other reorganization efforts.
+We will be having a group meeting with the CAO's and/or their designees from the various business units responsible for the cash projections on Wednesday, December 5 at 2:00 PM in the Boardroom on the 50th floor to further explain this process and answer any questions you may have. We will then be meeting on an individual basis with the business units to discuss specific business unit requirements.
+Attached is a template of the financial statement projection format that will be required . Please review this template in advance of the Wednesday meeting to determine any questions you have on the reporting format. Obviously the requirements may change, which will require us to reformat and/or obtain additional information on short notification.
+Thank you in advance for your cooperation. We look forward to your attendance on Wednesday."
+14841,149,2001-04-24 20:38:00+00:00,19,"Louise:
+Do you have any interest in attending this? Buy and Kopper are scheduled to attend. Wednesday, 10:45 am."
+14842,149,2001-04-18 23:30:00+00:00,58,"Louise:
+As an additional follow-up, as part of the approval process, I was told that ENA and EE&CC have the right to opt out of this fund at any time during the first twelve months without cause and without penalty. If this is something that neither you nor Dave want to do, then I suggest exercising this option."
+14843,149,2001-04-18 23:22:00+00:00,21,"Louise:
+I am NOT taking the P/L swings or funding this investment. If there is confusion, let's get together with Dave."
+14844,149,2001-04-03 22:30:00+00:00,168,"John:
+Thanks for the e-mail. I wasn't trying to be critical of anyone specifically, and I think Dick is doing an admirable job. I will give him high marks at PRC. However, one position that has lost a significant amount of value since we were free to sell it is Avici. Do you think that at PRC, this ""loss"" of value, which does not show up in a P/L since it is hedged by Raptor, should be taken into account when we evaluate the person? My point is only that each of these investments are ""positions"" that should be ""owned"" by someone, like a book. Hickerson didn't get evaluated on Avici because it didn't show up in a P/L (even though he lost a lot of value). What do we do with Garland? Now it has lost a lot of value again. If Dick could sell an asset for a 10% loss today, but doesn't, and we eventually lose 30% upon disposition, how do you evaluate the performance?"
+14846,150,2001-11-21 03:48:39+00:00,6,No comments. Looks good to me
+14847,153,2001-10-31 01:45:29+00:00,6,Recommended by Jimmie Lee at Chase
+14848,52,2001-08-27 12:12:23+00:00,81,"Hold on. Dan and I discussed it, but it is not my call whether anyone other than EES bears those costs. For what it's worth, I agreed with Dan that to the extent Tom and Ken had reached agreement regarding, among other things, Tom's use of the corporate aircraft for non-EES purposes, that it may not make sense to have EES bear those costs. But it was clear in my conversation with Dan that it was not my call to make."
+14849,52,2001-10-31 02:18:20+00:00,31,"Thanks, Jeff. We have already retained a crisis PR firm --Kekst and Co. They have been working with us for the past few weeks. Feel free to mention them to Chase."
+14851,54,2001-10-25 15:21:07+00:00,18,"Congratulations and good luck.
+It's comforting that there is somebody who
+can recognize insanity when he sees it."
+14852,54,2001-08-01 19:01:23+00:00,47,"Rick,
+Would you look us to make a joint appeal to Jeff to speak
+at this conference? Our friends at UT were very disappointed last
+time that Jeff had other commitments and I suggested they should
+try to get on his schedule early for the 2002 event."
+14853,54,2001-08-02 13:35:48+00:00,201,"Joannie:
+Here is the message for Jeff:
+I am asking you on my behalf and on behalf of Rick Causey to make a keynote presentation
+at the annual Energy Finance Conference at the University of Texas at Austin. The conference
+is tentatively scheduled to take place on February 21 - 22, 2002. Depending on your calendar, the
+conference organizers can reserve a time slot for your presentation at the conference dinner
+(February 21, 2002, Thursday) or lunch (February 22, 2002, Friday).
+This annual conference is devoted to financial engineering in the energy business. The topics covered
+in the past meetings included applications of real options technology to the energy business, risk management
+and the future of deregulation. The agenda of the last conference is attached for your review; the agenda
+for the 2002 event is under development.
+Given Enron's relationship with UT and our interest in the Energy Finance program,
+a great source of highly skilled talent for our Analyst / Associate Program, we think that your participation
+will benefit the company. The conference is widely attended by senior executives of other
+energy companies and is an excellent forum to present Enron's accomplishments and the
+agenda for the future.
+Vince Kaminski"
+14854,54,2001-08-02 19:31:23+00:00,25,"Ehud,
+Jeff agreed to participate. I suggested dinner as a better forum
+to Jeff's secretary.
+The decision regarding lunch/dinner issue is still to be made."
+14855,155,2000-12-06 18:09:00+00:00,9,"Thanks, Sara. Any luck on getting the LC form?"
+14856,155,2000-12-06 18:10:00+00:00,11,Sara: Sorry--I didn't see the next email with the LC form.
+14857,155,1999-09-16 11:05:00+00:00,18,"Dan: I will likely have some modifications to this Agreement. Please
+continue to keep me in the loop.\"
+14858,155,1999-10-04 19:36:00+00:00,15,"Dan: Any docs on this yet? I would like to see the tax indemnification
+language."
+14859,153,2001-11-17 23:21:46+00:00,43,"I believe it may be a challenge in the near term to get any meaningful credit support. But I really don't much about the business. Will the sureties just support the construction company by itself? Ray, can you have someone look into this."
+14860,155,2001-12-05 01:43:57+00:00,47,"As far as I can discern from my limited due diligence, the Bridgeline interests have not been pledged or encumbered by Enron and it does not appear that they have been directly affected by the Bankruptcy. Let me know if anything else needs to be rundown quickly."
+14861,151,2000-08-07 14:21:00+00:00,21,"Attached please find my model for GPG leverage capacity.
+If you have any questions, please give me a call at 3-6103."
+14862,121,2000-06-21 17:27:00+00:00,119,"FYI. This close date is of large significance to GPG as we are going to be
+asking management to wait an extra week for monthly info that ties out to the
+financials. This variance from what we thought was a ""Common Design"" is a
+huge deal, in fact the agreed upon close timing was a major consideration in
+getting agreement within GPG to go forward as it was an improvement that we
+could see had value. I agreed to and ""stacked hands"" with all on the
+""Common Design"", yet somehow there has been a failure to deliver the ""Common
+Design"". I just want to make sure that the two of you are aware of my
+position on this issue."
+14863,131,2001-10-30 22:30:19+00:00,39,Portland General's investment bankers have advised them to delay their plans to issue $250 million of new long-term bonds. I just wanted to make sure you were aware of this. Should you have any concerns please let me know.
+14864,150,2001-10-31 14:44:52+00:00,21,Just in case you have not seen this. Thanks for your help and let me know of any issues. Thanks again
+14865,155,2001-11-06 20:30:08+00:00,9,Thanks; we'll review in light of the pipeline financings.
+14867,121,2001-11-06 20:54:45+00:00,25,"If you want us to pursue getting this cash directly to ENE we will be happy to try.
+Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)"
+14868,121,2001-11-12 02:04:12+00:00,11,"We will keep trying
+Sent from my BlackBerry Wireless Handheld (www.BlackBerry.net)"
+14869,121,2001-11-13 18:52:08+00:00,5,We need your help ASAP.
+14870,121,2001-11-14 14:01:09+00:00,215,"The following representations (among others) have been made to various parties in due diligence relative to both the credit agreement (with the banks) and the Preferred Stock Agreement (Dynegy) to the Boards of Transwestern (TW), Northern (NNG) and Enron Transportation Services (ETSC) and it subsidiaries, as well as to Dynegy and the banks:
+The funds that are being loaned out of NNG and TW to various entities and the further loans of these funds to Enron will carry Enron Corp guaranties.
+The note agreements will reimburse NNG, TW and ETSC and their subsidiaries for their actual expenses associated with these endeavors.
+The credit agreements actually require a large degree of separateness and an arm's length standard needs to be applied to dealings between ETSC and its subsidiaries and Enron and the rest of it's subsidiaries.
+Before the funding under the credit agreement takes place I would like to make sure that you two are aware of this, have agreed to and understand the conditions and further agree that you will assist me in cleaning up whatever documentation needs to be cleaned up between Enron and ETSC and it's subs to make the above representations not be false.
+Managing Director, Chief Financial Officer and Treasurer
+Enron Transportation Services Company
+1400 Smith Street
+Houston, TX 77002-7361
+rod.hayslett@enron.com"
+14871,121,2001-11-14 17:56:30+00:00,5,We're there given his response.
+14872,121,2001-11-16 14:16:09+00:00,94,"Per you request:
+Also make sure that Jeff Sommers added his name to his list. There is a separate wind retention program. I am not aware of the EEOS situation currently, Keith Marlow has been out of town.
+Management
+Rod Hayslett*
+Jim Saunders*
+Tracy Geaccone*
+John Cobb*
+Bob Chandler*
+Lisa Sutton+
+Patty Wiederholt*
+Dan Fancler+
+Tim Bayles+
+Frank Carriere+
+Jennifer Lev+
+Financial System Support
+Greg Lewis*
+Staff
+Kim Bragg+
+Daniel Pham+
+Debbie Moseley+
+Mark Walton+
+Rudy Elizondo+
+Vince Strohmeyer+
+Traci Rainbow+
+Joe Villela+
+Maria Cisneros+
+Allen Joe+
+Donna Burns+
+Greg Schlender+
+*Very Critical
++Critical"
+14873,121,2001-11-21 21:29:38+00:00,13,FYI this is the list we are currently working on related to EEOS.
+14874,150,2001-07-05 20:52:09+00:00,384,"The following message is being sent to the Sr. Directors and above in your organization today. The Directors who have been identified by senior management will also receive the invitation to attend the conference.
+You are invited to join me for dinner on Wednesday, September 19 at 7:30pm in the Steakhouse at the San Luis Resort. Rooms have been reserved for you on Wednesday night. Please let Sharron know if you will be unable to join me on Wednesday night for dinner.
+Golf Tee times are being arranged at the Galveston Country Club for Wednesday around 12:30. Please let Sharron know if you would like to play golf.
+The 2nd Annual Accounting Leadership Conference has been scheduled for September 20-21, 2001 at the San Luis Resort in Galveston. In addition to communication and networking, this year the focus of the conference will be on leadership:
+ refining the direction and objectives for Global Accounting
+ defining and agreeing on priorities
+ improving leadership skills
+In addition, the format of the conference has changed from last year.
+The conference will be more participatory. While there will be a few speakers/presentations, you will spend more time in working sessions focused on the topics above.
+The meeting will begin at 9AM on Thursday with no organized activity on Wednesday night. Rooms have been reserved for Thursday night. There are a limited number of rooms available for Wednesday night for those who do not want to drive to Galveston on Thursday morning. If you would like to reserve a room for Wednesday night please email Sharron Westbrook as soon as possible, these rooms will be reserved on a first come basis. The meeting should adjourn by 3:00 on Friday.
+The invitees to the conference will be Sr. Directors and above with the exception of a few Directors as requested by Senior Management.
+ If you have suggestions on topics, approach/format, activities or anything else related to the conference, please pass those on to Jan Johnson, Melissa Becker, or Sharron Westbrook.
+PLEASE RSVP BY MONDAY, JULY 16 (via email only to Sharron Westbrook).
+ I WILL ATTEND. ______
+ I WILL NOT ATTEND. _______
+ PLEASE RESERVE A ROOM FOR ME ON THURSDAY NIGHT ONLY. ________
+ PLEASE RESERVE A ROOM FOR ME BOTH WEDNESDAY AND THURSDAY NIGHTS. ________
+ I WILL NOT REQUIRE A ROOM RESERVATION. _______"
+14875,150,2001-05-07 13:56:51+00:00,55,We should include with the overall Enron audit fee. I would suggest an audit plan and fee proposal similar to what we did with each major business unit. You guys go through it and then we sit down and briefly take a look so we can fold into the total. Is that reasonable to you?
+14877,155,2001-11-14 19:00:34+00:00,6,"Great--I will also help.
+Jordan Mintz"
+14878,153,2000-11-10 15:35:00+00:00,76,"Attached is a resume of Debra Ruby who I have known for many years. She is
+currently looking for a position in Houston as a corporate attorney. I can
+personally recommend Debra for a variety of legal positions within Enron. I
+would appreciate it if you reviewed her attached resume and if you think
+there may be a fit within your organization, please contact her directly.
+Thanks for taking the time to look at her experience."
+14880,155,2001-11-19 19:49:01+00:00,47,"As promised, attached is the current debt maturity schedule. Julia--dealflow is being updated and I should have it to you before the day is out; we can then visit and I will take you through it.
+Feel free to contact me with any questions/comments you may have."
+14881,155,2001-11-20 00:00:46+00:00,66,"FYI; let me know if you have any thoughts about my approach below. I met with Jeff Golden earlier today and he suggested that such a ""matrix"" was being prepared and should be ready for distribution early next week. It amazes me that we don't have all of this in a nice, neat little package. I will push hard to make sure this gets put together."
+14882,155,2001-11-19 23:37:52+00:00,11,To followup on our t/c from a couple of minutes ago.
+14883,155,2001-12-18 00:36:16+00:00,90,"At the right time, it would be helpful to discuss what we may want to consider as ""Core"" Assets (unrelated to trading activities) for purposes of emerging from bankruptcy as a going concern. As you know, we are in the process of organizing and formatting in an asset matrix the assets/businesses we currently own (or otherwise have an interest in) that may be potentially for sale; separating out potential core assets will be instructive as part of this process.
+Please let me know your thoughts/suggestions over the next few weeks."
+14884,154,2001-10-30 14:58:45+00:00,28,"I forgot to print out this page, this is the page I reviewed with Lay on 8/22.
+Sherron S. Watkins
+Vice President, Enron Corp.
+713-345-8799 office
+713-416-0620 cell"
+14885,153,2001-11-12 02:04:43+00:00,13,Pls send me final executed copies of all the Merger related documents ASAP!!
+14886,155,2001-11-12 15:38:09+00:00,8,"Thanks, Joel; please stay on top of this."
+14887,155,2001-11-12 16:58:42+00:00,71,"Mark:. We're slogging through all of this--it was apretty brutle weekend but progress is being made. There are still open issues on both the NNG and TW credit facilities--but the goal is to have the TW credit agreement signed sometime today and get it funded by Wednesday, while NNG will probably close later in the week -- likely Friday--once the Dynegy issues are melded with those of the bank.
+Jordan Mintz"
+14888,155,2001-11-12 21:18:40+00:00,6,"I am currently reviewing.
+Jordan Mintz"
+14889,155,2001-11-13 15:54:57+00:00,19,Is there a call-in number? It is likely that I will be at V&E working on the pipeline financing.
+14891,35,2001-11-20 00:31:21+00:00,15,Coordination is a major problem at Enron. You are asking all the right questions. Mark
+14892,155,2000-11-22 14:44:00+00:00,34,"Attached are the EGF-Legal dealflow sheets for Q4--in progress and closed
+transactions. Please feel free to contact me or any of the EGF attorneys or
+assistants with any questions and/or comments you may have."
+14893,52,2001-11-16 22:23:43+00:00,6,please see the attached message points.
+14895,55,2001-12-20 23:18:36+00:00,32,Please see the message below from Mary Nell. I do believe that it is very important to keep this team working on the project. Thank you for your consideration of the request.
+14897,153,2001-12-30 22:45:34+00:00,20,"Dave-
+I appreciate you taking this thing on. Any thoughts as of yet as to who your team will be?"
+14898,146,2001-12-27 21:44:33+00:00,24,"No bid for the barges:)
+Better technology in the market regardless of price - these puppies are going to be tough to move.
+Delainey"
+14899,155,2001-09-25 21:22:53+00:00,201,"Attached is the revised summary of the recommendations coming out of the Diversity Subcommittee. If there are additional comments, please feel free to pass them on.
+Is is also my understanding that Jeff is working with Andrea and Michelle regarding the ""metrics'' accumulated with respect to diversity performance with a focus on verification, context, and presentation so as to supplement our recommendations. In that regard (and after discussing with Kirk), we should begin organizing a formal presentation for the OTC of these materials. One approach may be as follows:
+(1) Convert the Recommendations and Metrics into approximately 5 slides: (a) Slide 1-Overview; (b) Slide 2-What type of data was used as support and why; (c) Slide 3- Presentation of the metrics and what we believe that data is indicating; (d) Review of Recommendations/Action Items and the supporting Business Case; and (e) Next Steps.
+(2) Identify and present key metrics; identify backup slides with data points.
+I am hopeful that we can finalize these items in the next week so we can review with Cindy in early October and be prepared to meet with the OTC sometime in October.
+Please let me know your thoughts and suggestions. Thank you for your time."
+14900,154,2001-11-19 22:07:49+00:00,90,"Michelle, I have talked to Steven Sheldon, Martin Sacchi, and soon to talk to Marc Hensel and Ed Smida as well as Michele Nezi Marvin re: broadband litigation support work. Luckily for the effort, I think all of these people, with the exception of Steven have a longer term position at broadband or elsewhere at Enron. If this group of people or some subset thereof remains at Enron then I think we can get good litigation services from them re: broadband claims. Call me if you have any questions. Sherron."
+14901,154,2001-09-27 15:51:43+00:00,51,"Take a look at these pics! For anyone who has worked or visited the WTC area, these pics are incredible. Just looking at the devastation to the surrounding buildings is shocking. My friend worked at Banker's Trust at 130 Liberty and these pictures were taken from and around that building. Sherron"
+14902,150,2001-10-03 16:35:13+00:00,41,"I think that all investments that were hedged in Raptor are on th MPR and are being monitored and reported against. Is this true? Ron, will you take the lead in making sure we have a smooth transition on this? Thanks"
+14903,153,2001-10-08 20:27:47+00:00,135,"Attached please find the corporate allocations for the 2002 fiscal year that EIM will accept. After unsuccessfully attempting to get some justification for the PROPOSED allocations from many of the various corporate groups, we have had to make a determination ourselves as to what we believe are reasonable charges for the value received from these groups. This determination was based on several factors including, 2001 actual allocations, expected services provided to EIM, redundant services provided by other groups that are also performed at EIM, etc.
+The attached charges are acceptable to EIM and will be used in the budget presentation to the office of the chair unless the allocating groups can come to an agreement with Kent Castleman of EIM as to a revision of these charges before such meeting.
+Jeffrey McMahon and Ray Bowen"
+14904,151,2001-10-09 17:45:46+00:00,20,"George & Gordon
+Please work with RAC (Dave Gorte) to ensure that all of the Raptor Investments are being monitored."
+14905,153,2001-10-11 01:59:47+00:00,60,I need to discuss this deal with you...it is essentially a physical option to supply steel to a very large service center with locations in the US and in Europe. The challenge for you guys will be that it will require a $30mil option payment to them. Very good deal without credit issues...pls call me when you have a chance.
+14907,154,2001-08-14 14:53:03+00:00,175,"Rick,
+Lynn recently demo'd portrac for all of us in Corp Development. It is a fantastic tool. It's been needed for forever - I've been pulling together an asset list for Andy and Jeff Donahue - and I know first hand how difficult it is to get the detail that your group has input into portrac. Donahue also thinks it's a great tool. Lynn is going to demo it for Andy sometime soon.
+I'm working with Lynn and Dave Gorte's folks (Cindy Hudler) to create a livelink library of models, presentations, tax structures, etc. (all the files a corp dev person needs when we actively work an asset for sale). We hope to have a link on the portrac web page similar to the DASH and COMET links. It's very encouraging to see how far your group has come in organizing our investment data - Cindy's got a 30GB file of all models. It sure makes my supposed 6 - 9 month job easier!
+Sherron S. Watkins
+Vice President, Enron Corp.
+713-345-8799 office
+713-416-0620 cell"
+14908,153,2002-01-23 00:16:41+00:00,30,"I assume this has to go before our board before we sign, right??
+Jeffrey McMahon
+___________________________
+Executive Vice President &
+Chief Financial Officer
+Enron Corp
+713-853-5359 phone
+713-646-5930 fax
+jeffrey.mcmahon@enron.com"
+14909,154,2001-08-14 22:27:42+00:00,85,"Wow - you are really busy if your lunch calendar is booked for the remainder of the month! Sept. lunch sounds good. I sure hope we make good use of the bad news about Skilling's resignation and do some house cleaning - can we write down some problem assets and unwind raptor? I've been horribly uncomfortable about some of our accounting in the past few years and with the number of 'redeployments' up, I'm concerned some disgruntled employee will tattle. Can you influence some sanity?"
+14910,150,2001-08-23 13:52:44+00:00,41,"We are working hard to address the immediate New Power exposure. Dave: FYI it might actually involve Service Co. Mark, we are talking to Jimmie this morning on that idea. We will certainly review overall exposure as a part of this."
+14911,117,2001-11-15 18:28:57+00:00,11,I can comment on trade behavior and margin if appropriate. Rick
+14912,117,2001-01-30 21:38:00+00:00,196,"The above transaction was presented to the Board on 1-29-2001. There was considerable discussion which I have summarized below.
+Returns: were the returns sufficient to syndicate the risk. I answered positively, which is what the capital price addresses. The dash return is a blended debt and equity return.(?)
+Was the $19 million excess proceeds enough to allow the company to operate. I answered yes since 85% of reserves are producing and little capital will be needed to develop pdnp and pud reserves.
+Is management capable of operating or will they be in chapter 11 again soon. I answered that the bankruptcy was a result of overpaying for Wyoming deal and low commodity prices last two years which resulted in a bb decrease below outstanding. We will have to watch this issue carefully.
+Are banks reluctant to support KCS and could this cause a liquidity problem? Answered that all creditors were made whole and likely that someone will come into credit but it was a risk, although for the time being they had enough cash to operate.
+This feedback is just for fyi but it does indicate that board is active and not a rubber stamp.
+ Rick"
+14913,117,2001-03-21 20:48:57+00:00,42,"I'm in. Maybe we could form a committee so Mark could be on it. He could even chair it if he was up to it. Regards,
+Rick Buy
+Executive Vice President
+Chief Risk Officer and member of VP PRC Committee
+Enron Corp."
+14914,117,2001-03-22 14:06:13+00:00,5,thats really below the belt
+14915,117,2001-04-10 13:17:01+00:00,30,Probably unnecessary to attend regularly from my point of view but I have no issue either way. I think it is a good idea to meet monthly with Causey. Rick
+14916,117,2001-04-12 22:53:13+00:00,11,"This is the site. http://www.meredith-hd.com/bikeweek.htm
+It refers to other sites. Rick"
+14917,117,2001-04-25 20:04:48+00:00,30,Is this the deal you referenced at the exec comm (B) meeting ? Or is there another one. I asked my guys to check if we had seen deal. Rick
+14918,117,2001-05-21 22:26:09+00:00,21,looks good to me. jeff may want to just sign deals quickly without explanation as he does often on dashes. rick
+14920,117,2001-09-27 18:49:10+00:00,22,"I worked there for 4 years, including the 93 bomb incident. This whole thing is beyond my imaginations ability to comprehend. Rick"
+14921,117,2001-10-03 14:38:26+00:00,48,"Now that Raptor is blown up, should we begin valuation efforts of assets and include in merchant portfolio. I am not familiar with details of how it unwound so I don't know what we are left with. Is this worth a meeting with you or your designesss? Rick"
+14922,117,2001-10-25 16:50:27+00:00,36,We need to talk today on what we say to ctpies. AES called for $50 million and Louise wants to keep them happy. Others are slowly restricting us in various ways. We need a story. Rick
+14923,117,2001-01-30 09:38:00+00:00,196,"The above transaction was presented to the Board on 1-29-2001. There was
+considerable discussion which I have summarized below.
+Returns: were the returns sufficient to syndicate the risk. I answered
+positively, which is what the capital price addresses. The dash return is a
+blended debt and equity return.(?)
+Was the $19 million excess proceeds enough to allow the company to operate. I
+answered yes since 85% of reserves are producing and little capital will be
+needed to develop pdnp and pud reserves.
+Is management capable of operating or will they be in chapter 11 again soon.
+I answered that the bankruptcy was a result of overpaying for Wyoming deal
+and low commodity prices last two years which resulted in a bb decrease below
+outstanding. We will have to watch this issue carefully.
+Are banks reluctant to support KCS and could this cause a liquidity problem?
+Answered that all creditors were made whole and likely that someone will come
+into credit but it was a risk, although for the time being they had enough
+cash to operate.
+This feedback is just for fyi but it does indicate that board is active and
+not a rubber stamp.
+ Rick"
+14924,124,1980-01-01 00:00:00+00:00,28,"Early this year, Enron formalized the role of Global Risk Management
+Operations to oversee controls in the various Enron-wide offices regarding
+trading operations. As the wholesale businesses have"
+14925,124,1980-01-01 00:00:00+00:00,58,"Below is a draft of a memo that could be sent from you and Mark Frevert
+regarding further definition around my role in operations for the wholesale
+businesses.
+DRAFT
+To mirror the commercial focus on our wholesale businesses, the trading
+operations support for these businesses will be will be led by Sally In light
+of recent organizational realignment"
+14926,155,2001-01-15 16:12:00+00:00,30,"Sally: Just a short note to congratulate you on your well-deserved promotion.
+I always thought you had the toughest job in the Company; I guess everybody
+else finally caught on!"
+14927,153,2001-01-16 11:44:00+00:00,20,"Sally
+Congrats on your promotion to MD. If anyone around this place deserves it,
+it's you!! Hope all is well."
+14928,150,2001-01-30 11:07:00+00:00,380,"As many of you know, The University of Texas has its most significant
+fundraising effort underway. As a part of that effort, the Red McCombs
+School of Business is trying to raise $130 million which will help it to
+achieve its goal to become the next great business school in the world.
+Obviously, the Red McCombs gift of $50 million (the largest ever contributed
+to the University) is a big part of that effort. However, much more is
+needed and will only be achieved through participation by a significant
+number of alumni and friends of the University.
+On Tuesday, February 6th at 2 pm, Dean Bob May of the McCombs School will be
+at the Enron Building to meet with us about the School's plans and how we can
+participate. I am organizing this meeting for Bob and inviting all Enron
+officers that are UT alumni. This should be a very informal meeting with
+relatively few attendees (hopefully around 25 people). It will give you a
+chance to get to know Bob, what is going on at the Business School and how
+you can participate. Make no mistake. We hope the result is that you decide
+to support the effort. There is a unique opportunity to participate at this
+time because, in addition to matching funds from Enron, the McCombs gift
+provides for additional matching funds for contributions of a certain level.
+I have found that this matching provides a real opportunity to make endowment
+level gifts.
+Enron and the McCombs School have a great partnership. The company has made
+a significant commitment to the school's programs, we have a very significant
+presence on campus through our activities and support from administration and
+faculty, and we have enjoyed great success recruiting for a number of years.
+However, Enron has never successfully organized its alumni giving in a way
+which would allow for even greater Enron support and presence while
+optimizing each individual's contribution. I am hopeful that as a group of
+Enron officers, we can set the example of coordinated giving.
+Please plan to attend the meeting. It will be held in the Board Room on 50,
+last about an hour and refreshments will be served. Please let me or Sharron
+Westbrook (extension 37094) know if you can attend. Thanks."
+14929,150,2001-02-16 16:10:00+00:00,438,"The Following memo will be hand delivered to you in hard copy form on Tuesday
+morning, Feb. 20. We will enclose the pledge form and
+an Enron matching gifts form for your convenience.
+Our meeting with Bob May, Dean of the McCombs School of Business at
+UT-Austin, was a great success. We had 14 attendees who received an update
+from Bob about the many great things going on in Austin, as well as
+opportunities to participate in the &We,re Texas8 capital campaign.
+After Bob,s presentation, the 14 Enron officers met separately and were
+extremely supportive about the idea of contributing in a coordinated manner
+to the McCombs School. This was evidenced by an expression of intent in
+giving totaling about $175,000 from just the 14 people!
+Here is what we propose and how it would work.
+1. The UT Alumni at Enron would pledge $1 million over four years to the
+McCombs School. This would consist of $500,000 of gifts from employees and a
+matching $500,000 from Enron.
+2. The matching program provided through the McCombs gift to the Business
+School would match the $1 million.
+3. The result would be a permanently endowed $2 million &Enron Chair8 to
+support &star quality8 faculty for the school. This will represent one of
+the largest Faculty Chairs at the Business School.
+A few additional details:
+1. Each individual,s contribution will also be credited to their name (along
+with the Enron match) for recognition purposes in Business School,s Annual
+Report, President,s Associates, etc. In other words, a $10,000 contribution
+matched by Enron will be considered as a $20,000 contribution by that
+individual for recognition purposes.
+2. Enron has agreed to not count it,s match against an employee,s annual
+matching gift limitation of $15,000, as long as the gift is coordinated in a
+way that makes it a part of the &Enron Chair8.
+3. The gift may also be counted toward any previous pledge made to the &We,re
+Texas8 campaign as long as that pledge is not supporting a separately named
+contribution. Please let us know that this is your intent.
+Please carefully consider this request. I do not plan to finalize the pledge
+until I receive responses from enough officers to support this contribution.
+We have about 40 officers of Enron who are UT alumni and with some
+participation by each of us, we will achieve this level of gift. Our plans
+are to follow this up with a broader opportunity for all Enron employees that
+are UT alumni; however, the leadership of the group will determine our
+success.
+Thanks for your consideration and continuing support of The University of
+Texas."
+14930,155,2001-04-10 04:50:00+00:00,32,"Sally: Don't mean to appear to be a pain, but did you ever have a chance to consider the resume of Dan Siegman, a neighbor of mine?
+Please advise at your convenience."
+14931,155,2001-06-05 19:38:05+00:00,11,Sally: Thanks so much! Dan is meeting with Tom on Monday.
+14932,153,2002-01-05 23:49:33+00:00,70,"Great work!! Absolutely proceed to the next level. Please check with Mark Muller re any potential non compete on this...I am certain, though, there will not be one. In fact, Netco could be our biggest customer! Proably need someone from corp devt involved once you bring in the the consulting firm. I would suggest that the reorganized Enron could provide these services to Netco, the Estate, the consulting firm, etc."
+14933,153,2002-01-01 23:55:18+00:00,16,Yes...they have all been completed. Pls get with someone in Causey's world to get the details.
+14934,150,2001-05-08 19:10:24+00:00,119,"I would like to pull together a relatively small group of people to discuss and address issues and opportunities that impace Global Accounting. This group will have a working session every other week on Tuesday beginning May 15. (These are the Tuesday's that the CAO staff meeting does not take place). The meetings will be held in 50M03 and will start at 8:30 and last approximately one hour
+Please contact me with any questions. If you will not be able to attend, please call Sharron at x37094. Thanks.
+The members of the Global Accounting Steering Committee are:
+Rick Causey
+Sally Beck
+Bob Butts
+Wes Colwell
+Fernley Dyson
+Rodney Faldyn
+Bob Hermann
+Kevin Hughes
+Phillip Lord
+Allan Sommer
+George Wasaff"
+14935,150,2001-06-06 20:08:21+00:00,20,"Please note this on your calendar for next year. Also, does anyone have the Monday , September 10th date down?"
+14936,150,2001-10-09 23:26:50+00:00,17,"I would suggest people that may already be up there, such as Deville, Lindsey, Peterson,and or Apollo."
+14937,124,2001-04-09 22:04:00+00:00,160,"I won't bury you with constant examples, but am copying you on this note regarding floor meetings. While operations is now a part of Enron Net Works, I believe that the only meaningful piece of that to Philippe and Greg is our commercialization effort. They are not in the habit of considering the 500 people who provide critical services to EA, EGM and EIM daily. Floor meetings set by Greg and Philippe were apparently aimed at the IT teams, and yet my group has added over 500 employees to Net Works in Houston alone with our reorganization late last fall. I will diligently work with Philippe and Greg on this on an on-going basis. While not fully embraced as part of Net Works, my operations team now is organizationally separated from the key Enron businesses that we support. I suspect that motivating and managing in this environment will become increasingly challenging. This is an FYI more than anything else. --Sally"
+14938,124,2001-03-30 00:40:00+00:00,114,"All eight students that we interviewed for the Enron Scholarship were great and we should actively be sure that we get them on our interview schedules next year when they are in the second year of the MBA program. I don't want to simply leave that to chance by encouraging them to consider us. Karen's letter (noted below) is a good idea, but we should augment that by getting these students names on our radar screen for next year. I will find out who the recruiter is for UT MBA's and I will get copies of the students' resumes and my notes on where they could be a good fit to that recruiter. --Sally"
+14939,124,2001-04-25 00:15:38+00:00,144,"We have set Monday, June 11 for the date of our Operations PRC that will include employees that are supporting ENA, EGM and EIM. You mentioned that your functional PRC will be set for sometime between June 7 and June 14. It would certainly be best from my point of view if my PRC occurs prior to your functional PRC. While a number of PRC meetings will be held within Operations during the week of June 4 in preparation for our June 11th meeting, that will be the first date where we will cross calibrate directors, senior directors and VP's across ENA, EGM and EIM operations.
+I thought that it might be helpful to know the date of my operations PRC meeting in setting the date for your meeting. Please let me know as soon as a date has been set for your PRC."
+14940,124,2001-05-14 20:03:05+00:00,59,"I regret that I will miss the first Global Accounting Steering Committee Meeting on Tuesday, May 15. I am taking that day as a vacation day while my parents are in Houston for Amanda's piano recital.
+I will be in attendance at the next two meetings in May - the 22nd CAO Meeting and the 29th Steering Committee Meeting."
+14941,124,2001-06-05 14:21:22+00:00,73,"I didn't have an opening that looked quite right for Dan's experiece. I have, however, given has resume to Tom Gros who has been leading CommodityLogic and is also paired with Beth Perlman and me on evaluating the potential for commercializing our mid and back office services. In this effort, it is likely that Tom will to put together a marketing team. I suggested that he consider Dan for one of those positions."
+14942,124,2001-10-11 23:36:08+00:00,131,"Per my voice mail, Wanda is still the lead on this initiative. From our conversation in your office, I had assumed that this would change. Apparently has not to date.
+Rick Buy and I are scheduled to get together tomorrow for an hour. My intent had been to review operational risk reports and information with him and to suggest an approach for meeting his objectives. He has added Wanda, Debbie Brackett, Bill Bradford and David Port to the tomorrow's meeting since our first point of discussion will be a joint project that Rick and I are sponsoring. Unless he pairs down the group in tomorrow's meeting after our first topic, I doubt that we will be able to discuss follow up on our conversation in your office regarding operational risk. --Sally"
+14943,124,2001-10-09 22:48:59+00:00,343,"Dinner is still on for Tuesday, October 16 with Dean May and the three scholarship recipients. One student, Holland Brown, will join us a little late, as she has class until 8:00 pm. I sent a note to Dean May reconfirming the dinner and the time (7:00 cocktails and 7:30 dinner). Seven other faculty/staff members are included on the invitation list, although I am awaiting a response from Dean May on any changes or additions to that list of UT attendees.
+I have booked The Josephine House again - yes, third year in a row, but it has worked well and hopefully those of us who are yearly attendees don't mind the repeat! You, Brent and I took the the scholarship winners to Sullivan's late in the spring.
+Planned invitees from Enron are you, me, and Brent, plus the two others who interviewed candidates for the scholarships - Loftis Fitzwater (one of the first year winners) and Andrea Reed. Roger Ondrecko was the fourth interviewer, but is obviously not included.
+Others that we could include are Billy Lemmons, as AA program head, Ben Glissan, as the MBA executive lead for UT, and Christy Patrick from University Affairs (frankly, though, I haven't been able to get University Affairs remotely interested in this event, even though Karen Marshall on their staff last year planned the dinner).
+Per your note, we could certainly include anyone else who may be helping us with interviews at UT. Lexi says she will be busy that night making phone calls for 2nd round interviews, and she plans to have our analysts go to dinner with our summer interns who are back on campus. Checking the list of ""more senior"" interviewers who could be included for dinner, it looks like Beth Apollo, Randy Petersen, Hunter Shively, and Greg Piper. Lexi has checked with Wes about interviewing - he can't do it. She is waiting for calls back from Mike Deville and Mark Lindsey.
+Who would you like to include from Enron at the dinner from the names in bold above? --Sally"
+14944,124,2002-01-05 01:19:48+00:00,600,"Beth Perlman has fleshed out an idea for maximizing value for creditors of the Enron Estate that I believe has a lot of merit. As you may know, one of our business goals within Enron Net Works in 2001 was to commercialize mid and back office services. With the money and talent that has been poured into Enron's trading operations systems and processes, we believed that there could be market demand for these services. Ironically enough, we had secured our first services customer and were to begin providing these services on December 1. Understandably, the customer became concerned during November and the deal was shelved. Our experience was that there was much interest in mid and back office services (coupling our systems and our people), but that the major drawback in the marketplace was that it was indeed Enron that was offering these services. The market place didn't want us to ""win again"" as Enron.
+Obviously, the world has changed. While effort is currently focused on the formation of Netco and how to realize value from remaining contracts within EGM, EIM, EA, EES, etc., I think that we would short-change the Estate if we did not bring the idea of a services company to at least the proposal stage in order to evaluate its potential value for the Estate. The idea would be to form this services company with a consulting firm, which could provide some capital, additional resource pool and a ready sales channel. With the potential of spin-off companies from Enron and with former Enron employees taking jobs with other firms, many doors would be opened for this ""independent"" services company to provide services. Servicing the Enron Estate could be the first engagement for this services company. Depending upon the structure of the deal, benefits to the Enron Estate could be reduced costs for systems and services, perhaps a cash inflow from the purchase of the CommodityLogic tools, the possibility of some revenue stream from other services engagements, etc. Another important aspect of this idea is that for the systems and operations professionals, this would create a true career opportunity - a service bureau offering through an established consulting firm - making it much more likely that these people could be retained.
+Beth and I met with a consulting firm today to explore the concept. There is definite interest, so we discussed the idea with Greg Piper today. We asked him for clarification around the Netco agreement regarding systems, and I believe that he has copied you on a note to Anne Koehler regarding this. Our ability to process transactions is one of Enron's assets, and our hope would be that we are not limiting the full realization of value around that asset in the way that the Netco agreement has been drafted.
+The next step would be to have the consulting firm conduct a short due diligence process so that a proposal could be presented for the Estate's consideration. Beth and I would like to move forward with the proposal stage. It would be helpful to know your view on the process which would have to be followed to consider the proposal. If we as Enron felt that there is merit to the proposal, would there simply be an approval process with the Creditor's Committee and the Court? Would there have to be some sort of open bidding process on the proposal? To set expectations within the consulting firm, it would be good to be able to give them a feel for the process.
+Your thoughts on this idea in general would be welcomed as well. --Sally"
+14945,124,2001-11-09 22:39:58+00:00,21,"FYI - If you need anything from me or Piper this weekend, thought that these contact numbers would be helpful. --Sally"
+14946,124,2002-01-02 18:43:04+00:00,137,"Rick: Do you feel that the revised budgets that your team has received are ""baked enough"" so that it makes sense for us to relook at the ENW budget in light of revised plans for the various business units? My understanding is that the business plans that Jim Fallon had asked the various wholesale business units to complete by December 21 have not yet been submitted to Jim. Which would lead me to ask whether or not the revised 2002 budgets that you have are far enough along in the process for us to use in re-evaluating the ENW budget.
+Let me know your thoughts on your degree of comfort with the revised budgets and who on your staff we could work with to get the necessary information to rework the ENW budget, if necessary. Thanks. --Sally"
+14947,124,2002-01-02 18:36:15+00:00,154,"Do you have a few minutes to get with me this week? You seem to be the ""in charge"" person for the Estate. I wanted to visit with you about the needs that you see for the Estate and the role that I might play. I am focused currently on aiding in the due diligence work around the formation of Netco (from an operations perspective), although I am not on the list to go with Netco. I am also working with Jim Fallon on supporting the business plans for the remaining wholesale businesses within Enron. Greg PIper and I also still share the OOC responsibilities for Enron Net Works as well.
+I am committed to Enron, but would appreciate a frank discussion about the timeline you see for me at Enron. I need to have a job, and want to be appropriately prepared if the timeframe for me at Enron is limited. Thanks. --Sally"
+14948,124,2001-12-31 21:37:25+00:00,124,"ENW submitted our preliminary revised budget two weeks ago. In our meeting in the Board Room, we did acknowledge that the ENW budget is very dependent upon the business plans of the business units that we support. Since our budget meeting was the first that you conducted, we agreed that the ENW revised 2002 budget would need to be reviewed again once the business plans and associated budgets for other Enron business units were completed. Has that process been completed such that we can now re-evaluate the 2002 budget for ENW?
+I will follow up with you or someone on your staff on January 2 so that we can complete this budget process.
+I hope that you and your family enjoyed the holidays. --Sally"
+14949,124,2001-04-18 18:20:00+00:00,286,"Mary Solmonson has made a personal choice to resign from Enron. It is with regret that I have accepted Mary's letter of recommendation. Mary has contributed greatly during her tenure at Enron, particularly in the development of global information that has been critical in supporting our effective systems development and information gathering. I do appreciate Mary's personal decision, however, and I know that you will join me in wishing Mary well.
+Also effective April 16, we have made a realignment within Enron Net Works of the group led by Sheri Thomas. Sheri will now report directly to Andy Zipper, who leads EnronOnline. The Operations Product Control Team in its early stages was focused primarily on making our transition to EnronOnline a smooth one for operations. Much time was spent initially on the bridges necessary between EnronOnline and our legacy systems. The role of the team has evolved today to one that is intimately involved in the day-to-day operations of EnronOnline. With this evolution, it makes sense to have Sheri's team as an integral part of the larger EnronOnline team. Sheri's team will continue to support other e-commerce initiatives, such as Clickpaper, DealBench and CommodityLogic, so that we can leverage the experience of her team and avoid duplication of internal infrastructure. Sheri, Andy and I met with Sheri's team yesterday to announce this organizational realignment. Sheri has done a great job of leading the Product Control Group over the past 14 months. Sheri is committed to see that her team continues to work closely with Operations to ensure that any changes in Enron's e-commerce businesses that may impact trading operations are shared with us. We look forward to continuing to work closely with Sheri and her team."
+14950,124,2000-12-29 18:05:00+00:00,85,"Patti delivered to Sharron's desk this week a copy of my 2000
+accomplishments. You should find that when you return to the office. Let
+me know if for some reason you do not have that copy, and I will have another
+delivered.
+Have a happy new year! I will be at the Cotton Bowl watching Meagan's drill
+team perform - and also watching some of the game. Thankfully, no emotional
+attachment to either team in that game! I just hope that we don't freeze.
+--Sally"
+14951,124,2000-12-29 18:02:00+00:00,139,"I have completed internal feedback forms through the PEP system for Brent
+Price, Bob Hall and Peggy Hedstrom. Those appeared to be the only names that
+you included for which you wanted my input. Somehow, from Andrea's voice
+mail message last week, I had anticipated responding to more requests - I
+thought perhaps input in working with Wes within ENA or Melissa on SAP.
+Those weren't on my list within the PEP system, so I just wanted you to know
+that I have responded to the three that were there. If there was intent for
+me to respond to any others, they weren't accessible in the system. (Believe
+me, I am not asking for more - just wanted to be sure that what I saw in PEP
+as a request matched your expectations in terms of my response). --Sally"
+14952,124,2000-12-15 19:28:00+00:00,164,"Got your most recent message. Your observation is correct that the Enron
+Americas staff member on Shawn's team has not been involved to date with
+Doorstep reviews or planning. Although Shawn made an offer to Michelle some
+time ago, there was a long lead time for her arrival. She did not start with
+the company until after Thanksgiving. Since she started a couple of weeks
+ago, Wes and I have asked her to look into several specific findings from the
+most AA internal audit projects and to work with our staffs to provide some
+solutions to issues that were raised. There simply has not been the time to
+date to expose her to Doorstep.
+After Shawn and I meet (see below), I will briefly summarize for you the
+roles that all groups will play in the Doorstep Review process. Before we
+move forward I want to be sure that all parties agree on the purpose,
+methodology, participants and execution plan for this on-going project."
+14953,124,2000-12-15 13:31:00+00:00,74,"FYI - Despite the fact that this an OU student, I thought that you would find
+this note interesting. Since we compete with Big 5 for talent at several
+schools, we should be aware of the make up of some of their job offers that
+lure students to join them. Paying for a masters degree at UVA ahead of
+time is certainly an interesting piece of this job offer. See note from Lexi
+below."
+14954,124,2000-10-18 22:31:00+00:00,326,"Thanks in advance for agreeing to speak at the Global Operations Controller
+Forum. I know that we are catching you before a tee time on Monday, so I
+especially appreciate your joining us to kick off the event that morning.
+Dress for the forum is casual, so feel free to do the same. There will be
+approximately 30 Enron business controllers present at the meeting. All have
+responsibility for mid and back office operations for the following Enron
+entities: Enron North America, Enron Europe, Enron South America, Enron
+Global Markets, Enron Industrial Markets, Enron Broadband Services and Enron
+Energy Services. Attendees will be here from Houston, Calgary, Tokyo,
+Sydney, London and New York (metals business).
+Attached for your reference is the agenda. There may be some slight changes
+before the forum begins, but this will give you a good idea of the topics to
+be covered and the other speakers who will address the group.
+You are scheduled to address the group as follows:
+Date: Monday, October 23, 2000
+Time: 8:00 am
+ (breakfast will be served at 7:30 and you are invited to join us)
+Place: The Warwick Hotel
+ The Versailles Room - 12th Floor
+ 5701 Main Street
+ Houston, TX 77005
+With a small group, your talk can be informal and you do not need to prepare
+slides (unless you would like to do so). Q&A afterwards would be great. Key
+speaking points that would enforce the value of this conference for this
+group would be:
+recognition of a job well done in supporting explosive business growth in
+2000
+your support for global standards for operational controls for trading
+activities
+your recognition of the value of operational professionals in the
+organization to ensure integrity of mid and back office functions
+your challenge to the group to strive for best in class processes and
+controls as Enron's growth as a trading organization continues
+Let me know if you have any questions and thanks again for joining us."
+14955,124,2000-07-21 16:18:00+00:00,31,"The Associates PRC meeting has been rescheduled for Monday, July 24th at 9:00
+am. I have also sent an e:mail message to the associates letting them know
+about the new date."
+14956,124,2000-07-19 12:21:00+00:00,110,"Today's Enron-wide Associates PRC meeting has been cancelled. It was
+scheduled to start at 1:30 today, following the Analysts PRC. Apparently,
+the Analysts PRC is running long. Since both meetings were scheduled for the
+same location and with Joe Sutton as the chair, the Associates PRC has been
+cancelled. I do not yet have a rescheduled date. I will let you know when I
+do. I am also sending an e:mail message to the Associates that I am
+representing so that they will informed of the cancellation.
+Thanks for taking the time to meet or talk with me about the performance of
+your respective associate in preparation for the PRC."
+14957,124,2000-07-07 22:04:00+00:00,269,"I will serve as a representative to the Associates PRC meeting that will
+take place on July 19. As a PRC rep, I have been assigned the Associates to
+represent in the meeting as indicated on the attachment. The Associates
+Program has provided me with your name as the PRC supervisor of the
+associate as listed.
+Please provide me with the following by Friday, July 14:
+Associate's accomplishments for the first half of 2000 (prepared by the
+associate or summarized by you)
+Description of associate's current responsibilities/assignment (and any
+additional rotational assignments during this first six months of the year)
+Pre-ranking of the associate from your business unit PRC , or your suggestion
+on ranking if no business unit PRC process has been completed (Superior,
+Excellent, Strong, Satisfactory, Needs Improvement or Issues)
+Any other information that you believe will be helpful in accurately
+representing the associate in the PRC process
+Recommendation for promotion, if any
+I will receive a copy of the Consolidated Supervisor Feedback from the PEP
+system through the Associates Program.
+I will be on vacation until Monday, July 17. My assistant, Patti Thompson,
+will be contacting you next week to ask if you would like to meet with me for
+a few minutes on Monday or Tuesday, July 17 and 18 (or phone call) to discuss
+your associate and his/her performance in more detail.
+Thanks for your attention to this. If you are not the appropriate PRC
+supervisor for the associate listed on the attachment, please reply by
+e:mail as soon as possible and my assistant will research where I should go
+next for this input."
+14958,124,2000-09-21 18:04:00+00:00,227,"I updated that systems matrix recently, in preparation for our much
+rescheduled meeting with AA on risk controls. That is on my calendar for
+Friday morning this week, so I will bring copies with me to that meeting.
+I have been publishing an ENA operations report monthly since June. To date,
+I have been reviewing it with Dave Delainey, fine-tuning each month the types
+of information and format that he likes. I will bring you a copy tomorrow
+and would like your input on content and format as well. With the recent
+reorganization, I am working with EGM and EIM to create the same report.
+After we have mastered that here in Houston over the next month or so, I plan
+to share the format with London so that all of our wholesale businesses can
+use the same format.
+In addition to these monthly operating reports, we are working on a daily
+report to be operational by the end of the fourth quarter that will track
+compliance with our fundamental operating standards. We are in the phase of
+determining the source of reporting (systematic or manual) and the frequency
+of reporting (daily, weekly, monthly) for all commodities and locations
+against the operating standards. As we get this to a first draft stage, I
+will share this with you, as well as the timeline for full implementation.
+--Sally"
+14959,124,2000-08-22 17:13:00+00:00,97,"I met with Karen Marshall today. She is in the Community Relations group and
+is organizing the dinner on September 7th. I suggested that she add to the
+invitation list the other interviewers this year for the scholarships (Roger
+Ondreko and Gene Humphrey), Brent Price and Loftis Fitzwater (one of last
+year's scholarhip recepients who started with us as an Associate this
+summer). I have also volunteered to coordinate with the University on
+appropriate attendees, as some of Karen's info is dated and she does not know
+people at the school. I will keep you posted. --Sally"
+14960,124,2000-08-15 14:02:00+00:00,85,"As a result of the creation of the Global Markets business in the last few
+days, I would add the following persons to the attendee list for the ASE in
+Dallas:
+ Brent Price VP Operations and CAO, Global Markets
+ Tom Myers Director of Accounting, Global Markets
+Brent is in London this week, and will be on vacation the week of August 21.
+With the demands of a new role, Brent will be best able to address the
+feasibility of one or both of them attending."
+14961,124,2000-08-10 16:17:00+00:00,390,"Not surprisingly, the organization is moving faster than Rick Buy's vacation
+schedule. Our meeting is set with Mark Frevert, Rick Buy, you and me on
+August 28 -- two weeks from next Monday, dictated by Rick Buy's schedule. I
+am concerned that waiting that long to get with Mark to discuss the potential
+formalization of a global risk management operations role will put us behind
+the curve.
+Mike McConnell and Jeff Shankman plan to release a memo tomorrow on the
+structure of the Global Markets team, which will include a discussion on
+Brent's role and reporting responsibilities. Brent and Scott Earnest are
+flying to London next Monday evening to spend the remainder of the week in
+that office to iron out details on supporting the global markets businesses.
+Many of their discussions will be with Mike Jordan and some logical points
+will be raised around co-ordination between EEL and EGM. In a conversation
+with Gary Hickerson on Tuesday regarding his business, he stated that he
+wanted to be sure that I had responsibility over London operations, as he
+will have support personnel in London and wants to be certain that efforts
+are coordinated. Separately, Jeff Shankman said that he was certainly
+comfortable with Brent in the Operations/CAO role but that he wanted Brent to
+report to me to ensure consistency, access to support resources and logic
+around systems issues that cut across the ocean. I told him that you and I
+had had discussions about a more formalized role to encompass responsibility
+for London and that we had a meeting planned with Mark Frevert on August 28.
+That's a lifetime to a trader, and Jeff said he hoped that we could nail that
+down before the end of the month.
+What are your thoughts about an earlier meeting with Mark Frevert? The
+summary of doorstep findings can be finalized early next week. I have
+checked Mark's travel schedule. He will be in the Houston office next week,
+with Thursday, August 17 as the best day to potentially schedule a meeting.
+I am not trying to rush this process, yet I know that by the end of August
+much will have been decided around coordinating between ENA, EGM and EEL
+operations. I would like to be in a position to help guide those decisions,
+rather than arrive at the party late."
+14962,124,2000-08-09 12:42:00+00:00,23,"I can't shed any light on the topic choice. Surely you can redirect the
+topic. Brent may have more info. --Sally
+Richard Causey@ENRON"
+14963,124,2000-07-20 19:04:00+00:00,170,"The following persons will be in attendance at 11:30 am in EB50M on July 21st
+for lunch, in addition to the two of you:
+ Enron Employees:
+ Shawn Cumberland - President and COO, CALME (UT BBA; UT JD)
+ Sally Beck - VP, ENA and Global Risk Management Operations (UT BBA; UT MBA)
+ Brent Price - VP, ENA (UT PPA)
+ David Mitchell - Associate (recent grad - UT MBA)
+ Jennifer Martinez - Associate (recent grad - UT MBA)
+ Luis Mena - Analyst (recent UT grad)
+ Catherine Pernot (recent UT grad)
+ Lexi Elliott - Analyst Program - UT Recruiter
+ Christy Young - Associate Program - UT Recruiter
+ UT Summer Associates:
+ Cantekin Dincerler
+ Steven Luong
+ Michelle Sandner
+ Adam Thomas
+ UT Summer Analysts:
+ Brenton Baxter
+ Matt Davis
+ Eric Efron
+ Katherine Jett
+ Jiyeon Kim
+ Joanna Li
+ Dana Lipp
+ Amy Mohan
+ Denise Olson
+ Neil Rajan
+ Angelique Woods
+Thanks for making the time to attend. This should be a great opportunity to
+meet with these UT students as they near the end of their summer internships
+with Enron."
+14964,124,2000-06-30 20:03:00+00:00,88,"Attached are my accomplishments for the first half of 2000. I should have
+had these for you on Tuesday for your PRC. Hopefully, better late than
+never. I am not certain how the coporate-wide PRC process will work in late
+July for VP's. I have provided a copy of this to Dave Delainey for the ENA
+PRC which will take place on July 7. I thought that I would provide you a
+copy as well.
+I will also have Patti deliver a hard copy to Sharron next week."
+14965,124,2000-06-23 08:54:00+00:00,20,"FYI - This came as a surprise to me. Didn't know whether or not you knew
+about GInger's departure. --Sally"
+14966,124,2000-05-25 13:55:00+00:00,25,"FYI - I believe that Shona will prove to be a great asset to Enron. We are
+following up on her leads for talent. --Sally"
+14967,124,2000-03-31 11:38:00+00:00,39,"Per my voice mail message, attached is a draft memo regarding Brent's role in
+London. Any comments would be appreciated. Fernley and I plan to send this
+out sometime next week, prior to Brent's assignment starting on April 10."
+14968,124,2000-03-14 16:27:00+00:00,25,"The e:mail system never recognizes Rick Causey, so you were dropped from the
+first distribution. I have to remember to type your full first name!"
+14969,124,2000-03-09 09:07:00+00:00,36,"Kevin Sweeney forwarded this message to me. Fernley may have made you aware
+of his decision with Tani when you and he talked yesterday. If not, I
+thought that you might be interested in this. --Sally"
+14970,124,2000-02-29 13:58:00+00:00,170,"Rick: Sorry, I should have sent this to you several days ago. Is the level
+of detail correct on these goals as you look to assimilate these with
+others? I have stated the goals, but not the action plan to achieve the
+goals. I am working on those in some detail right now. --Sally
+Goals for 2000
+Global Risk Management Operations
+I. Build/Enhance Operational and Controls Infrastructure to Support:
+A. Merchant Activities
+Japan
+Southern Cone
+Continental Europe
+Other regions as identified
+B. Emerging Businesses/Products
+Credit Trading
+Other products as identified
+C. Joint Ventures
+II. Strengthen Mid and Back Office Talent and Controls for Global Risk
+Management Operations
+A. Establish common operational standards,with effective exception reporting
+B. Strengthen and support the controls mindset in key operational personnel
+C. Develop a plan to identify, develop and provide rotational opportunities
+to key operations employees
+D. Continue to coordinate with IT to develop mid and back office systems
+that allow for timely and accurate compilation of data across systems for
+risk and business reporting"
+14971,124,2001-04-18 08:20:00+00:00,286,"Mary Solmonson has made a personal choice to resign from Enron. It is with
+regret that I have accepted Mary's letter of recommendation. Mary has
+contributed greatly during her tenure at Enron, particularly in the
+development of global information that has been critical in supporting our
+effective systems development and information gathering. I do appreciate
+Mary's personal decision, however, and I know that you will join me in
+wishing Mary well.
+Also effective April 16, we have made a realignment within Enron Net Works of
+the group led by Sheri Thomas. Sheri will now report directly to Andy
+Zipper, who leads EnronOnline. The Operations Product Control Team in its
+early stages was focused primarily on making our transition to EnronOnline a
+smooth one for operations. Much time was spent initially on the bridges
+necessary between EnronOnline and our legacy systems. The role of the team
+has evolved today to one that is intimately involved in the day-to-day
+operations of EnronOnline. With this evolution, it makes sense to have
+Sheri's team as an integral part of the larger EnronOnline team. Sheri's
+team will continue to support other e-commerce initiatives, such as
+Clickpaper, DealBench and CommodityLogic, so that we can leverage the
+experience of her team and avoid duplication of internal infrastructure.
+Sheri, Andy and I met with Sheri's team yesterday to announce this
+organizational realignment. Sheri has done a great job of leading the
+Product Control Group over the past 14 months. Sheri is committed to see
+that her team continues to work closely with Operations to ensure that any
+changes in Enron's e-commerce businesses that may impact trading operations
+are shared with us. We look forward to continuing to work closely with Sheri
+and her team."
+14972,124,2001-04-09 12:04:00+00:00,160,"I won't bury you with constant examples, but am copying you on this note
+regarding floor meetings. While operations is now a part of Enron Net Works,
+I believe that the only meaningful piece of that to Philippe and Greg is our
+commercialization effort. They are not in the habit of considering the 500
+people who provide critical services to EA, EGM and EIM daily. Floor
+meetings set by Greg and Philippe were apparently aimed at the IT teams, and
+yet my group has added over 500 employees to Net Works in Houston alone with
+our reorganization late last fall. I will diligently work with Philippe and
+Greg on this on an on-going basis. While not fully embraced as part of Net
+Works, my operations team now is organizationally separated from the key
+Enron businesses that we support. I suspect that motivating and managing in
+this environment will become increasingly challenging. This is an FYI more
+than anything else. --Sally"
+14973,124,2001-03-29 13:40:00+00:00,114,"All eight students that we interviewed for the Enron Scholarship were great
+and we should actively be sure that we get them on our interview schedules
+next year when they are in the second year of the MBA program. I don't want
+to simply leave that to chance by encouraging them to consider us. Karen's
+letter (noted below) is a good idea, but we should augment that by getting
+these students names on our radar screen for next year. I will find out who
+the recruiter is for UT MBA's and I will get copies of the students' resumes
+and my notes on where they could be a good fit to that recruiter. --Sally"
+14974,124,2001-03-09 18:35:00+00:00,165,"I will be on vacation the week of March while my children are on Spring
+Break. We will be out of town Monday through Wednesday, looking at colleges
+with Meagan. We should return to Houston on Wednesday night. I have planned
+to be out of the office for the balance of the week, but may decide to return
+to work on Thursday and Friday. My assistant, Patti Thompson (x39106), will
+have contact numbers for me while I am out of town in case something urgent
+arises. I will also let her know during the week whether or not I will be
+back at work on Thursday and Friday.
+In my absence, the following persons are key contacts:
+Commercialization of Services: James Scribner x39641
+ Beth Apollo x35014
+Enron Americas Operations: Gas: Bob Hall x36956
+ Jeff Gossett x37306
+ Power: Stacey White x31870
+Enron Global Markets Operations: Brent Price x37647
+Enron Industrial Markets Operations: Brenda Herod x35778
+Enron Europe Operations: Mike Jordan 7830-34703
+Global Services: Beth Apollo x35014"
+14975,124,2001-03-09 16:57:00+00:00,30,"Thought you might like to see this note from Max on the doorstep review in
+Monterrey. Beth is a great addition and has made a very positive impact
+already. --Sally"
+14976,124,2000-11-13 08:05:00+00:00,38,"Thanks for the note. I will definitely look for you in San Antonio. I would
+love to hear about your new role. We miss seeing you in ENA. (I guess that
+is now Enron Americas!) --Sally
+Jordan Mintz"
+14977,124,2001-02-27 11:18:00+00:00,87,"I will be out of the office on vacation on Friday, March 2 and Monday, March
+5. I will check messages at the end of both business days. My assistant,
+Patti Thompson ( x35926) will have contact numbers for me. Since I will be a
+chaperone for my daughter and 80 other girls from the high school drill team
+at state competition in Dallas, it is unlikely that I will be easily
+reachable during the day.
+I will be back in the office on Tuesday, March 6."
+14978,124,2001-02-27 10:49:00+00:00,220,"I made the decision last week to disband the Strategic Initiatives team which
+reported to Mary Solmonson within my organization. The group was led by a
+director, and consisted of 2 managers, 1 senior specialist and 4
+specialists. The employees were made aware of this decision last Friday
+afternoon. My HR rep was on hand to explain the help that all will receive
+in finding new assignments within Enron through the Enron Corp. Re-deployment
+Team. Mary Solmonson continues as one of my direct reports, focused on
+CommodityLogic and our business development efforts regarding the
+commercialization of mid and back office services.
+As part of my on-going effort to deliver both the best value and quality of
+service within Energy Operations, I reviewed core versus non-core activities
+within my team. I am committed to investing appropriately in people
+resources to support core activities. And I believe that we can become even
+more effective if investments in non-core activities are eliminated. The
+role played by the Strategic Intiatives team in coordinating systems projects
+will be more appropriately shouldered by the IT project leads and the
+respective business sponsors/end users. The ""middle-man"" role played by the
+Strategic Initiatives team had ceased to deliver appropriate value.
+I wanted you to be aware of my decision in case you hear anything about the
+re-deployment effort."
+14979,124,2001-01-16 11:48:00+00:00,18,"Thanks for your nice note. I have fun being here, which makes all of this
+even better! --Sally"
+14980,124,2001-01-16 06:16:00+00:00,37,"Thanks for your nice note. I hope that you are having fun in your new role.
+We will have to schedule lunch so that I can catch up on what you are doing
+now. --Sally
+Jordan Mintz"
+14981,49,2001-10-24 21:17:57+00:00,21,"Congrats Jeff
+I dont think there could be anyone better and more capable to take this challenging position. Good luck.
+Harry"
+14982,66,2000-09-26 19:12:00+00:00,75,"Jeff Shankman gave me your name. I have assumed Jeff's old responsibilities
+as head of the natural gas derivatives trading group. Our broker, EDF MAN,
+supplies us with $50 million of margin financing every night. They are
+trying to clean up their books for end of quarter and/or year on Sep 30.
+They have asked if we can post the $50 million overnight on the 30th. We did
+this last year as well. Please advise,"

@@ -68,12 +68,16 @@ def load_people() -> pd.DataFrame:
 
     Columns: folder, full_name, role ('Unknown' when missing), department,
     full_corpus_community (community in the earlier full-corpus analysis).
+    People added later without a record in person_info (e.g. Andrew Fastow, added
+    from other people's mailboxes) get a name made from their address.
     """
     with closing(connect()) as conn:
         people = pd.read_sql("""
             SELECT p.person_id,
                    p.name                         AS folder,
                    COALESCE(i.full_name, p.name)  AS full_name,
+                   p.mail                         AS mail,
+                   i.full_name IS NULL            AS no_info,
                    COALESCE(i.role, 'Unknown')    AS role,
                    i.jse_department               AS department,
                    f.community                    AS full_corpus_community
@@ -81,7 +85,9 @@ def load_people() -> pd.DataFrame:
             LEFT JOIN ext.person_info i USING (person_id)
             LEFT JOIN ext.full_network_metrics f USING (person_id)
         """, conn)
-    return people.set_index("person_id")
+    from_mail = people["mail"].fillna("").str.split("@").str[0].str.replace(".", " ").str.title()
+    people.loc[people["no_info"].astype(bool) & (from_mail != ""), "full_name"] = from_mail
+    return people.drop(columns=["mail", "no_info"]).set_index("person_id")
 
 
 def load_congress_mentions() -> pd.Series:
@@ -157,7 +163,7 @@ def load_emails() -> pd.DataFrame:
     """
     with closing(connect(attach_external=False)) as conn:
         columns = {row[1] for row in conn.execute("PRAGMA table_info(emails)")}
-        raw = "body_raw" if "body_raw" in columns else "body_clean"
+        raw = "COALESCE(body_raw, body_clean)" if "body_raw" in columns else "body_clean"
         emails = pd.read_sql(f"""
             SELECT email_id, date, sender_id, subject, body_clean, {raw} AS body_raw,
                    message_type, human_probability
