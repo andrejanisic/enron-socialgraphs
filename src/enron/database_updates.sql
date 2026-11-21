@@ -141,3 +141,76 @@ WHERE email_id IN (SELECT email_id FROM matches);
 SELECT email_id, body_clean
 FROM emails
 WHERE email_id IN (SELECT email_id FROM matches);
+
+-- Remove Debra's long signatures (she has two for some reason)
+UPDATE emails
+SET body_clean = TRIM(
+    REPLACE(
+        body_clean,
+        'Debra Perlingiere
+Enron North America Legal
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron
+713-853-7658
+713-646-3490 Fax',
+        ''
+    ),
+    CHAR(10) || CHAR(13) || ' '
+)
+WHERE body_clean LIKE '%Debra Perlingiere
+Enron North America Legal
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron
+713-853-7658
+713-646-3490 Fax%';
+
+UPDATE emails
+SET body_clean = TRIM(
+    REPLACE(
+        body_clean,
+        'Debra Perlingiere
+Enron North America Corp.
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490',
+        ''
+    ),
+    CHAR(10) || CHAR(13) || ' '
+)
+WHERE body_clean LIKE '%Debra Perlingiere
+Enron North America Corp.
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490%';
+
+-- Set automated lotus calendar meetings as generated
+UPDATE emails
+SET message_type = 'generated'
+WHERE body_clean LIKE '%*~*~*~*~*%';
+
+-- Remove Susan's signatures
+UPDATE emails 
+SET body_clean = REPLACE(
+body_clean,
+'Susan S. Bailey
+Enron North America Corp.
+1400 Smith Street, Suite 3803A
+Houston, Texas 77002
+Phone: (713) 853-4737
+Fax: (713) 646-3490
+Email: Susan.Bailey@enron.com',
+''
+)
+WHERE body_clean LIKE '%Susan S. Bailey
+Enron North America Corp.
+1400 Smith Street, Suite 3803A
+Houston, Texas 77002
+Phone: (713) 853-4737
+Fax: (713) 646-3490
+Email: Susan.Bailey@enron.com%';
