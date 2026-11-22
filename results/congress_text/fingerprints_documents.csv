@@ -1,0 +1,121 @@
+group,rank,word,tfidf
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,1,research,0.45985725581094616
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,2,pge,0.29790493016161934
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,3,banking,0.23228537001758862
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,4,precursor,0.1864654873399925
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,5,age,0.1552620730914892
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,6,auditing,0.119562886510846
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,7,afl,0.1104980665718474
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,8,cio,0.1104980665718474
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,9,lockdown,0.09758954608742702
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,10,growth,0.09503716620092886
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,11,lehman,0.0873169622887505
+18 Dec 2001 · Senate hearing · An overview of the Enron collaps…,12,worker,0.08527031672739774
+4 Feb 2002 · House hearing · Enron collapse: implications to…,1,auditing,0.2789729051553484
+4 Feb 2002 · House hearing · Enron collapse: implications to…,2,hope,0.15154083736833737
+4 Feb 2002 · House hearing · Enron collapse: implications to…,3,ought,0.14161008356753416
+4 Feb 2002 · House hearing · Enron collapse: implications to…,4,dean,0.13615089154315294
+4 Feb 2002 · House hearing · Enron collapse: implications to…,5,maybe,0.13432028766738996
+4 Feb 2002 · House hearing · Enron collapse: implications to…,6,motion,0.12439391108360605
+4 Feb 2002 · House hearing · Enron collapse: implications to…,7,elkins,0.11724104549549279
+4 Feb 2002 · House hearing · Enron collapse: implications to…,8,pass,0.11709973796644252
+4 Feb 2002 · House hearing · Enron collapse: implications to…,9,yesterday,0.10967710707642876
+4 Feb 2002 · House hearing · Enron collapse: implications to…,10,xx,0.10086100021439831
+4 Feb 2002 · House hearing · Enron collapse: implications to…,11,vinson,0.095795056530979
+4 Feb 2002 · House hearing · Enron collapse: implications to…,12,federal,0.09454923023830065
+5 Feb 2002 · House hearing · Financial collapse of Enron,1,kopper,0.30647047028758484
+5 Feb 2002 · House hearing · Financial collapse of Enron,2,dean,0.2709626861434017
+5 Feb 2002 · House hearing · Financial collapse of Enron,3,causey,0.2580803960316504
+5 Feb 2002 · House hearing · Financial collapse of Enron,4,glisan,0.1788108908068557
+5 Feb 2002 · House hearing · Financial collapse of Enron,5,winokur,0.17842476374580268
+5 Feb 2002 · House hearing · Financial collapse of Enron,6,raptor,0.16672732833217435
+5 Feb 2002 · House hearing · Financial collapse of Enron,7,mordaunt,0.1660269726293083
+5 Feb 2002 · House hearing · Financial collapse of Enron,8,raptors,0.15323523514379242
+5 Feb 2002 · House hearing · Financial collapse of Enron,9,rhythms,0.1390751372942211
+5 Feb 2002 · House hearing · Financial collapse of Enron,10,vincent,0.13408059889551954
+5 Feb 2002 · House hearing · Financial collapse of Enron,11,hope,0.13338186266573948
+5 Feb 2002 · House hearing · Financial collapse of Enron,12,river,0.12290721565422626
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,1,puhca,0.31409656224878035
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,2,auditing,0.15912309697005175
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,3,utility,0.14408902245051664
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,4,panel,0.13172157916930383
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,5,independence,0.1272984775760414
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,6,sro,0.1271450546183327
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,7,governance,0.12485042993034831
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,8,nacd,0.11580893638269381
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,9,legislation,0.11261019170188279
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,10,bush,0.11073924111919299
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,11,federal,0.10483962423679283
+6 Feb 2002 · House hearing · Lessons learned from Enron's col…,12,pob,0.10313618461900251
+7 Feb 2002 · House hearing · Financial collapse of Enron,1,kopper,0.2912076481357815
+7 Feb 2002 · House hearing · Financial collapse of Enron,2,mcmahon,0.26527846002189465
+7 Feb 2002 · House hearing · Financial collapse of Enron,3,causey,0.22268820151559762
+7 Feb 2002 · House hearing · Financial collapse of Enron,4,mintz,0.21099408429207836
+7 Feb 2002 · House hearing · Financial collapse of Enron,5,glisan,0.20255432092039524
+7 Feb 2002 · House hearing · Financial collapse of Enron,6,negotiate,0.1742106113935135
+7 Feb 2002 · House hearing · Financial collapse of Enron,7,memo,0.17281261037501075
+7 Feb 2002 · House hearing · Financial collapse of Enron,8,raptor,0.15014866147337
+7 Feb 2002 · House hearing · Financial collapse of Enron,9,winokur,0.1477979991550556
+7 Feb 2002 · House hearing · Financial collapse of Enron,10,jeff,0.1431015736446718
+7 Feb 2002 · House hearing · Financial collapse of Enron,11,jaedicke,0.13503621394693016
+7 Feb 2002 · House hearing · Financial collapse of Enron,12,recollection,0.12505984543889317
+14 Feb 2002 · House hearing · Are current financial accounting…,1,consolidation,0.2511359371053129
+14 Feb 2002 · House hearing · Are current financial accounting…,2,guidance,0.2182991578582104
+14 Feb 2002 · House hearing · Are current financial accounting…,3,fei,0.1967048027359345
+14 Feb 2002 · House hearing · Are current financial accounting…,4,sector,0.18479420848164224
+14 Feb 2002 · House hearing · Are current financial accounting…,5,aicpa,0.1690869472340474
+14 Feb 2002 · House hearing · Are current financial accounting…,6,auditing,0.1659073599722399
+14 Feb 2002 · House hearing · Are current financial accounting…,7,setting,0.15821111031987742
+14 Feb 2002 · House hearing · Are current financial accounting…,8,instrument,0.13903400603868016
+14 Feb 2002 · House hearing · Are current financial accounting…,9,standards,0.13727569772921994
+14 Feb 2002 · House hearing · Are current financial accounting…,10,transparent,0.1267160286731261
+14 Feb 2002 · House hearing · Are current financial accounting…,11,lesson,0.12465117782778219
+14 Feb 2002 · House hearing · Are current financial accounting…,12,assurance,0.12224752840059783
+14 Feb 2002 · House hearing · Financial collapse of Enron,1,raptor,0.4415197199825075
+14 Feb 2002 · House hearing · Financial collapse of Enron,2,watkins,0.39692176846912286
+14 Feb 2002 · House hearing · Financial collapse of Enron,3,wing,0.27125739536207616
+14 Feb 2002 · House hearing · Financial collapse of Enron,4,vinson,0.22112458129069787
+14 Feb 2002 · House hearing · Financial collapse of Enron,5,memo,0.2051505769615691
+14 Feb 2002 · House hearing · Financial collapse of Enron,6,elkins,0.20078892302503754
+14 Feb 2002 · House hearing · Financial collapse of Enron,7,mcmahon,0.16107829632063708
+14 Feb 2002 · House hearing · Financial collapse of Enron,8,condor,0.15372904541838492
+14 Feb 2002 · House hearing · Financial collapse of Enron,9,cashflow,0.1366480403718977
+14 Feb 2002 · House hearing · Financial collapse of Enron,10,white,0.13222685174819543
+14 Feb 2002 · House hearing · Financial collapse of Enron,11,olson,0.11207895753063099
+14 Feb 2002 · House hearing · Financial collapse of Enron,12,baxter,0.10738553088042473
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,1,mcmahon,0.4319902129371141
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,2,watkins,0.2866051018657772
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,3,raptor,0.24220149453445966
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,4,recollection,0.20519535114512918
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,5,broadband,0.13724751356952714
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,6,budget,0.12692207748106718
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,7,jeff,0.11524972527600176
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,8,yeah,0.1082090199656564
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,9,wholesale,0.10251398565778504
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,10,blockbuster,0.10049337568637598
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,11,eps,0.10002790329754604
+26 Feb 2002 · Senate hearing · Collapse of the Enron corporatio…,12,sorry,0.09688059781378384
+8 Jul 2002 · Senate report · Role of the board of directors i…,1,raptor,0.4704939189738686
+8 Jul 2002 · Senate report · Role of the board of directors i…,2,whitewing,0.30005286125694713
+8 Jul 2002 · Senate report · Role of the board of directors i…,3,lemaistre,0.29334730930179104
+8 Jul 2002 · Senate report · Role of the board of directors i…,4,duncan,0.21955087409044916
+8 Jul 2002 · Senate report · Role of the board of directors i…,5,raptors,0.2183271567777968
+8 Jul 2002 · Senate report · Role of the board of directors i…,6,dash,0.14667365465089552
+8 Jul 2002 · Senate report · Role of the board of directors i…,7,winokur,0.12441216198458784
+8 Jul 2002 · Senate report · Role of the board of directors i…,8,blake,0.12324192564650788
+8 Jul 2002 · Senate report · Role of the board of directors i…,9,independence,0.1094171904590392
+8 Jul 2002 · Senate report · Role of the board of directors i…,10,whitewe,0.0985935405172063
+8 Jul 2002 · Senate report · Role of the board of directors i…,11,personnel,0.09847547141313528
+8 Jul 2002 · Senate report · Role of the board of directors i…,12,february,0.09847547141313528
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,1,puhca,0.27975045145000116
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,2,exemption,0.26763527371189266
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,3,moody,0.20218361595869733
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,4,research,0.19371992180411893
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,5,sarbanes,0.19315730010736007
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,6,banking,0.188312518825788
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,7,fitch,0.17884935195125928
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,8,application,0.14995256128720158
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,9,nrsro,0.14307948156100744
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,10,downgrade,0.13833615828752974
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,11,utility,0.13594172632985024
+7 Oct 2002 · Senate report · Financial oversight of Enron: th…,12,merrill,0.13245158530987622

@@ -722,28 +722,46 @@ CONGRESS_COLOUR, EMAIL_COLOUR = PALETTE[0], PALETTE[1]
 
 
 def plot_theme_coverage(coverage: pd.DataFrame, path_stem: Path) -> None:
-    """Theme terms per 10,000 words in the Congress texts and in the emails, one row
-    per theme (log scale, so small rates stay visible).
+    """How many times more often Congress uses each theme's terms than the emails do
+    (rate per 10,000 words, Congress / emails), one bar per theme on a log scale;
+    themes the emails use more go left. Each bar is labelled with its ratio, and the
+    right column gives the number of emails tagged with the theme.
 
-    coverage: index = theme names (display order), columns congress, emails.
+    coverage: index = short theme names, columns congress, emails (rates per 10,000
+    words) and n_emails.
     """
-    k = len(coverage)
+    data = coverage.assign(ratio=coverage["congress"] / coverage["emails"]).sort_values("ratio")
+    k = len(data)
     y = np.arange(k)
-    fig, ax = plt.subplots(figsize=(4.6, 0.55 + 0.3 * k))
-    low = coverage.to_numpy()[coverage.to_numpy() > 0].min() / 2
-    for i, (_, row) in enumerate(coverage.iterrows()):
-        ax.plot([max(row.emails, low), max(row.congress, low)], [i, i], color=LINK_GREY, lw=1, zorder=1)
-    ax.scatter(coverage["congress"].clip(lower=low), y, s=26, color=CONGRESS_COLOUR, zorder=3, label="Congress")
-    ax.scatter(coverage["emails"].clip(lower=low), y, s=26, color=EMAIL_COLOUR, zorder=3, label="Emails")
-    ax.set_xscale("log")
+    log_ratio = np.log2(data["ratio"].to_numpy())
+    colours = [CONGRESS_COLOUR if r > 1 else EMAIL_COLOUR for r in data["ratio"]]
+    fig, ax = plt.subplots(figsize=(4.8, 0.5 + 0.3 * k))
+    ax.barh(y, log_ratio, height=0.6, color=colours, zorder=2)
+    ax.axvline(0, color=INK, lw=0.8, zorder=3)
+    for yi, r, lr in zip(y, data["ratio"], log_ratio):
+        text = f"{r:.0f}\u00d7" if r >= 1 else f"{1 / r:.1f}\u00d7 in emails"
+        ax.text(lr + (0.15 if r >= 1 else -0.15), yi, text, va="center",
+                ha="left" if r >= 1 else "right", fontsize=REPORT_FONT - 1, color=INK)
+    ticks = [t for t in range(-4, 9, 2) if log_ratio.min() - 1.5 <= t <= log_ratio.max() + 1.5]
+    ax.set_xticks(ticks)
+    ax.set_xticklabels([f"\u00f7{2 ** -t}" if t < 0 else f"{2 ** t}\u00d7" for t in ticks],
+                       fontsize=REPORT_FONT - 1)
+    ax.set_xlim(min(log_ratio.min(), 0) - 2.6, log_ratio.max() + 1.6)
     ax.set_yticks(y)
-    ax.set_yticklabels(coverage.index, fontsize=REPORT_FONT - 0.5)
-    ax.invert_yaxis()
-    ax.set_xlabel("Theme terms per 10,000 words (log scale)", fontsize=REPORT_FONT)
-    ax.legend(frameon=False, fontsize=REPORT_FONT - 1, loc="lower left", bbox_to_anchor=(0, 1.0),
-              ncol=2, handletextpad=0.2, borderaxespad=0.2)
+    ax.set_yticklabels(data.index, fontsize=REPORT_FONT - 0.5)
+    ax.set_xlabel("How many times more often Congress uses the theme's terms\n"
+                  "(rate per 10,000 words, Congress \u00f7 emails; log scale)", fontsize=REPORT_FONT - 0.5)
     _plain(ax)
+    ax.spines["left"].set_visible(False)
     ax.tick_params(axis="y", length=0)
+    right = ax.twinx()
+    right.set_ylim(ax.get_ylim())
+    right.set_yticks(y)
+    right.set_yticklabels([f"{n:,}" for n in data["n_emails"]], fontsize=REPORT_FONT - 1, color=INK_SECONDARY)
+    right.tick_params(axis="y", length=0)
+    for side in right.spines.values():
+        side.set_visible(False)
+    right.set_ylabel("emails tagged", fontsize=REPORT_FONT - 1, color=INK_SECONDARY, rotation=270, labelpad=10)
     save(fig, path_stem)
 
 
@@ -808,4 +826,93 @@ def plot_typical_words(words: pd.DataFrame, n: int, min_count: int, forms: dict,
             text.remove()                       # too wide: wrap narrower and try again
             width -= 4
         texts.append(text)
+    save(fig, path_stem)
+
+
+# ------------------------------------------------- who wrote, who received ---
+PERSON_GROUPS = ["Named by Congress", "Central core", "Brokers", "Others"]
+GROUP_COLOURS = {"Named by Congress": PALETTE[7], "Central core": PALETTE[0],
+                 "Brokers": PALETTE[2], "Others": "#6b6a65"}
+SIDES = [("written", "Who wrote them"), ("received", "Who received them")]
+
+
+def plot_group_chance(tests: pd.DataFrame, path_stem: Path) -> None:
+    """Congress-theme emails written and received by each group (dot) against the
+    range expected by chance (grey bar: middle 95% of the shuffles; tick: mean).
+
+    tests: from enron.email_people.group_test for one theme, with columns side,
+    group, observed, expected, chance_low, chance_high.
+    """
+    fig, axes = plt.subplots(1, 2, figsize=(6.8, 2.3), sharey=True)
+    y = np.arange(len(PERSON_GROUPS))
+    for ax, (side, title) in zip(axes, SIDES):
+        data = tests[tests["side"] == side].set_index("group").reindex(PERSON_GROUPS)
+        for i, (group, row) in enumerate(data.iterrows()):
+            ax.plot([row.chance_low, row.chance_high], [i, i], color=OTHER_GREY, lw=5,
+                    solid_capstyle="round", zorder=1)
+            ax.plot([row.expected], [i], "|", color=INK_SECONDARY, ms=9, zorder=2)
+            ax.scatter([row.observed], [i], s=38, color=GROUP_COLOURS[group], zorder=3,
+                       edgecolor="white", linewidth=0.8)
+            label = f"{row.observed:.0f}" if side == "written" else f"{row.observed:.1f}"
+            ax.text(row.observed, i - 0.32, label, ha="center", fontsize=REPORT_FONT - 1.5, color=INK)
+        ax.set_yticks(y)
+        ax.set_yticklabels(PERSON_GROUPS, fontsize=REPORT_FONT)
+        ax.set_ylim(len(PERSON_GROUPS) - 0.4, -0.6)
+        ax.set_title(title, fontsize=REPORT_FONT + 0.5, color=INK)
+        ax.set_xlabel("Congress-theme emails" + (" (weighted by recipients)" if side == "received" else ""),
+                      fontsize=REPORT_FONT - 0.5)
+        ax.set_xlim(left=min(0, ax.get_xlim()[0]))
+        _plain(ax)
+        ax.tick_params(axis="y", length=0)
+    fig.text(0.99, -0.05, "Dot = observed. Grey bar = range expected by chance (middle 95% of the "
+             "shuffles), tick = its mean.", ha="right", fontsize=REPORT_FONT - 1.5, color=INK_SECONDARY)
+    fig.tight_layout()
+    save(fig, path_stem)
+
+
+def plot_group_ratio(tests: pd.DataFrame, path_stem: Path) -> None:
+    """Observed / expected (log scale) emails written and received by each group, for
+    the Congress themes and, as a contrast, the energy theme. Labels: observed vs
+    expected for the Congress themes, the ratio for energy; * = p < 0.05.
+
+    tests: from enron.email_people.group_test, with a `theme` column whose values
+    start with "Congress" and "Energy".
+    """
+    themes = [("Congress", "Congress themes", PALETTE[0], -0.19), ("Energy", "Energy", PALETTE[1], 0.19)]
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.7), sharey=True)
+    y = np.arange(len(PERSON_GROUPS))
+    for ax, (side, title) in zip(axes, SIDES):
+        for prefix, label, colour, offset in themes:
+            data = tests[tests["theme"].str.startswith(prefix) & (tests["side"] == side)] \
+                .set_index("group").reindex(PERSON_GROUPS)
+            log_ratio = np.log2(data["ratio"].clip(lower=1 / 16).to_numpy())
+            ax.barh(y + offset, log_ratio, height=0.36, color=colour, label=label, zorder=2)
+            for yi, x, (_, row) in zip(y, log_ratio, data.iterrows()):
+                if prefix == "Congress":
+                    text = (f"{row.observed:.0f} vs {row.expected:.0f}" if side == "written"
+                            else f"{row.observed:.1f} vs {row.expected:.1f}")
+                else:
+                    text = f"×{row.ratio:.2f}"
+                if min(row.p_high, row.p_low) < 0.05:
+                    text += " *"
+                ax.text(x + (0.08 if x >= 0 else -0.08), yi + offset, text, va="center",
+                        ha="left" if x >= 0 else "right", fontsize=REPORT_FONT - 1.5, color=INK)
+        ax.axvline(0, color=INK, lw=0.8, zorder=3)
+        ticks = [-2, -1, 0, 1, 2]
+        ax.set_xticks(ticks)
+        ax.set_xticklabels([f"÷{2 ** -t}" if t < 0 else f"{2 ** t}×" for t in ticks],
+                           fontsize=REPORT_FONT - 1)
+        ax.set_xlim(-3.4, 3.0)
+        ax.set_title(title, fontsize=REPORT_FONT + 0.5, color=INK)
+        ax.set_xlabel("Observed ÷ expected by chance (log scale)", fontsize=REPORT_FONT - 0.5)
+        _plain(ax)
+        ax.tick_params(axis="y", length=0)
+    axes[0].set_yticks(y)
+    axes[0].set_yticklabels(PERSON_GROUPS, fontsize=REPORT_FONT)
+    axes[0].set_ylim(len(PERSON_GROUPS) - 0.5, -0.5)          # first group at the top
+    axes[0].legend(frameon=False, fontsize=REPORT_FONT - 1, loc="lower left",
+                   bbox_to_anchor=(0, 1.08), ncol=2)
+    fig.text(0.99, -0.04, "Labels: emails observed vs expected (Congress themes), ratio (energy); "
+             "* p < 0.05", ha="right", fontsize=REPORT_FONT - 1.5, color=INK_SECONDARY)
+    fig.tight_layout()
     save(fig, path_stem)

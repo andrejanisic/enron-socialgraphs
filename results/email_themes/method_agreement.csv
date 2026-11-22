@@ -1,0 +1,9 @@
+theme,emails tagged by term list,emails tagged by similarity,emails tagged by both,term-list emails also found by similarity (%),"overlap, both / either (Jaccard)",agreement beyond chance (Cohen's kappa)
+LJM and the related-party partnerships,8,0,0,0.0,0.0,
+"Special purpose entities, Raptor hedges and hidden debt",11,0,0,0.0,0.0,
+Arthur Andersen and the audits,0,0,0,0.0,0.0,
+"The board, its committees and executive pay",7,0,0,0.0,0.0,
+Employees' retirement savings and Enron stock,5,1,0,0.0,0.0,-0.00017550633577867458
+Wall Street analysts and credit rating agencies,2,0,0,0.0,0.0,
+The bankruptcy and its toll on employees,24,0,0,0.0,0.0,
+Energy trading and power markets,1230,0,0,0.0,0.0,
