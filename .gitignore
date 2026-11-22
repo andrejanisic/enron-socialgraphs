@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Sentence embeddings cache (recomputed by run_email_themes)
+results/email_themes/embeddings/

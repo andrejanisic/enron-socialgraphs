@@ -1,9 +1,9 @@
 theme,emails tagged by term list,emails tagged by similarity,emails tagged by both,term-list emails also found by similarity (%),"overlap, both / either (Jaccard)",agreement beyond chance (Cohen's kappa)
-The partnerships: who knew,8,10,2,25.0,0.125,0.22149387210432048
-The special purpose entities and their accounting,11,11,0,0.0,0.0,-0.0011591148577450028
-Andersen and the auditing,0,10,0,0.0,0.0,0.0
-The board's duties and executive pay,7,10,1,14.285714285714286,0.0625,0.1168815878346976
-Employees' stock and retirement losses,5,10,3,60.0,0.25,0.39957869606431906
-Analysts and rating agencies,2,10,1,50.0,0.09090909090909091,0.16637419717123503
-The collapse and what it meant for people,24,24,5,20.833333333333332,0.11627906976744186,0.20632847947662758
-Energy markets and trading,1233,1233,605,49.06731549067315,0.32509403546480387,0.4147176638569009
+LJM and the related-party partnerships,8,0,0,0.0,0.0,
+"Special purpose entities, Raptor hedges and hidden debt",11,0,0,0.0,0.0,
+Arthur Andersen and the audits,0,0,0,0.0,0.0,
+"The board, its committees and executive pay",7,0,0,0.0,0.0,
+Employees' retirement savings and Enron stock,5,1,0,0.0,0.0,-0.00017550633577867458
+Wall Street analysts and credit rating agencies,2,0,0,0.0,0.0,
+The bankruptcy and its toll on employees,24,0,0,0.0,0.0,
+Energy trading and power markets,1230,0,0,0.0,0.0,

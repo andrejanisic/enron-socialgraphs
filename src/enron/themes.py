@@ -8,16 +8,22 @@ energy crisis, which shares words such as "board" and "rating"): when one is
 present, general terms do not
 count, name terms still do.
 
+Retrieval, the second method, compares meaning instead of terms: sentence
+embeddings of the email and of the theme's Congress passages (enron.embeddings),
+a threshold per theme set among the emails (the top 1% most similar), the rule that
+the theme must be the email's most similar one, and the same exclude terms as the
+term list.
+
 Term syntax: case is ignored; `*` at the end of a word allows any ending
 (`audit*` = audit, auditor, auditing); a space also matches a hyphen; a term
 starting with `re:` is a regular expression.
 """
 
 import re
+import warnings
 
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import cohen_kappa_score
 
 
@@ -75,47 +81,73 @@ def matched_terms(text: str, themes: pd.DataFrame, theme_id: int) -> str:
 
 
 # ------------------------------------------------------------- retrieval ---
-def theme_similarity(email_tokens, passage_tokens, passage_topics, themes: pd.DataFrame,
-                     email_words=None, min_words: int = 30) -> pd.DataFrame:
-    """Cosine similarity (TF-IDF, course week 7) between each email and each theme,
-    a theme being the mean vector of the Congress passages whose main topic is one
-    of the theme's topics. Rows: emails; columns: theme ids.
+# ------------------------------------------------------------- retrieval ---
+def theme_topics(themes: pd.DataFrame) -> dict:
+    """For each theme id, the Congress (LDA) topics it was built from."""
+    first = themes.drop_duplicates("theme_id").set_index("theme_id")["topics"]
+    return {theme_id: [int(t) for t in str(topics).split(";")] for theme_id, topics in first.items()}
 
-    Emails shorter than `min_words` get similarity 0: with a handful of words, one
-    shared word ("research", "options") is enough for a high score."""
-    vectoriser = TfidfVectorizer(analyzer=lambda tokens: tokens, min_df=3, sublinear_tf=True)
-    X = vectoriser.fit_transform(list(email_tokens) + list(passage_tokens))
-    E, P = X[:len(email_tokens)], X[len(email_tokens):]
+
+def theme_profiles(passage_vectors: np.ndarray, passage_topics, themes: pd.DataFrame) -> pd.DataFrame:
+    """One unit vector per theme (rows, indexed by theme id): the mean embedding of the
+    Congress passages whose main LDA topic is one of the theme's topics."""
     topics = np.asarray(passage_topics)
-    scores = {}
+    rows = {}
+    for theme_id, wanted in theme_topics(themes).items():
+        mean = passage_vectors[np.isin(topics, wanted)].mean(axis=0)
+        rows[theme_id] = mean / (np.linalg.norm(mean) or 1)
+    return pd.DataFrame(rows).T
+
+
+def email_thresholds(similarity: pd.DataFrame, scored, percentile: float = 99) -> pd.Series:
+    """For each theme, the similarity that only (100 - percentile)% of the scored emails
+    reach. Set among the emails themselves, because emails and hearings are written so
+    differently that a threshold set among the Congress passages is out of reach for
+    any email (even for energy, the emails' most common subject)."""
+    scored = np.asarray(scored)
+    return pd.Series({t: float(np.percentile(similarity.loc[scored, t], percentile))
+                      for t in similarity.columns})
+
+
+def has_exclude_terms(texts, themes: pd.DataFrame) -> pd.DataFrame:
+    """One row per text, one boolean column per theme id: does the text hold any of
+    the theme's exclude terms (the California energy crisis, ISDA agreements)?"""
+    texts = list(texts)
+    out = {}
     for theme_id, group in themes.groupby("theme_id"):
-        wanted = [int(t) for t in str(group["topics"].iloc[0]).split(";")]
-        centroid = np.asarray(P[np.isin(topics, wanted)].mean(axis=0)).ravel()
-        centroid /= np.linalg.norm(centroid) or 1
-        scores[theme_id] = E @ centroid
-    scores = pd.DataFrame(scores)
-    if email_words is not None:
-        scores.loc[np.asarray(email_words) < min_words] = 0.0
-    return scores
+        patterns = list(group.loc[group["kind"] == "exclude", "pattern"])
+        out[theme_id] = [any(p.search(t) for p in patterns) for t in texts]
+    return pd.DataFrame(out)
 
 
-def rank_matched(similarity: pd.DataFrame, term_tags: pd.DataFrame, minimum: int = 10) -> pd.DataFrame:
-    """Retrieval tags with the same number of emails per theme as the term lists
-    (at least `minimum`): the most similar emails. Keeps the two methods comparable
-    without choosing a similarity threshold."""
-    tags = {}
-    for theme_id in similarity:
-        n = max(int(term_tags[theme_id].sum()), minimum)
-        top = similarity[theme_id].rank(ascending=False, method="first") <= n
-        tags[theme_id] = top.to_numpy()
+def retrieval_tags(similarity: pd.DataFrame, thresholds: pd.Series, excluded: pd.DataFrame,
+                   n_words, min_words: int = 30) -> pd.DataFrame:
+    """Emails tagged by similarity: at or above the theme's threshold, more similar to
+    this theme than to any other, at least `min_words` words long, and without any of
+    the theme's exclude terms (the same rule as the term list). A theme can get no
+    emails at all."""
+    long_enough = np.asarray(n_words) >= min_words
+    best = similarity.idxmax(axis=1).to_numpy()
+    tags = {theme_id: (similarity[theme_id].to_numpy() >= thresholds[theme_id]) & (best == theme_id)
+            & long_enough & ~excluded[theme_id].to_numpy()
+            for theme_id in similarity.columns}
     return pd.DataFrame(tags, index=similarity.index)
+
+
+def _kappa(a, b) -> float:
+    """Cohen's kappa, or NaN when a method tags no email (kappa is undefined then)."""
+    if not a.any() or not b.any():
+        return float("nan")
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        return cohen_kappa_score(a, b)
 
 
 def method_agreement(term_tags: pd.DataFrame, retrieval_tags: pd.DataFrame, names: pd.Series) -> pd.DataFrame:
     """How far the two tagging methods pick the same emails, per theme.
 
     Columns: emails tagged by the term list; emails tagged by similarity to the theme's
-    Congress passages (the same number, at least 10, by design); emails tagged by both;
+    Congress passages (above the theme's threshold); emails tagged by both;
     the share of term-list emails that similarity also finds; overlap = both / either
     (Jaccard); and Cohen's kappa (agreement beyond chance, 0 = chance, 1 = identical)."""
     rows = []
@@ -128,7 +160,7 @@ def method_agreement(term_tags: pd.DataFrame, retrieval_tags: pd.DataFrame, name
                      "emails tagged by both": both,
                      "term-list emails also found by similarity (%)": 100 * both / max(int(a.sum()), 1),
                      "overlap, both / either (Jaccard)": both / max(int((a | b).sum()), 1),
-                     "agreement beyond chance (Cohen's kappa)": cohen_kappa_score(a, b)})
+                     "agreement beyond chance (Cohen's kappa)": _kappa(a, b)})
     return pd.DataFrame(rows)
 
 
@@ -154,6 +186,7 @@ def hand_check_sample(term_tags: pd.DataFrame, retrieval_tags: pd.DataFrame, n_t
                  for i in pick(np.flatnonzero(b & ~a), n_retrieval)]
     none = np.flatnonzero(~(term_tags.to_numpy().any(axis=1) | retrieval_tags.to_numpy().any(axis=1)))
     rows += [{"theme_id": 0, "row": i, "source": "no theme"} for i in pick(none, n_none)]
-    sample = pd.DataFrame(rows).sample(frac=1, random_state=seed).reset_index(drop=True)
+    sample = pd.DataFrame(rows, columns=["theme_id", "row", "source"]) \
+        .sample(frac=1, random_state=seed).reset_index(drop=True)
     sample.insert(0, "item", np.arange(1, len(sample) + 1))
     return sample

@@ -6,13 +6,20 @@ Steps:
   B. load the theme list (data/themes.csv): 8 themes taken from the Congress topics
   C. Congress against email language: word rates per 10,000 words in each (as
      Scattertext plots them) and theme coverage in both texts
-  D. tag each email with themes by two methods (term lists, and TF-IDF similarity
-     to each theme's Congress passages), measure how far they agree, and write a
-     sample of emails to judge by hand
+  D. tag each email with themes by two methods: the term lists, and retrieval
+     (sentence embeddings of ~180-word chunks, averaged per email, compared with each
+     theme's Congress passages; an email is tagged when it is among the 1% of emails
+     most similar to the theme, the theme is its most similar one, and it holds none
+     of the theme's exclude terms). Measure how far they agree and write samples of
+     emails to judge by hand
 
 Usage (from the project root, after `uv run python -m enron.run_congress_text`):
     uv run python -m enron.run_email_themes
     uv run python -m enron.run_email_themes --threshold 0.9
+    uv run python -m enron.run_email_themes --percentile 99.5 --model sentence-transformers/all-MiniLM-L6-v2
+
+The first run downloads the embedding model and embeds all texts (minutes); the
+embeddings are kept in results/email_themes/embeddings/, so later runs take seconds.
 
 Pasted news articles (bylines, news agencies) are set aside and counted separately.
 
@@ -20,14 +27,19 @@ Outputs: results/email_themes/ (summary.md + CSV tables, theme_table.csv for the
 paper) and figures/ (.png): fig_theme_coverage (main), fig_si_word_comparison
 (supplement: typical words).
 
-Once data/hand_check_emails.csv holds answers, the hand-check key and template are
-kept as they are, so the answers keep matching them (--new-hand-check draws a new sample).
+Two hand checks: hand_check_template.csv (term list, retrieval and untagged emails)
+and hand_check_retrieval_template.csv (emails only the embedding retrieval tags). Once
+their filled-in copies in data/ (hand_check_emails.csv, hand_check_retrieval.csv) hold
+answers, the key and template are kept as they are, so the answers keep matching them
+(--new-hand-check and --new-retrieval-check draw new samples).
 """
 
 import argparse
 
+import numpy as np
 import pandas as pd
 
+from enron import embeddings as emb
 from enron import themes as th
 from enron.congress_text import PROCEDURE_WORDS
 from enron.emails import prepare_emails
@@ -50,11 +62,13 @@ PHRASES = [("el", "paso"), ("san", "juan"), ("wall", "street")]
 GLOSSARY = DATA_DIR / "glossary.csv"        # term, written (optional), meaning: explains figure terms
 N_WORDS, MIN_COUNT = 15, 30       # typical-words figure
 LABELS = DATA_DIR / "hand_check_emails.csv"   # the filled-in hand check
-# Short theme names for the figure
-SHORT_NAMES = {1: "Partnerships (LJM, Fastow)", 2: "Special purpose entities",
-               3: "Andersen and the auditing", 4: "Board and executive pay",
-               5: "Employees' stock and 401(k)", 6: "Analysts and rating agencies",
-               7: "Collapse and layoffs", 8: "Energy markets and trading"}
+RETRIEVAL_LABELS = DATA_DIR / "hand_check_retrieval.csv"   # the filled-in retrieval check
+MIN_RETRIEVAL_WORDS = 30      # shorter emails are not scored: too little text to place
+SENSITIVITY = (98, 99.5)      # other percentiles reported for the thresholds
+# Short theme names for the figures
+SHORT_NAMES = {1: "LJM partnerships", 2: "SPEs and Raptors", 3: "Andersen and audits",
+               4: "Board and pay", 5: "Retirement savings", 6: "Analysts and ratings",
+               7: "Bankruptcy and layoffs", 8: "Energy trading"}
 
 
 def parse_args():
@@ -62,18 +76,72 @@ def parse_args():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--threshold", type=float, default=0.8,
                     help="lowest human_probability kept for emails marked uncertain (default 0.8)")
+    ap.add_argument("--model", default=emb.DEFAULT_MODEL,
+                    help=f"sentence-transformers model for retrieval (default {emb.DEFAULT_MODEL})")
+    ap.add_argument("--percentile", type=float, default=99,
+                    help="threshold per theme: the similarity this share (%%) of the emails stays "
+                         "below (default 99, i.e. the top 1%%)")
     ap.add_argument("--new-hand-check", action="store_true",
                     help="draw a new hand-check sample even though data/hand_check_emails.csv "
                          "already holds answers (they would no longer match the key)")
+    ap.add_argument("--new-retrieval-check", action="store_true",
+                    help="draw a new retrieval-check sample even though data/hand_check_retrieval.csv "
+                         "already holds answers")
     return ap.parse_args()
 
 
-def labels_started() -> bool:
-    """True when data/hand_check_emails.csv exists and holds at least one answer."""
-    if not LABELS.exists():
+def labels_started(path=LABELS) -> bool:
+    """True when the filled-in hand check exists and holds at least one answer."""
+    if not path.exists():
         return False
-    answers = pd.read_csv(LABELS, dtype={"about_theme": str})["about_theme"]
+    answers = pd.read_csv(path, dtype={"about_theme": str})["about_theme"]
     return bool(answers.fillna("").str.strip().ne("").any())
+
+
+def write_check(sample, emails, names, key_path, template_path) -> None:
+    """The key (which method chose each email) and the template to fill in (without it)."""
+    sample = sample.copy()
+    sample["email_id"] = emails["email_id"].iloc[sample["row"]].to_numpy()
+    sample[["item", "theme_id", "email_id", "source"]].to_csv(key_path, index=False)
+    question = sample["theme_id"].map(names).fillna("Any of the 8 themes? Write its number, or 0")
+    pd.DataFrame({"item": sample["item"], "theme_id": sample["theme_id"].replace(0, ""),
+                  "theme": question, "about_theme": "",
+                  "text": emails["text"].iloc[sample["row"]].str[:1500].to_numpy()}) \
+        .to_csv(template_path, index=False)
+
+
+def retrieval(emails, passages, themes, term_tags, args):
+    """Embedding similarity of every email to every theme, the thresholds, and the
+    emails tagged. Returns (similarity, tags, table of thresholds and counts)."""
+    model, cache = emb.LazyModel(args.model), OUT / "embeddings"
+    p_vec, p_owner = emb.embed_chunks(passages["text"], cache, "Congress passages", args.model, model=model)
+    profiles = th.theme_profiles(emb.text_vectors(p_vec, p_owner, len(passages)), passages["lda_topic"], themes)
+    P = profiles.to_numpy()
+
+    scored = (emails["n_words"] >= MIN_RETRIEVAL_WORDS).to_numpy()
+    e_vec, e_owner = emb.embed_chunks(emails.loc[scored, "text"], cache, "emails", args.model, model=model)
+    similarity = pd.DataFrame(0.0, index=emails.index, columns=profiles.index)
+    similarity.loc[scored] = emb.mean_similarity(e_vec, e_owner, int(scored.sum()), P)
+
+    excluded = th.has_exclude_terms(emails["text"], themes)
+    thresholds = {p: th.email_thresholds(similarity, scored, p) for p in sorted({args.percentile, *SENSITIVITY})}
+    tags = {p: th.retrieval_tags(similarity, t, excluded, emails["n_words"], MIN_RETRIEVAL_WORDS)
+            for p, t in thresholds.items()}
+    main = tags[args.percentile]
+    above = similarity.ge(thresholds[args.percentile]) & scored[:, None]
+    best = similarity.idxmax(axis=1).to_numpy()[:, None] == similarity.columns.to_numpy()[None, :]
+    topics = np.asarray(passages["lda_topic"])
+    table = pd.DataFrame({
+        "theme": th.theme_names(themes),
+        "Congress passages of the theme": [int(np.isin(topics, w).sum()) for w in th.theme_topics(themes).values()],
+        "threshold (similarity)": thresholds[args.percentile].round(3),
+        "emails at or above it": above.sum(),
+        "of these, theme is the best match": (above & best).sum(),
+        "emails tagged": main.sum(),
+        "also tagged by the term list": (main & term_tags.to_numpy()).sum(),
+        **{f"emails tagged at {p:g}th percentile": tags[p].sum() for p in SENSITIVITY if p != args.percentile},
+    })
+    return similarity, main, table
 
 
 def theme_table(coverage: pd.DataFrame) -> pd.DataFrame:
@@ -115,7 +183,7 @@ def reading_sample(raw: pd.DataFrame, clean: pd.DataFrame, n: int = 30) -> str:
     return "\n".join(lines)
 
 
-def write_summary(steps, coverage, agreement, words, n_hand, args) -> None:
+def write_summary(steps, coverage, agreement, thresholds, words, n_hand, args) -> None:
     lines = [
         "# The emails against the Congress themes", "",
         "## A. Preparing the emails", "", md_table(steps), "",
@@ -134,17 +202,30 @@ def write_summary(steps, coverage, agreement, words, n_hand, args) -> None:
         "Congress: " + ", ".join(words.head(20)["word"]), "",
         "Emails: " + ", ".join(words.tail(20)["word"][::-1]), "",
         "## D. Two methods for tagging emails", "",
-        "Method 1, term list: the theme's terms (one name term, or two general terms). "
-        "Method 2, similarity: the emails whose words are most similar (TF-IDF) to the theme's "
-        "Congress passages (emails of at least 30 words); it tags as many emails as the term "
-        "list, and at least 10, so the "
-        "question is whether the two pick the same emails. With fewer than about 10 tagged "
-        "emails, overlap and kappa rest on a handful of emails and say little.", "",
+        "Method 1, term list: the theme's terms (one name term, or two general terms, and no "
+        "exclude term). Method 2, retrieval: each text is split into chunks of about 180 words "
+        f"of equal size and embedded with `{args.model}`; an email's similarity to a theme is the "
+        "average cosine similarity of its chunks to the theme's profile (the mean embedding of "
+        "the Congress passages whose main LDA topic belongs to the theme). An email is tagged "
+        f"when it is among the {100 - args.percentile:g}% of emails most similar to the theme, the theme "
+        "is the one it is most similar to, it has at least "
+        f"{MIN_RETRIEVAL_WORDS} words and it holds none of the theme's exclude terms. The threshold is "
+        "set among the emails because emails and hearings are written so differently that even "
+        "off-topic Congress passages are more similar to a theme than almost any email. A theme can "
+        "get no emails. Thresholds and counts (other percentiles as a sensitivity check):", "",
+        md_table(thresholds, 3), "",
+        "How far the two methods pick the same emails. With fewer than about 10 tagged emails, "
+        "overlap and kappa rest on a handful of emails and say little.", "",
         md_table(agreement, 2), "",
-        "## Hand check", "",
-        f"`hand_check_template.csv` holds {n_hand} emails. Copy it to "
-        "`data/hand_check_emails.csv`, fill in `about_theme` (yes/no; for rows asking about any "
-        "theme, the theme number or 0), then run `uv run python -m enron.check_email_themes`.", "",
+        "## Hand checks", "",
+        f"`hand_check_template.csv` holds {n_hand} emails (term list, retrieval only, no theme). "
+        "Copy it to `data/hand_check_emails.csv`, fill in `about_theme` (yes/no; for rows asking "
+        "about any theme, the theme number or 0), then run "
+        "`uv run python -m enron.check_email_themes`.", "",
+        "`hand_check_retrieval_template.csv` holds the emails only the embedding retrieval tags "
+        "(up to 4 per theme). Copy it to `data/hand_check_retrieval.csv`, fill in `about_theme` "
+        "(yes/no), then run `uv run python -m enron.check_email_themes --labels "
+        "data/hand_check_retrieval.csv --key results/email_themes/hand_check_retrieval_key.csv`.", "",
         "## Figures", "",
         "- `fig_theme_coverage`: how many times more often Congress uses each theme's terms than "
         "the emails (main)",
@@ -199,10 +280,10 @@ def main():
     coverage.to_csv(OUT / "theme_coverage.csv", index=False)
     print(coverage.round(2).to_string(index=False))
 
-    # D. two tagging methods and the hand-check sample
-    similarity = th.theme_similarity(email_tokens, passage_tokens, passages["lda_topic"], themes,
-                                     emails["n_words"])
-    retrieval_tags = th.rank_matched(similarity, term_tags)
+    # D. two tagging methods and the hand-check samples
+    print(f"Retrieval with sentence embeddings ({args.model}) ...", flush=True)
+    similarity, retrieval_tags, thresholds = retrieval(emails, passages, themes, term_tags, args)
+    thresholds.to_csv(OUT / "retrieval_thresholds.csv", index=False)
     agreement = th.method_agreement(term_tags, retrieval_tags, names)
     agreement.to_csv(OUT / "method_agreement.csv", index=False)
     tags = emails[["email_id", "sender_id", "date", "n_words"]].copy()
@@ -217,18 +298,22 @@ def main():
         .to_csv(OUT / "press_emails.csv", index=False)
 
     sample = th.hand_check_sample(term_tags, retrieval_tags)
-    keep_key = labels_started() and (OUT / "hand_check_key.csv").exists() and not args.new_hand_check
-    if keep_key:
+    sample["source"] = sample["source"].replace({"retrieval only": "embedding retrieval only"})
+    if labels_started(LABELS) and (OUT / "hand_check_key.csv").exists() and not args.new_hand_check:
         print(f"\nKept the hand-check key and template: {LABELS.relative_to(PROJECT_ROOT)} already "
               "holds answers for them (use --new-hand-check for a new sample).")
     else:
-        sample["email_id"] = emails["email_id"].iloc[sample["row"]].to_numpy()
-        sample[["item", "theme_id", "email_id", "source"]].to_csv(OUT / "hand_check_key.csv", index=False)
-        question = sample["theme_id"].map(names).fillna("Any of the 8 themes? Write its number, or 0")
-        pd.DataFrame({"item": sample["item"], "theme_id": sample["theme_id"].replace(0, ""),
-                      "theme": question, "about_theme": "",
-                      "text": emails["text"].iloc[sample["row"]].str[:1500].to_numpy()}) \
-            .to_csv(OUT / "hand_check_template.csv", index=False)
+        write_check(sample, emails, names, OUT / "hand_check_key.csv", OUT / "hand_check_template.csv")
+    # the retrieval check: emails only the embedding retrieval tags, up to 4 per theme
+    r_sample = th.hand_check_sample(term_tags, retrieval_tags, n_terms=0, n_retrieval=4, n_none=0, seed=2027)
+    r_sample["source"] = "embedding retrieval only"
+    if (labels_started(RETRIEVAL_LABELS) and (OUT / "hand_check_retrieval_key.csv").exists()
+            and not args.new_retrieval_check):
+        print(f"Kept the retrieval-check key and template: {RETRIEVAL_LABELS.relative_to(PROJECT_ROOT)} "
+              "already holds answers (use --new-retrieval-check for a new sample).")
+    else:
+        write_check(r_sample, emails, names, OUT / "hand_check_retrieval_key.csv",
+                    OUT / "hand_check_retrieval_template.csv")
 
     table = theme_table(coverage)
     table.to_csv(OUT / "theme_table.csv", index=False)
@@ -245,7 +330,10 @@ def main():
         glossary = entries["meaning"].to_dict()
         forms.update(entries["written"].dropna().to_dict())   # spellings set by hand win
     plot_typical_words(words, N_WORDS, MIN_COUNT, forms, glossary, FIGURES_DIR / "fig_si_word_comparison")
-    write_summary(steps, coverage, agreement, words, len(sample), args)
+    n_hand = len(pd.read_csv(OUT / "hand_check_key.csv"))     # the key in use (kept or new)
+    write_summary(steps, coverage, agreement, thresholds, words, n_hand, args)
+    print("\nRetrieval thresholds and emails tagged (columns = theme number):")
+    print(thresholds.drop(columns="theme").set_axis(range(1, len(thresholds) + 1)).astype(object).T.to_string())
     print("\nTwo tagging methods (columns = theme number, as in the table above):")
     print(agreement.drop(columns="theme").set_axis(range(1, len(agreement) + 1)).round(2).T.to_string())
     print(f"Wrote {OUT.relative_to(PROJECT_ROOT)}/ and figures/fig_theme_coverage, fig_si_word_comparison")

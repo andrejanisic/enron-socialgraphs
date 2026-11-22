@@ -24,12 +24,13 @@ QUOTED_LINE = re.compile(r"^\s*>.*$", re.MULTILINE)
 SYNC_LOG = re.compile(r"Synchronizing (?:Mailbox|Folder|Hierarchy|Favorites)")
 # Signs of a pasted news article: bylines, news agencies, newspapers, "(Published ...)"
 PRESS = re.compile(
-    r"\bBYLINE\b|\bHEADLINE:|\bStaff Writers?\b|\(Published\b|\bCopyright\b|©|All rights reserved"
+    r"\bBYLINE\b|\bHEADLINE:|\b(?i:staff writers?)\b|\(Published\b|\bCopyright\b|©|All rights reserved"
     r"|\bDow Jones\b|\bReuters\b|\bAssociated Press\b|\(Bloomberg\)|\bBloomberg News\b|\bKnight Ridder\b"
     r"|\bNews Service\b|\b(?:Los Angeles|New York) Times\b|\bWall Street Journal\b|\bWashington Post\b"
     r"|\bSan Francisco Chronicle\b|\bSacramento Bee\b|\bMercury News\b|\bHouston Chronicle\b"
     r"|\bFinancial Times\b|\bESPN\.com\b|\bPress Release\b|FOR IMMEDIATE RELEASE|BUSINESS WIRE|PR Newswire"
     r"|Union[- ]Tribune|Orange County Register|sfgate\.com|POLITICAL WRITER|\bTimes Staff\b"
+    r"|\b(?i:see (?:the )?(?:story|article) below)\b|\bInterested in subscribing\b"
     r"|^\s*By [A-Z][a-z]+(?: [A-Z]\.)? [A-Z][a-z'-]+(?:,| and |\s*$)", re.MULTILINE)
 MIN_PRESS_WORDS = 150      # shorter emails that name a newspaper are not articles
 
