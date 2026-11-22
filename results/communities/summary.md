@@ -1,8 +1,8 @@
 # Analysis 2: communities vs the org chart
 
-Graph: 147 people with at least one link, 1444 undirected
+Graph: 153 people with at least one link, 1511 undirected
 links (weight = emails in both directions, emails to oneself left out).
-Left out for having no links to anyone else: Mary Fischer.
+Left out for having no links to anyone else: Mary Fischer, kopper-m.
 Louvain was run with 50 seeds; the run with the highest Q is used.
 Communities are numbered by size (C1 = largest).
 
@@ -10,16 +10,16 @@ Communities are numbered by size (C1 = largest).
 
 | measure | value |
 |---|---|
-| Communities (best run) | 8 |
+| Communities (best run) | 9 |
 | Modularity Q (best run) | 0.659 |
 | Q across seeds, min to max | 0.656 to 0.659 |
-| NMI between seed runs, mean (min) | 0.933 (0.798) |
-| Q in shuffled graphs, mean ± sd | 0.540 ± 0.014 |
-| Q vs shuffled graphs, z (p) | 8.7 (< 0.01) |
-| NMI with full-corpus communities | 0.688 |
-| Backbone: links kept | 204 of 1444 |
-| Backbone: kept by filter / strongest link / reconnect | 188 / 14 / 2 |
-| Backbone: people kept | 147 of 147 |
+| NMI between seed runs, mean (min) | 0.936 (0.802) |
+| Q in shuffled graphs, mean ± sd | 0.544 ± 0.011 |
+| Q vs shuffled graphs, z (p) | 10.1 (< 0.01) |
+| NMI with full-corpus communities | 0.696 |
+| Backbone: links kept | 212 of 1511 |
+| Backbone: kept by filter / strongest link / reconnect | 194 / 16 / 2 |
+| Backbone: people kept | 153 of 153 |
 
 ## Do communities follow the org chart?
 
@@ -29,21 +29,22 @@ Role leaves out people labelled Unknown; department leaves out people with none.
 
 | compared with | people | groups | nmi | ami | null_mean | z | p |
 |---|---|---|---|---|---|---|---|
-| department | 146 | 15 | 0.608 | 0.531 | 0.163 | 25.116 | < 0.001 |
-| role | 125 | 6 | 0.324 | 0.258 | 0.089 | 12.970 | < 0.001 |
+| department | 146 | 15 | 0.621 | 0.539 | 0.178 | 24.962 | < 0.001 |
+| role | 125 | 6 | 0.282 | 0.203 | 0.099 | 9.854 | < 0.001 |
 
 ## Communities
 
 | community | people | emails_inside_share | top_departments | top_roles | best_connected |
 |---|---|---|---|---|---|
-| C1 | 48 | 0.709 | ENA East Power (16); EWS (8); ENA Gas Financial (5) | Trading (13); Executive (10); VP / Director (10) | Louise Kitchen; John Lavorato; John Arnold; Errol McLaughlin; Sally Beck |
+| C1 | 50 | 0.656 | ENA East Power (16); EWS (7); Enron (4) | Unknown (13); Trading (11); Executive (9) | Louise Kitchen; John Lavorato; Sally Beck; Kevin Presto; Kenneth Lay |
 | C2 | 23 | 0.792 | ENA Gas West (13); ENA Gas Texas (3); Energy Operations (3) | Trading (8); Manager / staff (6); Unknown (6) | Michael Grigsby; Matthew Lenhart; Eric Bass; Kam Keiser; Phillip Love |
 | C3 | 18 | 0.937 | ENA West Power Real Time (11); ENA West Power (7) | Manager / staff (8); Trading (6); Unknown (4) | William Whalley Williams; Kate Symes; Cara Semperger; Ryan Slinger; Mark Guzman |
-| C4 | 17 | 0.934 | ETS (16); EWS (1) | VP / Director (6); Executive (4); Manager / staff (3) | Kimberly Watson; Michelle Lokay; Steven Harris; Shelley Corman; Rod Hayslett |
+| C4 | 17 | 0.931 | ETS (16); EWS (1) | VP / Director (6); Executive (4); Manager / staff (3) | Kimberly Watson; Michelle Lokay; Steven Harris; Shelley Corman; Rod Hayslett |
 | C5 | 11 | 0.869 | ENA Legal (10); ENA Gas East (1) | Legal (10); Trading (1) | Tana Jones; Sara Shackleton; Mark Taylor; Stephanie Panus; Susan Bailey |
-| C6 | 11 | 0.642 | ENA Gas West (5); ENA Legal (3); ENA Gas Central (3) | Trading (7); Legal (3); Manager / staff (1) | Barry Tycholiz; Gerald Nemec; Kim Ward; Debra Perlingiere; Mark Whitt |
-| C7 | 10 | 0.787 | Regulatory and Government Affairs (4); ENA Legal (3); Enron (2) | Legal (5); Gov. & regulatory (3); Executive (1) | Jeff Dasovich; Richard Shapiro; James Steffes; Mary C. Hain; Steven Kean |
-| C8 | 9 | 0.664 | ENA Gas East (7); ENA Gas Central (1); EES (1) | Unknown (5); Trading (3); Manager / staff (1) | Chris Germany; Scott Neal; Judy Townsend; Scott Hendrickson; Andrea Ring |
+| C6 | 11 | 0.641 | ENA Gas West (5); ENA Legal (3); ENA Gas Central (3) | Trading (7); Legal (3); Manager / staff (1) | Barry Tycholiz; Gerald Nemec; Kim Ward; Debra Perlingiere; Mark Whitt |
+| C7 | 9 | 0.663 | ENA Gas East (7); ENA Gas Central (1); EES (1) | Unknown (5); Trading (3); Manager / staff (1) | Chris Germany; Scott Neal; Judy Townsend; Scott Hendrickson; Andrea Ring |
+| C8 | 8 | 0.622 | ENA Gas Financial (5); Energy Operations (1); EWS (1) | Manager / staff (3); Trading (2); VP / Director (2) | John Arnold; Errol McLaughlin; Dutch Quigley; Andy Zipper; John Giffith |
+| C9 | 6 | 0.801 | Regulatory and Government Affairs (4); Enron (1); ENA West Power (1) | Gov. & regulatory (3); Legal (1); Executive (1) | Jeff Dasovich; Richard Shapiro; James Steffes; Mary C. Hain; Steven Kean |
 
 `emails_inside_share` = share of the community's email weight that stays inside it.
 
@@ -51,53 +52,55 @@ Role leaves out people labelled Unknown; department leaves out people with none.
 
 | method | communities | Q | NMI with Louvain |
 |---|---|---|---|
-| Louvain (best of seeds) | 8 | 0.659 | 1.000 |
-| Leiden (best of 10) | 9 | 0.659 | 0.927 |
-| Greedy modularity | 9 | 0.658 | 0.870 |
+| Louvain (best of seeds) | 9 | 0.659 | 1.000 |
+| Leiden (best of 10) | 9 | 0.658 | 0.989 |
+| Greedy modularity | 9 | 0.657 | 0.919 |
 
 ## Resolution sweep
 
 | resolution | communities | Q (at resolution 1) | NMI with department |
 |---|---|---|---|
-| 0.500 | 5 | 0.640 | 0.540 |
-| 0.750 | 7 | 0.657 | 0.568 |
-| 1.000 | 8 | 0.659 | 0.608 |
-| 1.500 | 9 | 0.658 | 0.614 |
+| 0.500 | 5 | 0.638 | 0.562 |
+| 0.750 | 7 | 0.657 | 0.585 |
+| 1.000 | 9 | 0.659 | 0.621 |
+| 1.500 | 10 | 0.657 | 0.659 |
 | 2.000 | 10 | 0.655 | 0.645 |
 
 ## The org-chart match (Analysis 2c)
 
-- Email weight inside communities: 81.5% (chance given each
-  community's total email: 15.6%).
+- Email weight inside communities: 80.2% (chance given each
+  community's total email: 14.3%).
 - Pairs of people who are together in some Louvain runs but not others
-  (0.1 < share < 0.9): 5.1% of all pairs.
+  (0.1 < share < 0.9): 4.6% of all pairs.
 
 How often members of each community end up together across the 50 runs
 (1 = always):
 
 | community | people | together_share |
 |---|---|---|
-| C1 | 48 | 0.674 |
-| C2 | 23 | 0.995 |
-| C3 | 18 | 0.978 |
+| C1 | 50 | 0.923 |
+| C2 | 23 | 0.997 |
+| C3 | 18 | 0.983 |
 | C4 | 17 | 1.000 |
 | C5 | 11 | 1.000 |
-| C6 | 11 | 0.847 |
-| C7 | 10 | 0.488 |
-| C8 | 9 | 0.970 |
+| C6 | 11 | 0.858 |
+| C7 | 9 | 0.976 |
+| C8 | 8 | 0.935 |
+| C9 | 6 | 1.000 |
 
 Observed / expected email between communities (1 = chance; diagonal = within):
 
-| community | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|---|
-| 1 | 3.96 | 0.62 | 0.07 | 0.08 | 0.29 | 0.45 | 0.60 | 0.80 |
-| 2 | 0.62 | 6.84 | 0.06 | 0.00 | 0.03 | 0.60 | 0.14 | 0.81 |
-| 3 | 0.07 | 0.06 | 10.12 | 0.00 | 0.07 | 0.07 | 0.18 | 0.00 |
-| 4 | 0.08 | 0.00 | 0.00 | 6.50 | 0.06 | 0.22 | 0.17 | 0.02 |
-| 5 | 0.29 | 0.03 | 0.07 | 0.06 | 3.53 | 0.52 | 0.12 | 0.25 |
-| 6 | 0.45 | 0.60 | 0.07 | 0.22 | 0.52 | 8.99 | 0.24 | 0.39 |
-| 7 | 0.60 | 0.14 | 0.18 | 0.17 | 0.12 | 0.24 | 6.45 | 0.05 |
-| 8 | 0.80 | 0.81 | 0.00 | 0.02 | 0.25 | 0.39 | 0.05 | 22.76 |
+| community | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | 4.53 | 0.55 | 0.08 | 0.15 | 0.30 | 0.30 | 0.78 | 0.92 | 0.79 |
+| 2 | 0.55 | 6.90 | 0.06 | 0.00 | 0.03 | 0.61 | 0.81 | 0.61 | 0.16 |
+| 3 | 0.08 | 0.06 | 10.21 | 0.00 | 0.07 | 0.07 | 0.00 | 0.00 | 0.20 |
+| 4 | 0.15 | 0.00 | 0.00 | 6.52 | 0.06 | 0.22 | 0.02 | 0.00 | 0.15 |
+| 5 | 0.30 | 0.03 | 0.07 | 0.06 | 3.55 | 0.53 | 0.26 | 0.41 | 0.04 |
+| 6 | 0.30 | 0.61 | 0.07 | 0.22 | 0.53 | 9.04 | 0.40 | 0.80 | 0.24 |
+| 7 | 0.78 | 0.81 | 0.00 | 0.02 | 0.26 | 0.40 | 22.92 | 0.61 | 0.06 |
+| 8 | 0.92 | 0.61 | 0.00 | 0.00 | 0.41 | 0.80 | 0.61 | 12.20 | 0.00 |
+| 9 | 0.79 | 0.16 | 0.20 | 0.15 | 0.04 | 0.24 | 0.06 | 0.00 | 7.26 |
 
 Figures:
 - `fig_email_matrix` (main): emails between communities as numbers (diagonal,

@@ -42,7 +42,7 @@ QUERY = """
     LEFT JOIN people p ON p.person_id = e.sender_id
     WHERE e.body_clean IS NOT NULL
       AND TRIM(e.body_clean) != ''
-      -- AND e.message_type = 'human'
+      AND NOT e.message_type = 'automated' AND NOT e.message_type = 'generated'
       -- AND e.human_probability > 0.5
     ORDER BY e.email_id
 """

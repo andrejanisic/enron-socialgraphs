@@ -1,0 +1,31 @@
+word,count,count_others,z,group
+school,14,18,10.22350841637072,Finance core
+gift,10,22,8.182101871521082,Finance core
+eim,9,5,8.029377553513264,Finance core
+contribution,8,15,7.47857775604206,Finance core
+business,25,357,6.855421981012147,Finance core
+accounting,8,26,6.797570861742736,Finance core
+pledge,6,7,6.7162059988440035,Finance core
+organize,7,20,6.535377913554114,Finance core
+matching,5,4,6.127415608281004,Finance core
+ut,5,6,6.124513253151262,Finance core
+raptor,5,8,6.011665603758354,Finance core
+dealbench,7,1,5.54772600570072,Finance core
+officer,7,38,5.519554272077425,Finance core
+bob,9,71,5.4604577592669585,Finance core
+reporting,5,19,5.173819713027819,Finance core
+operation,106,58,15.226400304611555,Executives
+team,161,233,14.853655742762706,Executives
+operations,108,10,13.205216515369067,Executives
+business,170,357,12.412806811031658,Executives
+meeting,261,767,11.580677229236473,Executives
+office,160,368,11.27109314127411,Executives
+bob,70,71,11.10587783380347,Executives
+process,108,198,10.76947412935059,Executives
+mm,56,62,9.674445679256715,Executives
+budget,52,53,9.556130151299216,Executives
+hall,44,9,9.54625709391421,Executives
+risk,107,240,9.382228365000813,Executives
+stan,56,69,9.32863019423932,Executives
+operational,50,53,9.263893281251331,Executives
+netco,42,31,9.229642775836195,Executives

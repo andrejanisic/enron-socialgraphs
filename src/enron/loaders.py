@@ -16,10 +16,20 @@ from enron.paths import EXTERNAL_DB, GRAPH_PATH, MAIN_DB
 
 
 # ------------------------------------------------------------------ graph ---
-def load_email_graph(path: Path = GRAPH_PATH) -> nx.DiGraph:
-    """The directed email graph: node = person_id, edge weight = emails sent."""
+LAST_MAILBOX_ID = 148      # person_ids 1-148 have a mailbox; 149-155 were imported without one
+
+
+def load_email_graph(path: Path = GRAPH_PATH, mailboxes_only: bool = True) -> nx.DiGraph:
+    """The directed email graph: node = person_id, edge weight = emails sent.
+
+    By default only the 148 people with a mailbox: the people imported without one
+    (Fastow, Causey, ...) are seen only through their email with the 148, so their
+    links and centrality would be partial. Use mailboxes_only=False to keep them."""
     with Path(path).open("rb") as f:
-        return pickle.load(f)
+        G = pickle.load(f)
+    if mailboxes_only:
+        G = G.subgraph([n for n in G if n <= LAST_MAILBOX_ID]).copy()
+    return G
 
 
 def to_undirected(G: nx.DiGraph, drop_self_loops: bool = True) -> nx.Graph:

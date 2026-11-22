@@ -1,0 +1,11 @@
+topic,name,check_words
+1,"California regulation (FERC, PUC)",market;ferc;california;puc
+2,Pipeline deliveries,mmbtu;deliveries;capacity
+3,Master agreements (ISDA),master;counterparty;isda
+4,Meetings,meeting;discuss;attend
+5,Drafts for review,review;draft;comments
+6,Credit and legal paperwork,credit;guaranty;legal
+7,Power deals and positions,deal;deals;mws
+8,Confidentiality agreements,confidentiality;executed
+9,Out of office,office;vacation;cell
+10,Gas trading desks and EnronOnline,gas;trading;eol

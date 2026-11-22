@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 1
+============================================================
+Topics: 15
+Reconstruction error: 41.2465
+Iterations: 126
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: business, group, year, company, new, trading, need, risk, information, include, team, management, process, change, provide
+Representative emails:
+  Email 7167 | kitchen-l | score=0.140
+  FEATURES: INFORMATION SERVICES Physical benchmarksin an on-line world Startup on-line commodity exchanges seem not to realize that there are several good reasons why benchmarks derived from volumetric indices may not work--and may not be useful--for physical products, such as oil and petrochemicals.
+  Email 1391 | kitchen-l | score=0.129
+  Bryan  Mark told me that in the meeting (legal trading weekly conference call, Paul spoke of a different 250 products per country?  Is this right?  This has some serious implications.  Could you let us know as this hasn't come up before I had assumed your 250 products were the same whatever the coun
+  Email 14944 | beck-s | score=0.122
+  Beth Perlman has fleshed out an idea for maximizing value for creditors of the Enron Estate that I believe has a lot of merit.  As you may know, one of our business goals within Enron Net Works in 2001 was to commercialize mid and back office services.  With the money and talent that has been poured
+  Email 1447 | kitchen-l | score=0.121
+  Louise Kitchen 20/05/99 20:43 To: Philippe A Bibi/HOU/ECT@ECT, John Sherriff/LON/ECT@ECT, Greg Whalley/HOU/ECT cc: Jay Webb/HOU/ECT@ECT, David Port/LON/ECT@ECT, Paul Goddard/LON/ECT, Elena Kapralova/LON/ECT, Arfan Aziz/LON/ECT@ECT, Paul H Racicot/HOU/ECT@ECT Subject: On-Line Project Update  A succes
+  Email 13788 | beck-s | score=0.119
+  The 2002 Enron Net Works budget will for the first time combine allocations to business units for four key services:  Enron Online, IT Infrastructure, Risk Management Operations and IT Maintenance and Development.  We are providing a level of detail for expense and capital spend that is greater than
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: fyi, jim, michelle, rick, soft, target, result, voice, assistance, journal voucher, voucher, journal, mark, manager, send copy
+Representative emails:
+  Email 13404 | buy-r | score=0.425
+  fyi
+  Email 11645 | derrick-j | score=0.425
+  FYI
+  Email 11642 | derrick-j | score=0.425
+  FYI
+  Email 11650 | derrick-j | score=0.425
+  FYI
+  Email 3799 | sanders-r | score=0.425
+  FYI
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: central time, time canada, central, canada, time, pm central, pm, august, monday, july, january, august central, thursday, august pm, january pm
+Representative emails:
+  Email 11294 | martin-t | score=0.383
+  When: Wednesday, July 11, 2001 4:30 PM-5:00 PM (GMT-06:00) Central Time (US & Canada). Where: EB3259  *~*~*~*~*~*~*~*~*~*
+  Email 668 | white-s | score=0.379
+  When: Monday, August 06, 2001 2:00 PM-2:30 PM (GMT-06:00) Central Time (US & Canada). Where: EB3127  *~*~*~*~*~*~*~*~*~*
+  Email 675 | white-s | score=0.377
+  When: Thursday, July 26, 2001 1:30 PM-2:00 PM (GMT-06:00) Central Time (US & Canada). Where: EB2378 (Georgeann's office)  *~*~*~*~*~*~*~*~*~*
+  Email 676 | white-s | score=0.372
+  When: Tuesday, July 24, 2001 1:00 PM-1:30 PM (GMT-06:00) Central Time (US & Canada). Where: EB2378 (Georgeann's office)  *~*~*~*~*~*~*~*~*~*
+  Email 667 | white-s | score=0.371
+  When: Friday, August 03, 2001 12:00 PM-1:00 PM (GMT-06:00) Central Time (US & Canada). Where: EB3143B  *~*~*~*~*~*~*~*~*~*
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: mw, sell, jmf, hour, ercot, schedule, hour end, frontera, end, book, price, tomorrow, buy, deal, long
+Representative emails:
+  Email 11204 | forney-j | score=0.371
+  Greetings:  For tonight,   Frontera is long 85mw's hour ending 2300.    We need to sell this under the Teco Services book.  For tomorrow Frontera needs to sell:  hour ending  4 - 30 mw's hour ending 5 -30 mw's Enter a purchase from Frontera (Teco services book) enter the same price as you sold for. 
+  Email 3891 | forney-j | score=0.371
+  Greetings:  For tonight,   Frontera is long 85mw's hour ending 2300.    We need to sell this under the Teco Services book.  For tomorrow Frontera needs to sell:  hour ending  4 - 30 mw's hour ending 5 -30 mw's Enter a purchase from Frontera (Teco services book) enter the same price as you sold for. 
+  Email 11205 | forney-j | score=0.368
+  A reminder,   I am 55 mws long for hours 23 & 24 today.   This has been scheduled into the North Zone.    If you sell make sure that you cut the Enpower deal and make the appropriate entries in the Portal.   Enpwr deal   834600   is the sale to North Zone.  The Ercot Asset desk is long 5 mw's  for t
+  Email 3892 | forney-j | score=0.368
+  A reminder,   I am 55 mws long for hours 23 & 24 today.   This has been scheduled into the North Zone.    If you sell make sure that you cut the Enpower deal and make the appropriate entries in the Portal.   Enpwr deal   834600   is the sale to North Zone.  The Ercot Asset desk is long 5 mw's  for t
+  Email 3876 | forney-j | score=0.354
+  Item One The Frontera Plant is scheduled to sell 450 mw's for tomorrow.   I sold them a financial swap @ $24 for the whole day.   For the first part of the day we will be running extremely short.   We will just  that we are having problems coming up. This is the amount that will be short:  he7 - 420
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: know, let, let know, john, want, need, michelle, know need, chris, jordan, doug, thought, sure, know thought, information
+Representative emails:
+  Email 11370 | dorland-c | score=0.305
+  John,  How is Dina doing? Be sure to let us know when she has the baby/  Chris
+  Email 731 | whalley-g, whalley-l | score=0.296
+  don't know.  we'll see.
+  Email 6921 | kitchen-l | score=0.296
+  Just so you know
+  Email 2360 | shankman-j | score=0.265
+  Rick, please let me know if there is anything I can do to help you.  Jeff
+  Email 7176 | king-j | score=0.255
+  John,  Those are 3 dates that i don't have.  I would have to go to the brokers.  Let me know if you need to do that.  JK
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: mark, haedicke, mark haedicke, legal, elbertson, janette elbertson, janette, legal department, department telephone, telephone fax, service legal, telephone, department, wholesale service, fax
+Representative emails:
+  Email 3740 | haedicke-m | score=0.414
+  This is to confirm the Legal Team Review meeting this afternoon with Mark Haedicke at 5:00 p.m. (CST) in EB3321.  Please plan to attend.  Thank you.  Janette Elbertson on behalf of Mark E. Haedicke Enron Wholesale Services Legal Department Telephone:  (713) 853-7906 Fax:  (713) 646-2600 e-mail:  jan
+  Email 9263 | haedicke-m | score=0.411
+  There will be a meeting this afternoon with Mark Haedicke at 2:00 p.m. Central in EB3321.  It should last approximately 30 minutes.  Please plan to attend.  Janette Elbertson on behalf of Mark Haedicke Enron Wholesale Services Legal Department Telephone:  (713) 853-7906 Fax:  (713) 646-2600 e-mail: 
+  Email 1512 | haedicke-m | score=0.382
+  Mark Haedicke is having a Legal Transition Committee meeting today at 5:00 p.m. CST regarding legal transition issues.  The meeting will be held in EB3321.  Please plan to attend.  Thank you.  Janette Elbertson on behalf of Mark E. Haedicke Enron Wholesale Services Legal Department Telephone:  (713)
+  Email 8873 | haedicke-m | score=0.381
+  Mark Haedicke will hold a floor meeting for EWS Legal in Houston this afternoon, Monday, November 12, at 2:00 p.m.  The location will be outside of conference room EB3824.  Please plan to attend.  Thank you.  Janette Elbertson on behalf of Mark E. Haedicke Enron Wholesale Services Legal Department T
+  Email 9799 | haedicke-m | score=0.381
+  Mark Haedicke will hold a floor meeting for EWS Legal in Houston this afternoon, Monday, November 12, at 2:00 p.m.  The location will be outside of conference room EB3824.  Please plan to attend.  Thank you.  Janette Elbertson on behalf of Mark E. Haedicke Enron Wholesale Services Legal Department T
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: contact, office, cell, phone, number, home, operation, cell phone, friday, vacation, reach, assistant, leslie, day, monday
+Representative emails:
+  Email 13835 | beck-s | score=0.334
+  I will be out of the office for one vacation day on Monday, May 22.  My assistant, Patti Thompson, has home and cell phone numbers where I can be reached throughout the day, if needed.  Primary operations contacts while I am out are as follows:   DPR   Mike Moscoso   x35242   MPR   David Maxwell   x
+  Email 13828 | beck-s | score=0.309
+  I will be out of the office from Wednesday, July 26 through Friday, July 28. I am taking my older daughter on a preliminary look at colleges.  I will have my cell phone with me -- the number is 713-417-1591.   My assistant, Patti Thompson, will have hotel phone numbers where I can be reached as well
+  Email 13870 | beck-s | score=0.291
+  I will be working in the Calgary office Wednesday and Thursday, February 7 and 8.  My assistant, Patti Thompson (x39106) has numbers where I can be reached.  I will be back in the Houston office on Friday, February 9.  Key contacts in Houston over the next two days are:  DPR   Chris Abel    x33102  
+  Email 13817 | beck-s | score=0.289
+  I will interviewing on campus for the Analyst Program on Monday and Tuesday, October 30 and 31.  My assistant, Patti Thompson (x39106), will have telephone numbers where I can be reached.  I will have my cell phone with me (713-417-1591) and I will check messages as we have breaks in the interview s
+  Email 6567 | beck-s | score=0.280
+  I will be out of the office on vacation during the week of December 18. Please refer to the contact names below as needed during that week.  I can be reached at my home number (281-370-8568) if necessary.  DPR     Chris Abel   x33102  MPR     David Maxwell  x36983  Gas Operations   Bob Hall   x36956
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: work, wednesday, michelle, mark, vince, phone, jim, show, jordan, want, team, talk, bcf, smith, work home
+Representative emails:
+  Email 6944 | kitchen-l | score=0.484
+  That works.
+  Email 13317 | cash-m | score=0.484
+  I'm working on it.
+  Email 4359 | presto-k | score=0.484
+  Who does Janel work for now?
+  Email 699 | whalley-g, whalley-l | score=0.484
+  working that angle already
+  Email 6977 | kitchen-l | score=0.484
+  It worked
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: jeff, regard jeff, regard, get, vince, rick, care, future, week, distribution list, distribution, include, shall, thur, deal
+Representative emails:
+  Email 6964 | kitchen-l | score=0.397
+  I rang Jeff - he's out
+  Email 7056 | shankman-j | score=0.397
+  See below.  Jeff
+  Email 716 | shankman-j | score=0.319
+  We're getting there.  Jeff
+  Email 14845 | mcmahon-j | score=0.278
+  You're done!  Regards,  Jeff
+  Email 14906 | shankman-j | score=0.264
+  FYI  Jeff
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: think, talk, come, guy, like, good, go, look, want, tom, sorry, today, run, yes, look like
+Representative emails:
+  Email 3503 | schwieger-j | score=0.253
+  I think he will be talking with you!
+  Email 6912 | kitchen-l | score=0.246
+  Thanks  I think they're behind us.
+  Email 6869 | kitchen-l | score=0.229
+  I think its the same again - can you come over for it
+  Email 11297 | martin-t | score=0.223
+  Thought you guys might like to see this.  Tom
+  Email 3778 | sanders-r | score=0.174
+  I talked to Mark and I don't think we have any interest.
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: question, wr, check, ask, rb, ask question, help, check faq, faq frequently, gridiron, gridiron address, gas gridiron, question site, line help, site check
+Representative emails:
+  Email 1813 | stepenovitch-j | score=0.450
+  Joe Stepenovitch dropped: Dwight, Tim SDC WR and acquired: Minnis, Marvin KCC WR  Natural Gas Gridiron Address: http://fflnet.myfantasyleague.com/fflnet2001/home/0205  Questions about this site?  Check out our FAQ (Frequently Asked Questions) at http://www.myfantasyleague.com/fflnet2001/support_faq.
+  Email 1809 | stepenovitch-j | score=0.448
+  Joe Stepenovitch dropped: Mathis, Terance ATL WR and acquired: McCardell, Keenan JAC WR  Natural Gas Gridiron Address: http://fflnet.myfantasyleague.com/fflnet2001/home/0205  Questions about this site?  Check out our FAQ (Frequently Asked Questions) at http://www.myfantasyleague.com/fflnet2001/suppo
+  Email 1817 | stepenovitch-j | score=0.441
+  Joe Stepenovitch dropped: Minnis, Marvin KCC WR and acquired: Thrash, James PHI WR  Natural Gas Gridiron Address: http://fflnet.myfantasyleague.com/fflnet2001/home/0205  Questions about this site?  Check out our FAQ (Frequently Asked Questions) at http://www.myfantasyleague.com/fflnet2001/support_fa
+  Email 1816 | stepenovitch-j | score=0.441
+  Joe Stepenovitch dropped: Garner, Charlie OAK RB and acquired: Biakabutuka, Tim CAR RB  Natural Gas Gridiron Address: http://fflnet.myfantasyleague.com/fflnet2001/home/0205  Questions about this site?  Check out our FAQ (Frequently Asked Questions) at http://www.myfantasyleague.com/fflnet2001/suppor
+  Email 1810 | stepenovitch-j | score=0.438
+  Joe Stepenovitch dropped: Chapman, Doug MIN RB and acquired: Alstott, Mike TBB RB  Natural Gas Gridiron Address: http://fflnet.myfantasyleague.com/fflnet2001/home/0205  Questions about this site?  Check out our FAQ (Frequently Asked Questions) at http://www.myfantasyleague.com/fflnet2001/support_faq
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: louise, kitchen, louise kitchen, fax, officer, jones, tel fax, tel, tana jones, tana, chief, officer america, kitchen chief, america tel, chief operating
+Representative emails:
+  Email 6870 | kitchen-l | score=0.266
+  Draft EnronOnline Relaunch timetable  Louise Kitchen Chief Operating Officer Enron Americas Tel:  713 853 3488 Fax: 713 646 2308
+  Email 6933 | kitchen-l | score=0.260
+  Had a meeting on 50.  How was it?  Louise Kitchen Chief Operating Officer Enron Americas Tel:  713 853 3488 Fax: 713 646 2308
+  Email 6826 | kitchen-l | score=0.247
+  Steffes		50/50 Nicolay			25/25  Louise Kitchen Chief Operating Officer Enron Americas Tel:  713 853 3488 Fax: 713 646 2308
+  Email 6812 | kitchen-l | score=0.240
+  They need power contracts at start - no need for a power marketing licence in ERCOT  Louise Kitchen Chief Operating Officer Enron Americas Tel:  713 853 3488 Fax: 713 646 2308
+  Email 6868 | kitchen-l | score=0.228
+  The lawyers have come back and ask if you are including any of your global counterparty or contract admin.  Have we covered this function?  Louise Kitchen Chief Operating Officer Enron Americas Tel:  713 853 3488 Fax: 713 646 2308
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: send, blackberry wireless, wireless, handheld, wireless handheld, send blackberry, blackberry, ok, number, test, jim, phone number, david, list, people
+Representative emails:
+  Email 6836 | kitchen-l | score=0.491
+  -------------------------- Sent from my BlackBerry Wireless Handheld
+  Email 6787 | kitchen-l | score=0.491
+  -------------------------- Sent from my BlackBerry Wireless Handheld
+  Email 6814 | kitchen-l | score=0.485
+  Ok by me.  -------------------------- Sent from my BlackBerry Wireless Handheld
+  Email 9785 | kitchen-l | score=0.470
+  OK thanks.  I'll presume its dead until I hear otherwise.  -------------------------- Sent from my BlackBerry Wireless Handheld
+  Email 6819 | kitchen-l | score=0.454
+  What's your phone number? -------------------------- Sent from my BlackBerry Wireless Handheld
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: meeting, attend, morning, today, schedule, look, room, meet, discuss, conference, tomorrow, plan, later, tuesday, week
+Representative emails:
+  Email 9793 | sanders-r | score=0.412
+  The meeting is in 3321.
+  Email 10284 | gilbertsmith-d | score=0.412
+  when is the meeting?
+  Email 6881 | kitchen-l | score=0.248
+  Portland Meeting 11:30am  Please could you attend.
+  Email 7020 | beck-s | score=0.225
+  I am meeting with Greg later this morning - I set up the meeting - to talk about my role over the next few months.  I will get back with you after that meeting.  --Sally
+  Email 630 | white-s | score=0.211
+  We will try again for this meeting.  If we do not have the new LTD by this time we will look at having the meeting on Wed. 9/12.
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: fine, sound, sound good, good, regard jeff, look, sound like, lavo, spreadsheet, regard, hunter, non, midcon, jim, look forward
+Representative emails:
+  Email 4360 | presto-k | score=0.532
+  That's fine.
+  Email 4370 | presto-k | score=0.532
+  I'm fine with it.
+  Email 7349 | kitchen-l | score=0.532
+  Fine by me
+  Email 7081 | shively-h | score=0.532
+  fine with me
+  Email 4349 | presto-k | score=0.512
+  Sounds fine to me.

@@ -1,0 +1,105 @@
+person_a,group_a,person_b,group_b,a_to_b,b_to_a,total
+John Lavorato,Executives,Louise Kitchen,Executives,9,112,121
+Louise Kitchen,Executives,Sally Beck,Executives,41,70,111
+Rod Hayslett,Executives,Stanley Horton,Executives,35,19,54
+Danny McCarty,Executives,Rod Hayslett,Executives,21,30,51
+Lawrence Greg Whalley,Executives,Louise Kitchen,Executives,7,38,45
+John Lavorato,Executives,Sally Beck,Executives,1,38,39
+Sally Beck,Executives,Richard Causey,Finance core,33,6,39
+Lawrence Greg Whalley,Executives,John Lavorato,Executives,16,22,38
+Steven Kean,Executives,Kenneth Lay,Executives,22,8,30
+Danny McCarty,Executives,Stanley Horton,Executives,12,9,21
+Lawrence Greg Whalley,Executives,Steven Kean,Executives,1,20,21
+Jeffrey Shankman,Executives,Louise Kitchen,Executives,9,11,20
+Louise Kitchen,Executives,Rick Buy,Executives,16,3,19
+Jeffrey Shankman,Executives,Rick Buy,Executives,17,2,19
+Jeffrey Shankman,Executives,Lawrence Greg Whalley,Executives,13,4,17
+Steven Kean,Executives,Louise Kitchen,Executives,10,5,15
+Rick Buy,Executives,Sally Beck,Executives,4,10,14
+Lawrence Greg Whalley,Executives,Sally Beck,Executives,1,11,12
+Kenneth Lay,Executives,Stanley Horton,Executives,6,5,11
+Steven Kean,Executives,Stanley Horton,Executives,9,1,10
+Steven Kean,Executives,John Lavorato,Executives,10,0,10
+John Lavorato,Executives,Rick Buy,Executives,2,8,10
+Kenneth Lay,Executives,Sally Beck,Executives,7,3,10
+Jeffrey Shankman,Executives,John Lavorato,Executives,7,2,9
+John Lavorato,Executives,Stanley Horton,Executives,1,8,9
+Rod Hayslett,Executives,Richard Causey,Finance core,4,5,9
+Lawrence Greg Whalley,Executives,Jeffrey Mcmahon,Finance core,1,8,9
+Kenneth Lay,Executives,Louise Kitchen,Executives,6,2,8
+Lawrence Greg Whalley,Executives,Rick Buy,Executives,3,5,8
+Rick Buy,Executives,Jeffrey Mcmahon,Finance core,6,2,8
+Sally Beck,Executives,Jeffrey Mcmahon,Finance core,5,3,8
+Lawrence Greg Whalley,Executives,Kenneth Lay,Executives,1,7,8
+Kenneth Lay,Executives,Rick Buy,Executives,6,1,7
+Danny McCarty,Executives,Kenneth Lay,Executives,1,6,7
+Jeffrey Shankman,Executives,Kenneth Lay,Executives,1,6,7
+Jeffrey Shankman,Executives,Jeffery Skilling,Executives,5,2,7
+Jeffery Skilling,Executives,Sally Beck,Executives,2,5,7
+Kenneth Lay,Executives,John Lavorato,Executives,6,1,7
+Steven Kean,Executives,Rick Buy,Executives,6,0,6
+Steven Kean,Executives,Sally Beck,Executives,1,5,6
+Kenneth Lay,Executives,Rod Hayslett,Executives,6,0,6
+Sally Beck,Executives,Jordan Mintz,Finance core,3,3,6
+Steven Kean,Executives,Jeffrey Mcmahon,Finance core,4,1,5
+Lawrence Greg Whalley,Executives,Stanley Horton,Executives,0,5,5
+Sally Beck,Executives,David Delainey,Executives,1,4,5
+Rick Buy,Executives,Ben Glisan,Finance core,3,1,4
+Rod Hayslett,Executives,Sally Beck,Executives,4,0,4
+Rod Hayslett,Executives,Jordan Mintz,Finance core,2,2,4
+Louise Kitchen,Executives,Jeffrey Mcmahon,Finance core,4,0,4
+Mike McConnell,Executives,Rod Hayslett,Executives,3,1,4
+Rick Buy,Executives,Sherron Watkins,Finance core,1,3,4
+Rod Hayslett,Executives,Jeffrey Mcmahon,Finance core,3,1,4
+Richard Causey,Finance core,Ben Glisan,Finance core,3,1,4
+Jeffery Skilling,Executives,Rick Buy,Executives,4,0,4
+Jeffery Skilling,Executives,Stanley Horton,Executives,2,2,4
+Lawrence Greg Whalley,Executives,Jeffery Skilling,Executives,1,3,4
+Jeffery Skilling,Executives,Louise Kitchen,Executives,3,1,4
+Sally Beck,Executives,Sherron Watkins,Finance core,3,0,3
+Jeffery Skilling,Executives,Andrew Fastow,Finance core,0,3,3
+Louise Kitchen,Executives,Andrew Fastow,Finance core,0,3,3
+Louise Kitchen,Executives,David Delainey,Executives,2,1,3
+Sally Beck,Executives,Stanley Horton,Executives,2,1,3
+Rick Buy,Executives,David Delainey,Executives,2,1,3
+Jeffery Skilling,Executives,Rod Hayslett,Executives,2,1,3
+Steven Kean,Executives,Richard Causey,Finance core,2,1,3
+Lawrence Greg Whalley,Executives,Richard Causey,Finance core,1,2,3
+Steven Kean,Executives,David Delainey,Executives,3,0,3
+Jeffery Skilling,Executives,John Lavorato,Executives,2,1,3
+Jeffrey Shankman,Executives,Steven Kean,Executives,1,2,3
+Danny McCarty,Executives,Jeffery Skilling,Executives,0,3,3
+Jeffrey Shankman,Executives,Sally Beck,Executives,0,2,2
+Lawrence Greg Whalley,Executives,Ben Glisan,Finance core,0,2,2
+Richard Causey,Finance core,Jeffrey Mcmahon,Finance core,1,1,2
+Louise Kitchen,Executives,Ben Glisan,Finance core,0,2,2
+Rick Buy,Executives,Richard Causey,Finance core,1,1,2
+Rick Buy,Executives,Jordan Mintz,Finance core,2,0,2
+Rick Buy,Executives,Stanley Horton,Executives,0,2,2
+Lawrence Greg Whalley,Executives,David Delainey,Executives,0,2,2
+Steven Kean,Executives,Jeffery Skilling,Executives,0,2,2
+Richard Causey,Finance core,Sherron Watkins,Finance core,2,0,2
+John Giffith,Executives,Sally Beck,Executives,0,2,2
+David Delainey,Executives,Jeffrey Mcmahon,Finance core,1,1,2
+Stanley Horton,Executives,Jeffrey Mcmahon,Finance core,1,1,2
+Sally Beck,Executives,Ben Glisan,Finance core,2,0,2
+Danny McCarty,Executives,Louise Kitchen,Executives,0,1,1
+Lawrence Greg Whalley,Executives,Andrew Fastow,Finance core,0,1,1
+Jeffrey Shankman,Executives,Jeffrey Mcmahon,Finance core,1,0,1
+Jeffrey Shankman,Executives,Richard Causey,Finance core,0,1,1
+Steven Kean,Executives,Rod Hayslett,Executives,0,1,1
+Louise Kitchen,Executives,Richard Causey,Finance core,0,1,1
+John Lavorato,Executives,David Delainey,Executives,0,1,1
+John Lavorato,Executives,Jeffrey Mcmahon,Finance core,1,0,1
+Kenneth Lay,Executives,Jeffrey Mcmahon,Finance core,0,1,1
+Jeffery Skilling,Executives,Richard Causey,Finance core,0,1,1
+Jeffery Skilling,Executives,Jeffrey Mcmahon,Finance core,0,1,1
+Kenneth Lay,Executives,Ben Glisan,Finance core,0,1,1
+Mike McConnell,Executives,Stanley Horton,Executives,0,1,1
+Rick Buy,Executives,Andrew Fastow,Finance core,1,0,1
+Rod Hayslett,Executives,Ben Glisan,Finance core,0,1,1
+Stanley Horton,Executives,Richard Causey,Finance core,0,1,1
+Andrew Fastow,Finance core,Ben Glisan,Finance core,0,1,1
+David Delainey,Executives,Richard Causey,Finance core,0,1,1
+Ben Glisan,Finance core,Jordan Mintz,Finance core,0,1,1
+Jeffrey Mcmahon,Finance core,Jordan Mintz,Finance core,0,1,1
