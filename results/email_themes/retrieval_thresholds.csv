@@ -1,0 +1,9 @@
+theme,Congress passages of the theme,threshold (similarity),emails at or above it,"of these, theme is the best match",emails tagged,also tagged by the term list,emails tagged at 98th percentile,emails tagged at 99.5th percentile
+LJM and the related-party partnerships,366,0.622,49,11,7,0,11,2
+"Special purpose entities, Raptor hedges and hidden debt",418,0.637,49,14,14,0,28,8
+Arthur Andersen and the audits,692,0.582,49,0,0,0,0,0
+"The board, its committees and executive pay",36,0.591,49,1,1,0,2,1
+Employees' retirement savings and Enron stock,208,0.651,49,24,23,3,45,13
+Wall Street analysts and credit rating agencies,139,0.548,49,2,2,0,3,2
+The bankruptcy and its impact on employees,503,0.633,49,13,12,0,17,5
+Energy trading and power markets,76,0.639,49,23,23,13,41,12

@@ -1,0 +1,149 @@
+person_id,full_name,role,department,group,congress_mentions,pagerank_rank,degree,z_weighted,z_links,written,written_congress,written_energy,received,received_congress
+85,John Lavorato,Executive,EWS,Named by Congress,1,2,79,-1.75,6.13,62,0,4,429,5
+88,Louise Kitchen,Executive,EWS,Named by Congress,1,6,54,3.24,-1.83,260,3,17,335,2
+52,Steven Kean,Executive,Enron,Named by Congress,4,89,25,1.75,-2.6,56,0,7,133,2
+117,Rick Buy,Executive,Enron,Named by Congress,91,94,20,-0.65,-2.02,43,3,2,71,0
+77,Kenneth Lay,Executive,Enron,Named by Congress,122,111,59,-2.51,4.3,6,0,1,39,2
+8,Richard Sanders,Legal,ENA Legal,Named by Congress,1,113,17,-1.51,-1.39,20,1,0,54,0
+55,James Derrick,Legal,Enron,Named by Congress,19,138,11,-0.53,0.86,21,0,3,22,1
+61,Jeffery Skilling,Executive,Enron,Named by Congress,589,140,28,-1.24,-1.0,6,0,0,21,0
+1,Mark Taylor,Legal,ENA Legal,Central core,0,1,69,3.89,5.0,69,0,4,960,0
+125,Sara Shackleton,Legal,ENA Legal,Central core,0,3,24,5.37,-1.36,629,2,20,599,0
+108,Michael Grigsby,Trading,ENA Gas West,Central core,0,4,42,9.08,-1.87,202,0,36,149,0
+139,Tana Jones,Legal,ENA Legal,Central core,0,5,30,13.54,-0.2,504,0,27,441,0
+2,Kim Ward,Trading,ENA Gas West,Central core,0,7,44,3.09,16.72,95,0,6,274,1
+66,John Arnold,Trading,ENA Gas Financial,Central core,0,8,31,2.61,-2.56,218,1,9,105,0
+9,Barry Tycholiz,Trading,ENA Gas West,Central core,0,9,32,14.58,1.07,164,0,24,253,0
+46,Gerald Nemec,Legal,ENA Legal,Central core,0,10,27,6.36,1.18,202,0,7,165,0
+104,Matthew Lenhart,Manager / staff,ENA Gas West,Central core,0,11,24,18.81,-2.26,85,0,5,219,0
+136,Susan Bailey,Legal,ENA Legal,Central core,0,12,14,-0.89,-1.97,73,0,4,573,1
+80,Kimberly Watson,VP / Director,ETS,Central core,0,13,21,25.81,0.1,221,0,5,300,0
+12,William Whalley Williams,Manager / staff,ENA West Power Real Time,Central core,0,14,24,60.15,31.35,251,0,52,113,0
+59,Jeff Dasovich,Gov. & regulatory,Regulatory and Government Affairs,Central core,0,15,34,17.38,7.63,727,0,281,252,2
+133,Steven Harris,VP / Director,ETS,Central core,0,16,19,39.14,-2.03,66,0,5,397,0
+95,Marie Heard,Legal,ENA Legal,Central core,0,17,15,-0.78,-2.38,106,0,4,287,0
+29,Debra Perlingiere,Legal,ENA Legal,Central core,0,18,26,19.63,0.41,34,0,2,112,0
+58,Jay Reitmeyer,Unknown,ENA Gas West,Central core,0,19,23,-0.6,-1.76,17,0,1,85,0
+47,Lawrence Greg Whalley,Executive,EWS,Central core,0,20,32,-0.96,-2.68,31,0,2,164,9
+37,Eric Bass,Trading,ENA Gas Texas,Central core,0,21,20,19.1,-0.71,162,0,1,92,0
+132,Stephanie Panus,Legal,ENA Legal,Central core,0,22,24,4.0,0.62,188,0,8,285,0
+116,Richard Shapiro,Gov. & regulatory,Regulatory and Government Affairs,Central core,0,23,20,-0.66,-1.71,94,3,17,651,1
+74,Kate Symes,Manager / staff,ENA West Power Real Time,Central core,0,24,18,57.96,4.94,119,0,19,217,0
+19,Chris Germany,Trading,ENA Gas East,Central core,0,25,27,10.28,2.45,261,1,19,37,0
+98,Mark Whitt,Trading,ENA Gas West,Central core,0,26,17,10.19,2.79,104,0,4,135,0
+15,Cara Semperger,Manager / staff,ENA West Power,Central core,0,27,17,25.93,4.11,99,0,19,68,0
+16,Carol St. Clair,Legal,ENA Legal,Central core,0,28,13,-0.6,-2.15,252,1,3,382,1
+106,Michelle Lokay,VP / Director,ETS,Central core,0,29,17,18.68,-2.27,142,0,82,177,0
+23,James Steffes,Gov. & regulatory,Regulatory and Government Affairs,Central core,0,30,23,2.8,0.09,242,0,65,271,2
+30,Diana Scholtes,Trading,ENA West Power,Brokers,0,35,15,13.82,5.96,40,0,3,68,0
+31,Don Baughman,Trading,ENA East Power,Brokers,0,45,17,28.06,2.8,41,1,6,18,0
+90,John M. Forney,Trading,ENA East Power,Brokers,0,49,13,4.87,5.84,86,0,46,24,0
+118,Robert Badeer,VP / Director,ENA West Power,Brokers,0,53,20,11.38,2.58,7,0,1,116,0
+75,Kay Mann,Legal,ENA Legal,Brokers,0,97,19,44.42,3.59,87,1,5,81,0
+83,Larry Campbell,Manager / staff,ETS,Brokers,0,123,10,139.3,5.19,9,0,4,41,1
+101,Mary C. Hain,Legal,Regulatory and Government Affairs,Brokers,0,129,22,3.57,3.25,106,0,70,89,0
+86,Lindy Donoho,Manager / staff,ETS,Others,0,31,18,-1.4,-2.24,98,0,9,210,0
+25,Dan Hyvl,Legal,ENA Legal,Others,0,32,14,-1.14,-0.01,101,0,7,69,0
+76,Keith Holst,VP / Director,ENA Gas West,Others,0,33,25,-0.43,-1.66,10,1,2,96,0
+36,Elizabeth Sager,Legal,ENA Legal,Others,0,34,28,11.01,-0.09,63,1,15,168,0
+34,Dutch Quigley,Manager / staff,ENA Gas Financial,Others,0,36,21,-0.43,-0.43,56,0,2,57,0
+130,Stacy Dickson,Legal,ENA Legal,Others,0,37,9,31.75,-1.54,33,0,0,102,0
+123,Hunter Shively,Trading,ENA Gas Central,Others,0,38,31,0.74,-2.82,32,0,3,89,0
+127,Scott Neal,Trading,ENA Gas East,Others,0,39,37,1.97,-2.66,56,0,1,87,1
+73,Kam Keiser,Trading,Energy Operations,Others,0,40,44,1.26,-0.75,91,0,1,105,0
+92,Kevin Presto,Trading,ENA East Power,Others,0,41,35,3.27,-1.63,103,1,18,92,0
+144,Tracy Geaccone,Manager / staff,ETS,Others,0,42,16,0.11,-2.17,130,4,1,114,0
+32,Douglas Gilberth-Smith,Unknown,ENA East Power,Others,0,43,20,6.28,1.45,34,0,6,66,0
+121,Rod Hayslett,Executive,ETS,Others,0,44,21,0.49,1.88,124,0,1,166,3
+128,Sean Crandall,Trading,ENA West Power,Others,0,46,12,-1.57,0.18,8,0,3,69,0
+43,Frank Ermis,VP / Director,ENA Gas West,Others,0,47,18,-1.05,-1.87,0,0,0,65,0
+50,Holden Salisbury,Manager / staff,ENA West Power,Others,0,48,9,-1.16,-1.33,7,0,0,36,0
+72,Philip Allen,Trading,ENA Gas West,Others,0,50,34,-1.1,-2.6,20,2,3,74,1
+69,Jonathan Mckay,Trading,ENA Gas East,Others,0,51,28,-0.83,-1.89,36,0,3,30,0
+109,Michael Maggi,Trading,ENA Gas Financial,Others,0,52,15,-0.96,-1.23,6,0,0,24,0
+137,John Hodge,Trading,ENA Gas East,Others,0,54,25,-1.23,-0.79,20,0,1,78,1
+35,Mark Haedicke,Legal,ENA Legal,Others,0,55,28,-0.94,0.34,40,0,6,61,1
+7,Andy Zipper,VP / Director,EWS,Others,0,56,31,-1.12,-2.79,68,1,3,92,0
+97,Mike McConnell,Executive,EWS,Others,0,57,16,-1.61,-0.52,45,0,4,127,0
+67,John Giffith,Executive,ENA Gas Financial,Others,0,58,16,3.98,-1.68,33,0,1,21,0
+40,Errol McLaughlin,Manager / staff,Energy Operations,Others,0,59,15,8.36,-1.31,39,0,1,98,0
+91,Phillip Love,Manager / staff,Energy Operations,Others,0,60,28,3.1,-1.47,68,0,3,81,0
+96,Mark Guzman,Trading,ENA West Power Real Time,Others,0,61,11,-1.17,11.06,37,0,0,132,0
+45,Geoffery Storey,VP / Director,ENA Gas Central,Others,0,62,24,-1.54,-1.78,12,0,3,37,0
+39,Eric Saibi,Trading,ENA East Power,Others,0,63,7,-0.53,-0.93,3,0,1,66,0
+122,Ryan Slinger,Trading,ENA West Power Real Time,Others,0,64,8,-1.13,-0.61,8,0,4,119,0
+143,Tori Kuykendall,Trading,ENA Gas West,Others,0,65,21,-0.18,-1.27,13,0,1,70,0
+78,Kevin Hyatt,VP / Director,ETS,Others,0,66,21,24.78,1.06,77,0,15,143,0
+102,Matthew Motley,Unknown,ENA West Power Real Time,Others,0,67,17,-0.94,2.82,3,1,0,38,0
+129,Shelley Corman,Gov. & regulatory,ETS,Others,0,68,23,12.0,-0.62,116,2,33,216,0
+112,Monique Sanchez,Unknown,ENA Gas West,Others,0,69,32,-1.43,-2.06,13,0,0,79,0
+71,Judy Townsend,Unknown,ENA Gas East,Others,0,70,8,-0.85,-1.81,0,0,0,86,0
+33,Drew Fossum,Legal,ETS,Others,0,71,26,0.88,0.99,168,0,48,115,2
+113,Paul Y'Barbo,VP / Director,ETS,Others,0,72,12,-1.07,-2.71,12,0,1,104,0
+3,Thomas Martin,Trading,ENA Gas Texas,Others,0,73,22,-0.6,-1.54,23,1,1,36,2
+93,Susan Scott,Manager / staff,ETS,Others,0,74,26,-0.99,-0.87,60,0,3,59,0
+44,Geir Solberg,Unknown,ENA West Power Real Time,Others,0,75,11,-1.47,-0.68,12,0,3,125,0
+110,Mike Swerzbin,Trading,ENA West Power,Others,0,76,19,-0.93,3.79,8,0,1,50,1
+124,Sally Beck,Executive,Energy Operations,Others,0,77,71,-1.83,3.34,201,2,40,63,1
+103,Matt Smith,Manager / staff,ENA Gas West,Others,0,78,15,-0.76,-1.4,20,0,2,53,0
+57,Jason Wolfe,Unknown,ENA Gas West,Others,0,79,17,-0.58,-2.09,3,0,0,55,0
+84,Lawrence May,VP / Director,ENA Gas Financial,Others,0,80,17,-0.69,-1.8,9,0,0,33,1
+138,Paul Lucci,Trading,ENA Gas West,Others,0,81,11,-1.15,-0.42,26,0,2,39,0
+87,Lisa Gang,Manager / staff,ENA West Power,Others,0,82,9,-1.13,3.03,7,0,0,39,0
+26,Dana Davis,Unknown,,Others,0,83,20,-0.79,2.3,26,0,0,50,0
+60,Jeff King,Manager / staff,ENA East Power,Others,0,84,10,3.78,-1.57,4,0,1,22,0
+10,Benjamin Rogers,Manager / staff,ENA East Power,Others,0,85,13,-0.04,6.0,9,0,2,33,0
+94,Jane Tholt,VP / Director,ENA Gas West,Others,0,86,21,-1.24,-1.54,14,0,5,62,0
+141,Theresa Staab,Manager / staff,ENA Gas West,Others,0,87,8,-1.07,-0.5,36,0,0,33,0
+68,John Zufferli,VP / Director,EWS,Others,0,88,16,0.0,-1.66,20,0,4,35,0
+22,Craig Dean,Trading,ENA West Power Real Time,Others,0,90,7,-0.67,-1.36,4,0,1,118,0
+56,Jason Williams,Trading,ENA Gas Central,Others,0,91,14,-1.34,-0.67,47,0,8,91,0
+49,Harpreet Arora,Trading,ENA East Power,Others,0,92,15,-0.07,-2.06,16,0,2,32,0
+126,Scott Hendrickson,Unknown,ENA Gas East,Others,0,93,7,-0.65,-1.47,6,0,0,57,0
+70,Juan Hernandez,Unknown,ENA East Power,Others,0,95,9,-0.81,1.78,4,0,2,37,1
+119,Robert Benson,VP / Director,ENA East Power,Others,0,96,14,-0.99,1.07,0,0,0,17,0
+18,Chris Dorland,Trading,ENA East Power,Others,0,98,21,-0.71,-0.7,50,1,0,20,0
+131,Stanley Horton,Executive,ETS,Others,0,99,26,-0.79,4.6,58,1,3,86,1
+140,Teb Lokey,Gov. & regulatory,ETS,Others,0,100,19,-1.86,-0.58,15,0,3,104,0
+41,Sandra Brawner,VP / Director,ENA Gas East,Others,0,101,17,-1.03,-1.87,8,0,1,19,1
+11,Bill Rapp,Legal,ETS,Others,0,102,14,-1.2,-2.04,48,2,6,59,0
+62,Jim Schwieger,Trading,ENA Gas Texas,Others,0,103,19,-0.78,-0.97,16,3,1,26,2
+13,Bradley Mckay,Unknown,ENA Gas East,Others,0,104,19,3.45,-1.12,1,0,0,24,0
+105,Michelle Cash,Legal,ENA Legal,Others,0,105,19,-0.62,-1.37,38,0,0,32,0
+27,Danny McCarty,Executive,ETS,Others,0,106,16,-0.51,-0.51,39,0,5,85,1
+65,Joe Stepenovitch,Trading,ENA East Power,Others,0,107,6,79.38,0.56,10,0,0,39,1
+4,Jeffrey Shankman,Executive,EWS,Others,0,108,14,-0.5,-2.03,48,1,1,36,0
+21,Cooper Richey,Manager / staff,ENA West Power,Others,0,109,11,-1.19,3.05,5,0,0,21,0
+79,Kevin Ruscitti,Trading,ENA Gas Central,Others,0,110,14,-1.63,-0.57,6,0,0,16,0
+81,Randall Gay,Unknown,ENA Gas West,Others,0,112,16,-0.7,-2.25,2,0,0,50,0
+38,Eric Linder,Manager / staff,ENA West Power Real Time,Others,0,114,6,-1.15,-1.57,1,0,0,103,0
+53,Fletcher Sturm,VP / Director,ENA East Power,Others,0,115,27,-1.11,-2.07,29,0,6,32,1
+42,Peter Keavey,Unknown,ENA Gas East,Others,0,116,14,-1.05,-2.46,0,0,0,8,0
+5,Albert Meyers,Unknown,ENA West Power Real Time,Others,0,117,7,-1.04,-1.37,10,0,0,19,0
+14,Daron Giron,Trading,Energy Operations,Others,0,118,9,-0.73,-0.45,16,0,0,48,0
+63,Joe Parks,Trading,ENA Gas Central,Others,0,119,13,-1.4,-0.19,7,0,0,29,1
+89,Lynn Blair,VP / Director,ETS,Others,0,120,18,4.52,-0.73,196,0,9,79,1
+64,Joe Quenet,Unknown,ENA East Power,Others,0,121,11,-1.52,0.27,1,0,0,5,0
+148,Stacey White,VP / Director,Energy Operations,Others,0,122,20,-0.88,-0.19,50,0,1,47,0
+107,Mike Carson,Unknown,ENA East Power,Others,0,124,11,-1.74,-1.88,5,0,0,10,0
+99,Martin Cuilla,Trading,ENA Gas Central,Others,0,125,21,-0.93,-0.83,29,0,1,18,0
+17,Charles Weldon,Manager / staff,ENA Gas Texas,Others,0,126,11,-0.96,-0.46,1,0,0,8,0
+82,Patrice Mims-Thurston,Trading,ENA Gas Central,Others,0,127,10,-0.88,-0.39,16,0,0,16,0
+115,Richard Ring,Manager / staff,EES,Others,0,128,4,-0.21,-0.39,4,0,1,11,0
+135,Steven P. South,Unknown,ENA Gas West,Others,0,130,8,-1.34,-1.72,0,0,0,10,0
+28,Darrell Schoolcraft,Manager / staff,ETS,Others,0,131,16,2.38,0.42,60,0,6,61,1
+51,Daren Farmer,Trading,ENA Gas Texas,Others,0,132,9,-1.11,-0.18,9,0,2,12,0
+145,Vladi Pimenov,Manager / staff,ENA Gas East,Others,0,133,15,-1.48,-1.95,5,0,0,14,0
+6,Andrea Ring,Unknown,ENA Gas East,Others,0,134,14,4.57,0.91,5,0,1,26,0
+114,Phillip Platter,Manager / staff,ENA West Power,Others,0,135,7,-1.2,-1.19,2,0,0,20,0
+48,Andrew Lewis,VP / Director,ENA Gas Central,Others,0,136,10,-0.58,-1.4,1,1,0,10,0
+54,Vince Kaminski,VP / Director,EWS,Others,0,137,19,-0.69,-1.96,46,0,4,17,0
+20,Chris Stokley,Manager / staff,ENA West Power,Others,0,139,14,-1.36,7.07,15,0,1,27,0
+142,Tom Donohoe,Unknown,ENA Gas Central,Others,0,141,8,-1.01,-1.19,2,1,0,7,0
+111,Monika Causholli,Manager / staff,ENA West Power Real Time,Others,0,142,8,-1.12,10.24,5,0,3,10,0
+146,David Delainey,Executive,EWS,Others,0,143,10,-0.37,-1.13,7,1,0,11,0
+120,Robin Rodrigue,Manager / staff,ENA Gas Central,Others,0,144,11,-0.81,-0.85,6,0,0,6,1
+134,Steven Merriss,Unknown,ENA West Power Real Time,Others,0,145,2,-0.67,-0.92,1,0,0,27,0
+24,Paul Thomas,Unknown,ENA East Power,Others,0,146,6,-1.26,-0.78,3,0,0,0,0
+147,Susan Pereira,Unknown,ENA Gas East,Others,0,147,6,-1.05,-1.1,3,1,0,2,0
+100,Mary Fischer,Unknown,,Others,0,148,0,0.0,0.0,1,0,0,0,0

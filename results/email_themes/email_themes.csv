@@ -173,7 +173,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 233,12,2001-06-26 23:24:17+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 235,111,2001-06-26 17:49:18+00:00,370,False,False,0.2519,False,False,0.2072,False,False,0.2216,False,False,0.2057,False,False,0.2737,False,False,0.1529,False,False,0.2654,True,False,0.2474
 236,74,2001-06-25 16:06:37+00:00,89,False,False,0.3939,False,False,0.3699,False,False,0.3205,False,False,0.2395,False,False,0.3224,False,False,0.3185,False,False,0.3143,False,False,0.3047
-237,12,2001-06-25 15:33:00+00:00,68,False,False,0.6897,False,False,0.6955,False,False,0.621,False,False,0.6639,False,False,0.7433,False,False,0.5882,False,False,0.7124,False,False,0.6988
+237,12,2001-06-25 15:33:00+00:00,68,False,False,0.6897,False,False,0.6955,False,False,0.621,False,False,0.6639,False,True,0.7433,False,False,0.5882,False,False,0.7124,False,False,0.6988
 238,96,2001-06-25 11:15:28+00:00,180,False,False,0.3065,False,False,0.2315,False,False,0.1861,False,False,0.1688,False,False,0.217,False,False,0.1647,False,False,0.1945,False,False,0.2393
 242,74,2001-08-29 16:28:18+00:00,42,False,False,0.1976,False,False,0.0971,False,False,0.148,False,False,0.0793,False,False,0.1275,False,False,0.064,False,False,0.2007,False,False,0.1219
 243,74,2001-06-21 22:29:03+00:00,69,False,False,0.2045,False,False,0.194,False,False,0.1745,False,False,0.1087,False,False,0.1931,False,False,0.141,False,False,0.1596,False,False,0.1516
@@ -1035,9 +1035,9 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 1481,16,2001-02-07 08:31:00+00:00,54,False,False,0.2502,False,False,0.2184,False,False,0.2718,False,False,0.2319,False,False,0.2128,False,False,0.213,False,False,0.2273,False,False,0.2256
 1482,16,2001-02-14 13:47:00+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1483,136,2001-03-15 15:09:00+00:00,48,False,False,0.3225,False,False,0.286,False,False,0.2661,False,False,0.2492,False,False,0.2664,False,False,0.2203,False,False,0.2605,False,False,0.231
-1484,105,2001-03-30 16:40:00+00:00,74,False,False,0.6066,False,False,0.5835,False,False,0.594,False,False,0.5634,False,False,0.6044,False,False,0.4892,False,False,0.6538,False,False,0.6028
+1484,105,2001-03-30 16:40:00+00:00,74,False,False,0.6066,False,False,0.5835,False,False,0.594,False,False,0.5634,False,False,0.6044,False,False,0.4892,False,True,0.6538,False,False,0.6028
 1487,105,2001-04-09 17:38:00+00:00,97,False,False,0.3854,False,False,0.4121,False,False,0.4079,False,False,0.3408,False,False,0.3536,False,False,0.378,False,False,0.3716,False,False,0.3559
-1488,105,2001-04-18 14:36:00+00:00,48,False,False,0.6557,False,False,0.6153,False,False,0.5821,False,False,0.5614,False,False,0.6388,False,False,0.4998,False,False,0.6583,False,False,0.6055
+1488,105,2001-04-18 14:36:00+00:00,48,False,False,0.6557,False,False,0.6153,False,False,0.5821,False,False,0.5614,False,False,0.6388,False,False,0.4998,False,True,0.6583,False,False,0.6055
 1489,130,1999-11-08 14:44:00+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1490,16,1999-11-09 18:08:00+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1492,88,1999-11-15 19:05:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -1350,7 +1350,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 1941,23,2001-09-04 19:54:20+00:00,43,False,False,0.3975,False,False,0.3897,False,False,0.3423,False,False,0.314,False,False,0.4006,False,False,0.273,False,False,0.3622,True,False,0.4061
 1942,23,2001-08-09 14:29:38+00:00,32,False,False,0.1182,False,False,0.0748,False,False,0.0798,False,False,0.0638,False,False,0.0681,False,False,0.0617,False,False,0.0801,False,False,0.072
 1943,23,2001-08-09 15:16:12+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-1944,23,2001-08-09 20:05:24+00:00,40,False,False,0.6638,False,False,0.6396,False,False,0.6198,False,False,0.638,False,False,0.6865,False,False,0.5149,False,False,0.6857,False,False,0.6539
+1944,23,2001-08-09 20:05:24+00:00,40,False,False,0.6638,False,False,0.6396,False,False,0.6198,False,False,0.638,False,True,0.6865,False,False,0.5149,False,False,0.6857,False,False,0.6539
 1945,23,2001-08-09 23:32:18+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1946,23,2001-08-10 13:00:07+00:00,437,False,False,0.3793,False,False,0.3411,False,False,0.3165,False,False,0.2699,False,False,0.3081,False,False,0.2747,False,False,0.3206,True,False,0.4194
 1947,23,2001-08-12 20:44:55+00:00,19,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
@@ -1381,7 +1381,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 1976,23,2001-08-31 17:30:47+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
 1977,23,2001-09-03 21:59:43+00:00,53,False,False,0.4,False,False,0.3241,False,False,0.3628,False,False,0.2983,False,False,0.3055,False,False,0.2932,False,False,0.3328,False,False,0.368
 1978,23,2001-09-06 17:21:44+00:00,48,False,False,0.3423,False,False,0.3477,False,False,0.3436,False,False,0.2655,False,False,0.2872,False,False,0.2796,False,False,0.3138,True,False,0.3571
-1979,23,2001-09-06 17:36:58+00:00,50,False,False,0.5463,False,False,0.557,False,False,0.4915,False,False,0.5337,False,False,0.6094,False,False,0.5016,False,False,0.5844,False,False,0.6403
+1979,23,2001-09-06 17:36:58+00:00,50,False,False,0.5463,False,False,0.557,False,False,0.4915,False,False,0.5337,False,False,0.6094,False,False,0.5016,False,False,0.5844,False,True,0.6403
 1980,23,2001-09-06 17:39:58+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1981,23,2001-09-10 18:37:16+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 1982,23,2001-10-03 02:03:57+00:00,40,False,False,0.4466,False,False,0.3339,False,False,0.3307,False,False,0.2773,False,False,0.2816,False,False,0.2946,False,False,0.3542,False,False,0.3404
@@ -1602,7 +1602,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 2291,129,2000-05-24 21:43:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 2292,23,2001-08-24 19:23:33+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
 2293,23,2001-09-19 12:54:31+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-2294,116,2001-11-21 15:17:24+00:00,99,False,False,0.6246,False,False,0.6159,False,False,0.5591,False,False,0.6106,False,False,0.611,False,False,0.5449,True,False,0.5942,False,False,0.618
+2294,116,2001-11-21 15:17:24+00:00,99,False,True,0.6246,False,False,0.6159,False,False,0.5591,False,False,0.6106,False,False,0.611,False,False,0.5449,True,False,0.5942,False,False,0.618
 2295,23,2001-11-19 19:16:48+00:00,33,False,False,0.2929,False,False,0.2148,False,False,0.2528,False,False,0.1859,False,False,0.1794,False,False,0.1771,False,False,0.2348,True,False,0.26
 2296,116,2001-11-21 15:33:51+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 2298,59,2001-11-20 02:07:28+00:00,91,False,False,0.3319,False,False,0.3029,False,False,0.3537,False,False,0.2665,False,False,0.2724,False,False,0.2522,False,False,0.3033,False,False,0.3461
@@ -1658,7 +1658,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 2374,4,2001-10-17 15:39:38+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 2375,4,2001-10-15 15:56:49+00:00,19,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 2376,4,2001-10-15 12:13:14+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-2377,4,2001-10-11 14:35:00+00:00,215,False,False,0.6163,False,False,0.6326,False,False,0.5868,False,False,0.586,False,False,0.6622,False,False,0.5502,False,False,0.6662,False,False,0.6502
+2377,4,2001-10-11 14:35:00+00:00,215,False,False,0.6163,False,False,0.6326,False,False,0.5868,False,False,0.586,False,False,0.6622,False,False,0.5502,False,True,0.6662,False,False,0.6502
 2378,88,2001-09-13 21:08:21+00:00,210,False,False,0.3096,False,False,0.3805,False,False,0.3304,False,False,0.2846,False,False,0.3086,False,False,0.2838,False,False,0.2851,False,False,0.4057
 2379,4,2001-10-26 17:41:06+00:00,46,False,False,0.3616,False,False,0.3524,False,False,0.2871,False,False,0.2461,False,False,0.3573,False,False,0.3311,False,False,0.3105,False,False,0.3235
 2381,4,2001-10-26 16:03:06+00:00,58,False,False,0.3735,False,False,0.3738,False,False,0.2683,False,False,0.2884,False,False,0.3754,False,False,0.3734,False,False,0.3259,False,False,0.3838
@@ -1978,7 +1978,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 2817,125,2000-09-07 11:36:00+00:00,18,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 2818,125,2000-09-07 15:35:00+00:00,58,False,False,0.2769,False,False,0.2762,False,False,0.2499,False,False,0.2267,False,False,0.2328,False,False,0.2176,False,False,0.2233,False,False,0.2334
 2819,125,2000-09-07 19:04:00+00:00,55,False,False,0.2276,False,False,0.2206,False,False,0.2399,False,False,0.1408,False,False,0.1842,False,False,0.1912,False,False,0.2199,False,False,0.2168
-2820,125,2000-09-11 08:06:00+00:00,32,False,False,0.6378,False,False,0.6223,False,False,0.5738,False,False,0.5628,False,False,0.6338,False,False,0.4785,False,False,0.6051,False,False,0.6459
+2820,125,2000-09-11 08:06:00+00:00,32,False,False,0.6378,False,False,0.6223,False,False,0.5738,False,False,0.5628,False,False,0.6338,False,False,0.4785,False,False,0.6051,False,True,0.6459
 2821,125,2000-09-11 09:10:00+00:00,35,False,False,0.3314,False,False,0.3496,False,False,0.3688,False,False,0.2591,False,False,0.2772,False,False,0.3232,False,False,0.3302,False,False,0.3194
 2823,125,1999-08-06 08:56:00+00:00,67,False,False,0.2875,False,False,0.3284,False,False,0.3045,False,False,0.2441,False,False,0.2249,False,False,0.3021,False,False,0.2358,False,False,0.2609
 2825,125,2000-09-12 14:57:00+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -2205,7 +2205,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 3151,125,2001-03-01 08:30:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3152,125,2001-03-01 08:47:00+00:00,15,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3153,56,2001-03-01 09:07:00+00:00,29,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-3154,132,2001-03-01 09:56:00+00:00,30,False,False,0.5893,False,False,0.648,False,False,0.5565,False,False,0.5783,False,False,0.655,False,False,0.5309,False,False,0.6163,False,False,0.6256
+3154,132,2001-03-01 09:56:00+00:00,30,False,False,0.5893,False,False,0.648,False,False,0.5565,False,False,0.5783,False,True,0.655,False,False,0.5309,False,False,0.6163,False,False,0.6256
 3159,132,2001-03-01 16:25:00+00:00,32,False,False,0.1519,False,False,0.0578,False,False,0.0623,False,False,0.0254,False,False,0.0785,False,False,-0.0201,False,False,0.0938,False,False,0.0368
 3160,125,2001-03-01 17:11:00+00:00,88,False,False,0.4523,False,False,0.3673,False,False,0.3525,False,False,0.2913,False,False,0.3117,False,False,0.3172,False,False,0.3241,False,False,0.3229
 3161,125,1999-12-08 14:59:00+00:00,112,False,False,0.2723,False,False,0.275,False,False,0.2577,False,False,0.1873,False,False,0.197,False,False,0.2509,False,False,0.2261,True,False,0.2808
@@ -2247,7 +2247,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 3210,132,2002-03-13 16:44:22+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3211,75,2002-03-20 16:39:29+00:00,42,False,False,0.0441,False,False,-0.0225,False,False,0.0203,False,False,0.0233,False,False,0.0293,False,False,-0.035,False,False,0.0208,False,False,-0.0273
 3212,132,2002-03-22 16:07:30+00:00,32,False,False,0.1934,False,False,0.1116,False,False,0.1547,False,False,0.1004,False,False,0.1198,False,False,0.0959,False,False,0.1709,False,False,0.1406
-3213,136,2002-01-03 22:19:16+00:00,30,False,False,0.6038,False,False,0.6535,False,False,0.6081,False,False,0.6156,False,False,0.6467,False,False,0.5516,False,False,0.6293,False,False,0.657
+3213,136,2002-01-03 22:19:16+00:00,30,False,False,0.6038,False,False,0.6535,False,False,0.6081,False,False,0.6156,False,False,0.6467,False,False,0.5516,False,False,0.6293,False,True,0.657
 3214,1,2001-11-02 19:15:44+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3215,1,2001-11-06 14:59:45+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3217,132,2001-09-18 13:19:42+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -2435,7 +2435,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 3479,93,2002-03-25 22:09:24+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3499,47,2001-11-15 20:11:06+00:00,83,False,False,0.3728,False,False,0.2724,False,False,0.2364,False,False,0.2883,False,False,0.3099,False,False,0.1367,False,False,0.2376,False,False,0.2433
 3503,62,2001-11-07 18:05:05+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-3506,62,2001-11-15 17:26:46+00:00,122,True,False,0.6751,False,False,0.6505,False,False,0.5362,False,False,0.5986,False,False,0.6762,False,False,0.4831,False,False,0.5941,False,False,0.5898
+3506,62,2001-11-15 17:26:46+00:00,122,True,False,0.6751,False,False,0.6505,False,False,0.5362,False,False,0.5986,False,True,0.6762,False,False,0.4831,False,False,0.5941,False,False,0.5898
 3507,62,2001-11-15 20:51:16+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3526,62,2001-04-09 19:36:00+00:00,77,False,False,0.0132,False,False,-0.0499,False,False,-0.0385,False,False,-0.0492,False,False,0.0069,False,False,-0.061,False,False,0.0065,False,False,-0.0189
 3527,62,2001-04-24 20:41:40+00:00,313,False,False,0.3768,False,False,0.3819,False,False,0.4259,False,False,0.3802,False,False,0.3754,False,False,0.3463,False,False,0.3806,False,False,0.3689
@@ -2551,7 +2551,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 3735,101,2000-10-10 10:35:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3738,36,2001-10-25 15:07:13+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3739,33,2001-10-23 20:37:35+00:00,76,False,False,0.1618,False,False,0.1368,False,False,0.1155,False,False,0.071,False,False,0.1318,False,False,0.0909,False,False,0.1498,False,False,0.1589
-3740,35,2001-10-26 20:37:28+00:00,40,False,False,0.6479,False,False,0.5949,False,False,0.5842,False,False,0.5956,False,False,0.6009,False,False,0.4808,False,False,0.6134,False,False,0.5792
+3740,35,2001-10-26 20:37:28+00:00,40,False,True,0.6479,False,False,0.5949,False,False,0.5842,False,False,0.5956,False,False,0.6009,False,False,0.4808,False,False,0.6134,False,False,0.5792
 3753,35,2001-11-15 20:09:07+00:00,34,False,False,0.5536,False,False,0.5188,False,False,0.4619,False,False,0.4931,False,False,0.5694,False,False,0.4186,False,False,0.5377,False,False,0.5315
 3754,105,2001-11-24 18:55:14+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 3765,23,2001-08-24 19:26:58+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -2710,7 +2710,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 4040,31,2001-05-23 01:30:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 4041,77,2001-10-10 15:51:16+00:00,37,False,False,0.2293,False,False,0.1696,False,False,0.1859,False,False,0.1572,False,False,0.2561,False,False,0.1385,False,False,0.2724,False,False,0.2073
 4042,131,2002-03-01 00:03:58+00:00,43,False,False,0.0022,False,False,-0.093,False,False,-0.074,False,False,-0.1071,False,False,-0.0074,False,False,-0.1479,False,False,-0.0234,False,False,-0.0507
-4043,24,2001-10-08 16:06:02+00:00,65,False,False,0.6019,False,False,0.6135,False,False,0.5952,False,False,0.6181,False,False,0.6614,False,False,0.5412,False,False,0.6566,False,False,0.6549
+4043,24,2001-10-08 16:06:02+00:00,65,False,False,0.6019,False,False,0.6135,False,False,0.5952,False,False,0.6181,False,True,0.6614,False,False,0.5412,False,False,0.6566,False,False,0.6549
 4045,10,2001-09-18 13:57:17+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 4051,10,2001-11-28 14:06:13+00:00,50,False,False,0.2472,False,False,0.1327,False,False,0.1619,False,False,0.1006,False,False,0.1618,False,False,0.0939,False,False,0.226,False,False,0.1554
 4052,10,2001-11-29 20:34:01+00:00,94,False,False,0.3354,False,False,0.2766,False,False,0.2674,False,False,0.2483,False,False,0.2776,False,False,0.2318,False,False,0.3044,False,False,0.2861
@@ -3174,7 +3174,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5015,9,2001-08-01 12:32:20+00:00,34,False,False,0.4281,False,False,0.3418,False,False,0.3687,False,False,0.2747,False,False,0.3055,False,False,0.2264,False,False,0.3446,False,False,0.3349
 5018,141,2001-08-02 19:25:35+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5019,137,2001-08-03 17:54:22+00:00,26,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-5021,35,2001-08-08 21:41:34+00:00,118,False,False,0.6308,False,False,0.7004,False,False,0.6506,False,False,0.6595,False,False,0.6646,False,False,0.6382,False,False,0.6709,True,False,0.7634
+5021,35,2001-08-08 21:41:34+00:00,118,False,False,0.6308,False,False,0.7004,False,False,0.6506,False,False,0.6595,False,False,0.6646,False,False,0.6382,False,False,0.6709,True,True,0.7634
 5022,9,2001-08-10 13:53:48+00:00,236,False,False,0.2778,False,False,0.2881,False,False,0.2283,False,False,0.1945,False,False,0.2858,False,False,0.1725,False,False,0.2765,True,False,0.373
 5023,2,2001-08-10 18:49:16+00:00,173,False,False,-0.0314,False,False,-0.0128,False,False,-0.0076,False,False,-0.0213,False,False,-0.0344,False,False,-0.043,False,False,-0.026,False,False,-0.0338
 5027,2,2001-08-13 19:39:36+00:00,114,False,False,0.1023,False,False,0.0641,False,False,0.0814,False,False,0.0444,False,False,0.0621,False,False,0.0063,False,False,0.0827,False,False,0.0562
@@ -3465,7 +3465,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5553,121,2001-12-27 21:38:20+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5555,27,2001-12-20 19:54:14+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5557,33,2001-10-17 17:39:44+00:00,37,False,False,0.2716,False,False,0.2273,False,False,0.312,False,False,0.2389,False,False,0.2627,False,False,0.231,False,False,0.2926,False,False,0.2593
-5559,129,2001-11-14 17:10:03+00:00,206,False,False,0.5879,False,False,0.5476,False,False,0.5513,False,False,0.5704,True,False,0.6516,False,False,0.5024,False,False,0.6076,False,False,0.5726
+5559,129,2001-11-14 17:10:03+00:00,206,False,False,0.5879,False,False,0.5476,False,False,0.5513,False,False,0.5704,True,True,0.6516,False,False,0.5024,False,False,0.6076,False,False,0.5726
 5561,121,2001-11-23 13:32:29+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5563,121,2001-11-22 14:38:26+00:00,31,False,False,0.1584,False,False,0.0769,False,False,0.0952,False,False,0.0679,False,False,0.1077,False,False,0.0663,False,False,0.1269,False,False,0.0844
 5566,131,2001-10-18 17:32:41+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -3490,7 +3490,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5591,27,2001-11-09 22:35:36+00:00,33,False,False,0.3097,False,False,0.3044,False,False,0.2781,False,False,0.2736,False,False,0.3541,False,False,0.2745,False,False,0.3431,False,False,0.3658
 5592,27,2001-11-13 19:09:21+00:00,62,False,False,0.2962,False,False,0.2301,False,False,0.2582,False,False,0.2383,False,False,0.2618,False,False,0.1576,False,False,0.2718,False,False,0.2579
 5593,27,2001-11-14 19:10:46+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-5594,27,2001-11-16 17:08:09+00:00,126,False,False,0.6769,False,False,0.6379,False,False,0.624,False,False,0.645,False,False,0.6837,False,False,0.5873,False,False,0.6923,False,False,0.6385
+5594,27,2001-11-16 17:08:09+00:00,126,False,False,0.6769,False,False,0.6379,False,False,0.624,False,False,0.645,False,False,0.6837,False,False,0.5873,False,True,0.6923,False,False,0.6385
 5595,27,2001-09-28 18:55:32+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5596,27,2001-10-01 18:54:29+00:00,78,False,False,0.339,False,False,0.3605,False,False,0.2558,False,False,0.2642,False,False,0.3252,False,False,0.3159,False,False,0.282,False,False,0.2944
 5597,27,2001-10-09 16:23:21+00:00,115,False,False,0.3738,False,False,0.3208,False,False,0.2842,False,False,0.2426,False,False,0.2965,False,False,0.2602,False,False,0.3066,False,False,0.3294
@@ -3519,7 +3519,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5651,67,2001-04-24 21:10:00+00:00,69,False,False,0.0976,False,False,0.0919,False,False,0.0574,False,False,0.0493,False,False,0.069,False,False,0.0923,False,False,0.048,False,False,0.0623
 5654,67,2001-06-05 19:53:50+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5655,67,2001-06-05 20:24:03+00:00,342,False,False,0.04,False,False,-0.0312,False,False,0.0105,False,False,0.0265,False,False,0.0513,False,False,-0.0106,False,False,0.0672,False,False,-0.0015
-5657,66,2001-10-23 04:17:17+00:00,749,True,False,0.6777,False,False,0.6621,False,False,0.5817,False,False,0.6489,False,False,0.7334,False,False,0.5889,True,False,0.6885,True,False,0.6664
+5657,66,2001-10-23 04:17:17+00:00,749,True,False,0.6777,False,False,0.6621,False,False,0.5817,False,False,0.6489,False,True,0.7334,False,False,0.5889,True,False,0.6885,True,False,0.6664
 5666,7,2001-09-26 21:08:27+00:00,82,False,False,0.1593,False,False,0.1464,False,False,0.1092,False,False,0.1077,False,False,0.1611,False,False,0.129,False,False,0.191,False,False,0.1986
 5669,84,2001-05-11 20:59:00+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5675,84,2001-03-05 11:35:00+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -3546,7 +3546,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5717,125,2000-10-03 09:08:00+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 5719,75,2001-02-08 12:03:00+00:00,42,False,False,0.0958,False,False,0.0461,False,False,0.0279,False,False,0.0368,False,False,0.0814,False,False,0.0407,False,False,0.0746,False,False,0.0817
 5721,75,1980-01-01 00:00:00+00:00,135,False,False,0.1173,False,False,0.0704,False,False,0.0862,False,False,0.0649,False,False,0.0734,False,False,0.02,False,False,0.0847,False,False,0.0616
-5723,75,2001-04-26 00:02:00+00:00,122,False,False,0.6787,False,False,0.6568,False,False,0.6704,False,False,0.638,False,False,0.6722,False,False,0.5103,False,False,0.7038,False,False,0.6851
+5723,75,2001-04-26 00:02:00+00:00,122,False,False,0.6787,False,False,0.6568,False,False,0.6704,False,False,0.638,False,False,0.6722,False,False,0.5103,False,True,0.7038,False,False,0.6851
 5724,12,2001-04-26 15:02:00+00:00,57,False,False,0.2648,False,False,0.2125,False,False,0.2309,False,False,0.1672,False,False,0.2059,False,False,0.1664,False,False,0.2018,False,False,0.2031
 5725,12,2001-04-26 16:37:00+00:00,32,False,False,0.4266,False,False,0.3948,False,False,0.4413,False,False,0.3966,False,False,0.313,False,False,0.3534,False,False,0.3604,False,False,0.327
 5726,12,2001-04-27 07:38:00+00:00,33,False,False,0.0776,False,False,0.0323,False,False,0.0505,False,False,-0.0258,False,False,0.0181,False,False,0.0067,False,False,0.0412,False,False,0.0125
@@ -3563,7 +3563,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 5747,75,2001-11-19 20:00:54+00:00,41,False,False,0.222,False,False,0.1255,False,False,0.1739,False,False,0.1358,False,False,0.1624,False,False,0.064,False,False,0.2028,False,False,0.1779
 5748,75,2001-11-19 22:43:34+00:00,42,False,False,0.1699,False,False,0.1614,False,False,0.1531,False,False,0.1277,False,False,0.1265,False,False,0.1856,False,False,0.1479,False,False,0.1776
 5750,75,2001-11-29 22:26:48+00:00,57,False,False,0.4185,False,False,0.3103,False,False,0.3616,False,False,0.2882,False,False,0.3148,False,False,0.2302,False,False,0.356,False,False,0.3149
-5753,75,2001-12-01 16:36:29+00:00,39,False,False,0.5384,False,False,0.657,False,False,0.507,False,False,0.5727,False,False,0.6421,False,False,0.543,False,False,0.5672,False,False,0.6076
+5753,75,2001-12-01 16:36:29+00:00,39,False,False,0.5384,False,True,0.657,False,False,0.507,False,False,0.5727,False,False,0.6421,False,False,0.543,False,False,0.5672,False,False,0.6076
 5758,75,2001-06-28 14:15:33+00:00,315,False,False,0.3848,False,False,0.3575,False,False,0.3774,False,False,0.3067,False,False,0.3026,False,False,0.2513,False,False,0.3316,True,False,0.3374
 5760,75,2001-07-02 20:55:04+00:00,37,False,False,0.3242,False,False,0.2729,False,False,0.2436,False,False,0.187,False,False,0.2916,False,False,0.2017,False,False,0.2982,False,False,0.3284
 5761,75,2001-06-01 10:34:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -4048,11 +4048,11 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 6546,116,2000-08-25 17:25:00+00:00,52,False,False,0.2785,False,False,0.2397,False,False,0.2463,False,False,0.2025,False,False,0.2344,False,False,0.2148,False,False,0.2803,False,False,0.2983
 6547,55,2000-10-02 20:51:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6548,131,2001-10-31 13:57:26+00:00,106,False,False,0.4664,False,False,0.3751,False,False,0.4035,False,False,0.3919,False,False,0.5004,False,False,0.3038,False,False,0.4782,False,False,0.4168
-6549,147,2001-11-13 19:38:01+00:00,552,False,False,0.6182,False,False,0.6412,False,False,0.5307,False,False,0.6247,True,False,0.7642,False,False,0.5822,False,False,0.6559,False,False,0.6433
+6549,147,2001-11-13 19:38:01+00:00,552,False,False,0.6182,False,False,0.6412,False,False,0.5307,False,False,0.6247,True,True,0.7642,False,False,0.5822,False,False,0.6559,False,False,0.6433
 6550,4,2001-10-24 23:36:59+00:00,130,False,False,0.3699,False,False,0.2277,False,False,0.2704,False,False,0.2432,False,False,0.3212,False,False,0.1883,False,False,0.3512,False,False,0.2694
-6551,62,2001-10-19 18:02:44+00:00,625,True,False,0.7041,False,False,0.7453,False,False,0.6567,False,False,0.7027,False,False,0.7605,False,False,0.63,True,False,0.7165,False,False,0.6944
+6551,62,2001-10-19 18:02:44+00:00,625,True,False,0.7041,False,False,0.7453,False,False,0.6567,False,False,0.7027,False,True,0.7605,False,False,0.63,True,False,0.7165,False,False,0.6944
 6552,131,2001-10-09 12:50:04+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-6554,10,2001-10-03 21:10:43+00:00,155,False,False,0.6894,False,False,0.6679,False,False,0.591,False,False,0.6365,False,False,0.7382,False,False,0.6205,False,False,0.7133,True,False,0.6983
+6554,10,2001-10-03 21:10:43+00:00,155,False,False,0.6894,False,False,0.6679,False,False,0.591,False,False,0.6365,False,True,0.7382,False,False,0.6205,False,False,0.7133,True,False,0.6983
 6555,116,2001-09-27 21:26:42+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6556,131,2001-09-21 19:57:25+00:00,41,False,False,0.5084,False,False,0.5103,False,False,0.5157,False,False,0.5257,False,False,0.558,False,False,0.4613,False,False,0.5554,False,False,0.5451
 6558,27,2001-12-07 15:55:03+00:00,91,False,False,0.2961,False,False,0.2301,False,False,0.2618,False,False,0.2643,False,False,0.3481,False,False,0.1787,False,False,0.3262,False,False,0.2944
@@ -4083,11 +4083,11 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 6591,88,2001-11-19 00:28:54+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6592,66,2001-11-18 17:49:54+00:00,159,False,False,0.1723,False,False,0.1806,False,False,0.1572,False,False,0.137,False,False,0.1928,False,False,0.1787,False,False,0.1839,True,False,0.2426
 6593,88,2001-11-17 01:55:53+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-6594,62,2001-11-16 20:15:21+00:00,227,False,False,0.5339,False,False,0.6025,False,False,0.5066,False,False,0.56,True,False,0.6973,False,False,0.478,False,False,0.5627,False,False,0.5567
+6594,62,2001-11-16 20:15:21+00:00,227,False,False,0.5339,False,False,0.6025,False,False,0.5066,False,False,0.56,True,True,0.6973,False,False,0.478,False,False,0.5627,False,False,0.5567
 6595,88,2001-11-14 14:41:57+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6596,69,2001-11-07 16:02:43+00:00,19,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6597,88,2001-11-20 14:46:32+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-6598,88,2001-11-20 02:18:44+00:00,453,False,False,0.5643,False,False,0.6713,False,False,0.5426,False,False,0.5763,False,False,0.5934,True,False,0.5744,False,False,0.5495,False,False,0.5632
+6598,88,2001-11-20 02:18:44+00:00,453,False,False,0.5643,False,True,0.6713,False,False,0.5426,False,False,0.5763,False,False,0.5934,True,False,0.5744,False,False,0.5495,False,False,0.5632
 6599,88,2001-11-20 23:36:04+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6600,69,2001-11-20 22:44:03+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6602,88,2001-11-20 21:55:28+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -4300,7 +4300,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 6907,88,2002-02-04 14:40:08+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6908,88,2001-10-25 13:28:19+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6909,88,2001-10-25 13:27:13+00:00,22,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-6910,88,2001-10-24 23:28:02+00:00,53,False,False,0.6178,False,False,0.5908,False,False,0.5858,False,False,0.6071,False,False,0.6624,False,False,0.5428,False,False,0.6751,False,False,0.6189
+6910,88,2001-10-24 23:28:02+00:00,53,False,False,0.6178,False,False,0.5908,False,False,0.5858,False,False,0.6071,False,False,0.6624,False,False,0.5428,False,True,0.6751,False,False,0.6189
 6911,88,2001-10-24 22:19:16+00:00,185,False,False,0.4341,False,False,0.468,False,False,0.3502,False,False,0.3379,False,False,0.4525,False,False,0.4068,False,False,0.3815,False,False,0.4022
 6912,88,2001-10-24 17:58:48+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 6916,88,2002-02-04 14:26:47+00:00,33,False,False,0.2066,False,False,0.1606,False,False,0.2032,False,False,0.1708,False,False,0.1452,False,False,0.1628,False,False,0.1895,False,False,0.1604
@@ -4388,7 +4388,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7025,23,2001-12-04 22:06:53+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7026,52,2001-12-04 21:40:57+00:00,19,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7027,7,2001-12-02 15:45:51+00:00,61,False,False,0.5547,False,False,0.5702,False,False,0.5419,False,False,0.5335,False,False,0.5896,False,False,0.4798,False,False,0.5487,False,False,0.5432
-7028,4,2001-11-29 17:01:08+00:00,30,False,False,0.6261,False,False,0.6728,False,False,0.5822,False,False,0.6248,False,False,0.6837,False,False,0.5497,False,False,0.6428,False,False,0.6137
+7028,4,2001-11-29 17:01:08+00:00,30,False,False,0.6261,False,False,0.6728,False,False,0.5822,False,False,0.6248,False,True,0.6837,False,False,0.5497,False,False,0.6428,False,False,0.6137
 7030,35,2002-01-10 17:19:23+00:00,109,False,False,0.2356,False,False,0.1646,False,False,0.171,False,False,0.1438,False,False,0.218,False,False,0.1325,False,False,0.218,False,False,0.1842
 7031,35,2001-11-28 15:56:36+00:00,18,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7034,23,2001-11-20 19:51:57+00:00,248,False,False,0.4045,False,False,0.3357,False,False,0.3772,False,False,0.3333,False,False,0.3844,False,False,0.2434,False,False,0.3568,True,False,0.3727
@@ -4411,9 +4411,9 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7058,9,2001-10-01 21:50:06+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7059,9,2001-09-26 14:22:44+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7060,82,2001-11-15 15:10:27+00:00,69,False,False,0.0181,False,False,-0.057,False,False,-0.0034,False,False,-0.0638,False,False,-0.016,False,False,-0.0508,False,False,0.0456,False,False,-0.0081
-7061,105,2001-03-23 02:34:00+00:00,83,False,False,0.6445,False,False,0.5648,False,False,0.54,False,False,0.5274,False,False,0.614,False,False,0.4332,False,False,0.6092,False,False,0.5642
+7061,105,2001-03-23 02:34:00+00:00,83,False,True,0.6445,False,False,0.5648,False,False,0.54,False,False,0.5274,False,False,0.614,False,False,0.4332,False,False,0.6092,False,False,0.5642
 7062,52,2001-08-14 12:29:57+00:00,129,False,False,0.3761,False,False,0.3765,False,False,0.3887,False,False,0.3795,False,False,0.4372,False,False,0.3791,False,False,0.4053,False,False,0.381
-7064,105,2001-03-17 05:52:00+00:00,75,False,False,0.6236,False,False,0.5726,False,False,0.5698,False,False,0.5577,False,False,0.5951,False,False,0.5186,False,False,0.5966,False,False,0.5649
+7064,105,2001-03-17 05:52:00+00:00,75,False,True,0.6236,False,False,0.5726,False,False,0.5698,False,False,0.5577,False,False,0.5951,False,False,0.5186,False,False,0.5966,False,False,0.5649
 7065,92,2001-10-15 15:50:28+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7066,92,2001-09-17 15:50:16+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7067,92,2001-09-15 23:51:20+00:00,56,False,False,0.2746,False,False,0.2216,False,False,0.1995,False,False,0.1993,False,False,0.2554,False,False,0.2407,False,False,0.2509,False,False,0.2657
@@ -4653,14 +4653,14 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7438,52,2001-10-05 22:06:21+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7440,59,2001-04-07 21:50:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7441,62,2000-12-21 10:32:00+00:00,140,False,False,0.3199,False,False,0.2631,False,False,0.2949,False,False,0.2591,False,False,0.2953,False,False,0.2918,False,False,0.3434,True,False,0.346
-7442,54,2001-12-31 15:55:24+00:00,241,False,False,0.5189,False,False,0.5604,False,False,0.491,False,False,0.5291,False,False,0.6524,False,False,0.5279,False,False,0.5791,False,False,0.5825
+7442,54,2001-12-31 15:55:24+00:00,241,False,False,0.5189,False,False,0.5604,False,False,0.491,False,False,0.5291,False,True,0.6524,False,False,0.5279,False,False,0.5791,False,False,0.5825
 7443,88,2002-01-24 15:45:10+00:00,29,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7444,4,2001-11-20 22:48:36+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7445,54,2002-01-24 15:40:12+00:00,64,False,False,0.4118,False,False,0.2811,False,False,0.2743,False,False,0.2757,False,False,0.3056,False,False,0.1579,False,False,0.3052,False,False,0.2714
 7446,88,2002-01-24 13:43:16+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7448,49,2002-01-17 12:43:35+00:00,68,False,False,0.3749,False,False,0.2675,False,False,0.2713,False,False,0.2602,False,False,0.3226,False,False,0.2336,False,False,0.3207,False,False,0.2622
 7449,54,2002-01-04 22:31:39+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-7451,23,2001-10-25 18:43:54+00:00,86,False,False,0.5469,False,False,0.5519,False,False,0.5543,False,False,0.5064,False,False,0.5502,False,False,0.5225,False,False,0.5819,True,False,0.6869
+7451,23,2001-10-25 18:43:54+00:00,86,False,False,0.5469,False,False,0.5519,False,False,0.5543,False,False,0.5064,False,False,0.5502,False,False,0.5225,False,False,0.5819,True,True,0.6869
 7454,54,2001-09-06 21:43:25+00:00,30,False,False,0.1534,False,False,0.0989,False,False,0.1042,False,False,0.0904,False,False,0.1221,False,False,0.0898,False,False,0.1236,False,False,0.1097
 7455,54,2001-10-22 17:28:44+00:00,42,False,False,0.2149,False,False,0.1231,False,False,0.1537,False,False,0.1409,False,False,0.1639,False,False,0.1159,False,False,0.1725,False,False,0.1222
 7456,54,2001-10-25 15:25:20+00:00,31,False,False,0.1616,False,False,0.0651,False,False,0.0755,False,False,0.0756,False,False,0.0853,False,False,0.0311,False,False,0.108,False,False,0.0929
@@ -4673,7 +4673,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7464,54,2001-07-31 21:31:50+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7465,54,2001-08-01 20:26:33+00:00,44,False,False,0.1617,False,False,0.0821,False,False,0.1391,False,False,0.1281,False,False,0.1209,False,False,0.0659,False,False,0.1614,False,False,0.1055
 7466,54,2001-08-02 18:14:24+00:00,38,False,False,0.0788,False,False,-0.0298,False,False,0.0284,False,False,0.0144,False,False,0.0454,False,False,-0.0716,False,False,0.0593,False,False,-0.0244
-7467,54,2001-08-03 13:56:05+00:00,234,False,False,0.4747,False,False,0.5597,False,False,0.4495,False,False,0.47,False,False,0.513,False,False,0.5833,False,False,0.4538,True,False,0.4792
+7467,54,2001-08-03 13:56:05+00:00,234,False,False,0.4747,False,False,0.5597,False,False,0.4495,False,False,0.47,False,False,0.513,False,True,0.5833,False,False,0.4538,True,False,0.4792
 7469,54,2001-08-03 17:35:20+00:00,279,False,False,0.4541,False,False,0.5395,False,False,0.437,False,False,0.4735,False,False,0.5111,False,False,0.5462,False,False,0.4498,True,False,0.4709
 7472,54,2001-08-06 19:33:40+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7473,54,2001-08-06 22:51:08+00:00,100,False,False,0.3738,False,False,0.3382,False,False,0.3498,False,False,0.3109,False,False,0.3525,False,False,0.3684,False,False,0.3651,False,False,0.338
@@ -4733,7 +4733,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7564,139,2001-03-28 10:37:00+00:00,39,False,False,0.3383,False,False,0.2584,False,False,0.2284,False,False,0.1804,False,False,0.2495,False,False,0.207,False,False,0.279,False,False,0.2489
 7565,132,2001-03-28 10:45:00+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7566,132,2001-03-28 13:02:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-7571,125,2001-03-29 10:31:00+00:00,111,False,False,0.6007,False,False,0.6378,False,False,0.5739,False,False,0.5447,False,False,0.5898,False,False,0.553,False,False,0.6,False,False,0.5985
+7571,125,2001-03-29 10:31:00+00:00,111,False,False,0.6007,False,True,0.6378,False,False,0.5739,False,False,0.5447,False,False,0.5898,False,False,0.553,False,False,0.6,False,False,0.5985
 7572,16,2001-03-29 12:00:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7576,139,2000-03-28 09:02:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7577,132,2001-03-30 10:42:00+00:00,45,False,False,0.4043,False,False,0.3937,False,False,0.3365,False,False,0.3241,False,False,0.3569,False,False,0.3941,False,False,0.3348,False,False,0.3596
@@ -4742,7 +4742,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7585,16,2001-04-05 16:30:00+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7586,132,2001-04-05 16:58:00+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7590,139,2001-04-09 15:07:00+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-7593,136,2001-04-10 11:48:00+00:00,34,False,False,0.6044,False,False,0.6806,False,False,0.5865,False,False,0.6,False,False,0.6125,False,False,0.575,False,False,0.602,False,False,0.6447
+7593,136,2001-04-10 11:48:00+00:00,34,False,False,0.6044,False,True,0.6806,False,False,0.5865,False,False,0.6,False,False,0.6125,False,False,0.575,False,False,0.602,False,False,0.6447
 7598,16,2001-04-11 13:58:00+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7602,139,1999-06-10 10:48:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7605,132,2001-04-13 13:26:00+00:00,109,False,False,0.5758,False,False,0.6136,False,False,0.536,False,False,0.52,False,False,0.5253,False,False,0.5079,False,False,0.5235,False,False,0.5408
@@ -4753,7 +4753,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7618,132,2001-04-17 10:22:00+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7620,139,2001-04-17 13:41:00+00:00,70,False,False,0.3409,False,False,0.3254,False,False,0.2948,False,False,0.2328,False,False,0.2491,False,False,0.2638,False,False,0.283,True,False,0.3319
 7621,125,2001-04-17 15:33:00+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-7623,136,2001-04-18 08:17:00+00:00,31,False,False,0.5644,False,False,0.6588,False,False,0.5613,False,False,0.5807,False,False,0.6103,False,False,0.5623,False,False,0.5897,False,False,0.6361
+7623,136,2001-04-18 08:17:00+00:00,31,False,False,0.5644,False,True,0.6588,False,False,0.5613,False,False,0.5807,False,False,0.6103,False,False,0.5623,False,False,0.5897,False,False,0.6361
 7624,139,2001-04-18 09:21:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7625,16,2001-04-18 10:42:00+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7626,132,2001-04-18 10:56:00+00:00,95,False,False,0.4895,False,False,0.5394,False,False,0.454,False,False,0.4402,False,False,0.4538,False,False,0.4155,False,False,0.4554,False,False,0.4825
@@ -4767,7 +4767,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7641,16,2001-04-23 13:22:00+00:00,15,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7642,16,2001-04-23 13:27:00+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7643,139,2001-04-23 15:58:00+00:00,77,False,False,0.0683,False,False,0.0134,False,False,0.0479,False,False,-0.0035,False,False,0.0445,False,False,-0.0342,False,False,0.0926,False,False,0.0553
-7644,132,2001-04-23 16:46:00+00:00,34,False,False,0.5763,False,False,0.6715,False,False,0.5724,False,False,0.5872,False,False,0.5957,False,False,0.5655,False,False,0.5711,False,False,0.603
+7644,132,2001-04-23 16:46:00+00:00,34,False,False,0.5763,False,True,0.6715,False,False,0.5724,False,False,0.5872,False,False,0.5957,False,False,0.5655,False,False,0.5711,False,False,0.603
 7646,139,2001-04-23 17:56:00+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
 7648,139,1999-06-16 09:37:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7650,132,2001-04-25 08:15:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -4818,7 +4818,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7733,132,2001-06-05 09:08:00+00:00,52,False,False,0.5508,False,False,0.6071,False,False,0.509,False,False,0.5283,False,False,0.547,False,False,0.4952,False,False,0.5242,False,False,0.5614
 7734,136,2001-06-05 11:39:00+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7735,136,2000-04-13 15:13:00+00:00,31,False,False,0.3429,False,False,0.3479,False,False,0.3161,False,False,0.2845,False,False,0.2659,False,False,0.2799,False,False,0.2909,False,False,0.3022
-7736,136,2001-06-05 15:22:00+00:00,37,False,False,0.6009,False,False,0.6891,False,False,0.5868,False,False,0.6065,False,False,0.6289,False,False,0.6006,False,False,0.6129,False,False,0.6481
+7736,136,2001-06-05 15:22:00+00:00,37,False,False,0.6009,False,True,0.6891,False,False,0.5868,False,False,0.6065,False,False,0.6289,False,False,0.6006,False,False,0.6129,False,False,0.6481
 7737,16,2000-04-13 15:25:00+00:00,41,False,False,0.3201,False,False,0.2765,False,False,0.276,False,False,0.2123,False,False,0.2486,False,False,0.2391,False,False,0.2657,False,False,0.2628
 7738,136,2000-04-13 15:27:00+00:00,74,False,False,0.3506,False,False,0.3548,False,False,0.3285,False,False,0.2616,False,False,0.2376,False,False,0.2924,False,False,0.2848,False,False,0.2937
 7739,125,2000-04-13 16:50:00+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -4828,7 +4828,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 7743,139,2001-06-07 14:27:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 7744,139,2001-06-07 15:37:00+00:00,31,False,False,0.5768,False,False,0.5508,False,False,0.5025,False,False,0.5251,False,False,0.5469,False,False,0.4481,False,False,0.5714,False,False,0.5295
 7745,139,2001-06-07 16:52:00+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-7746,95,2001-06-07 17:03:00+00:00,48,False,False,0.6325,False,False,0.6099,False,False,0.5956,False,False,0.623,False,False,0.6136,False,False,0.5398,False,False,0.6432,False,False,0.6068
+7746,95,2001-06-07 17:03:00+00:00,48,False,False,0.6325,False,False,0.6099,False,False,0.5956,False,False,0.623,False,False,0.6136,False,False,0.5398,False,True,0.6432,False,False,0.6068
 7749,139,1999-08-13 14:32:00+00:00,36,False,False,0.2636,False,False,0.2218,False,False,0.2071,False,False,0.1461,False,False,0.1723,False,False,0.2093,False,False,0.1856,False,False,0.168
 7750,16,2000-06-16 10:32:00+00:00,31,False,False,0.144,False,False,0.1023,False,False,0.0927,False,False,0.0653,False,False,0.1132,False,False,0.0654,False,False,0.1298,False,False,0.1033
 7751,139,2000-10-09 01:01:00+00:00,61,False,False,0.183,False,False,0.107,False,False,0.1498,False,False,0.1367,False,False,0.1537,False,False,0.1333,False,False,0.159,False,False,0.13
@@ -5119,7 +5119,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 8170,139,2000-08-21 09:14:00+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 8171,139,2000-08-21 13:23:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 8172,125,2000-08-21 13:52:00+00:00,59,False,False,0.295,False,False,0.2269,False,False,0.2865,False,False,0.2576,False,False,0.2444,False,False,0.1625,False,False,0.2503,False,False,0.2857
-8173,139,1980-01-01 00:00:00+00:00,132,False,False,0.6306,False,False,0.6283,False,False,0.5251,False,False,0.5573,False,False,0.5948,False,False,0.4689,False,False,0.5578,False,False,0.5681
+8173,139,1980-01-01 00:00:00+00:00,132,False,True,0.6306,False,False,0.6283,False,False,0.5251,False,False,0.5573,False,False,0.5948,False,False,0.4689,False,False,0.5578,False,False,0.5681
 8174,139,2000-08-21 16:14:00+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 8176,139,1999-09-17 11:23:00+00:00,35,False,False,0.1848,False,False,0.1891,False,False,0.1993,False,False,0.139,False,False,0.1245,False,False,0.1284,False,False,0.1638,False,False,0.1714
 8177,125,2000-08-22 13:17:00+00:00,48,False,False,0.349,False,False,0.3185,False,False,0.3108,False,False,0.2546,False,False,0.2804,False,False,0.3007,False,False,0.3015,False,False,0.3193
@@ -5560,7 +5560,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 8974,56,2001-04-04 13:09:00+00:00,50,False,False,0.2945,False,False,0.2257,False,False,0.2542,False,False,0.1906,False,False,0.2088,False,False,0.1937,False,False,0.2672,False,False,0.2177
 8975,56,2001-04-04 13:17:00+00:00,64,False,False,0.2991,False,False,0.2326,False,False,0.2423,False,False,0.1816,False,False,0.1962,False,False,0.1624,False,False,0.2319,False,False,0.1932
 8979,56,2001-04-06 08:43:00+00:00,30,False,False,0.1045,False,False,0.0286,False,False,0.0619,False,False,0.0376,False,False,0.0601,False,False,0.0094,False,False,0.0676,False,False,0.037
-8980,25,2001-04-06 12:55:00+00:00,43,False,False,0.6422,False,False,0.6393,False,False,0.5621,False,False,0.5671,False,False,0.6643,False,False,0.4894,False,False,0.625,False,False,0.6362
+8980,25,2001-04-06 12:55:00+00:00,43,False,False,0.6422,False,False,0.6393,False,False,0.5621,False,False,0.5671,False,True,0.6643,False,False,0.4894,False,False,0.625,False,False,0.6362
 8984,25,2001-04-11 11:12:00+00:00,15,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 8986,25,2001-04-12 15:08:00+00:00,194,False,False,0.4448,False,False,0.4316,False,False,0.3504,False,False,0.3202,False,False,0.3711,False,False,0.29,False,False,0.3721,False,False,0.4282
 8987,56,2001-04-16 18:22:00+00:00,52,False,False,0.1823,False,False,0.1775,False,False,0.1624,False,False,0.1387,False,False,0.1624,False,False,0.1297,False,False,0.1742,False,False,0.2199
@@ -5682,7 +5682,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 9144,78,2002-03-05 22:51:36+00:00,15,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9146,78,2002-03-07 19:31:24+00:00,190,False,False,0.203,False,False,0.1868,False,False,0.1015,False,False,0.0906,False,False,0.2014,False,False,0.0892,False,False,0.1475,False,False,0.196
 9147,78,2002-03-22 13:56:29+00:00,82,False,False,0.3659,False,False,0.3566,False,False,0.3056,False,False,0.241,False,False,0.2992,False,False,0.249,False,False,0.3154,True,False,0.421
-9148,78,2001-10-24 13:53:19+00:00,99,False,False,0.6235,False,False,0.5606,False,False,0.5439,False,False,0.5615,False,False,0.6638,False,False,0.5118,False,False,0.6936,False,False,0.6112
+9148,78,2001-10-24 13:53:19+00:00,99,False,False,0.6235,False,False,0.5606,False,False,0.5439,False,False,0.5615,False,False,0.6638,False,False,0.5118,False,True,0.6936,False,False,0.6112
 9149,78,2001-10-26 21:50:33+00:00,39,False,False,0.1955,False,False,0.1647,False,False,0.155,False,False,0.0773,False,False,0.1543,False,False,0.095,False,False,0.1894,False,False,0.178
 9150,78,2001-11-08 23:27:10+00:00,118,False,False,0.2615,False,False,0.2387,False,False,0.2277,False,False,0.1761,False,False,0.2376,False,False,0.2106,False,False,0.2596,True,False,0.2951
 9151,78,2001-11-14 22:02:09+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -5764,7 +5764,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 9246,76,2001-10-13 16:01:36+00:00,745,False,False,0.1318,False,False,0.1494,False,False,0.1192,False,False,0.0902,False,False,0.142,False,False,0.1273,False,False,0.1355,True,False,0.2101
 9247,76,2001-09-27 21:29:26+00:00,155,False,False,0.2287,False,False,0.184,False,False,0.1828,False,False,0.1903,False,False,0.228,False,False,0.1848,False,False,0.2412,True,False,0.3136
 9248,76,2001-11-29 16:09:20+00:00,95,False,False,0.2645,False,False,0.1844,False,False,0.2176,False,False,0.2068,False,False,0.218,False,False,0.2841,False,False,0.2343,False,False,0.2163
-9249,76,2001-10-31 00:12:32+00:00,71,False,False,0.6213,False,False,0.6545,False,False,0.6319,False,False,0.6205,False,False,0.6707,False,False,0.6158,False,False,0.6765,False,False,0.6815
+9249,76,2001-10-31 00:12:32+00:00,71,False,False,0.6213,False,False,0.6545,False,False,0.6319,False,False,0.6205,False,False,0.6707,False,False,0.6158,False,False,0.6765,False,True,0.6815
 9251,76,2001-11-14 14:10:58+00:00,429,False,False,0.7377,False,False,0.7501,False,False,0.6739,True,False,0.7341,False,True,0.8302,False,False,0.6054,False,False,0.7572,False,False,0.7002
 9253,139,2001-06-07 08:16:00+00:00,64,False,False,0.22,False,False,0.2106,False,False,0.2062,False,False,0.1446,False,False,0.1356,False,False,0.1844,False,False,0.1679,False,False,0.1791
 9254,75,2001-10-19 11:59:35+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -5932,7 +5932,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 9574,121,2001-10-24 21:58:44+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9575,121,2001-11-13 19:18:28+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9577,121,2001-11-14 12:39:34+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-9578,121,2001-11-14 13:34:56+00:00,246,False,False,0.6749,False,False,0.6534,False,False,0.5756,False,False,0.5741,False,False,0.6209,False,False,0.522,False,False,0.6175,False,False,0.5733
+9578,121,2001-11-14 13:34:56+00:00,246,False,True,0.6749,False,False,0.6534,False,False,0.5756,False,False,0.5741,False,False,0.6209,False,False,0.522,False,False,0.6175,False,False,0.5733
 9579,121,2001-11-14 13:36:05+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9580,121,2001-11-14 14:04:50+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9582,121,2001-11-14 17:57:05+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -6064,7 +6064,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 9780,33,2001-09-21 15:58:55+00:00,58,False,False,0.2674,False,False,0.1904,False,False,0.2547,False,False,0.1995,False,False,0.2244,False,False,0.1924,False,False,0.2658,False,False,0.2189
 9781,55,2001-09-20 22:44:42+00:00,26,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 9782,137,2001-10-19 21:02:07+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-9783,137,2001-12-20 00:34:33+00:00,83,False,False,0.6126,False,False,0.5637,False,False,0.576,False,False,0.6081,False,False,0.6188,False,False,0.4557,False,False,0.6487,False,False,0.5864
+9783,137,2001-12-20 00:34:33+00:00,83,False,False,0.6126,False,False,0.5637,False,False,0.576,False,False,0.6081,False,False,0.6188,False,False,0.4557,False,True,0.6487,False,False,0.5864
 9784,88,2001-10-08 21:24:20+00:00,174,False,False,0.3097,False,False,0.2802,False,False,0.2583,False,False,0.2245,False,False,0.275,False,False,0.19,False,False,0.2625,True,False,0.2528
 9787,8,2001-11-27 21:18:28+00:00,38,False,False,0.5345,False,False,0.44,False,False,0.4986,False,False,0.5008,False,False,0.4852,False,False,0.3486,False,False,0.493,False,False,0.4209
 9791,137,2001-12-20 13:59:12+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -6874,7 +6874,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11013,144,2001-02-09 00:30:00+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11018,2,2001-11-19 19:22:07+00:00,30,False,False,0.3124,False,False,0.189,False,False,0.2478,False,False,0.1848,False,False,0.2515,False,False,0.1244,False,False,0.3247,False,False,0.2859
 11019,108,2001-11-26 18:19:18+00:00,31,False,False,0.1419,False,False,0.138,False,False,0.0788,False,False,0.0568,False,False,0.1119,False,False,0.0981,False,False,0.091,False,False,0.1122
-11020,108,2001-11-19 18:07:04+00:00,39,False,False,0.6013,False,False,0.6486,False,False,0.5758,False,False,0.5911,False,False,0.6999,False,False,0.5498,False,False,0.6765,False,False,0.7049
+11020,108,2001-11-19 18:07:04+00:00,39,False,False,0.6013,False,False,0.6486,False,False,0.5758,False,False,0.5911,False,False,0.6999,False,False,0.5498,False,False,0.6765,False,True,0.7049
 11021,2,2001-11-19 18:00:58+00:00,76,False,False,0.4282,False,False,0.2929,False,False,0.3418,False,False,0.2852,False,False,0.3564,False,False,0.2376,False,False,0.3885,False,False,0.3898
 11022,108,2001-11-15 20:00:11+00:00,42,False,False,0.2694,False,False,0.2339,False,False,0.21,False,False,0.1858,False,False,0.2629,False,False,0.1665,False,False,0.2701,False,False,0.3314
 11024,108,2001-11-27 18:27:55+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -6906,7 +6906,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11057,133,2000-12-04 08:07:00+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11058,129,2000-12-04 22:34:00+00:00,52,False,False,0.27,False,False,0.2899,False,False,0.2432,False,False,0.2118,False,False,0.2784,False,False,0.2747,False,False,0.2901,True,False,0.4381
 11059,129,2000-12-05 14:57:00+00:00,52,False,False,0.3471,False,False,0.2629,False,False,0.3042,False,False,0.2711,False,False,0.2745,False,False,0.2433,False,False,0.3179,True,False,0.3681
-11060,129,2000-12-05 16:50:00+00:00,49,False,False,0.6,False,False,0.5721,False,False,0.5563,False,False,0.5637,False,False,0.5884,False,False,0.5115,False,False,0.6167,True,False,0.6406
+11060,129,2000-12-05 16:50:00+00:00,49,False,False,0.6,False,False,0.5721,False,False,0.5563,False,False,0.5637,False,False,0.5884,False,False,0.5115,False,False,0.6167,True,True,0.6406
 11061,129,2000-12-06 11:31:00+00:00,551,False,False,0.2996,False,False,0.3214,False,False,0.2764,False,False,0.2433,False,False,0.3345,False,False,0.2787,False,False,0.3308,True,False,0.4647
 11062,33,2000-10-09 16:41:00+00:00,37,False,False,0.3111,False,False,0.3284,False,False,0.3124,False,False,0.2496,False,False,0.307,False,False,0.2988,False,False,0.295,False,False,0.3378
 11063,33,2001-04-04 20:09:00+00:00,31,False,False,0.2862,False,False,0.2338,False,False,0.2388,False,False,0.2062,False,False,0.1968,False,False,0.2002,False,False,0.2444,False,False,0.226
@@ -6930,7 +6930,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11082,33,2000-08-13 12:14:00+00:00,363,False,False,0.2694,False,False,0.2833,False,False,0.2265,False,False,0.1771,False,False,0.2351,False,False,0.2904,False,False,0.224,True,False,0.2445
 11083,33,2000-07-31 15:59:00+00:00,309,False,False,0.3342,False,False,0.3435,False,False,0.226,False,False,0.2327,False,False,0.3135,False,False,0.2713,False,False,0.2727,True,False,0.3634
 11084,33,2000-07-28 14:51:00+00:00,55,False,False,0.2797,False,False,0.1774,False,False,0.1996,False,False,0.1801,False,False,0.1948,False,False,0.1698,False,False,0.2287,False,False,0.1691
-11085,33,2000-07-24 10:00:00+00:00,102,False,False,0.4818,False,False,0.5312,False,False,0.5012,False,False,0.4836,False,False,0.5019,False,False,0.4755,False,False,0.5087,True,False,0.6501
+11085,33,2000-07-24 10:00:00+00:00,102,False,False,0.4818,False,False,0.5312,False,False,0.5012,False,False,0.4836,False,False,0.5019,False,False,0.4755,False,False,0.5087,True,True,0.6501
 11086,33,2000-07-18 11:39:00+00:00,93,False,False,0.4311,False,False,0.3947,False,False,0.3508,False,False,0.3365,False,False,0.4122,False,False,0.2738,False,False,0.4098,False,False,0.435
 11087,33,2000-12-04 07:57:00+00:00,55,False,False,0.2077,False,False,0.1485,False,False,0.1405,False,False,0.0757,False,False,0.1515,False,False,0.0907,False,False,0.1665,False,False,0.1975
 11088,33,2000-07-14 08:47:00+00:00,33,False,False,0.298,False,False,0.1815,False,False,0.2172,False,False,0.2061,False,False,0.2511,False,False,0.0965,False,False,0.2857,False,False,0.2075
@@ -6983,7 +6983,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11136,33,2000-02-03 15:45:00+00:00,279,False,False,0.3405,False,False,0.2874,False,False,0.2489,False,False,0.2332,False,False,0.2941,False,False,0.2246,False,False,0.2818,True,False,0.2946
 11137,33,2000-02-02 15:01:00+00:00,52,False,False,0.2364,False,False,0.1807,False,False,0.1991,False,False,0.1274,False,False,0.212,False,False,0.1047,False,False,0.2679,False,False,0.2814
 11138,33,2000-01-28 09:09:00+00:00,105,False,False,0.2823,False,False,0.209,False,False,0.2269,False,False,0.1836,False,False,0.2404,False,False,0.1395,False,False,0.3262,False,False,0.3082
-11139,33,2000-01-24 12:59:00+00:00,50,False,False,0.6745,False,False,0.7192,False,False,0.6388,False,False,0.6368,False,False,0.7269,False,False,0.6246,False,False,0.7047,True,False,0.7739
+11139,33,2000-01-24 12:59:00+00:00,50,False,False,0.6745,False,False,0.7192,False,False,0.6388,False,False,0.6368,False,False,0.7269,False,False,0.6246,False,False,0.7047,True,True,0.7739
 11140,33,2000-01-13 08:53:00+00:00,531,False,False,0.4048,False,False,0.3599,False,False,0.3592,False,False,0.268,False,False,0.303,False,False,0.2701,False,False,0.332,True,False,0.3884
 11141,33,2000-01-12 17:44:00+00:00,30,False,False,0.2341,False,False,0.1794,False,False,0.2257,False,False,0.17,False,False,0.215,False,False,0.1482,False,False,0.2626,False,False,0.225
 11142,33,2000-01-12 08:46:00+00:00,159,False,False,0.4537,False,False,0.3482,False,False,0.3208,False,False,0.2804,False,False,0.3455,False,False,0.2454,False,False,0.3488,False,False,0.3811
@@ -7323,9 +7323,9 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11619,33,2001-10-23 23:14:00+00:00,41,False,False,0.2825,False,False,0.2494,False,False,0.1784,False,False,0.1743,False,False,0.2341,False,False,0.1456,False,False,0.2064,False,False,0.2339
 11621,52,2001-10-21 18:43:54+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11622,52,2001-10-19 20:52:28+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-11623,52,2001-11-21 02:23:22+00:00,84,False,False,0.6228,False,False,0.6406,False,False,0.5617,False,False,0.5692,False,False,0.6351,False,False,0.5467,False,False,0.6279,False,False,0.6089
+11623,52,2001-11-21 02:23:22+00:00,84,False,False,0.6228,False,True,0.6406,False,False,0.5617,False,False,0.5692,False,False,0.6351,False,False,0.5467,False,False,0.6279,False,False,0.6089
 11624,105,2001-11-15 19:15:30+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-11625,8,2001-10-29 22:44:58+00:00,79,False,False,0.6616,False,False,0.682,False,False,0.6202,False,False,0.6823,False,False,0.7149,False,False,0.5277,False,False,0.6741,False,False,0.6496
+11625,8,2001-10-29 22:44:58+00:00,79,False,False,0.6616,False,False,0.682,False,False,0.6202,False,False,0.6823,False,True,0.7149,False,False,0.5277,False,False,0.6741,False,False,0.6496
 11629,55,2001-03-20 22:43:28+00:00,26,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
 11631,55,2001-04-06 16:58:25+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11632,55,2001-10-24 23:12:32+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -7417,7 +7417,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11848,59,2001-04-23 15:24:00+00:00,75,False,False,0.1928,False,False,0.2344,False,False,0.2414,False,False,0.1774,False,False,0.2366,False,False,0.2067,False,False,0.2413,True,False,0.3619
 11849,59,2001-04-23 15:40:00+00:00,19,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11850,59,2001-04-24 14:22:00+00:00,146,False,False,0.3131,False,False,0.3203,False,False,0.2786,False,False,0.2304,False,False,0.2869,False,False,0.2429,False,False,0.2782,True,False,0.4108
-11851,59,2001-04-24 18:57:00+00:00,266,False,False,0.4701,False,False,0.4831,False,False,0.4351,False,False,0.4006,False,False,0.484,False,False,0.426,False,False,0.5108,True,False,0.6418
+11851,59,2001-04-24 18:57:00+00:00,266,False,False,0.4701,False,False,0.4831,False,False,0.4351,False,False,0.4006,False,False,0.484,False,False,0.426,False,False,0.5108,True,True,0.6418
 11852,59,2000-09-06 18:36:00+00:00,59,False,False,0.1734,False,False,0.1888,False,False,0.2228,False,False,0.1733,False,False,0.1641,False,False,0.1894,False,False,0.1961,True,False,0.2324
 11856,116,2001-04-26 10:35:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11857,59,2001-04-26 10:45:00+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -7508,7 +7508,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 11993,59,2000-10-10 18:02:00+00:00,22,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 11994,59,2000-10-11 13:02:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,True,False,0.0
 11996,59,2000-10-11 14:54:00+00:00,206,False,False,0.4274,False,False,0.4122,False,False,0.3748,False,False,0.3251,False,False,0.3909,False,False,0.325,False,False,0.3998,True,False,0.5087
-11998,59,2000-10-12 12:52:00+00:00,179,False,False,0.575,False,False,0.6099,False,False,0.5548,False,False,0.5711,False,False,0.6346,False,False,0.5546,False,False,0.617,True,False,0.6637
+11998,59,2000-10-12 12:52:00+00:00,179,False,False,0.575,False,False,0.6099,False,False,0.5548,False,False,0.5711,False,False,0.6346,False,False,0.5546,False,False,0.617,True,True,0.6637
 12000,59,2000-10-12 15:07:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12001,59,2000-10-13 11:36:00+00:00,47,False,False,0.3466,False,False,0.1915,False,False,0.2792,False,False,0.2081,False,False,0.2284,False,False,0.1099,False,False,0.3059,True,False,0.2428
 12002,101,2000-10-13 09:30:00+00:00,159,False,False,0.2471,False,False,0.2447,False,False,0.2762,False,False,0.1961,False,False,0.2184,False,False,0.1961,False,False,0.2495,True,False,0.3223
@@ -7530,7 +7530,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12020,59,2000-10-19 10:15:00+00:00,87,False,False,0.3319,False,False,0.3972,False,False,0.3933,False,False,0.3733,False,False,0.3779,False,False,0.4737,False,False,0.3726,False,False,0.373
 12021,59,2000-10-19 14:16:00+00:00,26,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12022,59,2000-10-19 15:58:00+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-12023,101,2000-10-19 16:00:00+00:00,34,False,False,0.6455,False,False,0.6976,False,False,0.6623,False,False,0.6424,False,False,0.6958,False,False,0.6012,False,False,0.7004,True,False,0.7657
+12023,101,2000-10-19 16:00:00+00:00,34,False,False,0.6455,False,False,0.6976,False,False,0.6623,False,False,0.6424,False,False,0.6958,False,False,0.6012,False,False,0.7004,True,True,0.7657
 12024,59,2000-10-19 18:08:00+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12026,59,2000-10-20 13:21:00+00:00,30,False,False,0.1976,False,False,0.1998,False,False,0.1626,False,False,0.1422,False,False,0.1581,False,False,0.2062,False,False,0.1714,False,False,0.1634
 12028,59,2000-10-20 15:34:00+00:00,153,False,False,0.249,False,False,0.2441,False,False,0.2533,False,False,0.1825,False,False,0.2354,False,False,0.2049,False,False,0.2391,True,False,0.3752
@@ -7551,7 +7551,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12064,59,2001-06-25 13:46:00+00:00,72,False,False,0.4078,False,False,0.4267,False,False,0.3781,False,False,0.4221,False,False,0.4771,False,False,0.3789,False,False,0.4391,True,False,0.4748
 12065,59,2000-10-28 19:23:00+00:00,24,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12066,59,2001-06-26 11:13:00+00:00,100,False,False,0.3182,False,False,0.3779,False,False,0.3565,False,False,0.2508,False,False,0.3228,False,False,0.4162,False,False,0.3287,True,False,0.4019
-12068,59,2001-06-29 11:46:00+00:00,64,False,False,0.591,False,False,0.6433,False,False,0.6182,False,False,0.6238,False,False,0.7092,False,False,0.5698,False,False,0.7167,False,False,0.7371
+12068,59,2001-06-29 11:46:00+00:00,64,False,False,0.591,False,False,0.6433,False,False,0.6182,False,False,0.6238,False,False,0.7092,False,False,0.5698,False,False,0.7167,False,True,0.7371
 12070,59,2001-06-29 18:48:00+00:00,32,False,False,0.4242,False,False,0.3911,False,False,0.3715,False,False,0.3374,False,False,0.3415,False,False,0.4638,False,False,0.3662,False,False,0.3259
 12071,59,2001-07-02 22:09:00+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12072,59,2001-07-02 22:18:00+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -7748,7 +7748,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12335,59,2000-12-27 20:57:00+00:00,707,False,False,0.3911,False,False,0.3409,False,False,0.3895,False,False,0.3177,False,False,0.3558,False,False,0.2916,False,False,0.417,True,False,0.502
 12336,59,2000-12-27 21:01:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12337,59,2000-12-28 20:36:00+00:00,574,False,False,0.3893,False,False,0.3156,False,False,0.3646,False,False,0.3264,False,False,0.3519,False,False,0.3177,False,False,0.4252,True,False,0.4799
-12338,59,2000-12-29 12:11:00+00:00,126,False,False,0.5882,False,False,0.6075,False,False,0.5379,False,False,0.5741,False,False,0.6648,False,False,0.5144,False,False,0.6291,True,False,0.7142
+12338,59,2000-12-29 12:11:00+00:00,126,False,False,0.5882,False,False,0.6075,False,False,0.5379,False,False,0.5741,False,False,0.6648,False,False,0.5144,False,False,0.6291,True,True,0.7142
 12339,59,2000-12-30 13:05:00+00:00,330,False,False,0.4529,False,False,0.39,False,False,0.4431,False,False,0.3771,False,False,0.4098,False,False,0.3375,False,False,0.468,True,False,0.5172
 12343,59,2001-01-02 17:28:00+00:00,100,False,False,0.2405,False,False,0.1697,False,False,0.2521,False,False,0.1817,False,False,0.2142,False,False,0.1293,False,False,0.2928,False,False,0.28
 12344,59,2001-01-03 11:13:00+00:00,159,False,False,0.3414,False,False,0.2528,False,False,0.2908,False,False,0.2536,False,False,0.3069,False,False,0.2409,False,False,0.3503,True,False,0.4151
@@ -7762,7 +7762,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12354,59,2001-01-03 20:12:00+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12355,59,2001-01-04 11:02:00+00:00,114,False,False,0.3421,False,False,0.3635,False,False,0.3431,False,False,0.273,False,False,0.345,False,False,0.2813,False,False,0.3415,True,False,0.4103
 12356,59,2001-01-04 14:58:00+00:00,343,False,False,0.3945,False,False,0.3683,False,False,0.3595,False,False,0.3085,False,False,0.364,False,False,0.3272,False,False,0.3922,True,False,0.5078
-12357,129,2001-01-04 15:53:00+00:00,87,False,False,0.4884,False,False,0.5155,False,False,0.4915,False,False,0.4538,False,False,0.53,False,False,0.4872,False,False,0.57,True,False,0.6795
+12357,129,2001-01-04 15:53:00+00:00,87,False,False,0.4884,False,False,0.5155,False,False,0.4915,False,False,0.4538,False,False,0.53,False,False,0.4872,False,False,0.57,True,True,0.6795
 12358,116,2001-01-04 16:08:00+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12359,59,2001-01-04 20:01:00+00:00,165,False,False,0.3549,False,False,0.3734,False,False,0.3991,False,False,0.3113,False,False,0.3859,False,False,0.3518,False,False,0.4204,True,False,0.5078
 12360,59,2001-01-07 23:30:00+00:00,39,False,False,0.2682,False,False,0.2096,False,False,0.3066,False,False,0.2259,False,False,0.2644,False,False,0.1741,False,False,0.3214,False,False,0.3189
@@ -7796,7 +7796,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12433,59,2001-02-03 23:44:00+00:00,758,False,False,0.4922,False,False,0.4628,False,False,0.4047,False,False,0.3923,False,False,0.462,False,False,0.3984,False,False,0.4452,True,False,0.545
 12437,116,2001-02-05 15:52:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12440,59,2001-02-06 13:25:00+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-12445,59,2000-08-30 13:25:00+00:00,41,False,False,0.6569,False,False,0.6031,False,False,0.5824,False,False,0.5824,False,False,0.6297,False,False,0.5292,False,False,0.6341,False,False,0.6132
+12445,59,2000-08-30 13:25:00+00:00,41,False,True,0.6569,False,False,0.6031,False,False,0.5824,False,False,0.5824,False,False,0.6297,False,False,0.5292,False,False,0.6341,False,False,0.6132
 12448,101,2000-08-30 12:20:00+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12451,59,2001-02-09 10:24:00+00:00,104,False,False,0.3782,False,False,0.3138,False,False,0.2631,False,False,0.2345,False,False,0.3178,False,False,0.2714,False,False,0.3024,False,False,0.3392
 12452,59,2001-02-09 10:50:00+00:00,23,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -7881,7 +7881,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12630,23,2001-08-08 12:59:35+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12631,59,2001-08-08 00:23:28+00:00,18,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12632,23,2001-08-07 17:31:00+00:00,108,False,False,0.4905,False,False,0.4701,False,False,0.505,False,False,0.4918,False,False,0.5375,False,False,0.3904,False,False,0.5701,True,False,0.5702
-12633,23,2001-08-01 22:53:12+00:00,108,False,False,0.5668,False,False,0.5933,False,False,0.5485,False,False,0.5458,False,False,0.6183,False,False,0.4895,False,False,0.5897,True,False,0.6711
+12633,23,2001-08-01 22:53:12+00:00,108,False,False,0.5668,False,False,0.5933,False,False,0.5485,False,False,0.5458,False,False,0.6183,False,False,0.4895,False,False,0.5897,True,True,0.6711
 12634,116,2001-08-01 21:23:01+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12638,129,2001-07-26 22:46:00+00:00,101,False,False,0.1986,False,False,0.1192,False,False,0.1957,False,False,0.1067,False,False,0.1207,False,False,0.1271,False,False,0.172,True,False,0.1976
 12640,59,2001-08-31 21:52:07+00:00,87,False,False,0.2709,False,False,0.1467,False,False,0.2043,False,False,0.1278,False,False,0.1784,False,False,0.1331,False,False,0.2461,False,False,0.2278
@@ -7897,7 +7897,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12656,59,2001-10-22 18:32:49+00:00,468,False,False,0.3336,False,False,0.3218,False,False,0.3282,False,False,0.2941,False,False,0.3013,False,False,0.2689,False,False,0.3249,True,False,0.438
 12658,88,2001-08-29 22:42:32+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12659,23,2001-12-12 16:41:51+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-12660,23,2001-12-12 20:31:33+00:00,117,False,False,0.6376,False,False,0.6198,False,False,0.5908,False,False,0.5945,False,False,0.6618,False,False,0.4786,False,False,0.6594,True,False,0.6729
+12660,23,2001-12-12 20:31:33+00:00,117,False,False,0.6376,False,False,0.6198,False,False,0.5908,False,False,0.5945,False,False,0.6618,False,False,0.4786,False,False,0.6594,True,True,0.6729
 12661,23,2001-12-14 22:18:49+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12662,23,2001-12-17 13:40:53+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12663,23,2001-12-19 20:55:03+00:00,104,False,False,0.2383,False,False,0.1687,False,False,0.2335,False,False,0.2006,False,False,0.1953,False,False,0.1287,False,False,0.2078,False,False,0.1648
@@ -7932,7 +7932,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12699,23,2001-10-07 17:25:53+00:00,10,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12700,23,2001-10-07 17:38:55+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12701,23,2001-10-07 17:49:23+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-12702,23,2001-10-09 23:55:23+00:00,36,False,False,0.6698,False,False,0.6951,False,False,0.6586,False,False,0.6276,False,False,0.6774,False,False,0.5679,False,False,0.6957,False,False,0.7102
+12702,23,2001-10-09 23:55:23+00:00,36,False,False,0.6698,False,False,0.6951,False,False,0.6586,False,False,0.6276,False,False,0.6774,False,False,0.5679,False,False,0.6957,False,True,0.7102
 12703,23,2001-10-09 23:59:39+00:00,56,False,False,0.4238,False,False,0.3903,False,False,0.381,False,False,0.3364,False,False,0.4102,False,False,0.3301,False,False,0.4279,False,False,0.4676
 12704,94,2001-10-10 11:57:48+00:00,69,False,False,0.2867,False,False,0.3094,False,False,0.2615,False,False,0.2228,False,False,0.3071,False,False,0.2312,False,False,0.2782,True,False,0.3824
 12705,59,2001-10-10 17:08:16+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -7951,8 +7951,8 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12720,9,2001-10-24 13:54:17+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12721,23,2001-10-24 21:12:32+00:00,121,False,False,0.2474,False,False,0.252,False,False,0.2179,False,False,0.1552,False,False,0.2427,False,False,0.1601,False,False,0.2225,False,False,0.3038
 12722,23,2001-10-25 18:08:54+00:00,42,False,False,0.3052,False,False,0.2443,False,False,0.2174,False,False,0.1603,False,False,0.1949,False,False,0.1441,False,False,0.1978,False,False,0.1968
-12723,23,2001-10-25 18:34:53+00:00,154,False,False,0.606,False,False,0.6193,False,False,0.5917,False,False,0.5635,False,False,0.6161,False,False,0.5295,False,False,0.6196,False,False,0.6537
-12724,116,2001-10-26 19:46:51+00:00,310,False,False,0.6407,False,False,0.684,False,False,0.6351,False,False,0.6194,False,False,0.6595,False,False,0.6306,False,False,0.6559,True,False,0.6655
+12723,23,2001-10-25 18:34:53+00:00,154,False,False,0.606,False,False,0.6193,False,False,0.5917,False,False,0.5635,False,False,0.6161,False,False,0.5295,False,False,0.6196,False,True,0.6537
+12724,116,2001-10-26 19:46:51+00:00,310,False,False,0.6407,False,True,0.684,False,False,0.6351,False,False,0.6194,False,False,0.6595,False,False,0.6306,False,False,0.6559,True,False,0.6655
 12725,23,2001-10-29 14:03:34+00:00,163,False,False,0.6741,False,False,0.5968,False,False,0.5902,False,False,0.569,False,False,0.6433,False,False,0.4543,False,False,0.6491,True,False,0.5928
 12726,9,2001-10-29 15:25:36+00:00,53,False,False,0.1849,False,False,0.082,False,False,0.1137,False,False,0.0908,False,False,0.1448,False,False,0.0358,False,False,0.1578,False,False,0.1228
 12727,9,2001-10-29 19:00:18+00:00,78,False,False,0.2055,False,False,0.1049,False,False,0.1628,False,False,0.1144,False,False,0.1648,False,False,0.0718,False,False,0.2022,True,False,0.1528
@@ -7968,7 +7968,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12743,59,2000-08-31 13:58:00+00:00,205,False,False,0.1391,False,False,0.1875,False,False,0.1473,False,False,0.1268,False,False,0.1913,False,False,0.2061,False,False,0.1903,True,False,0.3568
 12744,59,2001-09-02 14:04:31+00:00,156,False,False,0.3079,False,False,0.2473,False,False,0.2871,False,False,0.2422,False,False,0.2696,False,False,0.2054,False,False,0.326,True,False,0.3622
 12746,59,2001-10-25 14:26:15+00:00,57,False,False,0.3805,False,False,0.333,False,False,0.3055,False,False,0.3042,False,False,0.345,False,False,0.3009,False,False,0.3303,True,False,0.4431
-12747,59,2001-10-25 14:20:04+00:00,40,False,False,0.6151,False,False,0.5989,False,False,0.5874,False,False,0.5545,False,False,0.5964,False,False,0.4778,False,False,0.6337,False,False,0.6183
+12747,59,2001-10-25 14:20:04+00:00,40,False,False,0.6151,False,False,0.5989,False,False,0.5874,False,False,0.5545,False,False,0.5964,False,False,0.4778,False,True,0.6337,False,False,0.6183
 12748,59,2001-09-18 15:39:43+00:00,41,False,False,0.1065,False,False,0.0246,False,False,0.0505,False,False,0.0136,False,False,0.0868,False,False,0.0126,False,False,0.1008,False,False,0.0631
 12749,59,2001-10-24 13:51:13+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12751,59,2001-09-18 16:17:24+00:00,44,False,False,0.2625,False,False,0.1894,False,False,0.1935,False,False,0.162,False,False,0.2129,False,False,0.1798,False,False,0.244,False,False,0.2509
@@ -8095,7 +8095,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12907,59,2001-09-24 21:02:34+00:00,38,False,False,0.3687,False,False,0.2811,False,False,0.325,False,False,0.3085,False,False,0.2837,False,False,0.2448,False,False,0.3626,True,False,0.3149
 12908,59,2001-09-24 21:34:11+00:00,379,False,False,0.4076,False,False,0.37,False,False,0.4002,False,False,0.3627,False,False,0.3381,False,False,0.3439,False,False,0.4049,True,False,0.5047
 12909,59,2001-09-24 21:54:23+00:00,64,False,False,0.4327,False,False,0.4849,False,False,0.3737,False,False,0.3959,False,False,0.4984,False,False,0.439,False,False,0.4596,True,False,0.6244
-12910,59,2001-09-24 22:09:08+00:00,114,False,False,0.6173,False,False,0.5645,False,False,0.5851,False,False,0.5649,False,False,0.6263,False,False,0.486,False,False,0.6691,False,False,0.7004
+12910,59,2001-09-24 22:09:08+00:00,114,False,False,0.6173,False,False,0.5645,False,False,0.5851,False,False,0.5649,False,False,0.6263,False,False,0.486,False,False,0.6691,False,True,0.7004
 12913,59,2001-09-09 13:35:06+00:00,390,False,False,0.2547,False,False,0.1287,False,False,0.1657,False,False,0.1303,False,False,0.1941,False,False,0.0818,False,False,0.2131,True,False,0.168
 12914,59,2001-09-25 21:26:04+00:00,142,False,False,0.4743,False,False,0.423,False,False,0.4169,False,False,0.366,False,False,0.4597,False,False,0.345,False,False,0.4443,False,False,0.465
 12916,59,2001-09-26 15:45:57+00:00,44,False,False,0.3658,False,False,0.2301,False,False,0.2638,False,False,0.2003,False,False,0.2626,False,False,0.1785,False,False,0.3312,False,False,0.2631
@@ -8144,7 +8144,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 12980,59,2001-10-11 00:10:09+00:00,39,False,False,0.3457,False,False,0.3105,False,False,0.3129,False,False,0.236,False,False,0.2899,False,False,0.1868,False,False,0.3087,False,False,0.2534
 12981,59,2001-10-11 16:06:44+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12982,59,2001-10-11 16:12:40+00:00,67,False,False,0.4292,False,False,0.3811,False,False,0.3737,False,False,0.3456,False,False,0.3751,False,False,0.3515,False,False,0.3683,False,False,0.3439
-12983,59,2001-10-11 17:37:03+00:00,219,False,False,0.6693,False,False,0.6525,False,False,0.5642,False,False,0.5727,False,False,0.6927,False,False,0.5349,False,False,0.6489,True,False,0.7465
+12983,59,2001-10-11 17:37:03+00:00,219,False,False,0.6693,False,False,0.6525,False,False,0.5642,False,False,0.5727,False,False,0.6927,False,False,0.5349,False,False,0.6489,True,True,0.7465
 12984,59,2001-10-12 16:16:47+00:00,93,False,False,0.407,False,False,0.3882,False,False,0.3569,False,False,0.3255,False,False,0.3504,False,False,0.329,False,False,0.3426,True,False,0.4017
 12985,59,2001-10-12 16:19:46+00:00,18,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 12986,59,2001-09-12 22:22:27+00:00,36,False,False,0.2726,False,False,0.3121,False,False,0.2863,False,False,0.2406,False,False,0.2899,False,False,0.2062,False,False,0.298,False,False,0.3163
@@ -8164,7 +8164,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13001,59,2001-09-13 22:19:33+00:00,72,False,False,0.2863,False,False,0.2604,False,False,0.3002,False,False,0.2487,False,False,0.2625,False,False,0.2663,False,False,0.2931,True,False,0.3433
 13002,59,2001-10-16 22:42:26+00:00,55,False,False,0.1053,False,False,0.0604,False,False,0.1154,False,False,0.0833,False,False,0.1082,False,False,0.0851,False,False,0.1421,True,False,0.1347
 13003,59,2001-10-17 15:53:14+00:00,76,False,False,0.2251,False,False,0.2575,False,False,0.199,False,False,0.1712,False,False,0.2457,False,False,0.1344,False,False,0.2047,True,False,0.2851
-13004,59,2001-09-14 17:21:19+00:00,73,False,False,0.7055,False,False,0.6828,False,False,0.6571,False,False,0.6645,False,False,0.7293,False,False,0.5954,False,False,0.7672,False,False,0.7319
+13004,59,2001-09-14 17:21:19+00:00,73,False,False,0.7055,False,False,0.6828,False,False,0.6571,False,False,0.6645,False,False,0.7293,False,False,0.5954,False,True,0.7672,False,False,0.7319
 13006,59,2001-10-17 20:22:35+00:00,97,False,False,0.3382,False,False,0.268,False,False,0.2973,False,False,0.2774,False,False,0.3135,False,False,0.2678,False,False,0.3655,True,False,0.4186
 13007,59,2001-10-17 21:22:17+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13009,59,2001-10-17 21:57:38+00:00,75,False,False,0.3231,False,False,0.2757,False,False,0.2682,False,False,0.3247,False,False,0.3235,False,False,0.218,False,False,0.3126,True,False,0.3569
@@ -8354,7 +8354,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13297,105,2000-11-13 14:50:00+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13298,105,2000-12-05 23:56:00+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13299,105,2000-12-06 15:20:00+00:00,33,False,False,0.2221,False,False,0.1162,False,False,0.0976,False,False,0.0982,False,False,0.1183,False,False,0.0881,False,False,0.129,False,False,0.1003
-13300,105,2000-06-21 16:16:00+00:00,66,False,False,0.7415,False,False,0.7389,False,False,0.6698,False,False,0.6875,False,False,0.7646,False,False,0.5918,False,False,0.7353,False,False,0.7156
+13300,105,2000-06-21 16:16:00+00:00,66,False,False,0.7415,False,False,0.7389,False,False,0.6698,False,False,0.6875,False,True,0.7646,False,False,0.5918,False,False,0.7353,False,False,0.7156
 13301,105,2000-12-08 16:49:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13302,105,2001-10-22 18:22:18+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13307,105,2001-11-14 00:39:43+00:00,15,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -8415,7 +8415,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13397,88,2001-12-31 16:51:19+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13398,88,2001-12-31 14:45:19+00:00,7,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13399,88,2001-12-13 17:16:23+00:00,119,False,False,0.2869,False,False,0.3066,False,False,0.2751,False,False,0.2445,False,False,0.2335,False,False,0.2176,False,False,0.237,False,False,0.2689
-13400,88,2001-12-10 16:27:54+00:00,81,False,False,0.6507,False,False,0.6526,False,False,0.6121,False,False,0.644,False,False,0.6761,False,False,0.5035,False,False,0.6625,False,False,0.6363
+13400,88,2001-12-10 16:27:54+00:00,81,False,False,0.6507,False,False,0.6526,False,False,0.6121,False,False,0.644,False,True,0.6761,False,False,0.5035,False,False,0.6625,False,False,0.6363
 13402,146,2001-12-05 14:36:59+00:00,39,False,False,0.2846,False,False,0.2827,False,False,0.2676,False,False,0.2395,False,False,0.2505,False,False,0.1792,False,False,0.2279,False,False,0.2649
 13403,4,2001-10-31 16:00:39+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13405,4,2001-11-02 18:03:41+00:00,53,False,False,0.2883,False,False,0.2587,False,False,0.3428,False,False,0.2737,False,False,0.224,False,False,0.2848,False,False,0.2971,False,False,0.276
@@ -8452,16 +8452,16 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13443,117,2000-12-20 14:18:00+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13444,117,2000-12-06 14:35:00+00:00,92,False,False,0.3531,False,False,0.3184,False,False,0.3546,False,False,0.2818,False,False,0.358,False,False,0.2619,False,False,0.3772,True,False,0.4274
 13445,127,2002-01-31 20:22:07+00:00,30,False,False,0.1506,False,False,0.0935,False,False,0.1059,False,False,0.1035,False,False,0.1339,False,False,0.0665,False,False,0.1316,False,False,0.0903
-13446,41,2001-10-25 21:17:07+00:00,66,False,False,0.6088,False,False,0.6281,False,False,0.5585,False,False,0.5734,False,False,0.698,False,False,0.5381,False,False,0.6654,False,False,0.6567
+13446,41,2001-10-25 21:17:07+00:00,66,False,False,0.6088,False,False,0.6281,False,False,0.5585,False,False,0.5734,False,True,0.698,False,False,0.5381,False,False,0.6654,False,False,0.6567
 13447,3,2001-10-22 19:42:01+00:00,17,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13448,62,2001-10-22 19:19:40+00:00,95,False,False,0.3007,False,False,0.1707,False,False,0.189,False,False,0.1764,False,False,0.2487,False,False,0.1152,False,False,0.2623,False,False,0.1716
 13450,109,2001-11-20 16:09:33+00:00,16,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-13453,62,2001-11-13 15:50:45+00:00,102,False,False,0.68,False,False,0.6565,False,False,0.5742,False,False,0.6464,False,False,0.7463,False,False,0.5056,False,False,0.6644,False,False,0.6508
+13453,62,2001-11-13 15:50:45+00:00,102,False,False,0.68,False,False,0.6565,False,False,0.5742,False,False,0.6464,False,True,0.7463,False,False,0.5056,False,False,0.6644,False,False,0.6508
 13454,127,2002-01-22 22:41:44+00:00,43,False,False,0.2871,False,False,0.2193,False,False,0.251,False,False,0.2659,False,False,0.2633,False,False,0.2168,False,False,0.2974,False,False,0.2615
 13457,82,2002-01-14 19:22:58+00:00,22,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13458,41,2001-10-26 18:00:47+00:00,79,False,False,0.5111,False,False,0.5919,False,False,0.4638,False,False,0.4925,False,False,0.5801,False,False,0.538,False,False,0.5286,True,False,0.6104
 13459,127,2001-10-25 21:36:26+00:00,43,False,False,0.1705,False,False,0.0902,False,False,0.1613,False,False,0.0922,False,False,0.1834,False,False,0.0335,False,False,0.2743,False,False,0.1637
-13460,41,2001-10-24 15:03:58+00:00,113,False,False,0.6429,False,False,0.6975,False,False,0.6124,False,False,0.6631,False,False,0.8029,False,False,0.6246,False,False,0.7424,False,False,0.7354
+13460,41,2001-10-24 15:03:58+00:00,113,False,False,0.6429,False,False,0.6975,False,False,0.6124,False,False,0.6631,False,True,0.8029,False,False,0.6246,False,False,0.7424,False,False,0.7354
 13465,41,2001-11-21 18:13:17+00:00,46,False,False,0.5495,False,False,0.528,False,False,0.4876,False,False,0.4934,False,False,0.5772,False,False,0.4102,False,False,0.5164,False,False,0.5126
 13469,41,2001-11-13 16:48:13+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13470,41,2001-11-13 17:58:02+00:00,69,False,False,0.4738,False,False,0.3563,False,False,0.395,False,False,0.3767,False,False,0.4835,False,False,0.3207,False,False,0.4819,False,False,0.4021
@@ -8678,7 +8678,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13739,88,2002-01-04 15:41:49+00:00,177,False,False,0.3996,False,False,0.2919,False,False,0.3146,False,False,0.2847,False,False,0.3055,False,False,0.2526,False,False,0.3319,False,False,0.2932
 13740,124,2001-01-05 17:57:00+00:00,124,False,False,0.621,False,False,0.6142,False,False,0.5682,False,False,0.5852,False,False,0.6365,False,False,0.5414,False,False,0.6329,False,False,0.5898
 13741,146,2002-01-18 22:25:15+00:00,14,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-13742,146,2002-01-11 18:59:03+00:00,227,False,False,0.6171,False,False,0.5943,False,False,0.5146,True,False,0.5585,False,False,0.6679,False,False,0.4534,False,False,0.5816,False,False,0.5747
+13742,146,2002-01-11 18:59:03+00:00,227,False,False,0.6171,False,False,0.5943,False,False,0.5146,True,False,0.5585,False,True,0.6679,False,False,0.4534,False,False,0.5816,False,False,0.5747
 13743,146,2002-01-11 15:05:38+00:00,33,False,False,0.2166,False,False,0.1933,False,False,0.1599,False,False,0.1182,False,False,0.155,False,False,0.1206,False,False,0.1569,False,False,0.1842
 13744,88,2002-01-08 23:10:11+00:00,145,False,False,0.4631,False,False,0.4122,False,False,0.4089,False,False,0.4162,False,False,0.4347,False,False,0.408,False,False,0.4331,True,False,0.4258
 13746,88,2002-01-03 01:04:56+00:00,40,False,False,0.3997,False,False,0.3287,False,False,0.3371,False,False,0.3386,False,False,0.3903,False,False,0.2746,False,False,0.3508,False,False,0.2872
@@ -8687,7 +8687,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13751,148,2001-10-26 21:54:23+00:00,29,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13752,121,2001-10-23 12:39:15+00:00,36,False,False,0.452,False,False,0.4782,False,False,0.4481,False,False,0.4375,False,False,0.5026,False,False,0.4688,False,False,0.4748,False,False,0.5129
 13753,121,2001-10-08 12:32:34+00:00,43,False,False,0.2861,False,False,0.197,False,False,0.2324,False,False,0.2214,False,False,0.2453,False,False,0.1471,False,False,0.2672,False,False,0.2426
-13754,117,2001-10-02 16:26:03+00:00,402,False,False,0.5765,False,False,0.6372,False,False,0.5937,False,False,0.6115,False,False,0.6096,False,False,0.6031,False,False,0.5995,False,False,0.5801
+13754,117,2001-10-02 16:26:03+00:00,402,False,False,0.5765,False,True,0.6372,False,False,0.5937,False,False,0.6115,False,False,0.6096,False,False,0.6031,False,False,0.5995,False,False,0.5801
 13755,124,2001-10-30 18:51:40+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13756,121,2001-11-01 18:18:05+00:00,27,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 13757,124,2001-11-13 18:26:25+00:00,119,False,False,0.4731,False,False,0.4014,False,False,0.4006,False,False,0.3613,False,False,0.4046,False,False,0.2871,False,False,0.413,False,False,0.4049
@@ -8762,7 +8762,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13831,124,2000-06-28 19:07:00+00:00,87,False,False,0.216,False,False,0.1647,False,False,0.1541,False,False,0.135,False,False,0.1523,False,False,0.1286,False,False,0.1793,False,False,0.1939
 13832,124,2000-06-05 18:44:00+00:00,355,False,False,0.4345,False,False,0.3561,False,False,0.3723,False,False,0.3922,False,False,0.3944,False,False,0.362,False,False,0.4202,False,False,0.4096
 13833,124,2000-06-05 17:29:00+00:00,60,False,False,0.3583,False,False,0.248,False,False,0.2779,False,False,0.2317,False,False,0.2939,False,False,0.2063,False,False,0.3105,False,False,0.2855
-13834,124,2000-06-05 13:55:00+00:00,177,False,False,0.591,False,False,0.6852,False,False,0.608,False,False,0.597,False,False,0.6544,False,False,0.7151,False,False,0.6458,False,False,0.6606
+13834,124,2000-06-05 13:55:00+00:00,177,False,False,0.591,False,False,0.6852,False,False,0.608,False,False,0.597,False,False,0.6544,False,True,0.7151,False,False,0.6458,False,False,0.6606
 13835,124,2000-05-19 17:51:00+00:00,79,False,False,0.149,False,False,0.0762,False,False,0.1361,False,False,0.1076,False,False,0.1316,False,False,0.0447,False,False,0.1322,True,False,0.1074
 13836,124,2000-05-09 15:30:00+00:00,90,False,False,0.205,False,False,0.1323,False,False,0.1455,False,False,0.117,False,False,0.1702,False,False,0.0558,False,False,0.1788,True,False,0.1881
 13837,124,2000-11-27 17:31:00+00:00,54,False,False,0.1231,False,False,0.0407,False,False,0.1545,False,False,0.0932,False,False,0.1014,False,False,0.0414,False,False,0.1827,False,False,0.082
@@ -8770,7 +8770,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 13839,124,2000-11-27 16:34:00+00:00,58,False,False,0.0878,False,False,-0.0024,False,False,0.1057,False,False,0.0719,False,False,0.0506,False,False,-0.0037,False,False,0.1256,False,False,0.0278
 13840,124,2000-04-11 18:21:00+00:00,97,False,False,0.1493,False,False,0.0539,False,False,0.1159,False,False,0.0745,False,False,0.1108,False,False,0.0456,False,False,0.1581,False,False,0.0966
 13841,124,2000-03-21 10:01:00+00:00,146,False,False,0.1849,False,False,0.1062,False,False,0.1336,False,False,0.1323,False,False,0.1138,False,False,0.1256,False,False,0.136,False,False,0.0911
-13842,124,2000-03-14 16:51:00+00:00,77,False,False,0.6848,False,False,0.6911,False,False,0.6944,False,False,0.7003,False,False,0.6696,False,False,0.6008,False,False,0.6885,False,False,0.6824
+13842,124,2000-03-14 16:51:00+00:00,77,False,False,0.6848,False,False,0.6911,False,False,0.6944,False,True,0.7003,False,False,0.6696,False,False,0.6008,False,False,0.6885,False,False,0.6824
 13843,124,2000-03-14 16:25:00+00:00,256,False,False,0.29,False,False,0.1876,False,False,0.2267,False,False,0.1906,False,False,0.2256,False,False,0.1507,False,False,0.2474,True,False,0.2245
 13844,124,2000-11-27 13:38:00+00:00,192,False,False,0.424,False,False,0.3749,False,False,0.3886,False,False,0.3789,False,False,0.3695,False,False,0.3125,False,False,0.376,False,False,0.4367
 13845,124,2000-02-29 15:32:00+00:00,145,False,False,0.2004,False,False,0.1337,False,False,0.1783,False,False,0.1814,False,False,0.1834,False,False,0.1145,False,False,0.1869,True,False,0.1909
@@ -9355,7 +9355,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14826,151,2001-05-14 17:10:00+00:00,28,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14827,46,1999-06-02 16:46:00+00:00,115,False,False,0.3495,False,False,0.3221,False,False,0.2701,False,False,0.2406,False,False,0.2869,False,False,0.1997,False,False,0.2843,False,False,0.343
 14828,46,1999-06-02 17:10:00+00:00,63,False,False,0.3021,False,False,0.2789,False,False,0.2373,False,False,0.2107,False,False,0.2425,False,False,0.1191,False,False,0.2248,False,False,0.2395
-14829,150,2001-05-03 00:40:00+00:00,189,False,False,0.6539,False,False,0.7522,False,False,0.7434,False,False,0.687,False,False,0.7134,False,False,0.6597,False,False,0.7253,False,False,0.6995
+14829,150,2001-05-03 00:40:00+00:00,189,False,False,0.6539,False,True,0.7522,False,False,0.7434,False,False,0.687,False,False,0.7134,False,False,0.6597,False,False,0.7253,False,False,0.6995
 14830,75,2000-11-03 15:38:00+00:00,110,False,False,0.5395,False,False,0.5831,False,False,0.4811,False,False,0.5175,False,False,0.5703,False,False,0.4488,False,False,0.5208,False,False,0.5045
 14833,151,2001-10-16 20:26:42+00:00,207,False,False,0.3335,False,False,0.4178,False,False,0.343,False,False,0.2888,False,False,0.3437,False,False,0.3868,False,False,0.348,True,False,0.3732
 14834,153,2001-12-07 19:48:58+00:00,8,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -9364,7 +9364,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14837,88,2001-12-10 21:29:30+00:00,175,False,False,0.4188,False,False,0.4595,False,False,0.3991,False,False,0.4159,False,False,0.4908,False,False,0.3752,False,False,0.4249,False,False,0.4416
 14838,88,2002-01-15 16:15:16+00:00,12,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14839,88,2002-01-14 21:23:27+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-14840,150,2001-12-04 21:34:26+00:00,498,False,False,0.5545,False,False,0.6414,False,False,0.608,False,False,0.5745,False,False,0.5926,False,False,0.541,True,False,0.5889,False,False,0.5581
+14840,150,2001-12-04 21:34:26+00:00,498,False,False,0.5545,False,True,0.6414,False,False,0.608,False,False,0.5745,False,False,0.5926,False,False,0.541,True,False,0.5889,False,False,0.5581
 14841,149,2001-04-24 20:38:00+00:00,19,True,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14842,149,2001-04-18 23:30:00+00:00,58,False,False,0.3549,False,False,0.2978,False,False,0.2568,False,False,0.2756,False,False,0.3648,False,False,0.2232,False,False,0.2721,False,False,0.2626
 14843,149,2001-04-18 23:22:00+00:00,21,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -9375,7 +9375,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14849,52,2001-10-31 02:18:20+00:00,31,False,False,0.3081,False,False,0.3108,False,False,0.3292,False,False,0.282,False,False,0.3639,False,False,0.3479,False,False,0.3548,False,False,0.3515
 14851,54,2001-10-25 15:21:07+00:00,18,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14852,54,2001-08-01 19:01:23+00:00,47,False,False,0.2643,False,False,0.1367,False,False,0.1749,False,False,0.1571,False,False,0.1726,False,False,0.0874,False,False,0.226,False,False,0.1619
-14853,54,2001-08-02 13:35:48+00:00,201,False,False,0.6061,False,False,0.617,False,False,0.5212,False,False,0.5599,False,False,0.636,False,False,0.5666,False,False,0.6236,False,False,0.6555
+14853,54,2001-08-02 13:35:48+00:00,201,False,False,0.6061,False,False,0.617,False,False,0.5212,False,False,0.5599,False,False,0.636,False,False,0.5666,False,False,0.6236,False,True,0.6555
 14854,54,2001-08-02 19:31:23+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14855,155,2000-12-06 18:09:00+00:00,9,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14856,155,2000-12-06 18:10:00+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -9391,12 +9391,12 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14867,121,2001-11-06 20:54:45+00:00,25,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14868,121,2001-11-12 02:04:12+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14869,121,2001-11-13 18:52:08+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
-14870,121,2001-11-14 14:01:09+00:00,215,False,False,0.7096,False,False,0.7404,False,False,0.6282,False,False,0.6487,False,False,0.6921,False,False,0.6059,False,False,0.6707,False,False,0.6591
+14870,121,2001-11-14 14:01:09+00:00,215,False,False,0.7096,False,True,0.7404,False,False,0.6282,False,False,0.6487,False,False,0.6921,False,False,0.6059,False,False,0.6707,False,False,0.6591
 14871,121,2001-11-14 17:56:30+00:00,5,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14872,121,2001-11-16 14:16:09+00:00,94,False,False,0.2804,False,False,0.2157,False,False,0.2268,False,False,0.2234,False,False,0.2469,False,False,0.172,False,False,0.2332,False,False,0.2166
 14873,121,2001-11-21 21:29:38+00:00,13,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14874,150,2001-07-05 20:52:09+00:00,384,False,False,0.3545,False,False,0.3306,False,False,0.3939,False,False,0.3637,False,False,0.2989,False,False,0.2937,False,False,0.3678,False,False,0.3248
-14875,150,2001-05-07 13:56:51+00:00,55,False,False,0.6022,False,False,0.6701,False,False,0.6639,False,False,0.6534,False,False,0.6624,False,False,0.5129,False,False,0.6551,False,False,0.6311
+14875,150,2001-05-07 13:56:51+00:00,55,False,False,0.6022,False,True,0.6701,False,False,0.6639,False,False,0.6534,False,False,0.6624,False,False,0.5129,False,False,0.6551,False,False,0.6311
 14877,155,2001-11-14 19:00:34+00:00,6,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14878,153,2000-11-10 15:35:00+00:00,76,False,False,0.5616,False,False,0.5282,False,False,0.4931,False,False,0.5633,False,False,0.5915,False,False,0.4415,False,False,0.5728,False,False,0.5299
 14880,155,2001-11-19 19:49:01+00:00,47,False,False,0.1451,False,False,0.1387,False,False,0.1532,False,False,0.1094,False,False,0.1441,False,False,0.1571,False,False,0.154,False,False,0.1365
@@ -9423,7 +9423,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14904,151,2001-10-09 17:45:46+00:00,20,False,False,0.0,True,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14905,153,2001-10-11 01:59:47+00:00,60,False,False,0.3043,False,False,0.2879,False,False,0.2207,False,False,0.2029,False,False,0.2731,False,False,0.2091,False,False,0.2311,False,False,0.255
 14907,154,2001-08-14 14:53:03+00:00,175,False,False,0.3218,False,False,0.3582,False,False,0.3243,False,False,0.3187,False,False,0.3189,False,False,0.3318,False,False,0.3039,False,False,0.3039
-14908,153,2002-01-23 00:16:41+00:00,30,False,False,0.6448,False,False,0.6256,False,False,0.5953,False,False,0.6372,False,False,0.6406,False,False,0.5342,False,False,0.6485,False,False,0.609
+14908,153,2002-01-23 00:16:41+00:00,30,False,False,0.6448,False,False,0.6256,False,False,0.5953,False,False,0.6372,False,False,0.6406,False,False,0.5342,False,True,0.6485,False,False,0.609
 14909,154,2001-08-14 22:27:42+00:00,85,False,False,0.4041,True,False,0.3207,False,False,0.3771,False,False,0.349,False,False,0.4104,False,False,0.2706,False,False,0.4242,False,False,0.3218
 14910,150,2001-08-23 13:52:44+00:00,41,False,False,0.2155,False,False,0.2163,False,False,0.2109,False,False,0.1716,False,False,0.2171,False,False,0.2179,False,False,0.2375,False,False,0.321
 14911,117,2001-11-15 18:28:57+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
@@ -9443,7 +9443,7 @@ email_id,sender_id,date,n_words,terms_1,retrieval_1,similarity_1,terms_2,retriev
 14926,155,2001-01-15 16:12:00+00:00,30,False,False,0.2187,False,False,0.1023,False,False,0.1876,False,False,0.1533,False,False,0.199,False,False,0.1242,False,False,0.2472,False,False,0.1534
 14927,153,2001-01-16 11:44:00+00:00,20,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14928,150,2001-01-30 11:07:00+00:00,380,False,False,0.5321,False,False,0.5108,False,False,0.4737,False,False,0.5095,False,False,0.5723,False,False,0.4165,False,False,0.5615,False,False,0.5023
-14929,150,2001-02-16 16:10:00+00:00,438,False,False,0.5584,False,False,0.5984,False,False,0.5326,False,False,0.57,False,False,0.6522,False,False,0.4884,False,False,0.6071,False,False,0.5862
+14929,150,2001-02-16 16:10:00+00:00,438,False,False,0.5584,False,False,0.5984,False,False,0.5326,False,False,0.57,False,True,0.6522,False,False,0.4884,False,False,0.6071,False,False,0.5862
 14930,155,2001-04-10 04:50:00+00:00,32,False,False,0.2818,False,False,0.1522,False,False,0.2183,False,False,0.1786,False,False,0.2215,False,False,0.1631,False,False,0.2685,False,False,0.2147
 14931,155,2001-06-05 19:38:05+00:00,11,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0,False,False,0.0
 14932,153,2002-01-05 23:49:33+00:00,70,False,False,0.581,False,False,0.6152,False,False,0.5589,False,False,0.5483,False,False,0.6168,False,False,0.489,False,False,0.5703,False,False,0.5772
