@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 4
+============================================================
+Topics: 15
+Reconstruction error: 41.4480
+Iterations: 80
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: fyi, fyi lynn, fyi ds, steve fyi, ds, dave, steve, fyi think, current, loop, follow, prepare, guess, df, comment
+Representative emails:
+  Email 774 | donoho-l | score=0.274
+  FYI.
+  Email 765 | harris-s | score=0.274
+  fyi
+  Email 13687 | corman-s | score=0.274
+  FYI
+  Email 10804 | hayslett-r | score=0.274
+  FYI
+  Email 10805 | hayslett-r | score=0.274
+  FYI
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: mmbtu, delivery, capacity mmbtu, average, mmbtu delivery, delivery mmbtu, california mmbtu, pkg, large pkg, delivery california, average delivery, capacity, juan, san juan, san
+Representative emails:
+  Email 6256 | lokay-m | score=0.332
+  Transwestern's average deliveries to California were 1075 MMBtu/d (99%), with San Juan lateral throughput at 716 MMBtu/d and Rio Puerco at 7 MMBtu/d.  Total East deliveries averaged 261 MMBtu/d.  El Paso's average deliveries to California were 2396 MMBtu/d (82%) : - PG&ETop, capacity of 1140 MMBtu/d
+  Email 6253 | lokay-m | score=0.332
+  Transwestern's average deliveries to California were 1112 MMBtu/d (102%), with San Juan lateral throughput at 825 MMBtu/d and Rio Puerco at 0 MMBtu/d.  Total East deliveries averaged 310 MMBtu/d.  El Paso's average deliveries to California were 2274 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/
+  Email 6247 | lokay-m | score=0.332
+  Transwestern's average deliveries to California were 856 MMBtu/d (78%), with San Juan lateral throughput at 783 MMBtu/d and Rio Puerco at 17 MMBtu/d.  Total East deliveries averaged 564 MMBtu/d.  El Paso's average deliveries to California were 2299 MMBtu/d (78%) : - PG&ETop, capacity of 1140 MMBtu/d
+  Email 6239 | lokay-m | score=0.332
+  Transwestern's average deliveries to California were 949 MMBtu/d (87%), with San Juan lateral throughput at 853 MMBtu/d and Rio Puerco at 30 MMBtu/d.  Total East deliveries averaged 483 MMBtu/d.  El Paso's average deliveries to California were 2310 MMBtu/d (79%) : - PG&ETop, capacity of 1140 MMBtu/d
+  Email 6329 | lokay-m | score=0.331
+  Transwestern's average deliveries to California were 998 MMBtu/d (92%), with San Juan lateral throughput at 790 MMBtu/d.  Total East deliveries averaged 392 MMBtu/d.  El Paso's average deliveries to California were 2204 MMBtu/d (75%): - PG&ETop, capacity of 1140 MMBtu/d, deliveries of 691 MMBtu/d (6
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: fyi kim, kim, steve fyi, paul, fyi, steve, mark, distribution, gary, weekend, flow, level, lynn, distribution list, come
+Representative emails:
+  Email 9687 | watson-k | score=0.255
+  FYI. Kim.
+  Email 1047 | watson-k | score=0.255
+  FYI, Kim.
+  Email 10766 | watson-k | score=0.255
+  FYI, Kim.
+  Email 6312 | watson-k | score=0.255
+  FYI, Kim.
+  Email 955 | watson-k | score=0.255
+  FYI, Kim.
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: tw, rate, need, contract, gas, capacity, new, deal, issue, project, year, think, df, attach, agreement
+Representative emails:
+  Email 11161 | fossum-d | score=0.155
+  I'm on a call until about 10.  I'll come down and try to grab you and susan and lets call MKM and get a plan.  df  Steven Harris 02/15/2001 08:49 AM To: Drew Fossum/ET&S/Enron@ENRON cc: Susan Scott/ET&S/Enron@ENRON, sstojic@gbmdc.com, Mary Kay Miller/ET&S/Enron@ENRON, Keith Petersen/Enron@EnronXGate
+  Email 9134 | harris-s | score=0.152
+  Drew, I think your last question is the one most critical to us at this point. The marketers can go out and start selling the project but are having a hard time defining how the capacity will be allocated. I left a message yesterday for Mary K. regarding these same issues. Thanks.  Drew Fossum 02/14
+  Email 11097 | fossum-d | score=0.145
+  Ha!  I appreciate the complement but I like my current job just fine--all I have to do is crap on a contract now and then and argue with Mary Kay all day long.  Piece of cake!  DF  Steven Harris 06/19/2000 10:53 AM To: Drew Fossum/ET&S/Enron@ENRON cc:  Subject: Re: Pueblo  Excellent questions! Are y
+  Email 13477 | corman-s | score=0.143
+  Here is the other article  How Enron Blew It Less than a year ago, the Houston-based energy behemoth had everything: money, power, glitz, smarts, new ideas, and a CEO who wanted to make it the most important company in the world. Now its stock is down, wall street is bearish, and the CEO is gone. Wh
+  Email 6317 | mcconnell-m | score=0.141
+  FERC EXTENDS INVESTIGATION OF NEGOTIATED RATE AGREEMENTS BETWEEN PG&E GAS TRANSMISSION NORTHWEST AND SHIPPERS, LOOKING FOR EVIDENCE OF MARKET MANIPULATION  09/27/2001 Foster Natural Gas Report Page 7 (c) Copyright 2001, Foster Associates, Inc. FERC issued an order in mid-month September that set for
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: lynn, fyi lynn, shelley, shelley fyi, available, john, fyi think, agree, nng, ava, think, loop, work, help, brad
+Representative emails:
+  Email 13575 | blair-l | score=0.392
+  FYI.  Thanks. Lynn
+  Email 13272 | blair-l | score=0.392
+  FYI.  Thanks. Lynn
+  Email 13588 | blair-l | score=0.392
+  FYI.  Thanks. Lynn
+  Email 13605 | blair-l | score=0.392
+  FYI. Thanks. Lynn
+  Email 13531 | blair-l | score=0.392
+  FYI.  Thanks. LYnn
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: ok, think, guess, sorry, fine, thought, read, office, happy, leave, comfortable, want, thing, check, stan
+Representative emails:
+  Email 828 | harris-s | score=0.467
+  OK
+  Email 10959 | geaccone-t | score=0.467
+  9:30 ok? -------------------------- 
+  Email 10852 | hayslett-r | score=0.467
+  ?  OK?
+  Email 10962 | geaccone-t | score=0.467
+  Ok -------------------------- 
+  Email 768 | harris-s | score=0.467
+  ok
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: mark, office, cell, office cell, mark mcconnell, mcconnell, mcconnell transwestern, company office, cell fax, fax, transwestern pipeline, pipeline company, company, pipeline, transwestern
+Representative emails:
+  Email 5520 | mcconnell-m | score=0.455
+  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+  Email 6194 | mcconnell-m | score=0.455
+  http://tfc-charts.w2d.com/marketquotes/index.php3?market=1NG  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+  Email 5522 | mcconnell-m | score=0.455
+  https://clickathome.enron.com/us/signup.asp  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+  Email 789 | mcconnell-m | score=0.455
+  Are you there yet?  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+  Email 799 | mcconnell-m | score=0.437
+  test  Mark McConnell Transwestern Pipeline Company 713-345-7896   office 713-822-4862   cell 713-646-2551   fax mark.mcconnell@enron.com
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: know, let, let know, need, question, know need, know question, like, conflict, help, know conflict, know lynn, work, discuss, information
+Representative emails:
+  Email 10900 | geaccone-t | score=0.466
+  Let me know if ICan do anything -------------------------- 
+  Email 9511 | geaccone-t | score=0.466
+  Let me know if I forgot something.
+  Email 9214 | horton-s | score=0.376
+  Supposedly but I am trying to get out of it.  I will let you know.
+  Email 10821 | hayslett-r | score=0.312
+  If you have information to complement or complete what is here, please let me know.
+  Email 10756 | geaccone-t | score=0.306
+  Do I need to let them know who will be there for the items listed below.
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: meeting, stan, plan, attend, monday, discuss, meet, staff meeting, staff, schedule, office, attend meeting, tuesday, morning, tracy
+Representative emails:
+  Email 10869 | geaccone-t | score=0.200
+  Some of you had a meeting with Stan on your calendars for Monday, October 22 from 3-5 to go over the plan presentations.  This meeting has been canceled.  Thanks  Tracy Geaccone
+  Email 947 | watson-k | score=0.182
+  Please plan to attend a meeting on Monday, January, 7 from 3:30pm to 4:00pm in EB49C1 to discuss the Trans Pecos Project.  Thanks, Kim.
+  Email 11004 | geaccone-t | score=0.174
+  Please plan to attend a meeting to discuss TW maintenance scheduled for this year.  We would like to discuss when the maintenance will be, the duration, and what will be done.  Please be prepared to discuss any savings we will have from the plan for maintenance that will not have to be done because 
+  Email 1022 | watson-k | score=0.173
+  Steve,  I will plan to attend this meeting.  Kim.
+  Email 951 | watson-k | score=0.165
+  Due to the 1:30 floor meeting with Stan, our prep meeting for the Trans Pecos project is changed to today, Monday, January 7 at 11:00am in EB1336.  Thanks, Kim.
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: look, good, look good, fine, look fine, ds, lindy, like, look like, look great, brad, df, lynn, comment, number
+Representative emails:
+  Email 6134 | lokey-t | score=0.418
+  Looks good.
+  Email 9226 | horton-s | score=0.418
+  This looks good!  Thank you.
+  Email 3542 | schoolcraft-d | score=0.388
+  looks good to me.  Thanks DS
+  Email 834 | rapp-b | score=0.387
+  Kim,  	Looks good to me.
+  Email 13684 | blair-l | score=0.385
+  Looks good to me.  Thanks. Lynn
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: central time, time canada, central, canada, time, pm central, pm, october, tuesday, wednesday, thursday, office, january, february, november
+Representative emails:
+  Email 5536 | mcconnell-m | score=0.422
+  When: Wednesday, October 10, 2001 10:00 AM-1:00 PM (GMT-06:00) Central Time (US & Canada).  *~*~*~*~*~*~*~*~*~*
+  Email 9155 | hyatt-k | score=0.420
+  When: Tuesday, January 15, 2002 1:00 PM-2:00 PM (GMT-06:00) Central Time (US & Canada). Where: EB15c1  *~*~*~*~*~*~*~*~*~*
+  Email 6031 | mcconnell-m | score=0.418
+  When: Wednesday, January 30, 2002 3:30 PM-4:30 PM (GMT-06:00) Central Time (US & Canada). Where: 1336  *~*~*~*~*~*~*~*~*~*
+  Email 9137 | hyatt-k | score=0.412
+  When: Thursday, February 21, 2002 11:30 AM-12:30 PM (GMT-06:00) Central Time (US & Canada).  *~*~*~*~*~*~*~*~*~*
+  Email 5524 | mcconnell-m | score=0.412
+  When: Wednesday, November 14, 2001 1:30 PM-2:00 PM (GMT-06:00) Central Time (US & Canada). Where: 1336  *~*~*~*~*~*~*~*~*~*
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: kim, lindy, steve, steve fyi, michelle, paul, post, meeting kim, kevin, attend, talk, lunch, let discuss, attend kim, audrey
+Representative emails:
+  Email 844 | watson-k | score=0.383
+  Here they are.  Thanks, Kim.
+  Email 1000 | watson-k | score=0.383
+  Thanks, Kim.
+  Email 919 | watson-k | score=0.383
+  Many, many thanks!  Kim.
+  Email 981 | watson-k | score=0.383
+  Here they are,  Thanks, Kim.
+  Email 916 | watson-k | score=0.342
+  Steve,  Here it is.  Kim.
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: rod, rod hayslett, hayslett, eb, hayslett eb, hayslett office, office, cell, need, fyi rod, office cell, dan, fgt, think, hayslett fgt
+Representative emails:
+  Email 9616 | hayslett-r | score=0.425
+  test2  Rod Hayslett EB4054 713-853-6178
+  Email 9561 | hayslett-r | score=0.425
+  Rod Hayslett EB4054 713-853-6178
+  Email 10746 | hayslett-r | score=0.425
+  Rod Hayslett EB4054 713-853-6178
+  Email 10795 | hayslett-r | score=0.371
+  Please review and get back to me asap.  Rod Hayslett EB4054 713-853-6178
+  Email 9627 | hayslett-r | score=0.363
+  FYI  Rod Hayslett EB4054 713-853-6178
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: love, think, work, miss, wait, yes, love tracy, tracy, want, time, great, like, steve, good, leave
+Representative emails:
+  Email 10851 | harris-s | score=0.408
+  How did it go at the doctor? What did they say? Love You.
+  Email 10712 | harris-s | score=0.408
+  I love you more.
+  Email 10870 | geaccone-t | score=0.408
+  I love you.
+  Email 10832 | harris-s | score=0.356
+  Thanks. I love you and miss you.
+  Email 10986 | geaccone-t | score=0.351
+  You always say the most wonderful things!  I love being with you.  I think we were made for each other.  Everything seems to work really well between us. I have found everything I have ever wanted with you.  I can't wait for us to be together always.  I miss you already.  Love you,  Tracy
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: bullet, audrey, send, morning, week, today, friday, weekly bullet, weekly, leave, burlington, asap, mid, add, tomorrow
+Representative emails:
+  Email 6115 | watson-k | score=0.465
+  Bullets, please!
+  Email 994 | watson-k | score=0.465
+  Bullets, please.
+  Email 6130 | watson-k | score=0.465
+  Bullets, please!!!
+  Email 1042 | watson-k | score=0.465
+  Bullets, please.  Thanks, K.
+  Email 6117 | watson-k | score=0.465
+  Bullets, please!

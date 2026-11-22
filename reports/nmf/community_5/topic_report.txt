@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 5
+============================================================
+Topics: 15
+Reconstruction error: 49.8568
+Iterations: 86
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: europe global, europe, lon, corp, clark, global, corp claudia, adnan, moran adnan, adnan patel, patel corp, bradley, bradley diebner, diebner, sever bradley
+Representative emails:
+  Email 8449 | jones-t | score=0.280
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU/ECT@ECT, Enron Europe Global C
+  Email 8446 | jones-t | score=0.280
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU/ECT@ECT, Enron Europe Global C
+  Email 8442 | jones-t | score=0.280
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU/ECT@ECT, Enron Europe Global C
+  Email 8419 | jones-t | score=0.280
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU
+  Email 8436 | jones-t | score=0.279
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: sara, know, need, let, let know, send, isda, want, credit, like, shackleton, sara shackleton, draft, think, attach
+Representative emails:
+  Email 3036 | shackleton-s | score=0.094
+  Jane:  Happy New Year back!  Hope you are looking forward to a great 2001.  After re-reading the string of emails, I am pleased to tell you that real help has arrived.  We have just added three new lawyers to our group and Carol St. Clair has just returned from maternity leave.  Carol will handle th
+  Email 3039 | shackleton-s | score=0.093
+  Susan:  Per Tanya's message below, please prepare a draft Schedule for the bank listed below.  There is no CSA.  Angela can help you with the choices. THIS IS A DEAL SPECIFIC ISDA SCHEDULE and not for general use.  Angela:  I know that this Schedule will never be accepted in total but it highlights 
+  Email 7814 | shackleton-s | score=0.091
+  Tana:  Please see Sami's message below.  Is there something you can send?  SS To: Sara Shackleton/HOU/ECT@ECT cc: Subject: Re: Financial Trading in Brazil  Sara;  Are you also involved in EnronOnLine ?  I only got a copy of an EOL summary but would like to receive a more detailed memo about such bus
+  Email 2674 | shackleton-s | score=0.090
+  Per my voice mail. To: Sara Shackleton/HOU/ECT@ECT cc: Subject: Re: Financial Trading in Brazil  Sara;  Are you also involved in EnronOnLine ?  I only got a copy of an EOL summary but would like to receive a more detailed memo about such business.  Can you provide me with any additional materials ?!
+  Email 3106 | shackleton-s | score=0.087
+  Stephanie:  Please see me about a "draft ISDA municipal format".  Let's talk as soon as you have a minute and prioritize.  Thanks.  Sara   		 To: Sara Shackleton/HOU/ECT@ECT 		 cc: 		 Subject: ISDA/Financial Trades for Washington State PUD's and Muni's  Sara -  Jeff Fuller is interested in pursuing 
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: lon, lon david, response, eol, moran brant, rodriguez tom, regard molly, lon coenraad, lon bhautik, basson lon, basson, coenraad, coenraad basson, lindsay lon, bhautik patel
+Representative emails:
+  Email 8623 | jones-t | score=0.324
+  To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT cc: Bob Shults/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Brian Hunter-Lindsay/LON/ECT@
+  Email 8611 | jones-t | score=0.324
+  To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT cc: Bob Shults/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Brian Hunter-Lindsay/LON/ECT@
+  Email 8617 | jones-t | score=0.324
+  To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT cc: Bob Shults/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Brian Hunter-Lindsay/LON/ECT@
+  Email 8619 | jones-t | score=0.324
+  To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT cc: Bob Shults/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Brian Hunter-Lindsay/LON/ECT@
+  Email 8608 | jones-t | score=0.324
+  To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT cc: Bob Shults/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Brian Hunter-Lindsay/LON/ECT@
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: entity, master agreement, entity north, master, america corp, north america, north, transaction cover, america, corp counterparty, agreement type, agreement multicurrency, multicurrency cross, cross border, multicurrency
+Representative emails:
+  Email 7720 | panus-s, phanis-s | score=0.339
+  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   May 15, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Sequa Corporation  Transactions Covered:  Approved for all products with the exc
+  Email 7566 | panus-s, phanis-s | score=0.330
+  We have received an executed Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   February 22, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Grupo IMSA, S.A. de C.V.  Transactions Covered:  Approved for all products with the e
+  Email 7742 | panus-s, phanis-s | score=0.327
+  We have received an executed financial master agreement:  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   May 17, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   FirstEnergy Services C
+  Email 9439 | heard-m | score=0.326
+  We have received an executed financial Master Agreement:  Type of Contract:		ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:			May 30, 2001  Enron Entity:			Enron North America Corp.  Counterparty:			Petro-Hunt, L.L.C.  Transactions Covered:		Approved for all products with the ex
+  Email 7713 | panus-s, phanis-s | score=0.326
+  We have received an executed financial Master Agreement:  Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)  Effective Date:   March 26, 2001  Enron Entity:   Enron North America Corp.  Counterparty:   Engage Energy America LLC  Transactions Covered:  Approved for all products wi
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: communication, lon, clark, na, communication eol, karen, eol, bill, rohauer kelly, counterparty lon, lombardi, kelly lombardi, lon stephanie, sever tom, brian lindsay
+Representative emails:
+  Email 7622 | jones-t | score=0.386
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe Global CounterParty/LON/EC
+  Email 7594 | jones-t | score=0.383
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe Global CounterParty/LON/EC
+  Email 7628 | jones-t | score=0.383
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe Global CounterParty/LON/EC
+  Email 7545 | jones-t | score=0.382
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe Global Contracts and Facil
+  Email 7556 | jones-t | score=0.382
+  		 To: Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Brant Reves/ENRON@enronXgate, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli Campbell/ENRON@enronXgate, Cynthia Clark/ENRON@enronXgate, Enron Europe Global Contracts and Facil
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: marie, marie heard, heard, senior legal, legal specialist, heard senior, specialist, broadband, specialist broadband, service phone, broadband service, senior, service, communication, phone fax
+Representative emails:
+  Email 8207 | heard-m | score=0.341
+  BRAGGART!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  Marie Heard Senior Legal Specialist Enron Broadband Services Phone:  (713) 853-3907 Fax:  (713) 646-8537 Marie_Heard@Enron.net  	Tana Jones@ECT 	09/06/00 04:55 PM  		 To: Marie Heard/Enron Communications@Enron Communications 		 cc: 		 Subjec
+  Email 8103 | heard-m | score=0.331
+  Many thanks!  Marie Heard Senior Legal Specialist Enron Broadband Services Phone:  (713) 853-3907 Fax:  (713) 646-8537 Marie_Heard@Enron.net  	Tana Jones@ECT 	08/01/00 11:08 AM  		 To: Marie Heard/Enron Communications@Enron Communications 		 cc: 		 Subject: per your request...
+  Email 8510 | heard-m | score=0.327
+  Here it is!  Marie Heard Senior Legal Specialist Enron Broadband Services Phone:  (713) 853-3907 Fax:  (713) 646-8537 Marie_Heard@Enron.net
+  Email 8535 | heard-m | score=0.323
+  Marie Heard Senior Legal Specialist Enron Broadband Services Phone:  (713) 853-3907 Fax:  (713) 646-8537 Marie_Heard@Enron.net 		 To: marie.heard@enron.com, rsheard2@juno.com, Fred_Ziehe@ryderscott.com 		 cc: (bcc: Marie Heard/Enron Communications) 		 Subject: FW: Fw: recount
+  Email 8166 | heard-m | score=0.322
+  Marie Heard Senior Legal Specialist Enron Broadband Services Phone:  (713) 853-3907 Fax:  (713) 646-8537 Marie_Heard@Enron.net 		 To: marie.heard@enron.com, rsheard2@juno.com 		 cc: (bcc: Marie Heard/Enron Communications) 		 Subject: FW: what Mom taught me
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: termination, log, ph fax, termination log, ph, panus wholesale, wholesale service, service ph, january, wholesale, list, master termination, termination receive, incorporate termination, log incorporate
+Representative emails:
+  Email 3676 | panus-s, phanis-s | score=0.344
+  Attached are the Termination Lists for January 9 and 10, as well as the Master Termination Log, which incorporates all terminations received through January 10.  Stephanie Panus Enron Wholesale Services ph:  713.345.3249 fax:  713.646.3490
+  Email 3675 | panus-s, phanis-s | score=0.344
+  Attached is the Termination List for January 11, as well as the Master Termination Log, which incorporates all terminations received through January 11.  Stephanie Panus Enron Wholesale Services ph:  713.345.3249 fax:  713.646.3490
+  Email 3678 | panus-s, phanis-s | score=0.344
+  Attached is the Termination List for January 7, as well as the Master Termination Log, which incorporates all terminations received through January 7.  Stephanie Panus Enron Wholesale Services ph:  713.345.3249 fax:  713.646.3490
+  Email 3631 | panus-s, phanis-s | score=0.344
+  Attached is the Termination List for January 2, as well as the Master Termination Log, which incorporates all terminations received through January 2.  Stephanie Panus Enron Wholesale Services ph:  713.345.3249 fax:  713.646.3490
+  Email 3672 | panus-s, phanis-s | score=0.344
+  Attached are the Termination Lists for January 15 and 16, as well as the Master Termination Log, which incorporates all terminations received through January 16.  Stephanie Panus Enron Wholesale Services ph:  713.345.3249 fax:  713.646.3490
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: smith street, houston texas, street, smith, texas, suite houston, texas phone, street suite, corp smith, bailey north, suite, houston, susan, cordially susan, cordially
+Representative emails:
+  Email 8839 | bailey-s | score=0.390
+  All,  I will be in around 10:00am on Monday.  See you then.  Cordially, Susan S. Bailey Enron North America Corp. 1400 Smith Street, Suite 3803A Houston, Texas 77002 Phone: (713) 853-4737 Fax: (713) 646-3490 Email: Susan.Bailey@enron.com
+  Email 8868 | bailey-s | score=0.377
+  All,  I will leave by 3:30 pm today.  I will see you all in the morning.  Cordially, Susan S. Bailey Enron North America Corp. 1400 Smith Street, Suite 3803A Houston, Texas 77002 Phone: (713) 853-4737 Fax: (713) 646-3490 Email: Susan.Bailey@enron.com
+  Email 1597 | bailey-s | score=0.372
+  Mark,  Here is my project list:  Cordially, Susan S. Bailey Enron North America Corp. 1400 Smith Street, Suite 3803A Houston, Texas 77002 Phone: (713) 853-4737 Fax: (713) 646-3490 Email: Susan.Bailey@enron.com
+  Email 1604 | bailey-s | score=0.364
+  All,  I must leave today --July 2nd @ 2:30pm.  I will be back in the morning -July 3rd.  Cordially, Susan S. Bailey Enron North America Corp. 1400 Smith Street, Suite 3803A Houston, Texas 77002 Phone: (713) 853-4737 Fax: (713) 646-3490 Email: Susan.Bailey@enron.com
+  Email 1599 | bailey-s | score=0.349
+  All,  I have a denist's appointment @ 8:30 am today --and will return after the appointment around 9:30am.  Cordially, Susan S. Bailey Enron North America Corp. 1400 Smith Street, Suite 3803A Houston, Texas 77002 Phone: (713) 853-4737 Fax: (713) 646-3490 Email: Susan.Bailey@enron.com
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: elizabeth, sager, elizabeth sager, case, test, hi, soon elizabeth, fun, enjoy, review, soon, idea, assign, agree, big
+Representative emails:
+  Email 4013 | sager-e | score=0.379
+  not really  Elizabeth Sager 713-853-6349
+  Email 5743 | sager-e | score=0.379
+  Elizabeth Sager 713-853-6349
+  Email 4019 | sager-e | score=0.379
+  Elizabeth Sager 713-853-6349
+  Email 9499 | sager-e | score=0.379
+  Elizabeth Sager 713-853-6349
+  Email 7033 | sager-e | score=0.379
+  Elizabeth Sager 713-853-6349
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: na, sara, sara shackleton, shackleton, samantha, samantha boyd, boyd, boyd na, panus na, susan, stephanie, bailey, susan bailey, brent, na stephanie
+Representative emails:
+  Email 2452 | shackleton-s | score=0.310
+  I don't    	Carol St Clair 	04/23/2001 01:22 PM  		 To: Mark Taylor/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT, Brent Hendry/NA/Enron@Enron, Tana Jones/HOU/ECT@ECT, Robert Bruce/NA/Enron@Enron, Anne C Koehler/HOU/ECT@ECT, Cheryl Nelson/NA/Enron@Enron, Francisco Pinto Leite/ENRON
+  Email 7616 | jones-t | score=0.292
+  		 To: Mark Taylor/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT, Brent Hendry/NA/Enron@Enron, Tana Jones/HOU/ECT@ECT, Robert Bruce/NA/Enron@Enron, Anne C Koehler/HOU/ECT@ECT, Cheryl Nelson/NA/Enron@Enron, Francisco Pinto Leite/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Frank Sayre/ENRON
+  Email 2437 | shackleton-s | score=0.289
+  LDNGC Series 1998 A Trust    	Carol St Clair 	04/16/2001 02:17 PM  		 To: Mark Taylor/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT, Brent Hendry/NA/Enron@Enron, Tana Jones/HOU/ECT@ECT, Robert Bruce/NA/Enron@Enron, Anne C Koehler/HOU/ECT@ECT, Cheryl Nelson/NA/Enron@Enron, Francisco
+  Email 7599 | jones-t | score=0.289
+  		 To: Mark Taylor/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT, Brent Hendry/NA/Enron@Enron, Tana Jones/HOU/ECT@ECT, Robert Bruce/NA/Enron@Enron, Anne C Koehler/HOU/ECT@ECT, Cheryl Nelson/NA/Enron@Enron, Francisco Pinto Leite/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Frank Sayre/ENRON
+  Email 2415 | shackleton-s | score=0.283
+  I have no preferance but it looks like the 24th  is best.    	Carol St Clair 	04/05/2001 04:30 PM  		 To: Mark Taylor/HOU/ECT@ECT, Sara Shackleton/HOU/ECT@ECT, Mary Cook/HOU/ECT@ECT, Brent Hendry/NA/Enron@Enron, Tana Jones/HOU/ECT@ECT, Robert Bruce/NA/Enron@Enron, Anne C Koehler/HOU/ECT@ECT, Cheryl 
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: agreement, execute, copy, receive, receive execute, amendment, master, distribute, copy distribute, master agreement, inc, llc, ena, execute amendment, isda master
+Representative emails:
+  Email 8616 | jones-t | score=0.202
+  We have received the executed Amendment to ISDA Master Agreement between ENA and the referenced Counterparty dated January 13, 2000.  This Amendment amends the Threshold levels in the Credit Support Annex.  Copies will be distributed.
+  Email 8505 | jones-t | score=0.190
+  We have received the executed Confidentiality Agreement dated 11/15/00 between the referenced Counterparty and Enron North America Corp., Enron Net Works LLC and EnronOnline, LLC.  A copy will be sent to Dave Samuels.
+  Email 8693 | jones-t | score=0.186
+  We have received the executed Confidentiality Agreement with the referenced Counterparty and Enron Net Works LLC dated 1/12/01.  Copies will be sent to Dave Samuels and Nora Dobin.
+  Email 8622 | jones-t | score=0.182
+  I have received the executed First Amendment to ISDA Master Agreement dated as of May 25, 1999.  This amendment deletes the prior Confidentiality provision in the ISDA Master Agreement and replaces it with our current Confidentiality language.  This change will allow either party to provide copies o
+  Email 8834 | panus-s, phanis-s | score=0.181
+  We have received an executed First Amendment to Master Agreement between ENA and Amtran, Inc., effective as of February 1, 2001, which amends the cross-default threshold for ENA, amends the collateral threshold for Amtran, and amends certain other provisions of the Master Agreement.  Copies will be 
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: carol, clair, st, st clair, carol st, clair eb, eb phone, eb, phone, fax, phone fax, work, mark, week, monday
+Representative emails:
+  Email 2070 | stclair-c | score=0.309
+  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) 		 To: Carol St Clair/HOU/ECT@ECT 		 cc: 		 Subject: Samantha Boyd  My friend at Brobeck in Dallas ( who used to work for Akin Gump) said that Samantha was very good.  Jason
+  Email 2747 | stclair-c | score=0.285
+  Here is my updated status memo.  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com
+  Email 7845 | stclair-c | score=0.278
+  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) 		 To: Carol St Clair/HOU/ECT@ECT 		 cc: 		 Subject: Global Contracts Group  I just talked to Anthony regarding the head count and he said he still doesn't have a final number, but it would be 13 at the most.  Do you want a video confer
+  Email 1999 | stclair-c | score=0.273
+  Elizabeth: I'm free.  Just let me know when and I'll see you there.   Also, since I lost my parking space, where do you think I should park?  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com  	Elizabeth Sager 	10/30/00 11:30 AM  		 To: Carol St Clair/HOU/ECT@E
+  Email 7999 | stclair-c | score=0.272
+  Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax) carol.st.clair@enron.com 		 To: "'Carol St Clair'" <Carol.St.Clair@enron.com> 		 cc: "Mitchell, Holly" <hollymitchell@dwt.com> 		 Subject: RE: ISDA Draft  Thanks, Carol.  My phone numbers appear below.  Also, please copy Holly Mitchell 
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: fyi, attorney, summary, fyi sara, head, today, allegheny, status, jason, help, emergency, case, mark fyi, eta, canadian
+Representative emails:
+  Email 1548 | taylor-m | score=0.513
+  FYI
+  Email 14191 | shackleton-s | score=0.513
+  fyi
+  Email 1538 | taylor-m | score=0.513
+  FYI
+  Email 3920 | sager-e | score=0.513
+  FYI
+  Email 3261 | shackleton-s | score=0.513
+  fyi
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: vice president, vice, president, nymex, general counsel, president general, taylor vice, counsel wholesale, counsel, web, site, web site, general, click, service
+Representative emails:
+  Email 7517 | jones-t | score=0.347
+  cc: Subject: (01-94) NYMEX ACCESSc Web Site  Notice No. 01-94 March 16, 2001  TO: All Exchange Members  FROM: Neal Wolkoff, Executive Vice President  SUBJECT: NYMEX ACCESSc Web Site  Effective Sunday, March 18, 2001, the NYMEX ACCESS? web site will be temporarily unavailable.  Please call the NYMEX 
+  Email 7540 | jones-t | score=0.344
+  		 To: tana.jones@enron.com 		 cc: 		 Subject: (01-99) NYMEX ACCESS(r) Web Site Update  Notice No. 01-99 March 21, 2001  TO: All Exchange Members  FROM: Neal Wolkoff, Executive Vice President  SUBJECT: NYMEX ACCESS(r) Web Site  As of Wednesday, March 21, 2001, the NYMEX ACCESS(r) web site remains un
+  Email 7531 | jones-t | score=0.344
+  		 To: tana.jones@enron.com 		 cc: 		 Subject: (01-97) NYMEX ACCESS(r) Web Site  Notice No. 01-97 March 20, 2001  TO: All Exchange Members  FROM: Neal Wolkoff, Executive Vice President  SUBJECT: NYMEX ACCESS(r) Web Site  As of Tuesday, March 20, 2001, the NYMEX ACCESS(r) web site remains unavailable
+  Email 7523 | jones-t | score=0.342
+  cc: Subject: (01-95) NYMEX ACCESSc Web Site  Notice No. 01-95 March 19, 2001  TO: All Exchange Members  FROM: Neal Wolkoff, Executive Vice President  SUBJECT: NYMEX ACCESSc Web Site  As of Monday, March 19, 2001, the NYMEX ACCESSc web site will remain unavailable for the ACCESS session for trade dat
+  Email 7578 | jones-t | score=0.336
+  		 To: tana.jones@enron.com 		 cc: 		 Subject: (01-114) NYMEX ACCESS(r) Web Site  Notice No. 01-114 March 30, 2001  TO: All Exchange Members  FROM: Neal Wolkoff, Executive Vice President  SUBJECT: NYMEX ACCESS(r) Web Site  As of Sunday, April 1st (for trade date Monday, April 2nd, 2001), the NYMEX A
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: response, eol, europe global, europe, global, campbell lisa, harris cynthia, rodriguez brant, moran sheri, thomas mark, molly harris, sheri thomas, sheri, thomas, harris
+Representative emails:
+  Email 7928 | jones-t | score=0.385
+  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Le
+  Email 7870 | jones-t | score=0.385
+  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Le
+  Email 7882 | jones-t | score=0.385
+  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Le
+  Email 7914 | jones-t | score=0.385
+  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Le
+  Email 7921 | jones-t | score=0.385
+  		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Le

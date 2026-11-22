@@ -1,0 +1,245 @@
+ENRON NMF TOPIC MODEL - COMMUNITY 9
+============================================================
+Topics: 15
+Reconstruction error: 39.4543
+Iterations: 90
+
+============================================================
+TOPIC 0
+------------------------------------------------------------
+Terms: state, say, power, electricity, utility, energy, davis, california, billion, company, price, year, rate, governor, san
+Representative emails:
+  Email 12542 | dasovich-j | score=0.140
+  State's Outlays for Electricity May Be Hard to Recover Without a Rate Hike By REBECCA SMITH, MITCHEL BENSON and JOHN R. EMSHWILLER Staff Reporters of THE WALL STREET JOURNAL SACRAMENTO, Calif. -- Earlier this year, Gov. Gray Davis made what may be the biggest bet in the history of the nation's bigge
+  Email 12502 | dasovich-j | score=0.138
+  FYI.  Per our call today, some press from Saturday referencing PG&E's opposition to having Comrade Davis buy its Tx assets.  Power-Lines Deal Davis, Edison come to terms but PG&E remains a balky holdout Lynda Gledhill, Chronicle Sacramento Bureau Saturday,?February 24, 2001 ,2001 San Francisco Chron
+  Email 12962 | dasovich-j | score=0.131
+  FYI.  Appears that the two sides may be crawling toward renegotiation.  Best, Jeff  Battle lines drawn over long-term power deals SD Union Tribune, 10.07.01 In a perverse sign that normalcy is returning, the state's power crisis roared back to life last week with the California Public Utilities Comm
+  Email 12490 | dasovich-j | score=0.130
+  Davis Signals Utility's Grid Could Be Seized Power: Governor says eminent domain is a possible last resort against PG&E, which is balking in state sales negotiations. By DAN MORAIN and NANCY RIVERA BROOKS, Times Staff Writers On the eve of a new round of rescue negotiations with a reluctant Pacific 
+  Email 14229 | dasovich-j | score=0.126
+  Deregulation: `Conspiracy of Incompetence' Even if energy prices are being manipulated, it may not be illegal  David Lazarus, Chronicle Staff Writer STATE -- Profit-hungry power companies may be manipulating California's electricity prices, industry insiders say, but the attorney general will have a
+
+============================================================
+TOPIC 1
+------------------------------------------------------------
+Terms: fyi, richard, estimate, helpful, fyi report, fyi confidential, cec, see, interview, appear, cmta, discuss, game, need jim, have
+Representative emails:
+  Email 12794 | dasovich-j | score=0.403
+  FYI.
+  Email 7378 | shapiro-r | score=0.403
+  FYI
+  Email 2349 | steffes-j | score=0.403
+  FYI
+  Email 1931 | steffes-j | score=0.403
+  FYI
+  Email 12929 | dasovich-j | score=0.403
+  FYI.
+
+============================================================
+TOPIC 2
+------------------------------------------------------------
+Terms: bob, jack, kent, ross, joe, andy, katie, brown, paula, john, katie kaplan, kaplan, lednicky, lynn lednicky, lynn
+Representative emails:
+  Email 11736 | dasovich-j | score=0.357
+  		 To: "'Katie Kaplan'" <kaplan@iepa.com>, "'Andy Brown (E-mail)'" <ABB@eslawfirm.com>, "'B Brown Andy (E-mail)'" <andybrwn@earthlink.net>, "'Baker Carolyn (E-mail)'" <cabaker@duke-energy.com>, "'Bob Escalante (E-mail)'" <rescalante@riobravo-gm.com>, "'Bob Weisenmiller (E-mail)'" <rbw@mrwassoc.com>,
+  Email 11807 | dasovich-j | score=0.335
+  		 To: "'Andy Brown (E-mail)'" <ABB@eslawfirm.com>, "'B Brown Andy (E-mail)'" <andybrwn@earthlink.net>, "'Baker Carolyn (E-mail)'" <cabaker@duke-energy.com>, "'Bob Escalante (E-mail)'" <rescalante@riobravo-gm.com>, "'Bob Weisenmiller (E-mail)'" <rbw@mrwassoc.com>, "'Curtis Kebler (E-mail)'" <curtis_
+  Email 11747 | dasovich-j | score=0.334
+  		 To: "'Andy Brown (E-mail)'" <ABB@eslawfirm.com>, "'B Brown Andy (E-mail)'" <andybrwn@earthlink.net>, "'Baker Carolyn (E-mail)'" <cabaker@duke-energy.com>, "'Bob Escalante (E-mail)'" <rescalante@riobravo-gm.com>, "'Bob Weisenmiller (E-mail)'" <rbw@mrwassoc.com>, "'Curtis Kebler (E-mail)'" <curtis_
+  Email 12534 | dasovich-j | score=0.331
+  		 To: "'Alex Sugaoka (E-mail)'" <alex.sugaoka@uaecorp.com>, "'Bill Carlson (E-mail)'" <william_carlson@wastemanagement.com>, "'Bill Woods (E-mail)'" <billw@calpine.com>, "'Bob Ellery (E-mail)'" <bellery@spi-ind.com>, "'Bob Escalante (E-mail)'" <rescalante@riobravo-gm.com>, "'Bob Gates (E-mail)'" <b
+  Email 12299 | dasovich-j | score=0.328
+  He just can't help himself.  		 To: "Pigott Jack" <jackp@calpine.com>, "Kate Castillo" <ccastillo@riobravo-gm.com>, "Bill Carlson" <wcarlson@wm.com>, "Bill Woods" <billw@calpine.com>, "Bob Escalante" <rescalante@riobravo-gm.com>, "Carolyn Baker" <cabaker@duke-energy.com>, "Cody Carter" <cody.carter@
+
+============================================================
+TOPIC 3
+------------------------------------------------------------
+Terms: na, dasovich, jeff dasovich, richard shapiro, shapiro, richard, shapiro na, dasovich na, pm, send, send jeff, corp, james steffe, james, dasovich pm
+Representative emails:
+  Email 12525 | shapiro-r | score=0.214
+  Close to Davis and me. - Call  this afternoon and I'll fill in.  From: Jeff Dasovich on 03/05/2001 10:58 AM Sent by: Jeff Dasovich To: Richard Shapiro/NA/Enron@Enron cc: Susan J Mara/NA/Enron@ENRON  Subject: Re: Trip to S.F.  Who are Olivia and Karen?  See you on Wednesday then?  Best, Jeff  	Richar
+  Email 12519 | shapiro-r | score=0.200
+  lime  From: Jeff Dasovich on 03/02/2001 04:48 PM Sent by: Jeff Dasovich To: Richard Shapiro/NA/Enron@Enron cc:  Subject:  it's a good day.  i'm wearing the green shirt.
+  Email 12067 | shapiro-r | score=0.196
+  Agree.  From: Jeff Dasovich on 10/28/2000 07:23 PM Sent by: Jeff Dasovich To: James D Steffes/NA/Enron@Enron, Richard Shapiro/NA/Enron@Enron cc:  Subject: Re: Leak of FERC decision  I'll believe it when I see it.  Seems like a good idea to keep the heat on Hoecker & Co.right up until Nov. 1.
+  Email 11872 | shapiro-r | score=0.178
+  YES  From: Jeff Dasovich on 04/27/2001 02:44 PM Sent by: Jeff Dasovich To: Richard Shapiro/NA/Enron@Enron cc:  Subject: Re: ken lay tour  I'm assuming that you're in the loop on this decision making?  Best, Jeff  	Janel Guerrero 	04/27/2001 02:39 PM  		 To: Rosalee Fleming/Corp/Enron@ENRON, Maureen 
+  Email 12215 | dasovich-j | score=0.176
+  I'll take a wild guess about what will be in the plan.  1. Marshall Law 2. Nationalize the grid. 3. International energy crimes trial.  	Mona L Petrochko 	11/15/2000 07:42 PM  		 To: Susan J Mara/NA/Enron@Enron 		 cc: Richard Shapiro/NA/Enron@Enron, James D Steffes/NA/Enron@Enron, Sandra McCubbin/NA
+
+============================================================
+TOPIC 4
+------------------------------------------------------------
+Terms: jim steffe, mike, mike day, dasovich susan, rick shapiro, shapiro jim, day bev, steffe alan, hansen jeff, govenar mike, steffe, govenar, bev hansen, bev, hansen
+Representative emails:
+  Email 12468 | dasovich-j | score=0.455
+  		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara <smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman <paul.kaufman@enron.com>, Michael McDonald <Michael.McDonald@enron.com>, David Parque
+  Email 12455 | dasovich-j | score=0.444
+  		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara <smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman <paul.kaufman@enron.com>, David Parquet <David.Parquet@enron.com>, Rick Johnson <rick
+  Email 12478 | dasovich-j | score=0.442
+  		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara <smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman <paul.kaufman@enron.com>, Michael McDonald <Michael.McDonald@enron.com>, David Parque
+  Email 12466 | dasovich-j | score=0.429
+  		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara <smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman <paul.kaufman@enron.com>, Michael McDonald <Michael.McDonald@enron.com>, David Parque
+  Email 12463 | dasovich-j | score=0.422
+  		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara <smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman <paul.kaufman@enron.com>, Michael McDonald <Michael.McDonald@enron.com>, David Parque
+
+============================================================
+TOPIC 5
+------------------------------------------------------------
+Terms: jim, talk, info, want, jim steffe, steffe, sure, need, budget, need jim, go, discuss, think, monday, thought
+Representative emails:
+  Email 1927 | steffes-j | score=0.496
+  Please do.  Jim
+  Email 12600 | steffes-j | score=0.382
+  Do you want to do this?  Jim
+  Email 13025 | dasovich-j | score=0.331
+  Jim: FYI.
+  Email 1986 | steffes-j | score=0.302
+  Info you wanted.  Jim
+  Email 2280 | steffes-j | score=0.302
+  Info you wanted.  Jim
+
+============================================================
+TOPIC 6
+------------------------------------------------------------
+Terms: dwr, da, edison, customer, bill, puc, direct access, assembly, access, direct, senate, vote, contract, hertzberg, language
+Representative emails:
+  Email 12115 | dasovich-j | score=0.256
+  Please forward to others who need this information.  As you know, Enron's been involved with a group of business customers, small customers, labor and enviros trying to hammer out a core/noncore proposal that would act as a key modification to Edison's MOU with the Governor.  Today, the Assembly lea
+  Email 7125 | dasovich-j | score=0.255
+  Please forward to others who need this information.  As you know, Enron's been involved with a group of business customers, small customers, labor and enviros trying to hammer out a core/noncore proposal that would act as a key modification to Edison's MOU with the Governor.  Today, the Assembly lea
+  Email 7317 | dasovich-j | score=0.255
+  Please forward to others who need this information.  As you know, Enron's been involved with a group of business customers, small customers, labor and enviros trying to hammer out a core/noncore proposal that would act as a key modification to Edison's MOU with the Governor.  Today, the Assembly lea
+  Email 7321 | dasovich-j | score=0.237
+  THE LEGISLATURE No material change from the last update. The Legislature is in recess and the two bills that passed the Senate--SB 78 and SB 18--continue to sit in the Assembly, waiting for the Assembly to return on August 20th. Support for the two bills in Assembly is currently very weak. A handful
+  Email 12622 | dasovich-j | score=0.236
+  THE LEGISLATURE No material change from the last update. The Legislature is in recess and the two bills that passed the Senate--SB 78 and SB 18--continue to sit in the Assembly, waiting for the Assembly to return. A handful of Democratic Assembly legislators and staff have been meeting over the rece
+
+============================================================
+TOPIC 7
+------------------------------------------------------------
+Terms: well jeff, well, get, talk, check, folk, greeting, hope, work, try, go, today, soon, thing, number
+Representative emails:
+  Email 12998 | dasovich-j | score=0.257
+  ditto.  got a little choked up...  best, Jeff
+  Email 12777 | dasovich-j | score=0.256
+  No Steffes?  Talk to you at 1.  Best, Jeff
+  Email 12819 | dasovich-j | score=0.241
+  FYI.  We should discuss.  Best, Jeff
+  Email 12802 | dasovich-j | score=0.228
+  See SB 85, below.  Best, Jeff
+  Email 1834 | dasovich-j | score=0.221
+  FYI: You seen this?  Best, Jeff
+
+============================================================
+TOPIC 8
+------------------------------------------------------------
+Terms: ferc, market, iso, cap, price, px, order, price cap, issue, california, request, information, power, commission, filing
+Representative emails:
+  Email 12467 | hain-m | score=0.262
+  I'd like to propose a conference call to discuss our response to multiple FERC cases detailed below.  Section 206 Proceeding and SDG&E Complaint Case  As you know, last week the FERC established a  Section 206 proceeding to examine the justness and reasonableness of the rates of power sellers (inclu
+  Email 12285 | hain-m | score=0.235
+  To: Tim Belden/HOU/ECT@ECT, Christian Yoder/HOU/ECT@ECT, Jeff Richter/HOU/ECT@ECT, Robert Badeer/HOU/ECT@ECT, John M Forney/HOU/ECT@ECT, Greg Wolfe/HOU/ECT@ECT, Mary Hain/HOU/ECT@ECT, mwood@stoel.com, Elizabeth Sager/HOU/ECT@ECT, steve.hall@enron.com cc: Subject: Bullet Summary of the ISO's Amendmen
+  Email 12002 | hain-m | score=0.233
+  The PX proposed its price cap to become effective on the earlier of October 22.  FERC issued a letter requiring the PX to file (and serve on all intervenors (including EPMI)) the following proof by October 20th:  Any data demonstrating market distortions without the price caps Any data indicating th
+  Email 7133 | shapiro-r | score=0.229
+  PER VOICEMAIL.  The full order is available at: http://www.ferc.fed.us/electric/bulkpower.htm  SUMMARY OF FERC'S ORDER ESTABLISHING PROSPECTIVE MITIGATION AND MONITORING PLAN FOR THE CALIFORNIA WHOLESALE ELECTRIC MARKETS AND ESTABLISHING AN INVESTIGATION OF PUBLIC UTILITY RATES IN WHOLESALE WESTERN 
+  Email 11906 | hain-m | score=0.227
+  We may want to add other issues and there may be some overlap between the PX filing and the EOB filing.  Sorry this is so rough.  Protest of PX filing  ? FERC should reject the PX,s price caps because ? Energy Markets are competitive in the West ) 20 loads and 40 sellers. ? Say what we and EPSA sa
+
+============================================================
+TOPIC 9
+------------------------------------------------------------
+Terms: good, sound, sound good, look good, look, sound like, like, plan, letter, pretty good, pretty, like good, amr, good luck, phone number
+Representative emails:
+  Email 1973 | steffes-j | score=0.470
+  sounds good.
+  Email 12830 | dasovich-j | score=0.470
+  Sounds good.
+  Email 1963 | steffes-j | score=0.470
+  sounds good.
+  Email 12961 | dasovich-j | score=0.470
+  Sounds good.
+  Email 12790 | dasovich-j | score=0.437
+  Sounds good. Best, Jeff
+
+============================================================
+TOPIC 10
+------------------------------------------------------------
+Terms: attach, comment, draft, version, review, send, point, slide, final, presentation, file, copy, material, revise, document
+Representative emails:
+  Email 9725 | hain-m | score=0.377
+  See attached.
+  Email 11627 | kean-s | score=0.377
+  Please see attached.
+  Email 12767 | dasovich-j | score=0.307
+  Send what?  Nothing was attached.
+  Email 14893 | kean-s | score=0.299
+  please see the attached message points.
+  Email 7427 | kean-s | score=0.231
+  See revised version attached.
+
+============================================================
+TOPIC 11
+------------------------------------------------------------
+Terms: let, know, let know, discuss, let discuss, know well, sure, want, affair, need, like, find, government affair, think, meeting
+Representative emails:
+  Email 13074 | dasovich-j | score=0.300
+  Not sure.  Am checking around.  Will let you know when I find out.  Best, Jeff
+  Email 7276 | shapiro-r | score=0.253
+  As we discussed....... as much flesh as we can put on this by midday tommorrow would be quite helpful. I would think there are significant aggregation opportunities available to us once this is implemented. Let me know what else you need from me. Thanks.
+  Email 14257 | shapiro-r | score=0.253
+  As we discussed....... as much flesh as we can put on this by midday tommorrow would be quite helpful. I would think there are significant aggregation opportunities available to us once this is implemented. Let me know what else you need from me. Thanks.
+  Email 11930 | dasovich-j | score=0.253
+  My apologies, Rosalee.  Not sure what happened.  Let's try again.  Let me know if you're still having problems.  Best, Jeff
+  Email 7143 | steffes-j | score=0.252
+  Attached please find Sept's Government Affairs report.  If you would like to discuss, please let me know.  Thanks,  Jim
+
+============================================================
+TOPIC 12
+------------------------------------------------------------
+Terms: rick, agree, yes, voicemail, lot, later, think, spreadsheet, kathy, talk, stock price, org, chart, seat, assessment
+Representative emails:
+  Email 1846 | shapiro-r | score=0.484
+  Show them now. -------------------------- Rick S.
+  Email 2297 | shapiro-r | score=0.484
+  Thanks! -------------------------- Rick S.
+  Email 6608 | shapiro-r | score=0.438
+  Agreed. -------------------------- Rick S.
+  Email 12732 | shapiro-r | score=0.356
+  Will call later -------------------------- Rick S.
+  Email 2313 | shapiro-r | score=0.323
+  Yes -------------------------- Rick S.
+
+============================================================
+TOPIC 13
+------------------------------------------------------------
+Terms: na, hughes, corp, sfo, bentley, region bentley, western region, pdx, james, neil, kathy, region, evan, robert, dan
+Representative emails:
+  Email 12437 | shapiro-r | score=0.487
+  They(Lynch and  Cooke ) really believe 5.5 - 6.0 cents. Amazing.  From: Jeff Dasovich on 02/05/2001 10:15 AM Sent by: Jeff Dasovich To: Alan Comnes/PDX/ECT@ECT, Angela Schwarz/HOU/EES@EES, Beverly Aden/HOU/EES@EES, Bill Votaw/HOU/EES@EES, Brenda Barreda/HOU/EES@EES, Carol Moffett/HOU/EES@EES, Cathy 
+  Email 11732 | dasovich-j | score=0.472
+  Seems like something we'd want to wallpaper the halls of the state capitol with.  Best, Jeff 		 To: Alan Comnes/PDX/ECT@ECT, Angela Schwarz/HOU/EES@EES, Beverly Aden/HOU/EES@EES, Bill Votaw/HOU/EES@EES, Brenda Barreda/HOU/EES@EES, Carol Moffett/HOU/EES@EES, Cathy Corbin/HOU/EES@EES, Chris H Foster/H
+  Email 11849 | dasovich-j | score=0.428
+  Apologies.  The competitive default provider bill is actually being sponsored by our brave compatriots at The New Power Company. Best, Jeff  		 To: Alan Comnes/PDX/ECT@ECT, Angela Schwarz/HOU/EES@EES, Beverly Aden/HOU/EES@EES, Bill Votaw/HOU/EES@EES, Brenda Barreda/HOU/EES@EES, Carol Moffett/HOU/EES
+  Email 12358 | shapiro-r | score=0.424
+  Who is the interim appointee?  From: Jeff Dasovich on 01/04/2001 02:58 PM Sent by: Jeff Dasovich To: Jeff Dasovich/NA/Enron@Enron cc: Alan Comnes/PDX/ECT@ECT, Angela Schwarz/HOU/EES@EES, Beverly Aden/HOU/EES@EES, Bill Votaw/HOU/EES@EES, Brenda Barreda/HOU/EES@EES, Carol Moffett/HOU/EES@EES, Cathy Co
+  Email 12443 | dasovich-j | score=0.420
+  		 To: Angela Schwarz/HOU/EES@EES@ENRON, Beverly Aden/HOU/EES@EES@ENRON, Bill Votaw/HOU/EES@EES@ENRON, Brenda Barreda/HOU/EES@EES@ENRON, Carol Moffett/HOU/EES@EES@ENRON, Cathy Corbin/HOU/EES@EES@ENRON, Chris H Foster/HOU/ECT@ECT, Christina Liscano/HOU/EES@EES@ENRON, Christopher F Calger/PDX/ECT@ECT,
+
+============================================================
+TOPIC 14
+------------------------------------------------------------
+Terms: assembly, republican leader, assembly republican, costigan, assembly phone, iii chief, office assembly, staff office, costigan iii, richard costigan, leader california, chief staff, state assembly, phone, iii
+Representative emails:
+  Email 1821 | dasovich-j | score=0.545
+   Richard Costigan, III Chief of Staff Office of the Assembly Republican Leader California State Assembly Phone:(916) 319-2005   - Energy Emergency Timeline.pdf
+  Email 12061 | dasovich-j | score=0.529
+  		 To: 		 cc: 		 Subject: Updated Energy Timeline   <<Energy Emergency Timeline.pdf>>  Richard Costigan, III Chief of Staff Office of the Assembly Republican Leader California State Assembly Phone:(916) 319-2005   - Energy Emergency Timeline.pdf
+  Email 12144 | dasovich-j | score=0.529
+  		 To: 		 cc: 		 Subject: updated energy timeline   <<Energy Emergency Timeline.pdf>>  Richard Costigan, III Chief of Staff Office of the Assembly Republican Leader California State Assembly Phone:(916) 319-2005   - Energy Emergency Timeline.pdf
+  Email 3769 | dasovich-j | score=0.527
+  FYI.  Richard Costigan, III Chief of Staff Office of the Assembly Republican Leader California State Assembly Phone:(916) 319-2005
+  Email 11934 | dasovich-j | score=0.525
+  FYI. 		 To: 		 cc: 		 Subject: current energy crisis timeline   <<Energy Emergency Timeline.pdf>>  Richard Costigan, III Chief of Staff Office of the Assembly Republican Leader California State Assembly Phone:(916) 319-2005
