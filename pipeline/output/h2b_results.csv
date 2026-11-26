@@ -1,0 +1,13 @@
+quantity,value
+"rho(P,D) real",0.41412865299370183
+"rho(P,D) within-community shuffle, mean",0.5392916526814594
+"rho(P,D) within-community shuffle, 2.5%",0.4270292260412679
+"rho(P,D) within-community shuffle, 97.5%",0.6350470544144682
+"two-sided p, real vs within-community shuffle",0.029850746268656716
+"rho(P,E[D])",0.6507500384405973
+"rho(P,R)",0.07326672436665897
+"p for rho(P,R), within seniority",0.45290941811637675
+"rho(P,D) global shuffle, mean",-0.008202209208997259
+"rho(P, E[D] + R shuffled), mean (added check)",0.3879102803095378
+"rho(P, E[D] + R shuffled), 2.5% (added check)",0.25917803901348274
+"rho(P, E[D] + R shuffled), 97.5% (added check)",0.5125158790343253

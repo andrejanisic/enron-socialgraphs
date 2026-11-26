@@ -1,0 +1,148 @@
+person_id,name,full_name,community,jse_title,edo_title,senior,department,notes_unit,department_checked,mixed_identity
+1,taylor-m,Mark Taylor,5,VP & Gen Cnsl,,True,ENA Legal,,False,False
+2,ward-k,Kim Ward,6,Mgr Trading,,False,ENA Gas West,,False,False
+3,martin-t,Thomas Martin,1,VP Trading,Vice President,True,ENA Gas Texas,,False,False
+4,shankman-j,Jeffrey Shankman,1,COO,"President, Enron Global Markets",True,EWS,,False,False
+5,meyers-a,Albert Meyers,3,Specialist,,False,ENA West Power Real Time,,False,False
+6,ring-a,Andrea Ring,9,Dir Trading,,False,ENA Gas East,HOU/ECT,True,False
+7,zipper-a,Andy Zipper,1,VP of Enron Online,"Vice President, Enron Online",True,EWS,Corp/Enron,True,False
+8,sanders-r,Richard Sanders,1,VP & Asst Gen Cnsl,"Vice President, Enron Wholesale Services",True,ENA Legal,,False,False
+9,tycholiz-b,Barry Tycholiz,6,VP Trading,Vice President,True,ENA Gas West,NA/Enron,True,False
+10,rogers-b,Benjamin Rogers,7,Associate,,False,ENA East Power,,False,False
+11,rapp-b,Bill Rapp,4,Attorney,,False,ETS,,False,False
+12,williams-w3,William Whalley Williams,3,Analyst,Senior Analyst,False,ENA West Power Real Time,,False,False
+13,mckay-b,Bradley Mckay,1,Dir Trading,,False,ENA Gas East,,False,False
+14,giron-d,Daron Giron,2,Mgr Trading,,False,Energy Operations,,False,False
+15,semperger-c,Cara Semperger,3,Specialist,Senior Analyst Cash,False,ENA West Power,PDX/ECT,True,False
+16,stclair-c,Carol St. Clair,5,Director & Gen Cnsl Asst,In House Lawyer,False,ENA Legal,HOU/ECT,True,False
+17,weldon-c,Charles Weldon,2,Associate,,False,ENA Gas Texas,,False,False
+18,dorland-c,Chris Dorland,1,Mgr Trading,,False,ENA East Power,HOU/ECT,True,False
+19,germany-c,Chris Germany,9,Mgr Trading,,False,ENA Gas East,HOU/ECT,True,False
+20,stokley-c,Chris Stokley,7,Specialist,,False,ENA West Power,,False,False
+21,richey-c,Cooper Richey,1,Associate,Manager,False,ENA West Power,CAL/ECT,True,False
+22,dean-c,Craig Dean,3,Specialist,Trader,False,ENA West Power Real Time,,False,False
+23,steffes-j,James Steffes,8,VP of Government Affairs,"Vice President, Government Affairs",True,Regulatory and Government Affairs,,False,False
+24,thomas-p,Paul Thomas,7,Associate,,False,ENA East Power,,False,False
+25,hyvl-d,Dan Hyvl,6,Employee,,False,ENA Legal,HOU/ECT,True,False
+26,davis-d,Dana Davis,1,Administrator,,False,,HOU/ECT,False,False
+27,mccarty-d,Danny McCarty,4,VP & CTO,Vice President,True,ETS,ET&S/Enron,True,False
+28,schoolcraft-d,Darrell Schoolcraft,4,Employee,,False,ETS,ET&S/Enron,True,False
+29,perlingiere-d,Debra Perlingiere,6,Specialist Legal,,False,ENA Legal,HOU/ECT,True,False
+30,scholtes-d,Diana Scholtes,3,Dir Trading,Trader,False,ENA West Power,HOU/ECT,True,False
+31,baughman-d,Don Baughman,7,Mgr Trading,Trader,False,ENA East Power,HOU/ECT,True,False
+32,gilbertsmith-d,Douglas Gilberth-Smith,7,Dir Trading,Manager,False,ENA East Power,Corp/Enron,True,False
+33,fossum-d,Drew Fossum,4,VP & Gen Cnsl,Vice President,True,ETS,ET&S/Enron,True,False
+34,quigley-d,Dutch Quigley,1,Associate,,False,ENA Gas Financial,HOU/ECT,True,False
+35,haedicke-m,Mark Haedicke,1,Mng Director & Gen Cnsl,"Managing Director, Legal Department",True,ENA Legal,,False,False
+36,sager-e,Elizabeth Sager,5,VP & Asst Gen Cnsl,,True,ENA Legal,HOU/ECT,True,False
+37,bass-e,Eric Bass,2,Trader,Trader,False,ENA Gas Texas,HOU/ECT,True,False
+38,linder-e,Eric Linder,3,Specialist,Specialist,False,ENA West Power Real Time,,False,False
+39,saibi-e,Eric Saibi,7,Analyst,Trader,False,ENA East Power,,False,False
+40,mclaughlin-e,Errol McLaughlin,2,Specialist,,False,Energy Operations,Corp/Enron,True,False
+41,brawner-s,Sandra Brawner,1,Dir Trading,Director,False,ENA Gas East,,False,False
+42,keavey-p,Peter Keavey,1,Mgr Trading,,False,ENA Gas East,,False,False
+43,ermis-f,Frank Ermis,2,Dir Trading,Director,False,ENA Gas West,HOU/ECT,True,False
+44,solberg-g,Geir Solberg,3,Analyst,,False,ENA West Power Real Time,PDX/ECT,True,False
+45,storey-g,Geoffery Storey,1,Dir Trading,Director,False,ENA Gas Central,,False,False
+46,nemec-g,Gerald Nemec,6,Manager,,False,ENA Legal,HOU/ECT,True,False
+47,"whalley-g, whalley-l",Lawrence Greg Whalley,1,President & CEO,President,True,EWS,HOU/ECT,True,False
+48,lewis-a,Andrew Lewis,1,Dir Trading,Director,False,ENA Gas Central,,False,False
+49,arora-h,Harpreet Arora,1,VP Trading,Vice President,True,ENA East Power,,False,False
+50,salisbury-h,Holden Salisbury,3,Analyst,Cash Analyst,False,ENA West Power,PDX/ECT,True,False
+51,farmer-d,Daren Farmer,2,Dir Trading,"Manager, Logistics Manager",False,ENA Gas Texas,,False,False
+52,kean-s,Steven Kean,8,VP & Chief of Staff,"Vice President, Vice President & Chief of Staff",True,Enron,,False,False
+53,sturm-f,Fletcher Sturm,1,VP Trading,Vice President,True,ENA East Power,,False,False
+54,kaminski-v,Vince Kaminski,1,Mng Director Research,"Manager, Risk Management Head",True,EWS,,False,False
+55,derrick-j,James Derrick,1,VP & Gen Cnsl,General Counsel,True,Enron,Corp/Enron,True,False
+56,williams-j,Jason Williams,6,Specialist,Trading,False,ENA Gas Central,HOU/ECT,True,False
+57,wolfe-j,Jason Wolfe,2,Analyst,,False,ENA Gas West,,False,False
+58,reitmeyer-j,Jay Reitmeyer,2,Associate,,False,ENA Gas West,HOU/ECT,True,False
+59,dasovich-j,Jeff Dasovich,8,Director,Government Relation Executive,False,Regulatory and Government Affairs,NA/Enron,True,False
+60,king-j,Jeff King,7,Mgr Trading,Manager,False,ENA East Power,Corp/Enron,True,False
+61,skilling-j,Jeffery Skilling,1,President & CEO,CEO,True,Enron,,False,False
+62,schwieger-j,Jim Schwieger,1,Trader,Trader,False,ENA Gas Texas,HOU/ECT,True,False
+63,parks-j,Joe Parks,9,Mgr Trading,,False,ENA Gas Central,,False,False
+64,quenet-j,Joe Quenet,1,Mgr Trading,Trader,False,ENA East Power,NA/Enron,True,False
+65,stepenovitch-j,Joe Stepenovitch,7,Specialist,"Vice President, Energy Marketing and Trading Florida",True,ENA East Power,,False,False
+66,arnold-j,John Arnold,1,VP Trading,Vice President,True,ENA Gas Financial,HOU/ECT,True,False
+67,griffith-j,John Giffith,1,Mgr Trading,"Managing Director, MD of UK",True,ENA Gas Financial,Corp/Enron,True,False
+68,zufferli-j,John Zufferli,1,VP of Enron Canada,,True,EWS,CAL/ECT,True,False
+69,mckay-j,Jonathan Mckay,1,Dir Trading,Director,False,ENA Gas East,,False,False
+70,hernandez-j,Juan Hernandez,7,Mgr Trading,,False,ENA East Power,Corp/Enron,True,False
+71,townsend-j,Judy Townsend,9,Mgr Trading,,False,ENA Gas East,HOU/ECT,True,False
+72,allen-p,Philip Allen,2,Mng Dir Trading,,True,ENA Gas West,,False,False
+73,keiser-k,Kam Keiser,2,Mgr Trading,,False,Energy Operations,HOU/ECT,True,False
+74,symes-k,Kate Symes,3,Employee,,False,ENA West Power Real Time,PDX/ECT,True,False
+75,mann-k,Kay Mann,5,Director & Cnsl,,False,ENA Legal,Corp/Enron,True,False
+76,holst-k,Keith Holst,2,Dir Trading,Director,False,ENA Gas West,,False,False
+77,lay-k,Kenneth Lay,1,President & CEO,CEO,True,Enron,,False,False
+78,hyatt-k,Kevin Hyatt,4,Director,"Director, Pipeline Business",False,ETS,ET&S/Enron,True,False
+79,ruscitti-k,Kevin Ruscitti,6,Mgr Trading,Trader,False,ENA Gas Central,HOU/ECT,True,False
+80,watson-k,Kimberly Watson,4,Director,,False,ETS,ET&S/Enron,True,False
+81,gay-r,Randall Gay,2,Associate,,False,ENA Gas West,,False,False
+82,mims-thurston-p,Patrice Mims-Thurston,6,Dir Trading,,False,ENA Gas Central,,False,False
+83,campbell-l,Larry Campbell,7,Specialist,,False,ETS,NA/Enron,False,True
+84,may-l,Lawrence May,1,Dir Trading,Director,False,ENA Gas Financial,Corp/Enron,True,False
+85,lavorato-j,John Lavorato,1,ENA President & CEO,"CEO, Enron America",True,EWS,,False,False
+86,donoho-l,Lindy Donoho,4,Employee,,False,ETS,ET&S/Enron,True,False
+87,gang-l,Lisa Gang,3,Specialist,Senior Specialist,False,ENA West Power,PDX/ECT,True,False
+88,kitchen-l,Louise Kitchen,1,COO,"President, Enron Online",True,EWS,HOU/ECT,True,False
+89,blair-l,Lynn Blair,4,Director,,False,ETS,ET&S/Enron,True,False
+90,forney-j,John M. Forney,7,Dir Trading,"Manager, Real-Time Trading Desk",False,ENA East Power,,False,False
+91,love-p,Phillip Love,2,Specialist,,False,Energy Operations,,False,False
+92,presto-k,Kevin Presto,1,VP Trading,Vice President,True,ENA East Power,,False,False
+93,scott-s,Susan Scott,2,Cnsl,,False,ETS,,False,False
+94,tholt-j,Jane Tholt,2,Dir Trading,Vice President,True,ENA Gas West,,False,False
+95,heard-m,Marie Heard,5,Specialist Legal,,False,ENA Legal,HOU/ECT,True,False
+96,guzman-m,Mark Guzman,3,Specialist,Trader,False,ENA West Power Real Time,PDX/ECT,True,False
+97,mcconnell-m,Mark McConnell,4,,,False,ETS,,True,False
+98,whitt-m,Mark Whitt,6,VP Trading,,True,ENA Gas West,NA/Enron,True,False
+99,cuilla-m,Martin Cuilla,1,Mgr Trading,Manager,False,ENA Gas Central,,False,False
+101,hain-m,Mary C. Hain,8,Director,In House Lawyer,False,Regulatory and Government Affairs,HOU/ECT,True,False
+102,motley-m,Matthew Motley,3,Dir Trading,Director,False,ENA West Power Real Time,,False,False
+103,smith-m,Matt Smith,2,Associate,,False,ENA Gas West,,False,False
+104,lenhart-m,Matthew Lenhart,2,Analyst,,False,ENA Gas West,HOU/ECT,True,False
+105,cash-m,Michelle Cash,1,Attorney,,False,ENA Legal,HOU/ECT,True,False
+106,lokay-m,Michelle Lokay,4,Director,Administrative Assistant,False,ETS,ET&S/Enron,True,False
+107,carson-m,Mike Carson,1,Mgr Trading,,False,ENA East Power,Corp/Enron,True,False
+108,grigsby-m,Michael Grigsby,2,VP Trading,Manager,True,ENA Gas West,HOU/ECT,True,False
+109,maggi-m,Michael Maggi,1,Dir Trading,Director,False,ENA Gas Financial,Corp/Enron,True,False
+110,swerzbin-m,Mike Swerzbin,3,VP Trading,Trader,True,ENA West Power,,False,False
+111,causholli-m,Monika Causholli,3,Analyst,Analyst Risk Management,False,ENA West Power Real Time,,False,False
+112,sanchez-m,Monique Sanchez,2,Associate,,False,ENA Gas West,HOU/ECT,True,False
+113,ybarbo-p,Paul Y'Barbo,4,Director,,False,ETS,,False,False
+114,platter-p,Phillip Platter,3,Specialist,Sr. Specialist,False,ENA West Power,HOU/ECT,True,False
+115,ring-r,Richard Ring,9,Employee,,False,EES,,False,False
+116,shapiro-r,Richard Shapiro,8,VP of Regulatory Affairs,"Vice President, Regulatory Affairs",True,Regulatory and Government Affairs,NA/Enron,True,False
+117,buy-r,Rick Buy,1,VP & CRO,"Manager, Chief Risk Management Officer",True,Enron,,False,False
+118,badeer-r,Robert Badeer,8,Mgr Trading,Director,False,ENA West Power,HOU/ECT,True,False
+119,benson-r,Robert Benson,1,Dir Trading,Director,False,ENA East Power,,False,False
+120,rodrique-r,Robin Rodrigue,2,Analyst,,False,ENA Gas Central,HOU/ECT,True,False
+121,hayslett-r,Rod Hayslett,4,VP & CFO,"Vice President, Chief Financial Officer and Treasurer",True,ETS,FGT/Enron,True,False
+122,slinger-r,Ryan Slinger,3,Specialist,Trader,False,ENA West Power Real Time,,False,False
+123,shively-h,Hunter Shively,1,VP Trading,Vice President,True,ENA Gas Central,,False,False
+124,beck-s,Sally Beck,1,VP,Chief Operating Officer,True,Energy Operations,HOU/ECT,True,False
+125,shackleton-s,Sara Shackleton,5,Gen Cnsl Asst,,False,ENA Legal,HOU/ECT,True,False
+126,hendrickson-s,Scott Hendrickson,9,Dir Trading,,False,ENA Gas East,,False,False
+127,neal-s,Scott Neal,1,VP Trading,Vice President,True,ENA Gas East,HOU/ECT,True,False
+128,crandell-s,Sean Crandall,3,Dir Trading,Director,False,ENA West Power,PDX/ECT,True,False
+129,corman-s,Shelley Corman,4,VP,"Vice President, Regulatory Affairs",True,ETS,ET&S/Enron,True,False
+130,dickson-s,Stacy Dickson,5,Cnsl,,False,ENA Legal,HOU/ECT,True,False
+131,horton-s,Stanley Horton,4,President & CEO,"President, Enron Gas Pipeline",True,ETS,,False,False
+132,"panus-s, phanis-s",Stephanie Panus,5,Specialist Legal,,False,ENA Legal,NA/Enron,True,False
+133,harris-s,Steven Harris,4,VP,,True,ETS,ET&S/Enron,True,False
+134,merriss-s,Steven Merriss,3,Specialist,Specialist,False,ENA West Power Real Time,,False,False
+135,south-s,Steven P. South,2,Dir Trading,,False,ENA Gas West,,False,False
+136,bailey-s,Susan Bailey,5,Specialist Legal,,False,ENA Legal,HOU/ECT,True,False
+137,hodge-j,Jeffrey T. Hodge,5,,,False,ENA Legal,,True,False
+138,lucci-p,Paul Lucci,6,Dir Trading,,False,ENA Gas West,,False,False
+139,jones-t,Tana Jones,5,Specialist Legal,,False,ENA Legal,HOU/ECT,True,False
+140,lokey-t,Teb Lokey,4,Employee,"Manager, Regulatory Affairs",False,ETS,,False,False
+141,staab-t,Theresa Staab,6,Specialist,,False,ENA Gas West,Corp/Enron,True,False
+142,donohoe-t,Tom Donohoe,1,Mgr Trading,,False,ENA Gas Central,HOU/ECT,True,False
+143,kuykendall-t,Tori Kuykendall,2,Mgr Trading,Trader,False,ENA Gas West,HOU/ECT,True,False
+144,geaccone-t,Tracy Geaccone,4,Assistant,,False,ETS,GPGFIN/Enron,True,False
+145,pimenov-v,Vladi Pimenov,1,Associate,,False,ENA Gas East,,False,False
+146,delainey-d,David Delainey,1,President & CEO,"CEO, Enron North America and Enron Energy Services",True,EWS,,False,False
+147,pereira-s,Susan Pereira,2,Mgr Trading,,False,ENA Gas East,,False,False
+148,white-s,Stacey White,1,Director,,False,Energy Operations,,False,False

@@ -1,0 +1,7 @@
+rule,emails,recipient_rows
+start,14797,25122
+D. drop dates before 1999,14790,25111
+B. drop machine-generated (our subject rules),14479,24325
+A. drop duplicate copies,14022,22798
+C1. drop recipient rows sender = recipient,14022,21858
+C2. drop emails with no recipient left,13410,21858

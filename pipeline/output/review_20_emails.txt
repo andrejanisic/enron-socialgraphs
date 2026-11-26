@@ -1,0 +1,254 @@
+===== email 1974 from steffes-j, usable: False
+--- BEFORE (subject + body, first 700 characters)
+FW: Feinstein Legislation
+John -
+
+I think that Sue is still on vacation.  Jeff may be able to help.
+
+Jim
+--- AFTER (5 content words)
+legislation think vacation able help
+
+===== email 9908 from holst-k, usable: False
+--- BEFORE (subject + body, first 700 characters)
+RE: Work Hours
+F.U.!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Just kidding.
+--- AFTER (4 content words)
+work hours just kidding
+
+===== email 12181 from dasovich-j, usable: True
+--- BEFORE (subject + body, first 700 characters)
+IEP Info on Industry Meeting with Rod Wright
+Sandi and Dave and Mike will dicuss further on the call on Monday but wanted
+to disseminate info regarding the meeting that Joe Ronan of Calpine offered
+on an IEP call today:
+
+The meeting was attended by a lot of folks of all stripes.
+Wright was very critical of how the Governor is handling the issue and wants
+to craft a solution with the industry and then invite the Governor to get on
+board.
+Wright threw a whole laundry list of options on the table for folks to
+consider (Dave's typing up his notes from the meeting for distribution later
+today)
+One of Wright's key concern is forward contracting.
+The utilities said that Loretta Lynch is the problem with the onerous
+"prudence" criteria she's i
+--- AFTER (113 content words)
+iep info industry meeting dicuss monday wanted disseminate info regarding meeting ronan calpine offered iep today meeting attended lot folks stripes critical governor handling issue wants craft solution industry invite governor board threw laundry list options table folks consider typing notes meeting distribution later today key concern forward contracting utilities said lynch problem onerous prudence criteria imposing utility forward contracts onerous criteria utility contracting discussion california does gas set objective benchmark price utility beats profit worse hit utility framework broad flexibility contract forward puc gets way fyi coincidentally suggested approach broad terms pointing fact successfully use gas panel discussion participated yesterday california energy markets conference utilities told did want did expertise generation business
+
+===== email 4346 from presto-k, usable: False
+--- BEFORE (subject + body, first 700 characters)
+FW: Interview
+Please coordinate with Kim Melodick to make this happen.
+--- AFTER (5 content words)
+interview coordinate melodick make happen
+
+===== email 5680 from martin-t, usable: True
+--- BEFORE (subject + body, first 700 characters)
+PRC Meeting EB3270
+Meeting to verbally go over the performance of the Texas Risk group
+--- AFTER (8 content words)
+prc meeting meeting verbally performance texas risk group
+
+===== email 4847 from nemec-g, usable: False
+--- BEFORE (subject + body, first 700 characters)
+FW: ENFOLIO Comments
+FYI
+
+----- Forwarded by Gerald Nemec/HOU/ECT on 03/07/2001 03:42 PM -----
+
+	"Crawford, Ann" <AnnCrawford@aec.ca>
+	03/07/2001 03:26 PM
+
+		 To: "'Gerald.Nemec@enron.com'" <Gerald.Nemec@enron.com>
+		 cc:
+		 Subject: FW: ENFOLIO Comments
+
+Gerald,  I haven't forgotten about this.  Will try to get it out to you
+tomorrow.  Please email your phone and fax #'s.  Thanks,  Ann
+
+>
+--- AFTER (3 content words)
+enfolio comments fyi
+
+===== email 13079 from cuilla-m, usable: True
+--- BEFORE (subject + body, first 700 characters)
+Free Agents
+Tony Harris
+Grbac  30
+Mason    0
+
+Gary Taylor
+Richardson 10
+
+Gary Lamphier
+Herman Moore 45
+Thrash    1
+
+Martin Cuilla
+Autry  31
+Pittman  31
+Jackson 11
+Jets    1
+
+Bill Kasemervisz
+Denver K  1
+
+Mike Morris
+Philly K   0
+--- AFTER (11 content words)
+free agents grbac herman thrash autry pittman jets kasemervisz denver philly
+
+===== email 10156 from love-p, usable: False
+--- BEFORE (subject + body, first 700 characters)
+FW: THINK ABOUT IT!
+
+--- AFTER (1 content words)
+think
+
+===== email 8117 from jones-t, usable: False
+--- BEFORE (subject + body, first 700 characters)
+Re: EOL Credit Responses 08/03/00
+----- Forwarded by Tana Jones/HOU/ECT on 08/03/2000 04:33 PM -----
+
+	Bradley Diebner
+	08/03/2000 04:28 PM
+
+		 To: Frank L Davis/HOU/ECT@ECT, Karen Lambert/HOU/ECT@ECT, Tana
+Jones/HOU/ECT@ECT, Samuel Schott/HOU/ECT@ECT, Sheri Thomas/HOU/ECT@ECT, Mark
+Taylor/HOU/ECT@ECT, Bernice Rodriguez/HOU/ECT@ECT, Brant Reves/HOU/ECT@ECT,
+Debbie R Brackett/HOU/ECT@ECT, David Hardy/LON/ECT@ECT, Lesli
+Campbell/HOU/ECT@ECT, Lisa Gillette/HOU/ECT@ECT, Molly Harris/HOU/ECT@ECT,
+Cynthia Clark/Corp/Enron@ENRON, Mary G Gosnell/HOU/ECT@ECT, Enron Europe
+Global Contracts and Facilities, Enron Europe Global CounterParty, Stephanie
+Sever/HOU/ECT@ECT, Bradley Diebner/HOU/ECT@ECT, Stacey
+Richardson/HOU/ECT@ECT, Tom Mora
+--- AFTER (3 content words)
+eol credit responses
+
+===== email 6195 from watson-k, usable: False
+--- BEFORE (subject + body, first 700 characters)
+FW: SoCal RLS/Peaking Tariff
+FYI, Kim.
+--- AFTER (5 content words)
+socal rls peaking tariff fyi
+
+===== email 13414 from kean-s, usable: True
+--- BEFORE (subject + body, first 700 characters)
+FW: FW: ERCOT Residential/Industrial Service Mix Requirements
+Rick -- per my voicemail
+--- AFTER (7 content words)
+ercot residential industrial service mix requirements voicemail
+
+===== email 3275 from shackleton-s, usable: True
+--- BEFORE (subject + body, first 700 characters)
+FW: Fourth Amendment to Master Agreement between Morgan Stanley Capital Group Inc. ("Morgan") and ENA
+Susan, here's my email.  I just left Bill another message.  Sara
+--- AFTER (10 content words)
+fourth amendment master agreement morgan capital group morgan just left
+
+===== email 11429 from donohoe-t, usable: True
+--- BEFORE (subject + body, first 700 characters)
+Compensation distribution
+Mr. Lay,
+
+Reuters just had an article that said upon closing of the Dynegy deal, you will receive $80,000,000 which buys you out of your employment contract.
+
+Is this true?
+
+If so, since you said in your speech that we are all feeling this pain together, will there be a distribution of the $80,000,000 back to the people who's lives have been crushed and will receive no additional compensation.  It seems unjust that while the people who had nothing to do with the downfall get nothing, the people who were involved in the downfall continue to be well compensated.
+
+I,  as a trader on the gas floor,  am sitting here at my desk still making all attempts to make money for the company, wondering if 
+--- AFTER (172 content words)
+compensation distribution reuters just article said closing dynegy deal receive buys employment contract true said speech feeling pain distribution people lives crushed receive additional compensation unjust people downfall people involved downfall continue compensated trader gas floor sitting desk making attempts make money company wondering getting paycheck read getting additional fellow employees feel betrayed old saying kicking dead horse difference horse barely breathing just sucked final bit life management level provides inside scoop bad deals pump dump senior management stock years disgrace way senior management ruined peoples lives know company taking fall signed ceo coming companies situation accepted compensation company gets feet knew going happen able milk million dollars learned valuable lesson business really works employee milk company matter people hurt cutthroat stab organization long time thought just fellow employees doing thing ahead realized creed senior management lived senior management offices rolling floor time employee spoke trying make vision values success teams fine example changed life forever aside fact kids longer going college changed thinking believe employers tell company priority travesty peoples lives
+
+===== email 12391 from dasovich-j, usable: False
+--- BEFORE (subject + body, first 700 characters)
+ABX1 1 - Hearing
+----- Forwarded by Jeff Dasovich/NA/Enron on 01/23/2001 10:48 AM -----
+
+	Scott Govenar <sgovenar@govadv.com>
+	01/22/2001 04:19 PM
+
+		 To: Hedy Govenar <hgovenar@govadv.com>, Mike Day <MDay@GMSSR.com>, Bev
+Hansen <bhansen@lhom.com>, Jeff Dasovich <jdasovic@enron.com>, Susan J Mara
+<smara@enron.com>, Joseph Alamo <JAlamo@enron.com>, Paul Kaufman
+<paul.kaufman@enron.com>, David Parquet <David.Parquet@enron.com>, Marcie
+Milner <mmilner@enron.com>, Tim Belden <Tim.Belden@enron.com>, Rick Shapiro
+<rshapiro@enron.com>, Jim Steffes <james.d.steffes@enron.com>, Alan Comnes
+<acomnes@enron.com>, Chris Calger <ccalger@enron.com>, Mary Hain
+<mary.hain@enron.com>
+		 cc:
+		 Subject: ABX1 1 - Hearing
+
+The S
+--- AFTER (2 content words)
+abx hearing
+
+===== email 3205 from panus-s, phanis-s, usable: True
+--- BEFORE (subject + body, first 700 characters)
+Terminations Log
+I am missing the daily termination list for Jan. 8.  Can you check to see if you have this list?
+
+Thanks.
+--- AFTER (9 content words)
+terminations log missing daily termination list jan check list
+
+===== email 3413 from scott-s, usable: False
+--- BEFORE (subject + body, first 700 characters)
+RE: CIG Storage in August
+Thanks Theresa.
+
+Do you know if Paul did a deal with EJW for July?  Also, do you know why the PSCO deal with Petrogulf is in the system as 265 on the supply side?  I thought the deal was for 360 w/ a 10% swing capability.
+
+Susan
+--- AFTER (3 content words)
+cig storage august
+
+===== email 11165 from fossum-d, usable: True
+--- BEFORE (subject + body, first 700 characters)
+RE: PG & E Creditworthiness
+I don't see any serious problems with this.  There are a few things you two
+need to verify or get comfortable with:  bullet 6 says PG&E has made all
+payments in a timely manner.  You can leave it in if its true, but the bullet
+needs to be mutual, not one-way, and I'd suggest replacing it with:
+"Transwestern and PG&E agree that, by entering into this agreement, neither
+is to be deemed to have made any admission against interest."  Also, the
+mechanism in bullet 9 is up to you, Paul.  We should probably list the rating
+service by name to avoid ambiguity.  There are also a couple of minor
+things:  in bullet 2, add an "s" to "contract" inline 2; in bullet 7, add
+"the" at the end of line 1.  Call 
+--- AFTER (45 content words)
+creditworthiness problems things need verify comfortable bullet says payments timely manner leave true bullet needs mutual way suggest replacing transwestern agree entering agreement deemed admission mechanism bullet probably list rating service avoid ambiguity couple minor things bullet add contract inline bullet add end line questions
+
+===== email 5758 from mann-k, usable: True
+--- BEFORE (subject + body, first 700 characters)
+MDEA/Clarksdale/Yazoo City
+I finally got comments back from the customer on the asset management, gas and power contracts.  I'm writing to pass along the comments which pertain to all three contracts:
+
+Governing law must be Mississippi.
+
+Confidentiality is limited under Mississippi law since these are governmental entities.  We are addressing it in the Energy Management Services Agreement, so it could be deleted from the Masters, or I can supercede what's in the Masters in the EMSA, or we can use the language from the EMSA in the Masters.
+
+Limits of liability/waivers of consequentials/waivers of implied warranties.  None of this is permitted under Mississippi law, in some cases because it is never permitted, in some c
+--- AFTER (141 content words)
+city finally got comments customer asset management gas power contracts writing pass comments pertain contracts governing law mississippi confidentiality limited mississippi law governmental entities addressing energy management services agreement deleted masters supercede masters emsa use language emsa masters limits liability waivers consequentials waivers implied warranties permitted mississippi law cases permitted cases governmental entities want emsa just case law gets better language shortly basically extent party permitted applicable law arbitration arbitration pursuant section seq mississippi code annotated case doesn work agreed venue federal district court mississippi business day exclude state holidays mississippi performance assurance needs permissible applicable law mississippi law restricts payment governmental entities charged days receive invoice invoices claims docket earliest pay days meeting governing board receipt invoice security grant security called special session governing board approve documents tomorrow afternoon appreciate input handle integration issues masters expect risk memo tomorrow morning
+
+===== email 2212 from smith-m, usable: True
+--- BEFORE (subject + body, first 700 characters)
+SW flows
+Charles,
+
+The attached table contains monthly flows to the referenced Southwest Gas meter points off of El Paso, Kern and PG&E.  As I indicated earlier, SWG may have deliveries off of Socal which we would not be able to see.  Also, there may be unidentified SWG meter points not included in the attached file, and we are missing some days of data so the actual numbers may be a little higher.  Finally, if this data is used for pricing/hedging analysis, one should be careful which prices they use for comparison.  SWG territory in California would be subject to California pricing, while that closer to the producing basins would be priced differently.  In addition, Southwest Gas owns transport cap
+--- AFTER (77 content words)
+flows attached table contains monthly flows referenced southwest gas meter points paso kern indicated earlier swg deliveries socal able unidentified swg meter points included attached file missing days data actual numbers little higher finally data used pricing hedging analysis careful prices use comparison swg territory california california pricing closer producing basins priced differently addition southwest gas owns transport capacity paso really vulnerable san keystone price fluxuations socal make hedging estimate knew transport capacity available paso website mat
+
+===== email 1234 from whitt-m, usable: True
+--- BEFORE (subject + body, first 700 characters)
+FW: info
+This guy used to work for me,  He is really strong on finance and analytics and structuring.
+--- AFTER (9 content words)
+info guy used work really strong finance analytics structuring
+

@@ -1,0 +1,148 @@
+person_id,name,department,community,stability,community_unweighted
+1,taylor-m,ENA Legal,5,1.0,6
+2,ward-k,ENA Gas West,6,0.158,6
+3,martin-t,ENA Gas Texas,1,0.524,3
+4,shankman-j,EWS,1,0.792,1
+5,meyers-a,ENA West Power Real Time,3,1.0,4
+6,ring-a,ENA Gas East,9,1.0,3
+7,zipper-a,EWS,1,0.473,3
+8,sanders-r,ENA Legal,1,0.76,1
+9,tycholiz-b,ENA Gas West,6,0.904,2
+10,rogers-b,ENA East Power,7,0.964,1
+11,rapp-b,ETS,4,1.0,5
+12,williams-w3,ENA West Power Real Time,3,1.0,4
+13,mckay-b,ENA Gas East,1,0.188,3
+14,giron-d,Energy Operations,2,0.664,2
+15,semperger-c,ENA West Power,3,1.0,4
+16,stclair-c,ENA Legal,5,1.0,6
+17,weldon-c,ENA Gas Texas,2,0.864,3
+18,dorland-c,ENA East Power,1,0.792,2
+19,germany-c,ENA Gas East,9,1.0,3
+20,stokley-c,ENA West Power,7,0.958,4
+21,richey-c,ENA West Power,1,0.792,4
+22,dean-c,ENA West Power Real Time,3,1.0,4
+23,steffes-j,Regulatory and Government Affairs,8,1.0,1
+24,thomas-p,ENA East Power,7,0.964,1
+25,hyvl-d,ENA Legal,6,0.904,6
+26,davis-d,,1,0.792,1
+27,mccarty-d,ETS,4,1.0,5
+28,schoolcraft-d,ETS,4,1.0,5
+29,perlingiere-d,ENA Legal,6,0.904,6
+30,scholtes-d,ENA West Power,3,1.0,4
+31,baughman-d,ENA East Power,7,0.964,1
+32,gilbertsmith-d,ENA East Power,7,0.706,1
+33,fossum-d,ETS,4,1.0,5
+34,quigley-d,ENA Gas Financial,1,0.447,3
+35,haedicke-m,ENA Legal,1,0.76,1
+36,sager-e,ENA Legal,5,1.0,1
+37,bass-e,ENA Gas Texas,2,0.864,2
+38,linder-e,ENA West Power Real Time,3,1.0,4
+39,saibi-e,ENA East Power,7,0.958,1
+40,mclaughlin-e,Energy Operations,2,0.405,3
+41,brawner-s,ENA Gas East,1,0.559,3
+42,keavey-p,ENA Gas East,1,0.206,3
+43,ermis-f,ENA Gas West,2,0.864,2
+44,solberg-g,ENA West Power Real Time,3,1.0,4
+45,storey-g,ENA Gas Central,1,0.792,2
+46,nemec-g,ENA Legal,6,0.904,6
+47,"whalley-g, whalley-l",EWS,1,0.792,1
+48,lewis-a,ENA Gas Central,1,0.792,2
+49,arora-h,ENA East Power,1,0.792,1
+50,salisbury-h,ENA West Power,3,1.0,4
+51,farmer-d,ENA Gas Texas,2,0.864,3
+52,kean-s,Enron,8,1.0,1
+53,sturm-f,ENA East Power,1,0.792,1
+54,kaminski-v,EWS,1,0.792,1
+55,derrick-j,Enron,1,0.76,1
+56,williams-j,ENA Gas Central,6,0.904,6
+57,wolfe-j,ENA Gas West,2,0.864,2
+58,reitmeyer-j,ENA Gas West,2,0.864,2
+59,dasovich-j,Regulatory and Government Affairs,8,1.0,1
+60,king-j,ENA East Power,7,0.964,1
+61,skilling-j,Enron,1,0.792,1
+62,schwieger-j,ENA Gas Texas,1,0.524,3
+63,parks-j,ENA Gas Central,9,1.0,3
+64,quenet-j,ENA East Power,1,0.792,1
+65,stepenovitch-j,ENA East Power,7,0.964,1
+66,arnold-j,ENA Gas Financial,1,0.447,3
+67,griffith-j,ENA Gas Financial,1,0.447,3
+68,zufferli-j,EWS,1,0.792,1
+69,mckay-j,ENA Gas East,1,0.792,3
+70,hernandez-j,ENA East Power,7,0.964,1
+71,townsend-j,ENA Gas East,9,1.0,3
+72,allen-p,ENA Gas West,2,0.864,2
+73,keiser-k,Energy Operations,2,0.664,2
+74,symes-k,ENA West Power Real Time,3,1.0,4
+75,mann-k,ENA Legal,5,1.0,6
+76,holst-k,ENA Gas West,2,0.864,2
+77,lay-k,Enron,1,0.792,1
+78,hyatt-k,ETS,4,1.0,5
+79,ruscitti-k,ENA Gas Central,6,0.886,6
+80,watson-k,ETS,4,1.0,5
+81,gay-r,ENA Gas West,2,0.864,2
+82,mims-thurston-p,ENA Gas Central,6,0.904,6
+83,campbell-l,ETS,7,0.964,5
+84,may-l,ENA Gas Financial,1,0.447,3
+85,lavorato-j,EWS,1,0.792,1
+86,donoho-l,ETS,4,1.0,5
+87,gang-l,ENA West Power,3,1.0,4
+88,kitchen-l,EWS,1,0.792,1
+89,blair-l,ETS,4,1.0,5
+90,forney-j,ENA East Power,7,0.958,1
+91,love-p,Energy Operations,2,0.664,2
+92,presto-k,ENA East Power,1,0.792,1
+93,scott-s,ETS,2,0.864,2
+94,tholt-j,ENA Gas West,2,0.864,2
+95,heard-m,ENA Legal,5,1.0,6
+96,guzman-m,ENA West Power Real Time,3,1.0,4
+97,mcconnell-m,EWS,4,1.0,5
+98,whitt-m,ENA Gas West,6,0.904,2
+99,cuilla-m,ENA Gas Central,1,0.283,2
+101,hain-m,Regulatory and Government Affairs,8,1.0,4
+102,motley-m,ENA West Power Real Time,3,1.0,4
+103,smith-m,ENA Gas West,2,0.864,2
+104,lenhart-m,ENA Gas West,2,0.864,2
+105,cash-m,ENA Legal,1,0.76,1
+106,lokay-m,ETS,4,1.0,5
+107,carson-m,ENA East Power,1,0.792,1
+108,grigsby-m,ENA Gas West,2,0.864,2
+109,maggi-m,ENA Gas Financial,1,0.447,3
+110,swerzbin-m,ENA West Power,3,1.0,4
+111,causholli-m,ENA West Power Real Time,3,1.0,4
+112,sanchez-m,ENA Gas West,2,0.864,2
+113,ybarbo-p,ETS,4,1.0,5
+114,platter-p,ENA West Power,3,1.0,4
+115,ring-r,EES,9,1.0,1
+116,shapiro-r,Regulatory and Government Affairs,8,1.0,1
+117,buy-r,Enron,1,0.792,1
+118,badeer-r,ENA West Power,8,1.0,4
+119,benson-r,ENA East Power,1,0.792,1
+120,rodrique-r,ENA Gas Central,2,0.405,2
+121,hayslett-r,ETS,4,1.0,5
+122,slinger-r,ENA West Power Real Time,3,1.0,4
+123,shively-h,ENA Gas Central,1,0.792,2
+124,beck-s,Energy Operations,1,0.792,1
+125,shackleton-s,ENA Legal,5,1.0,6
+126,hendrickson-s,ENA Gas East,9,1.0,3
+127,neal-s,ENA Gas East,1,0.188,3
+128,crandell-s,ENA West Power,3,1.0,4
+129,corman-s,ETS,4,1.0,5
+130,dickson-s,ENA Legal,5,1.0,6
+131,horton-s,ETS,4,1.0,5
+132,"panus-s, phanis-s",ENA Legal,5,1.0,6
+133,harris-s,ETS,4,1.0,5
+134,merriss-s,ENA West Power Real Time,3,1.0,4
+135,south-s,ENA Gas West,2,0.864,2
+136,bailey-s,ENA Legal,5,1.0,6
+137,hodge-j,ENA Gas East,5,1.0,6
+138,lucci-p,ENA Gas West,6,0.904,2
+139,jones-t,ENA Legal,5,1.0,6
+140,lokey-t,ETS,4,1.0,5
+141,staab-t,ENA Gas West,6,0.904,2
+142,donohoe-t,ENA Gas Central,1,0.777,1
+143,kuykendall-t,ENA Gas West,2,0.864,2
+144,geaccone-t,ETS,4,1.0,5
+145,pimenov-v,ENA Gas East,1,0.447,3
+146,delainey-d,EWS,1,0.792,1
+147,pereira-s,ENA Gas East,2,0.664,2
+148,white-s,Energy Operations,1,0.792,1
